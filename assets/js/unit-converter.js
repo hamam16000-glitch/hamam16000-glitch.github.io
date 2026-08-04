@@ -1,0 +1,1 @@
+(function(){var V=document.getElementById('value'),F=document.getElementById('from'),T=document.getElementById('to'),B=document.getElementById('calculateButton'),O=document.getElementById('main'),u={m:1,km:1000,mi:1609.344,ft:.3048};function c(){O.textContent=(+V.value*u[F.value]/u[T.value]).toFixed(6)}B.onclick=c;c()}());

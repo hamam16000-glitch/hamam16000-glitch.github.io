@@ -1,0 +1,10 @@
+{
+  "name": "Daily Calculator Hub",
+  "short_name": "Calculator Hub",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f7faf9",
+  "theme_color": "#198a7d",
+  "icons": [],
+  "description": "1000 free calculators for everyday finance, home, health, tax, auto and business decisions."
+}

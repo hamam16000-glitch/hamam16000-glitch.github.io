@@ -1,0 +1,1 @@
+(function(){var P=document.getElementById('price'),R=document.getElementById('rate'),B=document.getElementById('calculateButton'),O=document.getElementById('main'),S=document.getElementById('saved');function c(){var p=+P.value,s=p*(+R.value/100);O.textContent='$'+(p-s).toFixed(2);S.textContent='$'+s.toFixed(2)}B.onclick=c;c()}());

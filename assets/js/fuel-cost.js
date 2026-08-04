@@ -1,0 +1,1 @@
+(function(){var D=document.getElementById('distance'),E=document.getElementById('economy'),P=document.getElementById('price'),B=document.getElementById('calculateButton'),O=document.getElementById('main'),L=document.getElementById('liters');function c(){var l=+D.value*+E.value/100;O.textContent='$'+(l*+P.value).toFixed(2);L.textContent=l.toFixed(2)+' L'}B.onclick=c;c()}());

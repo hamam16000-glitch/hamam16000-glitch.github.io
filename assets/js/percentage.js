@@ -1,0 +1,1 @@
+(function(){var X=document.getElementById('x'),Y=document.getElementById('y'),B=document.getElementById('calculateButton'),O=document.getElementById('main');function c(){O.textContent=((+X.value/100)*(+Y.value)).toFixed(2)}B.onclick=c;c()}());

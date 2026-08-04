@@ -1,0 +1,149 @@
+/* Daily Calculator Hub v17.4 — comprehensive component audit lock. */
+
+/* Related calculator cards: one shared, explicit layout. Older inline pseudo-arrows are disabled. */
+body.v166-consistent:not(.home-page) .unified-related .related-grid{
+  display:grid!important;
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  gap:12px!important;
+  margin-top:16px!important;
+}
+body.v166-consistent:not(.home-page) .unified-related .related-grid>a{
+  display:grid!important;
+  grid-template-columns:46px minmax(0,1fr) 24px!important;
+  align-items:center!important;
+  gap:12px!important;
+  min-width:0!important;
+  min-height:94px!important;
+  margin:0!important;
+  padding:14px!important;
+  border:1px solid #d6e2de!important;
+  border-radius:16px!important;
+  background:#fff!important;
+  color:#17211e!important;
+  text-align:left!important;
+  text-decoration:none!important;
+  box-shadow:0 8px 24px rgba(22,43,36,.045)!important;
+  overflow:hidden!important;
+}
+body.v166-consistent:not(.home-page) .unified-related .related-grid>a::after{content:none!important;display:none!important}
+body.v166-consistent:not(.home-page) .unified-related .related-icon{
+  display:grid!important;
+  place-items:center!important;
+  width:46px!important;
+  height:46px!important;
+  border:1px solid #dfebe7!important;
+  border-radius:13px!important;
+  background:#f2f8f6!important;
+  font-size:24px!important;
+  line-height:1!important;
+}
+body.v166-consistent:not(.home-page) .unified-related .related-copy{
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:flex-start!important;
+  gap:4px!important;
+  min-width:0!important;
+}
+body.v166-consistent:not(.home-page) .unified-related .related-copy strong,
+body.v166-consistent:not(.home-page) .unified-related .related-copy small{
+  display:block!important;
+  width:100%!important;
+  margin:0!important;
+  overflow-wrap:anywhere!important;
+  word-break:normal!important;
+}
+body.v166-consistent:not(.home-page) .unified-related .related-copy strong{
+  color:#17211e!important;
+  font-size:16px!important;
+  font-weight:850!important;
+  line-height:1.25!important;
+}
+body.v166-consistent:not(.home-page) .unified-related .related-copy small{
+  color:#65736e!important;
+  font-size:13px!important;
+  font-weight:500!important;
+  line-height:1.42!important;
+}
+body.v166-consistent:not(.home-page) .unified-related .related-arrow{
+  display:grid!important;
+  place-items:center!important;
+  width:24px!important;
+  height:36px!important;
+  color:#18866d!important;
+  font-size:20px!important;
+  font-weight:900!important;
+  line-height:1!important;
+}
+body.v166-consistent:not(.home-page) .unified-related .related-grid>a:hover,
+body.v166-consistent:not(.home-page) .unified-related .related-grid>a:focus-visible{
+  border-color:#80bbaa!important;
+  background:#f8fcfa!important;
+  color:#17211e!important;
+  outline:3px solid rgba(24,134,109,.15)!important;
+  outline-offset:2px!important;
+  transform:none!important;
+}
+
+/* Navigation language and spacing are consistent across old and new calculator batches. */
+body.v166-consistent:not(.home-page) .page-nav .nav-label{
+  display:block!important;
+  font-size:12px!important;
+  font-weight:750!important;
+  line-height:1.3!important;
+  letter-spacing:.08em!important;
+  text-transform:uppercase!important;
+}
+body.v166-consistent:not(.home-page) .page-nav .nav-title{display:block!important;line-height:1.35!important;overflow-wrap:anywhere!important}
+
+/* The floating control docks away from right-side accordions and preview overlays on phones. */
+body.v166-consistent:not(.home-page) .back-to-top.v174-blocked{
+  opacity:0!important;
+  visibility:hidden!important;
+  pointer-events:none!important;
+  transform:translateY(8px)!important;
+}
+@media(max-width:760px){
+  body.v166-consistent:not(.home-page) .unified-related .related-grid{grid-template-columns:1fr!important}
+  body.v166-consistent:not(.home-page) .unified-related .related-grid>a{
+    grid-template-columns:46px minmax(0,1fr) 24px!important;
+    min-height:96px!important;
+  }
+  body.v166-consistent:not(.home-page) .back-to-top{
+    left:max(14px,env(safe-area-inset-left))!important;
+    right:auto!important;
+    bottom:max(94px,calc(env(safe-area-inset-bottom) + 86px))!important;
+    width:40px!important;
+    height:40px!important;
+  }
+}
+@media(max-width:370px){
+  body.v166-consistent:not(.home-page) .unified-related .related-grid>a{
+    grid-template-columns:42px minmax(0,1fr) 20px!important;
+    gap:9px!important;
+    padding:12px!important;
+  }
+  body.v166-consistent:not(.home-page) .unified-related .related-icon{width:42px!important;height:42px!important;font-size:22px!important}
+  body.v166-consistent:not(.home-page) .unified-related .related-copy strong{font-size:15px!important}
+}
+body.dch-dark.v166-consistent:not(.home-page) .unified-related .related-grid>a{
+  border-color:#34483f!important;
+  background:#16231e!important;
+  color:#f1fff8!important;
+  box-shadow:none!important;
+}
+body.dch-dark.v166-consistent:not(.home-page) .unified-related .related-icon{border-color:#385147!important;background:#20332b!important}
+body.dch-dark.v166-consistent:not(.home-page) .unified-related .related-copy strong{color:#f1fff8!important}
+body.dch-dark.v166-consistent:not(.home-page) .unified-related .related-copy small{color:#b8c9c1!important}
+body.dch-dark.v166-consistent:not(.home-page) .unified-related .related-grid>a:hover,
+body.dch-dark.v166-consistent:not(.home-page) .unified-related .related-grid>a:focus-visible{background:#1c2e26!important;color:#fff!important}
+@media print{.back-to-top{display:none!important}}
+
+/* Closed off-canvas navigation must never create horizontal page overflow. */
+html,body{max-width:100%!important;overflow-x:clip!important}
+.dch-v167-drawer:not(.open),.v166-site-drawer:not(.open),.site-drawer:not(.open){visibility:hidden!important;pointer-events:none!important}
+.dch-v167-drawer.open,.v166-site-drawer.open,.site-drawer.open{visibility:visible!important;pointer-events:auto!important}
+.dch-v167-drawer:not(.open),.v166-site-drawer:not(.open),.site-drawer:not(.open){display:none!important}
+.dch-v167-drawer.open,.v166-site-drawer.open,.site-drawer.open{display:block!important}
+/* Footer links wrap as a real flex row instead of overflowing by inline margins. */
+.site-footer-links{display:flex!important;flex-wrap:wrap!important;justify-content:center!important;gap:8px 14px!important}
+.site-footer-links a{margin:0!important}

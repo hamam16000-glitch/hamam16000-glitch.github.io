@@ -1,0 +1,27 @@
+/* Daily Calculator Hub v18.6.1 — mobile icon containment and readable numeric output */
+.card-icon,.discovery-icon{box-sizing:border-box!important}
+.card-icon.dch-text-icon,.discovery-icon.dch-text-icon{
+  width:auto!important;min-width:52px!important;max-width:78px!important;
+  padding-inline:7px!important;overflow:hidden!important;text-align:center!important;
+  white-space:nowrap!important;line-height:1!important;letter-spacing:-.07em!important;
+  font-variant-numeric:tabular-nums lining-nums!important;flex:0 0 auto!important
+}
+.card-icon.dch-text-icon.dch-icon-wide,.discovery-icon.dch-text-icon.dch-icon-wide{
+  min-width:60px!important;font-size:12px!important
+}
+.card-icon.dch-text-icon.dch-icon-xwide,.discovery-icon.dch-text-icon.dch-icon-xwide{
+  min-width:70px!important;font-size:10px!important
+}
+body.v166-consistent:not(.home-page) .form-control[data-dch-numeric-input="true"]{
+  direction:ltr!important;text-align:left!important;
+  font-variant-numeric:tabular-nums lining-nums!important
+}
+@media(max-width:620px){
+  body.home-page .card-icon.dch-text-icon{height:42px!important;min-width:54px!important;padding-inline:7px!important;font-size:13px!important}
+  body.home-page .card-icon.dch-text-icon.dch-icon-wide{min-width:62px!important;font-size:11.5px!important}
+  body.home-page .card-icon.dch-text-icon.dch-icon-xwide{min-width:72px!important;font-size:9.5px!important}
+}
+@media(max-width:380px){
+  body.home-page .card-icon.dch-text-icon.dch-icon-wide{min-width:60px!important;font-size:11px!important}
+  body.home-page .card-icon.dch-text-icon.dch-icon-xwide{min-width:68px!important;font-size:9px!important}
+}

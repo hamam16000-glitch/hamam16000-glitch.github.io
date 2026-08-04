@@ -1,0 +1,1 @@
+(function(){var G=document.getElementById('goal'),C=document.getElementById('current'),M=document.getElementById('months'),B=document.getElementById('calculateButton'),O=document.getElementById('main');function c(){var m=+M.value;O.textContent=m>0?'$'+(Math.max(0,+G.value-+C.value)/m).toFixed(2):'Invalid input'}B.onclick=c;c()}());

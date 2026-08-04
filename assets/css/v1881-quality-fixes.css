@@ -1,0 +1,15 @@
+/* Daily Calculator Hub v18.8.1 — library readability and quality fixes */
+body.home-page .card h3{overflow-wrap:anywhere;text-wrap:balance}
+body.home-page .card h3.dch-title-long{font-size:14px!important;line-height:1.22!important}
+body.home-page .card h3.dch-title-xlong{font-size:13px!important;line-height:1.2!important}
+@media(max-width:680px){
+  body.home-page .card{min-height:132px!important;padding:12px!important}
+  body.home-page .card h3{font-size:13px!important;line-height:1.2!important}
+  body.home-page .card h3.dch-title-long{font-size:12px!important;line-height:1.2!important}
+  body.home-page .card h3.dch-title-xlong{font-size:11.25px!important;line-height:1.18!important;letter-spacing:-.025em!important}
+}
+@media(max-width:360px){
+  body.home-page .card{min-height:138px!important}
+  body.home-page .card h3.dch-title-xlong{font-size:10.75px!important}
+}
+body.v1881-quality .note{line-height:1.6}

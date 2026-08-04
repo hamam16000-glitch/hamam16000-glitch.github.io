@@ -1,0 +1,75 @@
+
+/* Daily Calculator Hub bilingual language switch */
+.dch-language-control{display:inline-flex;align-items:center;gap:6px;min-width:0}
+.dch-language-control::before{content:"🌐";font-size:15px;line-height:1}
+.dch-language-select{appearance:auto;border:1px solid rgba(16,61,51,.2);border-radius:10px;background:rgba(255,255,255,.78);color:inherit;font:inherit;font-size:13px;font-weight:800;line-height:1.2;padding:8px 26px 8px 9px;cursor:pointer;max-width:112px}
+body.dch-dark .dch-language-select{background:#13231f;border-color:rgba(255,255,255,.18);color:#f4faf7}
+.dch-language-select:focus-visible{outline:3px solid rgba(42,125,100,.24);outline-offset:2px}
+body.dch-lang-es .ad-slot:before,body.dch-lang-es .ad-slot-v12:before{content:'PUBLICIDAD'!important}body.dch-lang-es .ad-slot-v12[data-ad-slot-position="after-calculator"]:after{content:'Espacio publicitario • Después de la calculadora'!important}body.dch-lang-es .ad-slot-v12[data-ad-slot-position="mid-article"]:after{content:'Espacio publicitario • Mitad de la guía'!important}body.dch-lang-es .ad-slot-v12[data-ad-slot-position="end-article"]:after{content:'Espacio publicitario • Antes de las calculadoras relacionadas'!important}@media(max-width:620px){.dch-language-control{gap:3px}.dch-language-control::before{display:none}.dch-language-select{min-width:94px;max-width:104px;padding:7px 22px 7px 7px;font-size:11.5px}}
+
+
+/* v19.0.16 mobile visual QA: translated results must never be clipped. */
+body.v166-consistent:not(.home-page) .result-main.dch-numeric-result,
+body.v166-consistent:not(.home-page) .result-list strong.dch-numeric-result{
+  text-overflow:clip!important;
+}
+body.v166-consistent:not(.home-page) .result-main.dch-fit-wrap{
+  white-space:normal!important;
+  overflow:visible!important;
+  overflow-wrap:anywhere!important;
+  line-height:1.08!important;
+}
+body.dch-lang-es.v166-consistent:not(.home-page) .result-main{
+  max-width:100%!important;
+}
+@media(max-width:600px){
+  body.v166-consistent:not(.home-page) .result-main.dch-numeric-result{overflow:visible!important}
+  body.v166-consistent:not(.home-page) .result-list strong.dch-numeric-result{max-width:100%!important;overflow:visible!important}
+}
+
+/* v19.0.16: currency values remain readable on narrow screens. */
+@media(max-width:600px){
+  body.dch-lang-es .result-main{font-size:clamp(2.35rem,13vw,4.35rem)!important;letter-spacing:-.045em!important;}
+  body.dch-lang-es .result-list strong{overflow-wrap:anywhere!important;}
+}
+
+/* v19.1.0: Simplified Chinese layout and system-font support. */
+body.dch-lang-zh{
+  font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;
+  line-height:1.65;
+  overflow-x:hidden;
+}
+body.dch-lang-zh .ad-slot:before,body.dch-lang-zh .ad-slot-v12:before{content:'广告'!important}
+body.dch-lang-zh .ad-slot-v12[data-ad-slot-position="after-calculator"]:after{content:'广告位 • 计算器下方'!important}
+body.dch-lang-zh .ad-slot-v12[data-ad-slot-position="mid-article"]:after{content:'广告位 • 指南中部'!important}
+body.dch-lang-zh .ad-slot-v12[data-ad-slot-position="end-article"]:after{content:'广告位 • 相关计算器之前'!important}
+body.dch-lang-zh :is(h1,h2,h3,h4,.card-title,.result-main,.result-list,.result-label,.button,button,label,.breadcrumb,.faq-question,.calc-name,.calculator-title){
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+body.dch-lang-zh :is(button,.button,.chip,.pill,.tag,.breadcrumb a,.result-label){white-space:normal}
+body.dch-lang-zh .dch-language-select{min-width:112px;max-width:132px}
+body.dch-lang-zh .result-main,body.dch-lang-zh .result-list strong{max-width:100%;text-overflow:clip;overflow:visible}
+@media(max-width:620px){
+  body.dch-lang-zh .dch-language-select{min-width:96px;max-width:108px;font-size:11.5px}
+  body.dch-lang-zh :is(h1,.hero-title,.calculator-title){line-height:1.24}
+  body.dch-lang-zh .result-main{font-size:clamp(2.15rem,12vw,4.1rem)!important;letter-spacing:-.03em!important;white-space:normal!important}
+}
+/* Preserve mixed-case scientific abbreviations such as kPa in Chinese result labels. */
+body.dch-lang-zh :is(.result h2,.result-label,.result-card h2,.result-card .label){text-transform:none!important}
+body.dch-lang-zh.v166-consistent:not(.home-page) .calc-card .result h2,
+body.dch-lang-zh.v166-consistent:not(.home-page) .result-panel .result h2{ text-transform:none!important; }
+
+
+/* v19.3.0 Filipino (fil-PH): natural wrapping and localized ad placeholders. */
+body.dch-lang-fil{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.58;overflow-x:hidden}
+body.dch-lang-fil .ad-slot:before,body.dch-lang-fil .ad-slot-v12:before{content:'ANUNSIYO'!important}
+body.dch-lang-fil .ad-slot-v12[data-ad-slot-position="after-calculator"]:after{content:'Puwang para sa anunsiyo • Pagkatapos ng calculator'!important}
+body.dch-lang-fil .ad-slot-v12[data-ad-slot-position="mid-article"]:after{content:'Puwang para sa anunsiyo • Gitna ng gabay'!important}
+body.dch-lang-fil .ad-slot-v12[data-ad-slot-position="end-article"]:after{content:'Puwang para sa anunsiyo • Bago ang mga kaugnay na calculator'!important}
+body.dch-lang-fil :is(h1,h2,h3,h4,p,li,label,button,.button,.card-title,.result-main,.result-list,.result-label,.breadcrumb,.faq-question,.calc-name,.calculator-title){overflow-wrap:anywhere;word-break:normal;max-width:100%}
+body.dch-lang-fil :is(button,.button,.chip,.pill,.tag,.breadcrumb a,.result-label){white-space:normal}
+body.dch-lang-fil .dch-language-select{min-width:108px;max-width:126px}
+body.dch-lang-fil .result-main,body.dch-lang-fil .result-list strong{max-width:100%;text-overflow:clip;overflow:visible}
+@media(max-width:620px){body.dch-lang-fil .dch-language-select{min-width:91px;max-width:104px;font-size:11.5px}body.dch-lang-fil :is(h1,.hero-title,.calculator-title){line-height:1.25}body.dch-lang-fil .result-main{font-size:clamp(2.1rem,11.5vw,4rem)!important;letter-spacing:-.03em!important;white-space:normal!important}}
+body.dch-lang-fil :is(.result h2,.result-label,.result-card h2,.result-card .label){text-transform:none!important}

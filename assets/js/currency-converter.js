@@ -1,0 +1,1 @@
+(function(){var A=document.getElementById('amount'),R=document.getElementById('rate'),B=document.getElementById('calculateButton'),O=document.getElementById('main');function c(){O.textContent=(+A.value*+R.value).toFixed(2)}B.onclick=c;c()}());

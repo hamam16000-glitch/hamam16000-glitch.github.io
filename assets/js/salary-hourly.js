@@ -1,0 +1,1 @@
+(function(){var S=document.getElementById('salary'),H=document.getElementById('hours'),W=document.getElementById('weeks'),B=document.getElementById('calculateButton'),O=document.getElementById('main');function c(){var d=+H.value*+W.value;O.textContent=d>0?'$'+(+S.value/d).toFixed(2):'Invalid input'}B.onclick=c;c()}());

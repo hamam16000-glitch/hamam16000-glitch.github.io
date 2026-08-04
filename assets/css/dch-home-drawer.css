@@ -1,0 +1,27 @@
+/* Daily Calculator Hub v19.5.3 — calculator drawer on the homepage */
+.home-menu-btn{width:44px!important;min-width:44px!important;padding:0!important;cursor:pointer!important;font-size:0!important}
+.home-menu-btn::before{content:'☰'!important;font:29px/1 Arial,sans-serif!important;color:var(--text)!important}
+.home-menu-btn:focus-visible,.dch-v167-close:focus-visible,.dch-v167-drawer-search input:focus-visible,.dch-v167-drawer-search button:focus-visible{outline:3px solid rgba(104,71,247,.24)!important;outline-offset:2px!important}
+.dch-v167-backdrop{position:fixed!important;inset:0!important;z-index:109!important;background:rgba(6,15,12,.54)!important;backdrop-filter:blur(3px)!important;-webkit-backdrop-filter:blur(3px)!important}
+.dch-v167-drawer{position:fixed!important;z-index:110!important;top:0!important;right:0!important;width:min(390px,92vw)!important;height:100dvh!important;box-sizing:border-box!important;padding:22px!important;overflow:auto!important;background:#fff!important;color:#17211e!important;border-left:1px solid #d7e2de!important;box-shadow:-24px 0 58px rgba(19,33,29,.22)!important;transform:translateX(104%)!important;transition:transform .24s ease!important}
+.dch-v167-drawer.open{transform:translateX(0)!important}
+.dch-v167-drawer-head{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:12px!important;padding-bottom:17px!important;border-bottom:1px solid #d7e2de!important}
+.dch-v167-drawer-head strong{font-size:21px!important;letter-spacing:-.025em!important}
+.dch-v167-close{width:42px!important;height:42px!important;padding:0!important;border:1px solid #d7e2de!important;border-radius:12px!important;background:#f4f7f5!important;color:#17211e!important;font-size:27px!important;cursor:pointer!important}
+.dch-v167-drawer-search{display:grid!important;grid-template-columns:minmax(0,1fr) 48px!important;gap:8px!important;margin:18px 0 8px!important}
+.dch-v167-drawer-search input{min-width:0!important;height:48px!important;padding:0 14px!important;border:1px solid #cbdad5!important;border-radius:12px!important;background:#fff!important;color:#17211e!important;font-size:15px!important;outline:0!important}
+.dch-v167-drawer-search input:focus{border-color:#7b62f4!important;box-shadow:0 0 0 3px rgba(103,70,246,.13)!important}
+.dch-v167-drawer-search button{width:48px!important;height:48px!important;padding:0!important;border:0!important;border-radius:12px!important;background:#198a72!important;color:#fff!important;font-size:20px!important;font-weight:800!important;cursor:pointer!important}
+.dch-v167-drawer-nav{display:grid!important;gap:7px!important;padding:14px 0 20px!important}
+.dch-v167-drawer-nav a{display:flex!important;align-items:center!important;gap:12px!important;padding:13px 12px!important;border-radius:12px!important;color:#53645e!important;text-decoration:none!important;font-weight:700!important}
+.dch-v167-drawer-nav a:hover{background:#f4f7f5!important;color:#17211e!important}
+.dch-v167-drawer-nav span{width:30px!important;text-align:center!important;font-size:20px!important}
+.dch-v167-drawer-foot{display:flex!important;flex-wrap:wrap!important;gap:10px 16px!important;padding-top:17px!important;border-top:1px solid #d7e2de!important}
+.dch-v167-drawer-foot a{color:#65736e!important;text-decoration:none!important;font-size:14px!important;font-weight:650!important}
+body.dch-dark .home-menu-btn::before{color:#f4faf7!important}
+body.dch-dark .dch-v167-drawer{background:#14231e!important;color:#f5fbf8!important;border-color:#314840!important}
+body.dch-dark .dch-v167-drawer-head,body.dch-dark .dch-v167-drawer-foot{border-color:#314840!important}
+body.dch-dark .dch-v167-close,body.dch-dark .dch-v167-drawer-search input{background:#1a2d27!important;color:#f5fbf8!important;border-color:#314840!important}
+body.dch-dark .dch-v167-drawer-nav a,body.dch-dark .dch-v167-drawer-foot a{color:#c3d2cd!important}
+body.dch-dark .dch-v167-drawer-nav a:hover{background:#1a2d27!important;color:#fff!important}
+@media(max-width:600px){.home-menu-btn::before{content:'☰'!important;font-size:27px!important}}

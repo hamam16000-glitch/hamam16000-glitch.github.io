@@ -1,0 +1,62 @@
+/* Daily Calculator Hub v17.1 — mobile library and category fixes */
+
+/* The category panel is part of the document flow. It never covers cards. */
+body.home-page .library-filters{
+  position:relative!important;
+  top:auto!important;
+  z-index:2!important;
+  display:grid!important;
+  grid-template-columns:repeat(6,minmax(0,1fr))!important;
+  gap:8px!important;
+  width:100%!important;
+  margin:0 0 20px!important;
+  padding:10px!important;
+  overflow:visible!important;
+}
+body.home-page .filter-btn{
+  min-width:0!important;
+  min-height:42px!important;
+  padding:0 10px!important;
+  white-space:nowrap!important;
+  text-align:center!important;
+}
+body.home-page #all-calculators{scroll-margin-top:88px!important}
+body.home-page .card-grid{position:relative;z-index:1;padding-bottom:18px}
+
+/* Keep site-owned floating controls away from calculator cards and phone UI. */
+body.home-page .back-to-top{display:none!important}
+body:not(.home-page) .back-to-top{right:max(14px,env(safe-area-inset-right))!important;bottom:max(22px,calc(env(safe-area-inset-bottom) + 18px))!important}
+
+/* Dark mode parity for the expanded category panel. */
+body.dch-dark.home-page .library-filters{
+  background:rgba(14,25,22,.94)!important;
+  border-color:#314840!important;
+}
+body.dch-dark.home-page .filter-btn{color:#b9cac4!important}
+body.dch-dark.home-page .filter-btn:hover{background:#1a2d27!important;color:#f4faf7!important}
+body.dch-dark.home-page .filter-btn.active{background:#f4faf7!important;color:#14211d!important}
+
+@media(max-width:900px){
+  body.home-page .library-filters{grid-template-columns:repeat(4,minmax(0,1fr))!important}
+}
+@media(max-width:600px){
+  body.home-page #all-calculators{scroll-margin-top:76px!important}
+  body.home-page .library-filters{
+    grid-template-columns:repeat(4,minmax(0,1fr))!important;
+    gap:7px!important;
+    margin-bottom:16px!important;
+    padding:8px!important;
+    border-radius:15px!important;
+  }
+  body.home-page .filter-btn{
+    min-height:40px!important;
+    padding:0 4px!important;
+    border-radius:10px!important;
+    font-size:clamp(10.5px,3vw,12.5px)!important;
+    letter-spacing:-.01em!important;
+  }
+  body.home-page .card-grid{padding-bottom:82px!important}
+}
+@media(max-width:360px){
+  body.home-page .library-filters{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+}

@@ -1,0 +1,85 @@
+/* Daily Calculator Hub v16.8 — calculator back navigation */
+body.dch-has-back .dch-v167-bar{
+  grid-template-columns:auto minmax(0,1fr) auto!important;
+  gap:10px!important;
+}
+body.dch-has-back a.dch-v167-brand{
+  width:auto!important;
+  min-width:0!important;
+  max-width:100%!important;
+}
+.dch-v168-back{
+  text-decoration:none!important;
+  flex:0 0 48px!important;
+  width:48px!important;
+  min-width:48px!important;
+  height:48px!important;
+  margin:0!important;
+  padding:0!important;
+  display:grid!important;
+  place-items:center!important;
+  border:1px solid var(--v167-line,#d7e2de)!important;
+  border-radius:15px!important;
+  background:#fff!important;
+  color:var(--v167-ink,#17211e)!important;
+  box-shadow:0 6px 18px rgba(25,70,59,.05)!important;
+  cursor:pointer!important;
+  font:800 27px/1 Arial,sans-serif!important;
+  -webkit-tap-highlight-color:transparent!important;
+}
+.dch-v168-back span{
+  display:block!important;
+  transform:translateX(-1px)!important;
+}
+.dch-v168-back:hover{background:var(--v167-soft,#f3f7f5)!important}
+.dch-v168-back:active{transform:translateY(1px)!important}
+.dch-v168-back:focus-visible{
+  outline:3px solid rgba(104,71,247,.24)!important;
+  outline-offset:2px!important;
+}
+body.dch-dark .dch-v168-back{
+  background:#14231e!important;
+  color:#f5fbf8!important;
+  border-color:#314840!important;
+}
+body.dch-dark .dch-v168-back:hover{background:#1b3029!important}
+
+@media(max-width:600px){
+  body.dch-has-back .dch-v167-bar{gap:7px!important}
+  .dch-v168-back{
+    flex-basis:43px!important;
+    width:43px!important;
+    min-width:43px!important;
+    height:43px!important;
+    border-radius:13px!important;
+    font-size:25px!important;
+  }
+  body.dch-has-back a.dch-v167-brand{gap:7px!important}
+}
+@media(max-width:430px){
+  body.dch-has-back .dch-v167-brand-label{font-size:clamp(13.5px,4vw,16px)!important}
+}
+@media(max-width:365px){
+  body.dch-has-back .dch-v167-bar{gap:5px!important}
+  .dch-v168-back{
+    flex-basis:37px!important;
+    width:37px!important;
+    min-width:37px!important;
+    height:37px!important;
+    border-radius:11px!important;
+    font-size:22px!important;
+  }
+  body.dch-has-back .dch-v167-logo{
+    flex-basis:36px!important;
+    width:36px!important;
+    height:36px!important;
+  }
+  body.dch-has-back .dch-v167-theme,
+  body.dch-has-back .dch-v167-menu{
+    flex-basis:37px!important;
+    width:37px!important;
+    min-width:37px!important;
+    height:37px!important;
+  }
+}
+@media print{.dch-v168-back{display:none!important}}

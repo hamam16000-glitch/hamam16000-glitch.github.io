@@ -1,0 +1,88 @@
+/* Daily Calculator Hub v18.5.1 — mobile result and homepage icon polish */
+
+/* Keep generated numeric results readable on narrow phones without splitting digits. */
+body.v166-consistent:not(.home-page) .calc-card .result-main,
+body.v166-consistent:not(.home-page) .result-panel .result-main{
+  max-width:100%!important;
+  font-variant-numeric:tabular-nums lining-nums!important;
+  word-break:normal!important;
+  overflow-wrap:normal!important;
+}
+body.v166-consistent:not(.home-page) .result-main.dch-numeric-result{
+  white-space:nowrap!important;
+  overflow:hidden!important;
+  text-overflow:clip!important;
+}
+body.v166-consistent:not(.home-page) .result-main.dch-fit-medium{
+  font-size:clamp(31px,8.4vw,48px)!important;
+  letter-spacing:-.05em!important;
+}
+body.v166-consistent:not(.home-page) .result-main.dch-fit-tight{
+  font-size:clamp(25px,7vw,39px)!important;
+  letter-spacing:-.045em!important;
+}
+body.v166-consistent:not(.home-page) .result-main.dch-fit-micro{
+  font-size:clamp(20px,5.7vw,31px)!important;
+  letter-spacing:-.035em!important;
+}
+body.v166-consistent:not(.home-page) .result-list strong.dch-numeric-result{
+  max-width:68%!important;
+  white-space:nowrap!important;
+  overflow:hidden!important;
+  text-overflow:clip!important;
+  word-break:normal!important;
+  overflow-wrap:normal!important;
+  font-variant-numeric:tabular-nums lining-nums!important;
+}
+body.v166-consistent:not(.home-page) .result-list strong.dch-fit-tight{font-size:13px!important}
+body.v166-consistent:not(.home-page) .result-list strong.dch-fit-micro{font-size:11.5px!important}
+
+/* Formula and conversion glyphs must remain inside their pastel icon tiles. */
+body.home-page .discovery-icon.dch-text-icon,
+body.home-page .card-icon.dch-text-icon{
+  display:grid!important;
+  place-items:center!important;
+  min-width:0!important;
+  max-width:100%!important;
+  padding:3px!important;
+  overflow:hidden!important;
+  white-space:nowrap!important;
+  text-overflow:clip!important;
+  font-family:Inter,Arial,sans-serif!important;
+  font-style:normal!important;
+  font-weight:700!important;
+  line-height:1!important;
+  letter-spacing:-.075em!important;
+  color:#17211e!important;
+}
+body.home-page .discovery-icon.dch-text-icon{font-size:16px!important}
+body.home-page .discovery-icon.dch-text-icon.dch-icon-wide{font-size:13px!important}
+body.home-page .discovery-icon.dch-text-icon.dch-icon-xwide{font-size:11px!important}
+body.home-page .card-icon.dch-text-icon{font-size:15px!important}
+body.home-page .card-icon.dch-text-icon.dch-icon-wide{font-size:12px!important}
+body.home-page .card-icon.dch-text-icon.dch-icon-xwide{font-size:10px!important}
+body.home-page .discovery-card>div{min-width:0!important}
+body.home-page .discovery-card h3,
+body.home-page .discovery-card p{min-width:0!important;overflow-wrap:break-word!important}
+
+@media(max-width:420px){
+  body.home-page .discovery-card{
+    grid-template-columns:62px minmax(0,1fr) 38px!important;
+    column-gap:12px!important;
+  }
+  body.home-page .discovery-icon{
+    width:62px!important;
+    height:62px!important;
+  }
+  body.home-page .discovery-icon.dch-text-icon{font-size:14px!important}
+  body.home-page .discovery-icon.dch-text-icon.dch-icon-wide{font-size:11.5px!important}
+  body.home-page .discovery-icon.dch-text-icon.dch-icon-xwide{font-size:10px!important}
+}
+
+@media(max-width:390px){
+  body.v166-consistent:not(.home-page) .result-list strong.dch-numeric-result{
+    max-width:100%!important;
+    white-space:normal!important;
+    overflow:visible!important;
+  }
+}

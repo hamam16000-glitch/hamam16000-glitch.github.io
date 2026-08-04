@@ -1,0 +1,1 @@
+(function(){var S=document.getElementById('sex'),H=document.getElementById('height'),B=document.getElementById('calculateButton'),O=document.getElementById('main');function c(){var inches=+H.value/2.54,extra=Math.max(0,inches-60),kg=(S.value==='male'?50:45.5)+2.3*extra;O.textContent=kg.toFixed(1)+' kg'}B.onclick=c;c()}());

@@ -1,0 +1,6 @@
+HTML files: 1007
+Calculator catalogue entries: 1000
+Compact catalogue bytes: 178771
+i18n core bytes: 63923
+Spanish dictionary bytes: 309389
+Navigation: native links + BFCache/history; no iframe/app shell

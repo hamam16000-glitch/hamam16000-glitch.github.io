@@ -1,0 +1,11 @@
+{
+  "records": 800,
+  "unique_routes": 800,
+  "missing_routes": 0,
+  "homepage_html_bytes": 5224,
+  "homepage_data_bytes": 214579,
+  "css_bundles": 5,
+  "js_bundles": 4,
+  "largest_css_bundle_page_count": 775,
+  "largest_js_bundle_page_count": 789
+}

@@ -1,0 +1,69 @@
+/* Daily Calculator Hub v14.3 — enforced light-first, unified UI */
+:root{color-scheme:only light!important}
+html{background:#f6f8f7!important;color-scheme:only light!important}
+body{background:#f6f8f7!important;color:#18211e!important;color-scheme:only light!important}
+body:not(.dch-dark){--bg:#f6f8f7!important;--surface:#fff!important;--surface-2:#edf4f1!important;--text:#18211e!important;--muted:#63716c!important;--line:#dce5e1!important;--brand:#16806a!important;--brand-2:#0f6957!important}
+body:not(.dch-dark) .header{background:#fff!important;border-color:#dde6e2!important}
+body:not(.dch-dark) .footer{background:#eef3f1!important;color:#63716c!important}
+body:not(.dch-dark) .brand,body:not(.dch-dark) h1,body:not(.dch-dark) h2,body:not(.dch-dark) h3,body:not(.dch-dark) label{color:#18211e!important}
+body:not(.dch-dark) p,body:not(.dch-dark) .small,body:not(.dch-dark) .muted,body:not(.dch-dark) .breadcrumbs{color:#63716c!important}
+body:not(.dch-dark) .theme-btn,body:not(.dch-dark) .menu-btn,body:not(.dch-dark) .header-search-toggle{background:#fff!important;color:#18211e!important;border-color:#d7e1dd!important}
+body:not(.dch-dark) .calc-card,body:not(.dch-dark) .content-box,body:not(.dch-dark) .note,body:not(.dch-dark) .unified-tools,body:not(.dch-dark) .compact-search,body:not(.dch-dark) .toc-v12,body:not(.dch-dark) .guide-v12,body:not(.dch-dark) .related-grid a,body:not(.dch-dark) .page-nav a,body:not(.dch-dark) .card{background:#fff!important;color:#18211e!important;border-color:#dce5e1!important;box-shadow:0 8px 28px rgba(27,67,57,.07)!important}
+body:not(.dch-dark) input,body:not(.dch-dark) select,body:not(.dch-dark) textarea,body:not(.dch-dark) .form-control,body:not(.dch-dark) .unified-search,body:not(.dch-dark) .compact-search input{background:#fff!important;color:#18211e!important;border-color:#cbd8d3!important}
+body:not(.dch-dark) .result{background:#eaf7ef!important;color:#17452d!important;border-color:#9bd4b0!important}
+body:not(.dch-dark) .button,body:not(.dch-dark) button[type="submit"],body:not(.dch-dark) .search-submit{background:#16806a!important;color:#fff!important}
+
+/* Compact homepage: search first, no giant dark hero */
+body.home-page:not(.dch-dark){background:#f6f8f7!important}
+body.home-page:not(.dch-dark) .main{background:#f6f8f7!important}
+body.home-page:not(.dch-dark) .hero{padding:24px 0 8px!important}
+body.home-page:not(.dch-dark) .hero-shell{padding:30px!important;border:1px solid #dce5e1!important;border-radius:24px!important;background:linear-gradient(135deg,#ffffff 0%,#f1f7f4 100%)!important;box-shadow:0 14px 38px rgba(27,67,57,.07)!important}
+body.home-page:not(.dch-dark) .eyebrow{color:#16806a!important}
+body.home-page:not(.dch-dark) .hero h1{max-width:720px!important;margin:9px 0 10px!important;color:#18211e!important;font-size:clamp(34px,5vw,54px)!important;line-height:1.04!important}
+body.home-page:not(.dch-dark) .hero p{max-width:680px!important;color:#63716c!important;font-size:16px!important;line-height:1.55!important}
+body.home-page:not(.dch-dark) .hero-search{margin-top:20px!important}
+body.home-page:not(.dch-dark) .search-form-modern{background:#fff!important;border-color:#cbd8d3!important;box-shadow:0 8px 22px rgba(27,67,57,.07)!important}
+body.home-page:not(.dch-dark) .search-input{background:transparent!important;color:#18211e!important}
+body.home-page:not(.dch-dark) .popular-inline a{background:#fff!important;color:#126c59!important;border-color:#d7e1dd!important}
+body.home-page:not(.dch-dark) .discovery-card,body.home-page:not(.dch-dark) .category-card,body.home-page:not(.dch-dark) .feature-card,body.home-page:not(.dch-dark) .guide-card,body.home-page:not(.dch-dark) .why-grid article{background:#fff!important;color:#18211e!important;border-color:#dce5e1!important}
+body.home-page:not(.dch-dark) .discovery-icon,body.home-page:not(.dch-dark) .category-icon,body.home-page:not(.dch-dark) .feature-icon{background:#edf4f1!important}
+
+/* Real optional dark mode */
+body.dch-dark{color-scheme:dark!important;background:#101916!important;color:#f3f7f5!important}
+body.dch-dark .hero-shell{background:linear-gradient(145deg,#1b2924,#151f1c)!important}
+
+.theme-btn{display:inline-grid!important;place-items:center!important;width:46px!important;min-width:46px!important;height:46px!important;padding:0!important;font-size:0!important;border-radius:14px!important}
+.theme-btn::before{content:'🌙';font-size:21px!important}
+body.dch-dark .theme-btn::before{content:'☀️'}
+
+@media(max-width:680px){
+ .home-page .header-inner{padding:10px 14px!important}
+ .home-page .logo{width:40px!important;height:40px!important}
+ .home-page .brand strong{font-size:17px!important}
+ .home-page .hero{padding-top:14px!important}
+ body.home-page:not(.dch-dark) .hero-shell{padding:19px 16px!important;border-radius:20px!important}
+ body.home-page:not(.dch-dark) .hero h1{font-size:31px!important;line-height:1.08!important;letter-spacing:-.035em!important}
+ body.home-page:not(.dch-dark) .hero p{font-size:14px!important;line-height:1.5!important}
+ body.home-page:not(.dch-dark) .hero-search{margin-top:16px!important}
+ .search-form-modern{min-height:56px!important}
+ .popular-inline{margin-top:10px!important}
+ .home-section,#all-calculators{padding-top:48px!important}
+ .theme-btn,.menu-btn{width:44px!important;min-width:44px!important;height:44px!important}
+ .calc-wrap>h1{font-size:28px!important}
+ .calc-card{padding:17px!important;border-radius:18px!important}
+}
+
+
+/* v16.2 calculator finishing touches */
+.unified-related{padding:20px!important}
+.unified-related h2{margin:0 0 14px!important;font-size:clamp(24px,4vw,30px)!important;line-height:1.15!important}
+.unified-related .related-grid{gap:8px!important}
+.unified-related .related-grid a{min-height:50px!important;padding:12px 42px 12px 15px!important;border-radius:13px!important;font-size:15px!important;box-shadow:none!important}
+.unified-related .related-grid a:after{right:15px!important}
+.result-action{letter-spacing:0!important;white-space:nowrap}
+@media(max-width:620px){
+ .unified-related{padding:17px!important}
+ .unified-related h2{font-size:25px!important;margin-bottom:12px!important}
+ .unified-related .related-grid a{min-height:47px!important;padding:10px 39px 10px 13px!important;font-size:14px!important}
+ .result-action{min-height:43px!important;padding:8px 10px!important;font-size:13px!important}
+}
