@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hamam16000-glitch.github.io/sitemap.xml
