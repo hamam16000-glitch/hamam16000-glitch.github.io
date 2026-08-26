@@ -1,0 +1,7 @@
+Daily Calculator Hub V27 FINAL
+Quality-reviewed calculators: 1000
+Pending calculator pages: 0
+Sitemap URLs: 1006
+404: noindex, follow
+Google verification file: excluded from sitemap
+Google Ads ROI calculator: included in sitemap

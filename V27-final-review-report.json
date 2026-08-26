@@ -1,0 +1,12 @@
+{
+  "version": "V27",
+  "total_quality_reviewed_calculators": 1000,
+  "newly_reviewed_this_batch": 211,
+  "remaining_calculators_noindex": 0,
+  "meta_descriptions_strengthened_this_batch": 55,
+  "sitemap_url_count": 1006,
+  "notes": "All previously pending calculator pages passed structural checks and are now index,follow. 404 remains noindex. Google verification HTML is excluded from sitemap.",
+  "meta_descriptions_strengthened_total_final_pass": 243,
+  "additional_previously_reviewed_descriptions_strengthened": 188,
+  "google_ads_roi_in_sitemap": true
+}
