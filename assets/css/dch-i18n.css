@@ -73,3 +73,11 @@ body.dch-lang-fil .dch-language-select{min-width:108px;max-width:126px}
 body.dch-lang-fil .result-main,body.dch-lang-fil .result-list strong{max-width:100%;text-overflow:clip;overflow:visible}
 @media(max-width:620px){body.dch-lang-fil .dch-language-select{min-width:91px;max-width:104px;font-size:11.5px}body.dch-lang-fil :is(h1,.hero-title,.calculator-title){line-height:1.25}body.dch-lang-fil .result-main{font-size:clamp(2.1rem,11.5vw,4rem)!important;letter-spacing:-.03em!important;white-space:normal!important}}
 body.dch-lang-fil :is(.result h2,.result-label,.result-card h2,.result-card .label){text-transform:none!important}
+
+/* v19.5.10: the header already provides a back button on calculator pages.
+   Hide the duplicate text link on small screens so it cannot slide under the
+   sticky language/header area, and preserve a clean gap before breadcrumbs. */
+@media(max-width:620px){
+  body.dch-has-back .main>.back{display:none!important}
+  body.dch-has-back .main{padding-top:18px!important}
+}

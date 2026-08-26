@@ -1,6 +1,37 @@
 (function(){
 'use strict';
-var DATA=window.DCH_CALCULATORS||[],PAGE_SIZE=24,state={q:'',category:'all',page:1};
+var EXTRA=[
+  {"href":"commercial-auto-insurance-cost.html","title":"Commercial Auto Insurance Cost Calculator","icon":"🚚","categories":"insurance money auto business","titleEs":"Calculadora del costo del seguro de automóvil comercial"},
+  {"href":"contractor-insurance-cost.html","title":"Contractor Insurance Cost Calculator","icon":"🦺","categories":"insurance business money","titleEs":"Calculadora del costo del seguro de contratista"},
+  {"href":"credit-card-minimum-payment.html","title":"Credit Card Minimum Payment Calculator","icon":"💳","categories":"money","titleEs":"Calculadora del pago mínimo de tarjeta de crédito"},
+  {"href":"date-calculator.html","title":"Date Calculator","icon":"📅","categories":"date","titleEs":"Calculadora de fechas"},
+  {"href":"directors-officers-insurance-cost.html","title":"Directors and Officers Insurance Cost Calculator","icon":"🛡️","categories":"insurance business money","titleEs":"Calculadora del costo del seguro para directores y administradores"},
+  {"href":"ductwork-replacement-cost.html","title":"Ductwork Replacement Cost Calculator","icon":"🌬️","categories":"home money","titleEs":"Calculadora del costo de reemplazo de conductos"},
+  {"href":"dui-lawyer-cost.html","title":"DUI Lawyer Cost Calculator","icon":"⚖️","categories":"money auto","titleEs":"Calculadora del costo de un abogado por DUI"},
+  {"href":"fraction-calculator.html","title":"Fraction Calculator","icon":"½","categories":"math","titleEs":"Calculadora de fracciones"},
+  {"href":"home-inspection-cost.html","title":"Home Inspection Cost Calculator","icon":"🔍","categories":"home money","titleEs":"Calculadora del costo de inspección de una vivienda"},
+  {"href":"home-warranty-cost.html","title":"Home Warranty Cost Calculator","icon":"🏠","categories":"home insurance money","titleEs":"Calculadora del costo de una garantía para el hogar"},
+  {"href":"hours-calculator.html","title":"Hours Calculator","icon":"⏱️","categories":"date math","titleEs":"Calculadora de horas"},
+  {"href":"malpractice-insurance-cost.html","title":"Medical Malpractice Insurance Cost Calculator","icon":"🩺","categories":"insurance business health money","titleEs":"Calculadora del costo del seguro por negligencia médica"},
+  {"href":"medicare-supplement-cost.html","title":"Medicare Supplement Cost Calculator","icon":"🏥","categories":"insurance health retirement money","titleEs":"Calculadora del costo de un suplemento de Medicare"},
+  {"href":"mini-split-cost.html","title":"Mini-Split Installation Cost Calculator","icon":"❄️","categories":"home money","titleEs":"Calculadora del costo de instalación de sistema de climatización dividido"},
+  {"href":"percent-change-calculator.html","title":"Percent Change Calculator","icon":"％","categories":"math","titleEs":"Calculadora de variación porcentual"},
+  {"href":"percentage-increase-calculator.html","title":"Percentage Increase Calculator","icon":"📈","categories":"math","titleEs":"Calculadora de aumento porcentual"},
+  {"href":"product-liability-insurance-cost.html","title":"Product Liability Insurance Cost Calculator","icon":"📦","categories":"insurance business money","titleEs":"Calculadora del costo del seguro de responsabilidad civil por productos"},
+  {"href":"radon-mitigation-cost.html","title":"Radon Mitigation Cost Calculator","icon":"🏡","categories":"home health money","titleEs":"Calculadora del costo de mitigación del radón"},
+  {"href":"scientific-calculator.html","title":"Scientific Calculator","icon":"🧮","categories":"math","titleEs":"Calculadora científica"},
+  {"href":"social-security-disability-lawyer-fee.html","title":"Social Security Disability Lawyer Fee Calculator","icon":"♿","categories":"money health retirement","titleEs":"Calculadora de honorarios de abogado por discapacidad del Seguro Social"},
+  {"href":"standard-deviation.html","title":"Standard Deviation Calculator","icon":"σ","categories":"math","titleEs":"Calculadora de desviación estándar"},
+  {"href":"term-life-insurance-cost.html","title":"Term Life Insurance Cost Calculator","icon":"🛡️","categories":"insurance money","titleEs":"Calculadora del costo del seguro de vida temporal"},
+  {"href":"time-calculator.html","title":"Time Calculator","icon":"🕒","categories":"date math","titleEs":"Calculadora de tiempo"},
+  {"href":"total-cost-car-ownership.html","title":"Total Cost of Car Ownership Calculator","icon":"🚗","categories":"auto money","titleEs":"Calculadora del costo total de propiedad de un automóvil"},
+  {"href":"trucking-insurance-cost.html","title":"Trucking Insurance Cost Calculator","icon":"🚛","categories":"insurance auto business money","titleEs":"Calculadora del costo del seguro de transporte por carretera"},
+  {"href":"water-damage-restoration-cost.html","title":"Water Damage Restoration Cost Calculator","icon":"💧","categories":"home insurance money","titleEs":"Calculadora del costo de restauración por daños de agua"},
+  {"href":"website-development-cost.html","title":"Website Development Cost Calculator","icon":"💻","categories":"business money","titleEs":"Calculadora del costo de desarrollo de sitio en línea"},
+  {"href":"workers-compensation-lawyer-fee.html","title":"Workers' Compensation Lawyer Fee Calculator","icon":"⚖️","categories":"business insurance money","titleEs":"Calculadora de honorarios de abogado de compensación laboral"}
+];
+window.DCH_CALCULATORS=(window.DCH_CALCULATORS||[]).concat(EXTRA);
+var DATA=window.DCH_CALCULATORS,PAGE_SIZE=24,state={q:'',category:'all',page:1};
 var categoryMeta={money:['💰','Money & Finance'],business:['💼','Business'],health:['❤️','Health & Fitness'],home:['🏠','Home'],insurance:['🛡️','Insurance'],math:['∑','Math & Statistics'],date:['📅','Date & Time'],convert:['⇄','Converters'],auto:['🚗','Auto'],retirement:['🌴','Retirement'],tax:['🧾','Taxes']};
 function byId(id){return document.getElementById(id)}
 function read(key){try{var x=JSON.parse(localStorage.getItem(key)||'[]');return Object.prototype.toString.call(x)==='[object Array]'?x:[]}catch(e){return[]}}
