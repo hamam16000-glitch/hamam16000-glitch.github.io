@@ -1,0 +1,184 @@
+[
+  {
+    "path": "cybersecurity-roi.html",
+    "values": {
+      "probability": 0,
+      "loss": 0,
+      "reduction": 0,
+      "annual": 0,
+      "one": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "payroll-software-roi.html",
+    "values": {
+      "hours": 0,
+      "rate": 0,
+      "avoided": 0,
+      "monthly": 0,
+      "setup": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "seo-roi.html",
+    "values": {
+      "monthlySpend": 0,
+      "monthlyVisits": 0,
+      "conversionRate": 0,
+      "averageOrder": 0,
+      "grossMargin": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "college-tuition-roi.html",
+    "values": {
+      "tuition": 0,
+      "aid": 0,
+      "current": 0,
+      "after": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "tiktok-ads-roi.html",
+    "values": {
+      "adSpend": 0,
+      "costMetric": 0,
+      "ctrRate": 0,
+      "conversionRate": 0,
+      "averageOrder": 0,
+      "grossMargin": 0,
+      "otherCosts": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "help-desk-software-roi.html",
+    "values": {
+      "initial": 0,
+      "benefit": 0,
+      "ongoing": 0,
+      "other": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "local-seo-roi.html",
+    "values": {
+      "initial": 0,
+      "benefit": 0,
+      "ongoing": 0,
+      "other": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "ppc-profit.html",
+    "values": {
+      "adSpend": 0,
+      "conversionRate": 0,
+      "averageOrderValue": 0,
+      "grossMargin": 0,
+      "variableCost": 0,
+      "campaignOverhead": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "accounting-software-roi.html",
+    "values": {
+      "hours": 0,
+      "rate": 0,
+      "avoided": 0,
+      "monthly": 0,
+      "setup": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "bootcamp-roi.html",
+    "values": {
+      "tuition": 0,
+      "aid": 0,
+      "current": 0,
+      "after": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "email-marketing-roi.html",
+    "values": {
+      "subscribers": 0,
+      "sendsPerMonth": 0,
+      "clickRate": 0,
+      "conversionRate": 0,
+      "averageOrder": 0,
+      "grossMargin": 0,
+      "monthlyCost": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "time-tracking-roi.html",
+    "values": {
+      "hours": 0,
+      "rate": 0,
+      "avoided": 0,
+      "monthly": 0,
+      "setup": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "crm-roi.html",
+    "values": {
+      "licensePerUser": 0,
+      "implementation": 0,
+      "training": 0,
+      "hoursSaved": 0,
+      "loadedWage": 0,
+      "revenueLift": 0,
+      "grossMargin": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "graduate-school-roi.html",
+    "values": {
+      "tuition": 0,
+      "aid": 0,
+      "current": 0,
+      "after": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "facebook-ads-roi.html",
+    "values": {
+      "adSpend": 0,
+      "costMetric": 0,
+      "ctrRate": 0,
+      "conversionRate": 0,
+      "averageOrder": 0,
+      "grossMargin": 0,
+      "otherCosts": 0
+    },
+    "primary": "mainResult"
+  },
+  {
+    "path": "google-ads-roi.html",
+    "values": {
+      "adSpend": 0,
+      "costMetric": 0,
+      "ctrRate": 0,
+      "conversionRate": 0,
+      "averageOrder": 0,
+      "grossMargin": 0,
+      "otherCosts": 0
+    },
+    "primary": "mainResult"
+  }
+]

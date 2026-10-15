@@ -1,1 +1,20 @@
-(function(){var A=document.getElementById('amount'),R=document.getElementById('rate'),Y=document.getElementById('years'),B=document.getElementById('calculateButton'),O=document.getElementById('main'),T=document.getElementById('total'),I=document.getElementById('interest');function m(v){return new Intl.NumberFormat((window.DCHI18N&&window.DCHI18N.getLocale?window.DCHI18N.getLocale():'en-US'),{style:'currency',currency:'USD',currencyDisplay:'narrowSymbol',useGrouping:true,minimumFractionDigits:2,maximumFractionDigits:2}).format(v)}function c(){var a=+A.value,r=+R.value/1200,n=+Y.value*12;if(!(a>0)||!(r>=0)||!(n>0)){O.textContent='Invalid input';return}var p=r===0?a/n:a*r*Math.pow(1+r,n)/(Math.pow(1+r,n)-1),t=p*n;O.textContent=m(p);T.textContent=m(t);I.textContent=m(t-a)}B.onclick=c;c()}());
+(function () {
+  'use strict';
+  var get = function (id) { return document.getElementById(id); };
+  function number(id) { var value = get(id).value.trim(); return value === '' ? NaN : Number(value); }
+  function fail() { get('main').textContent = 'Invalid input'; get('total').textContent = '—'; get('interest').textContent = '—'; }
+  function money(value) {
+    var locale = window.DCHI18N && window.DCHI18N.getLocale ? window.DCHI18N.getLocale() : 'en-US';
+    return new Intl.NumberFormat(locale, {style: 'currency', currency: 'USD', currencyDisplay: 'narrowSymbol', minimumFractionDigits: 2, maximumFractionDigits: 2}).format(value);
+  }
+  function calculate() {
+    var amount = number('amount'), rate = number('rate') / 1200, months = number('years') * 12;
+    if (![amount, rate, months].every(Number.isFinite) || amount <= 0 || rate < 0 || months <= 0) { fail(); return; }
+    var payment = rate === 0 ? amount / months : amount * rate / (1 - Math.pow(1 + rate, -months));
+    var total = payment * months;
+    if (!Number.isFinite(payment) || !Number.isFinite(total)) { fail(); return; }
+    get('main').textContent = money(payment); get('total').textContent = money(total);
+    get('interest').textContent = money(Math.max(0, total - amount));
+  }
+  calculate=window.DCHCalculator.wrap(calculate,{"fields":[],"outputs":["main","total","interest"],"primary":"main"});get('calculateButton').onclick = calculate; calculate();
+}());

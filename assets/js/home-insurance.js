@@ -1,9 +1,1 @@
-
-(function(){
-function n(id){return Number(document.getElementById(id).value)||0}
-function money(x){return new Intl.NumberFormat((window.DCHI18N&&window.DCHI18N.getLocale?window.DCHI18N.getLocale():'en-US'),{style:'currency',currency:'USD',currencyDisplay:'narrowSymbol',useGrouping:true,maximumFractionDigits:2}).format(isFinite(x)?x:0)}
-function num(x,d){return (isFinite(x)?x:0).toLocaleString((window.DCHI18N&&window.DCHI18N.getLocale?window.DCHI18N.getLocale():'en-US'),{maximumFractionDigits:d===undefined?2:d})}
-function set(id,v){document.getElementById(id).textContent=v}
-function calc(){var base=n('dwelling')*n('rate')/100+n('extras'),disc=base*n('discount')/100,annual=Math.max(0,base-disc);set('mainResult',money(annual));set('monthly',money(annual/12));set('before',money(base));set('discountOut',money(disc));}
-document.getElementById('calculateButton').addEventListener('click',calc);calc();
-}());
+(function(){'use strict';var get=function(id){return document.getElementById(id)};function n(id){var s=get(id).value.trim();return s===''?NaN:Number(s)}function money(x){var locale=window.DCHI18N&&window.DCHI18N.getLocale?window.DCHI18N.getLocale():'en-US';return new Intl.NumberFormat(locale,{style:'currency',currency:'USD',currencyDisplay:'narrowSymbol',minimumFractionDigits:2,maximumFractionDigits:2}).format(x)}function fail(message){get('mainResult').textContent=message||'Enter valid values.';["monthly", "before", "discountOut"].forEach(function(id){get(id).textContent='—'})}function calc(){var d=n('dwelling'),r=n('rate'),e=n('extras'),p=n('discount');if(![d,r,e,p].every(Number.isFinite)||Math.min(d,r,e,p)<0||p>100)return fail();var before=d*r/100+e,discount=before*p/100,annual=before-discount;if(![before,annual].every(Number.isFinite))return fail();get('mainResult').textContent=money(annual);get('monthly').textContent=money(annual/12);get('before').textContent=money(before);get('discountOut').textContent=money(discount)} calc=window.DCHCalculator.wrap(calc,{"fields":[],"outputs":["mainResult","monthly","before","discountOut"],"primary":"mainResult"});get('calculateButton').onclick=calc;calc()}());

@@ -6,20 +6,30 @@
     return String(value==null?'':value)
       .replace(/[٠-٩]/g,function(d){return String(arabic.indexOf(d));})
       .replace(/[۰-۹]/g,function(d){return String(persian.indexOf(d));})
-      .replace(/٫/g,'.').replace(/[٬،]/g,',');
+      .replace(/٫/g,'.').replace(/٬/g,'').replace(/،/g,',').replace(/−/g,'-');
   }
   function sanitizeNumeric(raw){
-    raw=mapDigits(raw).replace(/[$%\s,]/g,'');
-    var out='',dot=false,exp=false;
-    for(var i=0;i<raw.length;i++){
-      var c=raw[i];
-      if(c>='0'&&c<='9'){out+=c;continue;}
-      if(c==='.'&&!dot&&!exp){dot=true;out+=c;continue;}
-      if((c==='e'||c==='E')&&!exp&&/[0-9]$/.test(out)){exp=true;out+='e';continue;}
-      if((c==='+'||c==='-')&&(out===''||/e$/.test(out))){out+=c;}
+    var original=mapDigits(raw),s=original.trim().replace(/^\$\s*/,'').replace(/\s*%$/,'');
+    // Accept properly grouped spaces, but do not silently turn "1 2" into 12.
+    if(/^[-+]?\d{1,3}(?:[ \u00a0\u202f]\d{3})+(?:[.,]\d+)?$/.test(s))s=s.replace(/[ \u00a0\u202f]/g,'');
+    var comma=s.lastIndexOf(','),dot=s.lastIndexOf('.');
+    if(comma>=0&&dot>=0){
+      var decimal=Math.max(comma,dot),group=s[decimal]===','?'.':',';
+      var integer=s.slice(0,decimal),fraction=s.slice(decimal+1);
+      var grouping=group===','?/^[-+]?\d{1,3}(?:,\d{3})+$/:/^[-+]?\d{1,3}(?:\.\d{3})+$/;
+      if(!grouping.test(integer)||!/^\d*$/.test(fraction))return original;
+      s=integer.split(group).join('')+'.'+fraction;
+    }else if(comma>=0){
+      var locale=window.DCHI18N&&window.DCHI18N.getLocale?window.DCHI18N.getLocale():'en-US';
+      var parts=new Intl.NumberFormat(locale).formatToParts(1.1),decimalPart=parts.find(function(p){return p.type==='decimal';});
+      if(decimalPart&&decimalPart.value!==','&&/^[-+]?\d{1,3}(?:,\d{3})+$/.test(s))s=s.replace(/,/g,'');
+      else if((s.match(/,/g)||[]).length===1)s=s.replace(',','.');
+      else return original;
     }
-    return out;
+    // Retain malformed text so calculator validation can reject it.
+    return /^[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?$/.test(s)?s:original;
   }
+  window.dchNormalizeNumericInput=sanitizeNumeric;
   function normalizeElement(el){
     if(!el||el.tagName!=='INPUT')return;
     var numeric=el.dataset.dchNumericInput==='true';

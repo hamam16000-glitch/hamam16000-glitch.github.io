@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "review_date": "2026-10-14",
+  "calculators": 500,
+  "formula_source_reviewed": 500,
+  "targeted_model_or_domain_or_scope_changes": 130,
+  "HTML_pages_checked": 515,
+  "FAQ_schemas": 443,
+  "empty_calculator_FAQ": 0,
+  "local_file_fragment_duplicate_id_JSON_LD_FAQ_issues": [],
+  "javascript_unique_blocks_checked": 1994,
+  "javascript_syntax_errors": 0,
+  "assertions": {
+    "previous_regressions": 269,
+    "deep_regressions": 28871,
+    "final_regressions": 145,
+    "numeric_input_regressions": 35,
+    "total": 29320
+  },
+  "deep_tests": {
+    "default_engines": 500,
+    "numeric_edge_cases": 15300,
+    "reference_cases_deep_and_final": 1590,
+    "weekday_cases_included": 1407
+  },
+  "scope": "Source review and a minimal DOM adapter; selected independent formula cases; not every formula has an independent oracle; no repaired-version browser/mobile/complete-language certification",
+  "published": false,
+  "base_commit": "6da156057ff72aca6c1335f2905fe38cfdccb6bf",
+  "new_guides_language": "English"
+}

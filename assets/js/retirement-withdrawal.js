@@ -1,9 +1,1 @@
-
-(function(){
-function n(id){return Number(document.getElementById(id).value)||0}
-function money(x){return new Intl.NumberFormat((window.DCHI18N&&window.DCHI18N.getLocale?window.DCHI18N.getLocale():'en-US'),{style:'currency',currency:'USD',currencyDisplay:'narrowSymbol',useGrouping:true,maximumFractionDigits:2}).format(isFinite(x)?x:0)}
-function num(x,d){return (isFinite(x)?x:0).toLocaleString((window.DCHI18N&&window.DCHI18N.getLocale?window.DCHI18N.getLocale():'en-US'),{maximumFractionDigits:d===undefined?2:d})}
-function set(id,v){document.getElementById(id).textContent=v}
-function calc(){var gross=n('portfolio')*n('rate')/100,after=gross*(1-n('tax')/100);set('mainResult',money(gross));set('monthly',money(gross/12));set('afterTax',money(after));set('afterMonthly',money(after/12));}
-document.getElementById('calculateButton').addEventListener('click',calc);calc();
-}());
+(function(){'use strict';var get=function(id){return document.getElementById(id)};function n(id){var s=get(id).value.trim();return s===''?NaN:Number(s)}function money(x){var locale=window.DCHI18N&&window.DCHI18N.getLocale?window.DCHI18N.getLocale():'en-US';return new Intl.NumberFormat(locale,{style:'currency',currency:'USD',currencyDisplay:'narrowSymbol',minimumFractionDigits:2,maximumFractionDigits:2}).format(x)}function fail(message){get('mainResult').textContent=message||'Enter valid values.';["monthly", "afterTax", "afterMonthly"].forEach(function(id){get(id).textContent='—'})}function calc(){var p=n('portfolio'),r=n('rate'),t=n('tax');if(![p,r,t].every(Number.isFinite)||p<0||r<0||r>100||t<0||t>100)return fail();var gross=p*r/100,net=gross*(1-t/100);if(![gross,net].every(Number.isFinite))return fail();get('mainResult').textContent=money(gross);get('monthly').textContent=money(gross/12);get('afterTax').textContent=money(net);get('afterMonthly').textContent=money(net/12)} calc=window.DCHCalculator.wrap(calc,{"fields":[],"outputs":["mainResult","monthly","afterTax","afterMonthly"],"primary":"mainResult"});get('calculateButton').onclick=calc;calc()}());
