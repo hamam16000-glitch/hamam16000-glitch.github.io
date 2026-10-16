@@ -1,0 +1,5623 @@
+[
+  {
+    "path": "1031-exchange.html",
+    "inputs": {
+      "sale": "900000",
+      "selling": "60000",
+      "basis": "500000",
+      "replacement": "950000",
+      "cash": "0",
+      "debtRelief": "0"
+    },
+    "outputs": {
+      "mainResult": "$0.00",
+      "o1": "$340,000.00",
+      "o2": "$340,000.00",
+      "o3": "$840,000.00"
+    }
+  },
+  {
+    "path": "ac-replacement-cost.html",
+    "inputs": {
+      "equipmentCost": "7200",
+      "laborCost": "3500",
+      "ductCost": "1200",
+      "electricalCost": "650",
+      "permitRemoval": "500",
+      "rebates": "800",
+      "contingencyRate": "8"
+    },
+    "outputs": {
+      "mainResult": "$13,294.00",
+      "grossOut": "$14,094.00",
+      "contingencyOut": "$1,044.00",
+      "rebateOut": "$800.00",
+      "beforeOut": "$13,050.00"
+    }
+  },
+  {
+    "path": "accounting-software-roi.html",
+    "inputs": {
+      "hours": "50",
+      "rate": "45",
+      "avoided": "12000",
+      "monthly": "300",
+      "setup": "3000"
+    },
+    "outputs": {
+      "mainResult": "490.91%",
+      "o1": "$39,000.00",
+      "o2": "$6,600.00",
+      "o3": "$32,400.00",
+      "o4": "2 months"
+    }
+  },
+  {
+    "path": "addiction-treatment-cost.html",
+    "inputs": {
+      "unit": "650",
+      "count": "30",
+      "extra": "4500",
+      "coverage": "12000",
+      "discount": "0"
+    },
+    "outputs": {
+      "mainResult": "$12,000.00",
+      "o1": "$24,000.00",
+      "o2": "$12,000.00",
+      "o3": "$400.00"
+    }
+  },
+  {
+    "path": "adoption-cost.html",
+    "inputs": {
+      "agency": "28000",
+      "legal": "7500",
+      "travel": "6500",
+      "benefits": "8000",
+      "credit": "12000"
+    },
+    "outputs": {
+      "mainResult": "$22,000.00",
+      "o1": "$42,000.00",
+      "o2": "$8,000.00",
+      "o3": "$12,000.00"
+    }
+  },
+  {
+    "path": "agency-profit-margin.html",
+    "inputs": {
+      "monthlyRevenue": "320000",
+      "payroll": "155000",
+      "contractors": "38000",
+      "software": "12000",
+      "salesMarketing": "22000",
+      "overhead": "36000",
+      "employees": "18",
+      "targetMargin": "20"
+    },
+    "outputs": {
+      "mainResult": "$57,000.00",
+      "marginOut": "17.81%",
+      "perEmployeeOut": "$17,777.78",
+      "costOut": "$263,000.00",
+      "targetOut": "$328,750.00"
+    }
+  },
+  {
+    "path": "airbnb-break-even-occupancy.html",
+    "inputs": {
+      "nightlyRate": "220",
+      "availableNights": "30",
+      "platformRate": "15",
+      "variableNight": "25",
+      "fixedMonthly": "3600",
+      "cleaningNetPerStay": "10",
+      "averageStay": "3.5"
+    },
+    "outputs": {
+      "mainResult": "72.79%",
+      "nightsOut": "21.8 nights",
+      "contributionOut": "$164.86",
+      "revenueOut": "$4,866.55",
+      "bufferOut": "7.21%"
+    }
+  },
+  {
+    "path": "airbnb-profit.html",
+    "inputs": {
+      "nightlyRate": "240",
+      "availableNights": "30",
+      "occupancyRate": "68",
+      "averageStay": "3.5",
+      "cleaningFeeIncome": "95",
+      "platformRate": "15",
+      "variableNight": "22",
+      "cleaningCost": "80",
+      "fixedMonthly": "3400"
+    },
+    "outputs": {
+      "mainResult": "$317.17",
+      "volumeOut": "20.4 nights / 5.8 stays",
+      "revenueOut": "$5,449.71",
+      "costOut": "$5,132.54",
+      "annualOut": "$3,806.06"
+    }
+  },
+  {
+    "path": "allergy-shot-cost.html",
+    "inputs": {
+      "count": "40",
+      "unit": "40",
+      "other": "800",
+      "deductible": "500",
+      "coins": "20",
+      "copay": "10"
+    },
+    "outputs": {
+      "mainResult": "$1,280.00",
+      "o1": "$2,400.00",
+      "o2": "$500.00",
+      "o3": "$1,120.00",
+      "o4": "$400.00"
+    }
+  },
+  {
+    "path": "amazon-fba-profit.html",
+    "inputs": {
+      "sellingPrice": "34.99",
+      "units": "500",
+      "productCost": "9.5",
+      "inboundCost": "1.25",
+      "referralRate": "15",
+      "fbaFee": "4.75",
+      "storageFee": "0.65",
+      "adCost": "3.25",
+      "returnRate": "4"
+    },
+    "outputs": {
+      "mainResult": "$4,470.95",
+      "revenueOut": "$17,495.00",
+      "feesOut": "$5,324.25",
+      "unitOut": "$8.94",
+      "marginOut": "25.56%"
+    }
+  },
+  {
+    "path": "amazon-seller-fee.html",
+    "inputs": {
+      "salePrice": "39.99",
+      "shippingCharged": "0",
+      "referralRate": "15",
+      "fulfillmentFee": "5.15",
+      "storageFee": "0.75",
+      "otherFee": "0.3",
+      "adRate": "8"
+    },
+    "outputs": {
+      "mainResult": "$15.40",
+      "referralOut": "$6.00",
+      "fixedOut": "$6.20",
+      "adsOut": "$3.20",
+      "netOut": "$24.59"
+    }
+  },
+  {
+    "path": "appendectomy-cost.html",
+    "inputs": {
+      "count": "1",
+      "unit": "25000",
+      "other": "7000",
+      "deductible": "2500",
+      "coins": "20",
+      "copay": "0"
+    },
+    "outputs": {
+      "mainResult": "$8,400.00",
+      "o1": "$32,000.00",
+      "o2": "$2,500.00",
+      "o3": "$23,600.00",
+      "o4": "$0.00"
+    }
+  },
+  {
+    "path": "area-calculator.html",
+    "inputs": {
+      "length": "12",
+      "width": "8",
+      "radius": "5",
+      "baseValue": "10",
+      "heightValue": "6"
+    },
+    "outputs": {
+      "mainResult": "96 square units",
+      "perimeterOut": "40 units",
+      "circleOut": "78.53981634 square units",
+      "circumferenceOut": "31.41592654 units",
+      "triangleOut": "30 square units"
+    }
+  },
+  {
+    "path": "arm-mortgage.html",
+    "inputs": {
+      "loanAmount": "400000",
+      "initialRate": "5.5",
+      "initialYears": "5",
+      "resetRate": "7",
+      "termYears": "30"
+    },
+    "outputs": {
+      "mainResult": "$2,613.97",
+      "initialPaymentOut": "$2,271.16",
+      "balanceOut": "$369,842.41",
+      "changeOut": "$342.81"
+    }
+  },
+  {
+    "path": "arr.html",
+    "inputs": {
+      "monthlyRecurringRevenue": "85000",
+      "annualContractRevenue": "180000",
+      "expansionRate": "18",
+      "recurringChurnRate": "10"
+    },
+    "outputs": {
+      "mainResult": "$1,296,000.00",
+      "annualizedOut": "$1,020,000.00",
+      "currentOut": "$1,200,000.00",
+      "expansionOut": "$216,000.00",
+      "churnOut": "$120,000.00"
+    }
+  },
+  {
+    "path": "asbestos-removal-cost.html",
+    "inputs": {
+      "area": "1000",
+      "abatementRate": "15",
+      "testing": "600",
+      "containment": "2500",
+      "disposal": "2000",
+      "clearance": "500",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$22,660.00",
+      "abatementOut": "$15,000.00",
+      "supportOut": "$5,600.00",
+      "contingencyOut": "$2,060.00",
+      "unitOut": "$22.66"
+    }
+  },
+  {
+    "path": "attic-conversion-cost.html",
+    "inputs": {
+      "squareFeet": "750",
+      "costPerSqFt": "110",
+      "stairs": "12000",
+      "hvac": "18000",
+      "permits": "7500",
+      "contingencyRate": "12"
+    },
+    "outputs": {
+      "mainResult": "$134,400.00",
+      "baseOut": "$82,500.00",
+      "fixedOut": "$37,500.00",
+      "contingencyOut": "$14,400.00",
+      "perOut": "$179.20"
+    }
+  },
+  {
+    "path": "auto-accident-diminished-value-claim.html",
+    "inputs": {
+      "value": "32000",
+      "severity": "10",
+      "mileage": "70",
+      "history": "90",
+      "repairs": "85"
+    },
+    "outputs": {
+      "mainResult": "$1,713.60",
+      "o1": "$3,200.00",
+      "o2": "53.55%",
+      "o3": "$30,286.40"
+    }
+  },
+  {
+    "path": "auto-insurance-deductible.html",
+    "inputs": {
+      "claimAmount": "6000",
+      "lowDeductible": "500",
+      "lowPremium": "2100",
+      "highDeductible": "1500",
+      "highPremium": "1800",
+      "years": "3"
+    },
+    "outputs": {
+      "mainResult": "$6,800.00",
+      "highOut": "$6,900.00",
+      "savingsOut": "$900.00",
+      "extraClaimOut": "$1,000.00",
+      "bestOut": "Lower deductible by $100.00"
+    }
+  },
+  {
+    "path": "auto-refinance.html",
+    "inputs": {
+      "balance": "28000",
+      "currentRate": "9",
+      "currentMonths": "48",
+      "newRate": "6.5",
+      "newMonths": "48",
+      "fees": "250"
+    },
+    "outputs": {
+      "mainResult": "$26.83",
+      "currentPaymentOut": "$696.78",
+      "newPaymentOut": "$669.95",
+      "interestSavingsOut": "$1,288.02"
+    }
+  },
+  {
+    "path": "auto-total-loss-payout.html",
+    "inputs": {
+      "acv": "28000",
+      "taxes": "7",
+      "deductible": "1000",
+      "loan": "31000",
+      "gap": "5000"
+    },
+    "outputs": {
+      "mainResult": "Deficiency $0.00",
+      "o1": "$28,960.00",
+      "o2": "$32,000.00",
+      "o3": "$0.00"
+    }
+  },
+  {
+    "path": "average-calculator.html",
+    "inputs": {
+      "v1": "12",
+      "v2": "18",
+      "v3": "25",
+      "v4": "30",
+      "v5": "35"
+    },
+    "outputs": {
+      "mainResult": "24",
+      "sumOut": "120",
+      "minOut": "12",
+      "maxOut": "35",
+      "rangeOut": "23"
+    }
+  },
+  {
+    "path": "balance-transfer.html",
+    "inputs": {
+      "balance": "10000",
+      "currentApr": "24",
+      "monthlyPayment": "400",
+      "transferFee": "3",
+      "promoApr": "0",
+      "promoMonths": "18",
+      "postApr": "20"
+    },
+    "outputs": {
+      "mainResult": "$3,453.46 saved",
+      "feeOut": "$300.00",
+      "monthsOut": "36 months vs 27 months",
+      "interestOut": "$4,001.13 vs $547.67",
+      "promoOut": "$3,100.00"
+    }
+  },
+  {
+    "path": "bankruptcy-attorney-cost.html",
+    "inputs": {
+      "attorneyHours": "16",
+      "hourlyRate": "300",
+      "flatFee": "2200",
+      "courtFees": "340",
+      "specialistFees": "250",
+      "otherCosts": "200"
+    },
+    "outputs": {
+      "mainResult": "$5,590.00",
+      "hourlyOut": "$4,800.00",
+      "externalOut": "$790.00",
+      "legalOut": "$4,800.00",
+      "aboveOut": "$3,390.00"
+    }
+  },
+  {
+    "path": "basement-remodel-cost.html",
+    "inputs": {
+      "area": "1000",
+      "costPerSqFt": "55",
+      "bathroomCost": "18000",
+      "egressCost": "7000",
+      "permitCost": "3500",
+      "contingencyRate": "12"
+    },
+    "outputs": {
+      "mainResult": "$93,520.00",
+      "baseOut": "$55,000.00",
+      "extrasOut": "$28,500.00",
+      "contingencyOut": "$10,020.00",
+      "unitOut": "$93.52"
+    }
+  },
+  {
+    "path": "basement-waterproofing-cost.html",
+    "inputs": {
+      "perimeter": "120",
+      "drainRate": "90",
+      "pumps": "2",
+      "pumpCost": "1500",
+      "wallArea": "800",
+      "sealRate": "4",
+      "exteriorWork": "0",
+      "permits": "300",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$19,030.00",
+      "drainOut": "$13,800.00",
+      "sealOut": "$3,200.00",
+      "supportOut": "$300.00",
+      "contingencyOut": "$1,730.00"
+    }
+  },
+  {
+    "path": "basic-calculator.html",
+    "inputs": {
+      "firstNumber": "125",
+      "secondNumber": "25"
+    },
+    "outputs": {
+      "mainResult": "150",
+      "differenceOut": "100",
+      "productOut": "3,125",
+      "quotientOut": "5"
+    }
+  },
+  {
+    "path": "bathroom-remodel-cost.html",
+    "inputs": {
+      "area": "80",
+      "materialRate": "150",
+      "laborRate": "40",
+      "fixtures": "6000",
+      "permits": "800",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$28,600.00",
+      "materialsOut": "$12,000.00",
+      "laborOut": "$7,200.00",
+      "contingencyOut": "$2,600.00",
+      "perFootOut": "$357.50"
+    }
+  },
+  {
+    "path": "bathroom-tile-cost.html",
+    "inputs": {
+      "floorArea": "80",
+      "wallArea": "180",
+      "tileRate": "12",
+      "floorInstallRate": "18",
+      "wallInstallRate": "25",
+      "waterproofing": "2200",
+      "demoCost": "1800",
+      "trimCost": "900",
+      "contingencyRate": "12"
+    },
+    "outputs": {
+      "mainResult": "$15,635.20",
+      "materialOut": "$3,120.00",
+      "laborOut": "$5,940.00",
+      "extrasOut": "$4,900.00",
+      "contingencyOut": "$1,675.20"
+    }
+  },
+  {
+    "path": "binary-calculator.html",
+    "inputs": {
+      "decimalInteger": "255"
+    },
+    "outputs": {
+      "mainResult": "11111111",
+      "hexOut": "FF",
+      "octalOut": "377",
+      "bitsOut": "8"
+    }
+  },
+  {
+    "path": "boat-loan.html",
+    "inputs": {
+      "purchasePrice": "78000",
+      "downPayment": "15600",
+      "taxRate": "6",
+      "fees": "2100",
+      "interestRate": "8.25",
+      "loanYears": "12"
+    },
+    "outputs": {
+      "mainResult": "$758.36",
+      "financedOut": "$69,180.00",
+      "interestOut": "$40,023.29",
+      "totalOut": "$109,203.29",
+      "cashOut": "$15,600.00"
+    }
+  },
+  {
+    "path": "bookkeeping-cost.html",
+    "inputs": {
+      "transactions": "350",
+      "per": "1.25",
+      "hours": "6",
+      "rate": "65",
+      "software": "120"
+    },
+    "outputs": {
+      "mainResult": "$947.50",
+      "o1": "$437.50",
+      "o2": "$390.00",
+      "o3": "$11,370.00"
+    }
+  },
+  {
+    "path": "bootcamp-roi.html",
+    "inputs": {
+      "tuition": "16000",
+      "years": "0.5",
+      "aid": "1000",
+      "current": "45000",
+      "after": "75000",
+      "workyears": "5"
+    },
+    "outputs": {
+      "mainResult": "400%",
+      "o1": "$30,000.00",
+      "o2": "$150,000.00",
+      "o3": "$120,000.00",
+      "o4": "1 years"
+    }
+  },
+  {
+    "path": "break-even-cpa.html",
+    "inputs": {
+      "aov": "150",
+      "margin": "55",
+      "fulfillment": "18",
+      "refund": "8",
+      "support": "5"
+    },
+    "outputs": {
+      "mainResult": "$51.50",
+      "o1": "$82.50",
+      "o2": "$31.00",
+      "o3": "34.33%"
+    }
+  },
+  {
+    "path": "break-even-roas.html",
+    "inputs": {
+      "averageOrder": "120",
+      "grossMargin": "65",
+      "paymentFee": "3",
+      "fulfillmentCost": "14",
+      "returnRate": "6",
+      "adBudget": "25000"
+    },
+    "outputs": {
+      "mainResult": "2.26×",
+      "contributionOut": "$53.20",
+      "revenueOut": "$56,390.98",
+      "ordersOut": "470",
+      "maxCpaOut": "$53.20"
+    }
+  },
+  {
+    "path": "bridge-loan.html",
+    "inputs": {
+      "loanAmount": "250000",
+      "interestRate": "10.5",
+      "months": "12",
+      "originationRate": "2",
+      "exitFeeRate": "0.5"
+    },
+    "outputs": {
+      "mainResult": "$2,187.50",
+      "interestOut": "$26,250.00",
+      "originationOut": "$5,000.00",
+      "exitOut": "$1,250.00",
+      "payoffOut": "$282,500.00"
+    }
+  },
+  {
+    "path": "brrrr.html",
+    "inputs": {
+      "purchasePrice": "185000",
+      "rehabCost": "65000",
+      "closingHolding": "18000",
+      "afterRepairValue": "340000",
+      "refinanceLtv": "75",
+      "refinanceRate": "7",
+      "loanMonths": "360",
+      "monthlyRent": "3300",
+      "vacancyRate": "6",
+      "monthlyOperating": "1050"
+    },
+    "outputs": {
+      "mainResult": "$13,000.00",
+      "refiOut": "$255,000.00",
+      "paymentOut": "$1,696.52",
+      "noiOut": "$24,624.00",
+      "cashFlowOut": "$355.48 / 1.21×"
+    }
+  },
+  {
+    "path": "builders-risk-insurance-cost.html",
+    "inputs": {
+      "projectValue": "1200000",
+      "annualRate": "0.55",
+      "projectMonths": "12",
+      "projectRisk": "1.15",
+      "deductibleDiscount": "5",
+      "endorsements": "2800",
+      "fees": "450"
+    },
+    "outputs": {
+      "mainResult": "$10,460.50",
+      "baseOut": "$6,600.00",
+      "riskOut": "$7,590.00",
+      "discountOut": "$379.50",
+      "monthlyOut": "$871.71"
+    }
+  },
+  {
+    "path": "burn-rate.html",
+    "inputs": {
+      "cashBalance": "650000",
+      "monthlyOperating": "180000",
+      "monthlyRevenue": "105000",
+      "oneTimeCosts": "60000",
+      "analysisMonths": "6"
+    },
+    "outputs": {
+      "mainResult": "$85,000.00",
+      "grossOut": "$190,000.00",
+      "oneTimeOut": "$10,000.00",
+      "annualOut": "$1,020,000.00",
+      "runwayOut": "7.6 months"
+    }
+  },
+  {
+    "path": "business-interruption-insurance.html",
+    "inputs": {
+      "monthlyExpenses": "40000",
+      "monthlyProfit": "15000",
+      "restorationMonths": "6",
+      "extraExpense": "25000",
+      "bufferRate": "15"
+    },
+    "outputs": {
+      "mainResult": "$408,250.00",
+      "baseOut": "$355,000.00",
+      "extraOut": "$25,000.00",
+      "monthlyOut": "$68,041.67"
+    }
+  },
+  {
+    "path": "business-line-of-credit.html",
+    "inputs": {
+      "drawAmount": "75000",
+      "annualRate": "12",
+      "repaymentMonths": "24",
+      "drawFee": "1",
+      "annualFee": "500"
+    },
+    "outputs": {
+      "mainResult": "$3,530.51",
+      "interestOut": "$9,732.25",
+      "feesOut": "$1,750.00",
+      "costOut": "$11,482.25",
+      "totalOut": "$86,482.25"
+    }
+  },
+  {
+    "path": "business-property-insurance-cost.html",
+    "inputs": {
+      "buildingValue": "1200000",
+      "contentsValue": "350000",
+      "equipmentValue": "250000",
+      "ratePerHundred": "0.32",
+      "riskMultiplier": "1.15",
+      "deductibleCredit": "8"
+    },
+    "outputs": {
+      "mainResult": "$6,094.08",
+      "monthlyOut": "$507.84",
+      "valueOut": "$1,800,000.00",
+      "baseOut": "$5,760.00",
+      "effectiveOut": "$0.34"
+    }
+  },
+  {
+    "path": "business-valuation.html",
+    "inputs": {
+      "annualEarnings": "500000",
+      "valuationMultiple": "4.5",
+      "interestDebt": "400000",
+      "excessCash": "150000"
+    },
+    "outputs": {
+      "mainResult": "$2,000,000.00",
+      "enterpriseOut": "$2,250,000.00",
+      "debtOut": "$400,000.00",
+      "cashOut": "$150,000.00"
+    }
+  },
+  {
+    "path": "buy-now-pay-later-cost.html",
+    "inputs": {
+      "price": "1200",
+      "down": "300",
+      "installments": "6",
+      "fee": "60",
+      "late": "0"
+    },
+    "outputs": {
+      "mainResult": "$160.00",
+      "o1": "$1,260.00",
+      "o2": "$60.00",
+      "o3": "5%"
+    }
+  },
+  {
+    "path": "buy-now-pay-later.html",
+    "inputs": {
+      "purchase": "1200",
+      "down": "300",
+      "installments": "3",
+      "fee": "36",
+      "late": "0"
+    },
+    "outputs": {
+      "mainResult": "$312.00",
+      "o1": "$1,236.00",
+      "o2": "$36.00",
+      "o3": "3%"
+    }
+  },
+  {
+    "path": "cac-payback-period.html",
+    "inputs": {
+      "cac": "4200",
+      "monthlyRevenue": "850",
+      "grossMargin": "78",
+      "monthlyServiceCost": "75",
+      "monthlyExpansion": "35"
+    },
+    "outputs": {
+      "mainResult": "6.8 months",
+      "contributionOut": "$615.30",
+      "annualOut": "$7,383.60",
+      "rateOut": "14.65%",
+      "baseOut": "7.1 months"
+    }
+  },
+  {
+    "path": "car-accident-lost-wages.html",
+    "inputs": {
+      "hourly": "35",
+      "hours": "160",
+      "benefits": "1200",
+      "future": "0",
+      "fault": "0"
+    },
+    "outputs": {
+      "mainResult": "$6,800.00",
+      "o1": "$6,800.00",
+      "o2": "$0.00",
+      "o3": "$0.00"
+    }
+  },
+  {
+    "path": "car-affordability.html",
+    "inputs": {
+      "monthlyBudget": "550",
+      "interestRate": "7",
+      "termMonths": "60",
+      "downPayment": "5000",
+      "tradeIn": "3000",
+      "salesTaxRate": "7"
+    },
+    "outputs": {
+      "mainResult": "$33,435.60",
+      "loanOut": "$27,776.10",
+      "cashOut": "$8,000.00",
+      "taxOut": "$2,340.49"
+    }
+  },
+  {
+    "path": "car-down-payment.html",
+    "inputs": {
+      "price": "48000",
+      "trade": "7000",
+      "target": "600",
+      "rate": "6.75",
+      "months": "72"
+    },
+    "outputs": {
+      "mainResult": "$5,558.31",
+      "o1": "$35,441.69",
+      "o2": "11.58%",
+      "o3": "$35,441.69"
+    }
+  },
+  {
+    "path": "car-lease-buyout.html",
+    "inputs": {
+      "residual": "24000",
+      "fee": "500",
+      "tax": "7",
+      "market": "27000"
+    },
+    "outputs": {
+      "mainResult": "$26,215.00",
+      "o1": "Positive equity $785.00",
+      "o2": "$2,215.00",
+      "o3": "$27,000.00"
+    }
+  },
+  {
+    "path": "car-lease-payment.html",
+    "inputs": {
+      "msrp": "45000",
+      "negotiatedPrice": "42000",
+      "downPayment": "3000",
+      "residualRate": "58",
+      "moneyFactor": "0.002",
+      "months": "36",
+      "fees": "1200",
+      "taxRate": "7"
+    },
+    "outputs": {
+      "mainResult": "$560.97",
+      "residualOut": "$26,100.00",
+      "depreciationOut": "$391.67",
+      "financeOut": "$132.60",
+      "totalOut": "$23,194.75"
+    }
+  },
+  {
+    "path": "car-shipping-cost.html",
+    "inputs": {
+      "distance": "1500",
+      "ratePerMile": "0.75",
+      "vehicleFactor": "1.1",
+      "enclosedSurcharge": "0",
+      "urgencyPercent": "15",
+      "fuelPercent": "5",
+      "coverage": "150"
+    },
+    "outputs": {
+      "mainResult": "$1,635.00",
+      "baseOut": "$1,237.50",
+      "surchargeOut": "$247.50",
+      "addonsOut": "$150.00",
+      "mileOut": "$1.09"
+    }
+  },
+  {
+    "path": "car-total-cost-of-ownership.html",
+    "inputs": {
+      "price": "38000",
+      "years": "5",
+      "depr": "45",
+      "fuel": "1800",
+      "insurance": "1800",
+      "maintenance": "1200",
+      "interest": "4500"
+    },
+    "outputs": {
+      "mainResult": "$45,600.00",
+      "o1": "$9,120.00",
+      "o2": "$20,900.00",
+      "o3": "$24,000.00"
+    }
+  },
+  {
+    "path": "cargo-insurance-cost.html",
+    "inputs": {
+      "annualValue": "2000000",
+      "premiumRate": "0.4",
+      "riskFactor": "1.2",
+      "deductibleDiscount": "5",
+      "policyFees": "500"
+    },
+    "outputs": {
+      "mainResult": "$9,620.00",
+      "monthlyOut": "$801.67",
+      "baseOut": "$8,000.00",
+      "riskOut": "$9,120.00",
+      "rateOut": "0.48%"
+    }
+  },
+  {
+    "path": "cash-flow.html",
+    "inputs": {
+      "cashInflows": "500000",
+      "operatingOutflows": "360000",
+      "investingOutflows": "80000",
+      "financingCashFlow": "25000",
+      "beginningCash": "100000"
+    },
+    "outputs": {
+      "mainResult": "$185,000.00",
+      "operatingOut": "$140,000.00",
+      "changeOut": "$85,000.00",
+      "beginningOut": "$100,000.00"
+    }
+  },
+  {
+    "path": "cash-on-cash-return.html",
+    "inputs": {
+      "cashInvested": "100000",
+      "annualCashFlow": "12000"
+    },
+    "outputs": {
+      "mainResult": "12.00%",
+      "monthlyFlowOut": "$1,000.00",
+      "multipleOut": "0.120x"
+    }
+  },
+  {
+    "path": "cash-runway.html",
+    "inputs": {
+      "cashBalance": "750000",
+      "monthlyRevenue": "120000",
+      "monthlyExpenses": "185000",
+      "monthlyDebt": "12000",
+      "plannedSpend": "90000",
+      "minimumReserve": "100000"
+    },
+    "outputs": {
+      "mainResult": "7.3 months",
+      "burnOut": "$77,000.00",
+      "availableOut": "$560,000.00",
+      "zeroOut": "8.6 months",
+      "breakEvenOut": "$197,000.00"
+    }
+  },
+  {
+    "path": "chimney-repair-cost.html",
+    "inputs": {
+      "masonryArea": "80",
+      "masonryRate": "35",
+      "liner": "2500",
+      "capFlashing": "500",
+      "scaffolding": "700",
+      "inspection": "250",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$7,425.00",
+      "masonryOut": "$2,800.00",
+      "componentsOut": "$3,000.00",
+      "supportOut": "$950.00",
+      "contingencyOut": "$675.00"
+    }
+  },
+  {
+    "path": "churn-rate.html",
+    "inputs": {
+      "startingCustomers": "1000",
+      "lostCustomers": "40",
+      "periodMonths": "1"
+    },
+    "outputs": {
+      "mainResult": "4.00%",
+      "periodChurnOut": "4.00%",
+      "retentionOut": "96.00%",
+      "lifetimeOut": "25.0 months"
+    }
+  },
+  {
+    "path": "circumference-calculator.html",
+    "inputs": {
+      "radius": "8"
+    },
+    "outputs": {
+      "mainResult": "50.2654824574",
+      "diameterOut": "16",
+      "areaOut": "201.0619298297",
+      "piOut": "3.14159265359"
+    }
+  },
+  {
+    "path": "closet-remodel-cost.html",
+    "inputs": {
+      "qty": "12",
+      "low": "300",
+      "high": "1000",
+      "fixed": "500"
+    },
+    "outputs": {
+      "mainResult": "$8,300.00",
+      "o1": "$4,100.00 – $12,500.00",
+      "o2": "$691.67 per unit",
+      "o3": "$500.00"
+    }
+  },
+  {
+    "path": "cloud-cost.html",
+    "inputs": {
+      "instances": "10",
+      "computeMonthly": "250",
+      "storageTb": "5",
+      "storageMonthly": "100",
+      "transferTb": "3",
+      "transferRate": "90",
+      "managedMonthly": "2000",
+      "supportPercent": "10"
+    },
+    "outputs": {
+      "mainResult": "$69,564.00",
+      "monthlyOut": "$5,797.00",
+      "computeOut": "$2,500.00",
+      "dataOut": "$770.00",
+      "servicesOut": "$2,527.00"
+    }
+  },
+  {
+    "path": "cobra-insurance-cost.html",
+    "inputs": {
+      "employeeShare": "250",
+      "employerShare": "750",
+      "adminFee": "2",
+      "coverageMonths": "18"
+    },
+    "outputs": {
+      "mainResult": "$1,020.00",
+      "baseOut": "$1,000.00",
+      "adminOut": "$20.00",
+      "totalOut": "$18,360.00",
+      "increaseOut": "$770.00"
+    }
+  },
+  {
+    "path": "cobra-vs-marketplace-cost.html",
+    "inputs": {
+      "cobra": "850",
+      "market": "720",
+      "subsidy": "300",
+      "months": "12",
+      "cobraOop": "2500",
+      "marketOop": "3800"
+    },
+    "outputs": {
+      "mainResult": "Marketplace by $3,860.00",
+      "o1": "$12,700.00",
+      "o2": "$8,840.00",
+      "o3": "$3,860.00"
+    }
+  },
+  {
+    "path": "college-tuition-roi.html",
+    "inputs": {
+      "tuition": "30000",
+      "years": "4",
+      "aid": "8000",
+      "current": "30000",
+      "after": "65000",
+      "workyears": "10"
+    },
+    "outputs": {
+      "mainResult": "68.27%",
+      "o1": "$208,000.00",
+      "o2": "$350,000.00",
+      "o3": "$142,000.00",
+      "o4": "5.9 years"
+    }
+  },
+  {
+    "path": "commercial-auto-insurance-cost.html",
+    "inputs": {
+      "vehicles": "5",
+      "basePremium": "2400",
+      "driverRisk": "1.15",
+      "industryRisk": "1.2",
+      "deductibleDiscount": "8",
+      "endorsements": "1800",
+      "fees": "350"
+    },
+    "outputs": {
+      "mainResult": "$17,385.20",
+      "monthlyOut": "$1,448.77",
+      "baseOut": "$16,560.00",
+      "discountOut": "$1,324.80",
+      "perVehicleOut": "$3,477.04"
+    }
+  },
+  {
+    "path": "commute-cost.html",
+    "inputs": {
+      "milesday": "30",
+      "days": "230",
+      "mpg": "28",
+      "gas": "3.5",
+      "parking": "8",
+      "tolls": "3"
+    },
+    "outputs": {
+      "mainResult": "$3,392.50",
+      "o1": "$282.71",
+      "o2": "$862.50",
+      "o3": "$2,530.00"
+    }
+  },
+  {
+    "path": "confidence-interval-calculator.html",
+    "inputs": {
+      "sampleMean": "50",
+      "sampleSd": "12",
+      "sampleSize": "100",
+      "criticalValue": "1.96"
+    },
+    "outputs": {
+      "mainResult": "2.352",
+      "lowerOut": "47.648",
+      "upperOut": "52.352",
+      "seOut": "1.2",
+      "widthOut": "4.704"
+    }
+  },
+  {
+    "path": "construction-loan.html",
+    "inputs": {
+      "projectCost": "600000",
+      "downPayment": "120000",
+      "interestRate": "8.5",
+      "constructionMonths": "12",
+      "averageBalanceRate": "55",
+      "permanentRate": "6.75",
+      "permanentYears": "30"
+    },
+    "outputs": {
+      "mainResult": "$22,440.00",
+      "loanOut": "$480,000.00",
+      "averageBalanceOut": "$264,000.00",
+      "permPaymentOut": "$3,113.27"
+    }
+  },
+  {
+    "path": "contractor-hourly-rate.html",
+    "inputs": {
+      "salary": "110000",
+      "benefitsRate": "22",
+      "employerTaxRate": "8",
+      "overheadRate": "18",
+      "billableHoursWeek": "30",
+      "workingWeeks": "46",
+      "profitMargin": "20"
+    },
+    "outputs": {
+      "mainResult": "$152.84/hour",
+      "loadedOut": "$143,000.00",
+      "overheadOut": "$168,740.00",
+      "hoursOut": "1,380 hours",
+      "baseOut": "$122.28/hour"
+    }
+  },
+  {
+    "path": "contractor-insurance-cost.html",
+    "inputs": {
+      "annualRevenue": "1500000",
+      "glRate": "2.25",
+      "annualPayroll": "650000",
+      "workersCompRate": "5.2",
+      "toolsValue": "180000",
+      "toolsRate": "1.4",
+      "vehicles": "4",
+      "autoPerVehicle": "2600",
+      "umbrellaPremium": "3200",
+      "fees": "600"
+    },
+    "outputs": {
+      "mainResult": "$53,895.00",
+      "glOut": "$3,375.00",
+      "wcOut": "$33,800.00",
+      "toolsOut": "$2,520.00",
+      "otherOut": "$14,200.00"
+    }
+  },
+  {
+    "path": "contribution-margin.html",
+    "inputs": {
+      "unitPrice": "120",
+      "variableCost": "70",
+      "unitsSold": "5000",
+      "fixedCosts": "180000"
+    },
+    "outputs": {
+      "mainResult": "$250,000.00",
+      "unitOut": "$50.00",
+      "ratioOut": "41.67%",
+      "profitOut": "$70,000.00",
+      "breakEvenOut": "3,600"
+    }
+  },
+  {
+    "path": "conversion-rate.html",
+    "inputs": {
+      "visitors": "25000",
+      "conversions": "750",
+      "targetConversions": "1000"
+    },
+    "outputs": {
+      "mainResult": "3.00%",
+      "nonConversionsOut": "24,250",
+      "targetVisitorsOut": "33,333",
+      "oneInOut": "33.3 visitors"
+    }
+  },
+  {
+    "path": "countertop-cost.html",
+    "inputs": {
+      "countertopArea": "55",
+      "materialRate": "95",
+      "installRate": "30",
+      "demoCost": "850",
+      "cutouts": "2",
+      "cutoutCost": "250",
+      "backsplashArea": "30",
+      "backsplashRate": "45",
+      "deliveryCost": "650",
+      "contingencyRate": "8"
+    },
+    "outputs": {
+      "mainResult": "$11,043.00",
+      "materialOut": "$5,225.00",
+      "installOut": "$1,650.00",
+      "featuresOut": "$1,850.00",
+      "extrasOut": "$2,318.00"
+    }
+  },
+  {
+    "path": "cpap-cost.html",
+    "inputs": {
+      "qty": "1",
+      "low": "500",
+      "high": "1800",
+      "facility": "500",
+      "coverage": "70",
+      "deductible": "500"
+    },
+    "outputs": {
+      "mainResult": "$845.00",
+      "o1": "$650.00 – $1,040.00",
+      "o2": "$1,000.00 – $2,300.00",
+      "o3": "70%"
+    }
+  },
+  {
+    "path": "cpm.html",
+    "inputs": {
+      "adSpend": "5000",
+      "impressions": "750000"
+    },
+    "outputs": {
+      "mainResult": "$6.67",
+      "impressionsOut": "750,000",
+      "costPerImpressionOut": "$0.01",
+      "costPerMillionOut": "$6,666.67"
+    }
+  },
+  {
+    "path": "crawl-space-encapsulation-cost.html",
+    "inputs": {
+      "area": "1200",
+      "linerRate": "4.5",
+      "laborRate": "2.5",
+      "drainage": "2500",
+      "dehumidifier": "1500",
+      "moldTreatment": "800",
+      "permits": "200",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$14,740.00",
+      "coreOut": "$8,400.00",
+      "systemsOut": "$5,000.00",
+      "contingencyOut": "$1,340.00",
+      "unitOut": "$12.28"
+    }
+  },
+  {
+    "path": "crm-roi.html",
+    "inputs": {
+      "users": "25",
+      "licensePerUser": "85",
+      "months": "12",
+      "implementation": "18000",
+      "training": "7500",
+      "hoursSaved": "6",
+      "loadedWage": "48",
+      "revenueLift": "180000",
+      "grossMargin": "45"
+    },
+    "outputs": {
+      "mainResult": "228.24%",
+      "costOut": "$51,000.00",
+      "timeOut": "$86,400.00",
+      "revenueOut": "$81,000.00",
+      "netOut": "$116,400.00"
+    }
+  },
+  {
+    "path": "ctr.html",
+    "inputs": {
+      "impressions": "250000",
+      "clicks": "3750",
+      "futureImpressions": "400000",
+      "costPerClick": "2.4"
+    },
+    "outputs": {
+      "mainResult": "1.5%",
+      "futureOut": "6,000 clicks",
+      "spendOut": "$14,400.00",
+      "perThousandOut": "15",
+      "ratioOut": "66.7:1"
+    }
+  },
+  {
+    "path": "cube-root-calculator.html",
+    "inputs": {
+      "numberValue": "125"
+    },
+    "outputs": {
+      "mainResult": "5",
+      "cubeOut": "125",
+      "nearestOut": "5",
+      "differenceOut": "0"
+    }
+  },
+  {
+    "path": "cups-to-grams-calculator.html",
+    "inputs": {
+      "cups": "2",
+      "gramsPerCup": "120"
+    },
+    "outputs": {
+      "mainResult": "240 g",
+      "ouncesOut": "8.46575087 oz",
+      "mlOut": "473.176473 mL",
+      "tbspOut": "32",
+      "halfOut": "60 g"
+    }
+  },
+  {
+    "path": "custom-software-development-cost.html",
+    "inputs": {
+      "devHours": "2000",
+      "devRate": "120",
+      "pmPercent": "15",
+      "qaPercent": "20",
+      "infrastructure": "15000",
+      "licenses": "10000",
+      "contingency": "15"
+    },
+    "outputs": {
+      "mainResult": "$401,350.00",
+      "developmentOut": "$240,000.00",
+      "pmOut": "$36,000.00",
+      "qaOut": "$48,000.00",
+      "supportOut": "$77,350.00"
+    }
+  },
+  {
+    "path": "customer-acquisition-cost.html",
+    "inputs": {
+      "marketingSpend": "25000",
+      "salesSpend": "15000",
+      "newCustomers": "200"
+    },
+    "outputs": {
+      "mainResult": "$200.00",
+      "totalSpendOut": "$40,000.00",
+      "customersOut": "200",
+      "perTenOut": "$2,000.00"
+    }
+  },
+  {
+    "path": "customer-lifetime-value.html",
+    "inputs": {
+      "averagePurchase": "120",
+      "purchasesPerYear": "6",
+      "grossMargin": "60",
+      "customerYears": "4",
+      "cac": "85"
+    },
+    "outputs": {
+      "mainResult": "$1,728.00",
+      "annualValueOut": "$432.00",
+      "ltvCacOut": "20.33x",
+      "netValueOut": "$1,643.00"
+    }
+  },
+  {
+    "path": "cyber-breach-cost.html",
+    "inputs": {
+      "records": "25000",
+      "perRecord": "180",
+      "downtime": "36",
+      "revenue": "12000",
+      "response": "650000",
+      "insurance": "1500000"
+    },
+    "outputs": {
+      "mainResult": "$4,082,000.00",
+      "o1": "$5,582,000.00",
+      "o2": "$432,000.00",
+      "o3": "$1,500,000.00"
+    }
+  },
+  {
+    "path": "cyber-insurance-cost.html",
+    "inputs": {
+      "annualRevenue": "5000000",
+      "employees": "50",
+      "ratePerThousand": "0.45",
+      "employeeRate": "18",
+      "riskMultiplier": "1.25",
+      "coverageMultiplier": "1.1",
+      "deductibleCredit": "5"
+    },
+    "outputs": {
+      "mainResult": "$4,114.69",
+      "monthlyOut": "$342.89",
+      "revenueOut": "$2,250.00",
+      "employeeOut": "$900.00",
+      "percentOut": "0.08%"
+    }
+  },
+  {
+    "path": "cybersecurity-roi.html",
+    "inputs": {
+      "probability": "20",
+      "loss": "500000",
+      "reduction": "60",
+      "annual": "75000",
+      "one": "25000"
+    },
+    "outputs": {
+      "mainResult": "-40%",
+      "o1": "$100,000.00",
+      "o2": "$60,000.00",
+      "o3": "$100,000.00",
+      "o4": "-$40,000.00"
+    }
+  },
+  {
+    "path": "cybersecurity-services-cost.html",
+    "inputs": {
+      "employees": "100",
+      "userAnnual": "200",
+      "endpoints": "150",
+      "endpointAnnual": "120",
+      "monitoring": "15000",
+      "assessment": "10000",
+      "incidentRetainer": "12000",
+      "additionalTraining": "5000"
+    },
+    "outputs": {
+      "mainResult": "$80,000.00",
+      "monthlyOut": "$6,666.67",
+      "userOut": "$20,000.00",
+      "endpointOut": "$18,000.00",
+      "servicesOut": "$42,000.00"
+    }
+  },
+  {
+    "path": "date-calculator.html",
+    "inputs": {
+      "year": "2026",
+      "month": "7",
+      "day": "24",
+      "offset": "100"
+    },
+    "outputs": {
+      "mainResult": "2026-11-01",
+      "startOut": "2026-07-24",
+      "offsetOut": "+100 days",
+      "weekdayOut": "Sunday"
+    }
+  },
+  {
+    "path": "day-of-week-calculator.html",
+    "inputs": {
+      "year": "2026",
+      "month": "7",
+      "day": "25"
+    },
+    "outputs": {
+      "mainResult": "Saturday",
+      "dayYearOut": "206",
+      "weekOut": "30",
+      "remainingOut": "159 days"
+    }
+  },
+  {
+    "path": "days-from-today-calculator.html",
+    "inputs": {
+      "year": "2026",
+      "month": "7",
+      "day": "25",
+      "daysToAdd": "30"
+    },
+    "outputs": {
+      "mainResult": "2026-08-24",
+      "weekdayOut": "Monday",
+      "differenceOut": "30 days",
+      "weeksOut": "4 weeks, 2 days"
+    }
+  },
+  {
+    "path": "debt-consolidation.html",
+    "inputs": {
+      "balance": "25000",
+      "currentApr": "24",
+      "currentYears": "4",
+      "newApr": "11",
+      "newYears": "5",
+      "originationFee": "3"
+    },
+    "outputs": {
+      "mainResult": "$255.18 lower",
+      "currentPayOut": "$815.05",
+      "newPayOut": "$559.87",
+      "interestOut": "$5,530.16 saved",
+      "feeOut": "$750.00"
+    }
+  },
+  {
+    "path": "decimal-to-percent-calculator.html",
+    "inputs": {
+      "decimalValue": "0.75"
+    },
+    "outputs": {
+      "mainResult": "75%",
+      "decimalOut": "0.75",
+      "fractionOut": "3/4",
+      "perThousandOut": "750‰"
+    }
+  },
+  {
+    "path": "deck-cost.html",
+    "inputs": {
+      "deckArea": "300",
+      "materialRate": "18",
+      "laborRate": "20",
+      "railingLength": "45",
+      "railingRate": "65",
+      "permits": "500",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$16,307.50",
+      "materialsOut": "$5,400.00",
+      "laborOut": "$6,000.00",
+      "railingOut": "$2,925.00",
+      "perFootOut": "$54.36"
+    }
+  },
+  {
+    "path": "delivery-driver-earnings.html",
+    "inputs": {
+      "orders": "90",
+      "pay": "6.5",
+      "tips": "4.5",
+      "miles": "520",
+      "costmile": "0.4",
+      "hours": "30"
+    },
+    "outputs": {
+      "mainResult": "$782.00",
+      "o1": "$26.07 / hour",
+      "o2": "$990.00",
+      "o3": "$208.00"
+    }
+  },
+  {
+    "path": "demolition-cost.html",
+    "inputs": {
+      "area": "2000",
+      "demoRate": "10",
+      "hazardous": "5000",
+      "disposal": "5000",
+      "utilities": "2000",
+      "permits": "1000",
+      "restoration": "3000",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$39,600.00",
+      "demoOut": "$20,000.00",
+      "wasteOut": "$10,000.00",
+      "supportOut": "$6,000.00",
+      "unitOut": "$19.80"
+    }
+  },
+  {
+    "path": "dental-insurance-cost.html",
+    "inputs": {
+      "monthlyPremium": "45",
+      "expectedSpend": "1800",
+      "deductible": "75",
+      "coverageRate": "60",
+      "annualMax": "1500"
+    },
+    "outputs": {
+      "mainResult": "$1,305.00",
+      "premiumOut": "$540.00",
+      "benefitOut": "$1,035.00",
+      "withoutOut": "$1,800.00",
+      "savingsOut": "$495.00"
+    }
+  },
+  {
+    "path": "dermatologist-visit-cost.html",
+    "inputs": {
+      "count": "3",
+      "unit": "250",
+      "other": "150",
+      "deductible": "500",
+      "coins": "20",
+      "copay": "40"
+    },
+    "outputs": {
+      "mainResult": "$700.00",
+      "o1": "$900.00",
+      "o2": "$500.00",
+      "o3": "$200.00",
+      "o4": "$120.00"
+    }
+  },
+  {
+    "path": "directors-officers-insurance-cost.html",
+    "inputs": {
+      "annualRevenue": "10000000",
+      "ratePerMillion": "650",
+      "limitFactor": "1.5",
+      "governanceRisk": "1.2",
+      "claimsFactor": "1.1",
+      "deductibleDiscount": "7",
+      "fees": "1200"
+    },
+    "outputs": {
+      "mainResult": "$13,169.10",
+      "monthlyOut": "$1,097.43",
+      "baseOut": "$12,870.00",
+      "discountOut": "$900.90",
+      "unitOut": "$1,316.91"
+    }
+  },
+  {
+    "path": "disability-insurance-needs.html",
+    "inputs": {
+      "monthlyIncome": "8000",
+      "replacementRate": "60",
+      "existingBenefit": "1000",
+      "waitingMonths": "3",
+      "emergencySavings": "10000"
+    },
+    "outputs": {
+      "mainResult": "$3,800.00",
+      "targetOut": "$4,800.00",
+      "existingOut": "$1,000.00",
+      "waitingOut": "$14,000.00",
+      "annualOut": "$45,600.00"
+    }
+  },
+  {
+    "path": "distance-calculator.html",
+    "inputs": {
+      "x1": "2",
+      "y1": "3",
+      "x2": "8",
+      "y2": "15"
+    },
+    "outputs": {
+      "mainResult": "13.416407865",
+      "dxOut": "6",
+      "dyOut": "12",
+      "midOut": "(5, 9)",
+      "slopeOut": "2"
+    }
+  },
+  {
+    "path": "divorce-asset-split.html",
+    "inputs": {
+      "assets": "650000",
+      "debts": "150000",
+      "share": "50",
+      "separateA": "50000",
+      "separateB": "30000"
+    },
+    "outputs": {
+      "mainResult": "$300,000.00",
+      "o1": "$500,000.00",
+      "o2": "$280,000.00",
+      "o3": "$20,000.00"
+    }
+  },
+  {
+    "path": "divorce-lawyer-cost.html",
+    "inputs": {
+      "attorneyHours": "35",
+      "hourlyRate": "350",
+      "flatFee": "5000",
+      "courtFees": "450",
+      "specialistFees": "1800",
+      "otherCosts": "650"
+    },
+    "outputs": {
+      "mainResult": "$15,150.00",
+      "hourlyOut": "$12,250.00",
+      "externalOut": "$2,900.00",
+      "legalOut": "$12,250.00",
+      "aboveOut": "$10,150.00"
+    }
+  },
+  {
+    "path": "driveway-cost.html",
+    "inputs": {
+      "area": "1200",
+      "installRate": "9.5",
+      "removalArea": "1200",
+      "removalRate": "2.5",
+      "basePrep": "2800",
+      "drainage": "1400",
+      "permitCost": "350",
+      "contingencyRate": "10"
+    },
+    "outputs": {
+      "mainResult": "$20,845.00",
+      "installOut": "$11,400.00",
+      "removalOut": "$3,000.00",
+      "siteOut": "$4,550.00",
+      "contingencyOut": "$1,895.00"
+    }
+  },
+  {
+    "path": "drywall-repair-cost.html",
+    "inputs": {
+      "qty": "100",
+      "low": "2.5",
+      "high": "8",
+      "fixed": "150"
+    },
+    "outputs": {
+      "mainResult": "$675.00",
+      "o1": "$400.00 – $950.00",
+      "o2": "$6.75 per unit",
+      "o3": "$150.00"
+    }
+  },
+  {
+    "path": "ductwork-replacement-cost.html",
+    "inputs": {
+      "area": "2200",
+      "ratePerSqFt": "5.5",
+      "removalCost": "1800",
+      "accessFactor": "1.2",
+      "sealingTesting": "1200",
+      "finishRepairs": "900",
+      "permitCost": "300",
+      "contingencyRate": "10"
+    },
+    "outputs": {
+      "mainResult": "$20,592.00",
+      "baseOut": "$12,100.00",
+      "adjustedOut": "$14,520.00",
+      "extrasOut": "$4,200.00",
+      "contingencyOut": "$1,872.00"
+    }
+  },
+  {
+    "path": "dui-lawyer-cost.html",
+    "inputs": {
+      "attorneyHours": "30",
+      "hourlyRate": "400",
+      "flatFee": "6500",
+      "courtFees": "850",
+      "specialistFees": "1600",
+      "otherCosts": "900"
+    },
+    "outputs": {
+      "mainResult": "$15,350.00",
+      "hourlyOut": "$12,000.00",
+      "externalOut": "$3,350.00",
+      "legalOut": "$12,000.00",
+      "aboveOut": "$8,850.00"
+    }
+  },
+  {
+    "path": "earthquake-insurance-cost.html",
+    "inputs": {
+      "dwellingCoverage": "500000",
+      "dwellingRate": "3.5",
+      "contentsCoverage": "100000",
+      "contentsRate": "1.8",
+      "deductibleRate": "15",
+      "discountRate": "8",
+      "fees": "60"
+    },
+    "outputs": {
+      "mainResult": "$152.57",
+      "annualOut": "$1,830.80",
+      "deductibleOut": "$75,000.00",
+      "grossOut": "$1,990.00",
+      "discountOut": "$159.20"
+    }
+  },
+  {
+    "path": "ebay-fee.html",
+    "inputs": {
+      "salePrice": "325",
+      "shippingCharged": "20",
+      "itemCost": "180",
+      "shippingCost": "18",
+      "finalValueRate": "13.25",
+      "perOrderFee": "0.3",
+      "promotedRate": "3"
+    },
+    "outputs": {
+      "mainResult": "$55.76",
+      "finalOut": "$46.01",
+      "promoOut": "$9.75",
+      "netOut": "$289.24",
+      "profitOut": "$91.24"
+    }
+  },
+  {
+    "path": "ebitda.html",
+    "inputs": {
+      "netIncome": "350000",
+      "interestExpense": "80000",
+      "incomeTaxes": "110000",
+      "depreciation": "70000",
+      "amortization": "20000"
+    },
+    "outputs": {
+      "mainResult": "$630,000.00",
+      "ebitOut": "$540,000.00",
+      "daOut": "$90,000.00",
+      "addBacksOut": "$280,000.00"
+    }
+  },
+  {
+    "path": "egg-freezing-cost.html",
+    "inputs": {
+      "cycles": "1",
+      "cyclecost": "12000",
+      "meds": "5000",
+      "storage": "800",
+      "years": "5",
+      "coverage": "0"
+    },
+    "outputs": {
+      "mainResult": "$21,000.00",
+      "o1": "$17,000.00",
+      "o2": "$4,000.00",
+      "o3": "$0.00"
+    }
+  },
+  {
+    "path": "electrical-project-cost.html",
+    "inputs": {
+      "laborHours": "20",
+      "hourlyRate": "135",
+      "materialsCost": "1200",
+      "panelCost": "2500",
+      "accessCost": "500",
+      "permitCost": "350",
+      "contingencyRate": "10"
+    },
+    "outputs": {
+      "mainResult": "$7,975.00",
+      "laborOut": "$2,700.00",
+      "materialOut": "$3,700.00",
+      "accessOut": "$850.00",
+      "contingencyOut": "$725.00"
+    }
+  },
+  {
+    "path": "email-marketing-roi.html",
+    "inputs": {
+      "subscribers": "50000",
+      "sendsPerMonth": "4",
+      "months": "12",
+      "clickRate": "2.8",
+      "conversionRate": "4",
+      "averageOrder": "95",
+      "grossMargin": "60",
+      "monthlyCost": "1800"
+    },
+    "outputs": {
+      "mainResult": "609.33%",
+      "revenueOut": "$255,360.00",
+      "profitOut": "$153,216.00",
+      "costOut": "$21,600.00",
+      "conversionOut": "2,688"
+    }
+  },
+  {
+    "path": "employee-turnover-cost.html",
+    "inputs": {
+      "annualSalary": "85000",
+      "recruitingRate": "18",
+      "trainingRate": "12",
+      "vacancyWeeks": "8",
+      "weeklyProductivityLoss": "1800",
+      "rampMonths": "4",
+      "rampLossRate": "35",
+      "separationCost": "7500"
+    },
+    "outputs": {
+      "mainResult": "$57,316.67",
+      "hireOut": "$25,500.00",
+      "vacancyOut": "$14,400.00",
+      "rampOut": "$9,916.67",
+      "ratioOut": "67.43%"
+    }
+  },
+  {
+    "path": "escrow-shortage.html",
+    "inputs": {
+      "annualTax": "7200",
+      "annualInsurance": "2400",
+      "annualOther": "0",
+      "currentMonthly": "700",
+      "currentBalance": "1000",
+      "cushionMonths": "2"
+    },
+    "outputs": {
+      "mainResult": "Shortage: $1,800.00",
+      "annualOut": "$9,600.00",
+      "cushionOut": "$1,600.00",
+      "projectedOut": "-$200.00",
+      "monthlyOut": "$950.00"
+    }
+  },
+  {
+    "path": "estate-planning-cost.html",
+    "inputs": {
+      "attorneyHours": "12",
+      "hourlyRate": "375",
+      "flatFee": "3500",
+      "courtFees": "150",
+      "specialistFees": "700",
+      "otherCosts": "250"
+    },
+    "outputs": {
+      "mainResult": "$5,600.00",
+      "hourlyOut": "$4,500.00",
+      "externalOut": "$1,100.00",
+      "legalOut": "$4,500.00",
+      "aboveOut": "$2,100.00"
+    }
+  },
+  {
+    "path": "etsy-fee.html",
+    "inputs": {
+      "itemPrice": "48",
+      "shippingCharged": "6",
+      "itemCost": "15",
+      "shippingCost": "5.5",
+      "transactionRate": "6.5",
+      "processingRate": "3",
+      "processingFixed": "0.25",
+      "listingFee": "0.2",
+      "adRate": "0"
+    },
+    "outputs": {
+      "mainResult": "$5.58",
+      "platformOut": "$5.58",
+      "adsOut": "$0.00",
+      "netOut": "$48.42",
+      "profitOut": "$27.92"
+    }
+  },
+  {
+    "path": "ev-battery-replacement-cost.html",
+    "inputs": {
+      "capacity": "75",
+      "costPerKwh": "150",
+      "laborHours": "10",
+      "laborRate": "180",
+      "supportParts": "800",
+      "diagnostics": "250",
+      "coreCredit": "1000",
+      "warrantyContribution": "2000",
+      "taxRate": "8"
+    },
+    "outputs": {
+      "mainResult": "$12,064.00",
+      "batteryOut": "$12,050.00",
+      "laborOut": "$2,050.00",
+      "creditOut": "$3,000.00",
+      "taxOut": "$964.00"
+    }
+  },
+  {
+    "path": "ev-charger-installation-cost.html",
+    "inputs": {
+      "chargerCost": "650",
+      "baseLabor": "900",
+      "wireDistance": "45",
+      "wireRate": "18",
+      "panelUpgrade": "2500",
+      "permitCost": "250",
+      "otherCost": "500",
+      "rebates": "1000"
+    },
+    "outputs": {
+      "mainResult": "$4,610.00",
+      "grossOut": "$5,610.00",
+      "wireOut": "$810.00",
+      "upgradeOut": "$3,000.00",
+      "rebateOut": "$1,000.00"
+    }
+  },
+  {
+    "path": "ev-charging-cost.html",
+    "inputs": {
+      "milesPerMonth": "1000",
+      "kwhPer100": "30",
+      "electricRate": "0.18",
+      "gasMpg": "28",
+      "gasPrice": "3.5"
+    },
+    "outputs": {
+      "mainResult": "$54.00",
+      "kwhOut": "300 kWh",
+      "gasCostOut": "$125.00",
+      "savingsOut": "$71.00"
+    }
+  },
+  {
+    "path": "event-insurance-cost.html",
+    "inputs": {
+      "eventValue": "100000",
+      "baseRate": "0.5",
+      "attendees": "500",
+      "attendeeCharge": "1",
+      "riskFactor": "1.2",
+      "deductibleDiscount": "5",
+      "addOns": "400"
+    },
+    "outputs": {
+      "mainResult": "$1,540.00",
+      "baseOut": "$500.00",
+      "attendanceOut": "$500.00",
+      "riskOut": "$1,140.00",
+      "rateOut": "1.54%"
+    }
+  },
+  {
+    "path": "exponent-calculator.html",
+    "inputs": {
+      "baseValue": "5",
+      "exponentValue": "4"
+    },
+    "outputs": {
+      "mainResult": "625",
+      "squareOut": "25",
+      "cubeOut": "125",
+      "rootOut": "2.2360679775",
+      "reciprocalOut": "0.2"
+    }
+  },
+  {
+    "path": "facebook-ads-roi.html",
+    "inputs": {
+      "adSpend": "12000",
+      "costMetric": "18",
+      "ctrRate": "1.4",
+      "conversionRate": "3.5",
+      "averageOrder": "550",
+      "grossMargin": "65",
+      "otherCosts": "1500"
+    },
+    "outputs": {
+      "mainResult": "765.06%",
+      "clicksOut": "9,333",
+      "conversionsOut": "326.7",
+      "revenueOut": "$179,666.67 / 14.97x",
+      "profitOut": "$103,283.33"
+    }
+  },
+  {
+    "path": "factorial-calculator.html",
+    "inputs": {
+      "nValue": "10"
+    },
+    "outputs": {
+      "mainResult": "3,628,800",
+      "digitsOut": "7",
+      "zerosOut": "2",
+      "p2Out": "90"
+    }
+  },
+  {
+    "path": "fence-cost.html",
+    "inputs": {
+      "length": "220",
+      "materialPerFoot": "28",
+      "laborPerFoot": "22",
+      "gateCount": "2",
+      "gateCost": "650",
+      "removalCost": "1800",
+      "permitCost": "900",
+      "contingencyRate": "8"
+    },
+    "outputs": {
+      "mainResult": "$16,200.00",
+      "materialOut": "$6,160.00",
+      "laborOut": "$4,840.00",
+      "gatesOut": "$1,300.00",
+      "extrasOut": "$3,900.00"
+    }
+  },
+  {
+    "path": "fha-loan.html",
+    "inputs": {
+      "homePrice": "350000",
+      "downPayment": "12250",
+      "interestRate": "6.5",
+      "termYears": "30",
+      "upfrontRate": "1.75",
+      "annualFeeRate": "0.55",
+      "propertyTax": "4200",
+      "insurance": "1800"
+    },
+    "outputs": {
+      "mainResult": "$2,826.97",
+      "principalOut": "$343,660.63",
+      "piOut": "$2,172.17",
+      "feeOut": "$154.80",
+      "taxInsOut": "$500.00"
+    }
+  },
+  {
+    "path": "finance-calculator.html",
+    "inputs": {
+      "startingBalance": "10000",
+      "monthlyContribution": "500",
+      "annualReturn": "7",
+      "years": "10"
+    },
+    "outputs": {
+      "mainResult": "$106,639.02",
+      "contributedOut": "$70,000.00",
+      "growthOut": "$36,639.02",
+      "noGrowthOut": "$70,000.00"
+    }
+  },
+  {
+    "path": "flood-insurance-cost.html",
+    "inputs": {
+      "buildingCoverage": "250000",
+      "buildingRate": "2.2",
+      "contentsCoverage": "75000",
+      "contentsRate": "3.1",
+      "policyFees": "75",
+      "discountRate": "10"
+    },
+    "outputs": {
+      "mainResult": "$64.31",
+      "annualOut": "$771.75",
+      "buildingOut": "$550.00",
+      "contentsOut": "$232.50",
+      "discountOut": "$85.75"
+    }
+  },
+  {
+    "path": "flooring-cost.html",
+    "inputs": {
+      "floorArea": "900",
+      "wasteRate": "10",
+      "materialCost": "4.25",
+      "laborCost": "3.5"
+    },
+    "outputs": {
+      "mainResult": "$7,357.50",
+      "adjustedAreaOut": "990 sq ft",
+      "materialOut": "$4,207.50",
+      "laborOut": "$3,150.00"
+    }
+  },
+  {
+    "path": "fmla-income-gap.html",
+    "inputs": {
+      "weekly": "1200",
+      "weeks": "12",
+      "paidRate": "0",
+      "benefits": "180",
+      "savings": "2500"
+    },
+    "outputs": {
+      "mainResult": "$14,060.00",
+      "o1": "$14,400.00",
+      "o2": "$2,500.00",
+      "o3": "$2,160.00"
+    }
+  },
+  {
+    "path": "foundation-repair-cost.html",
+    "inputs": {
+      "crackLength": "40",
+      "crackRate": "45",
+      "pierCount": "8",
+      "pierCost": "1800",
+      "waterproofingCost": "6500",
+      "engineeringCost": "2200",
+      "permitCost": "800",
+      "contingencyRate": "15"
+    },
+    "outputs": {
+      "mainResult": "$29,555.00",
+      "crackOut": "$1,800.00",
+      "pierOut": "$14,400.00",
+      "workOut": "$9,500.00",
+      "contingencyOut": "$3,855.00"
+    }
+  },
+  {
+    "path": "fraction-calculator.html",
+    "inputs": {
+      "n1": "3",
+      "d1": "4",
+      "n2": "5",
+      "d2": "8"
+    },
+    "outputs": {
+      "mainResult": "11/8",
+      "sumDecimalOut": "1.375",
+      "productOut": "15/32",
+      "productDecimalOut": "0.46875"
+    }
+  },
+  {
+    "path": "fraction-to-percent-calculator.html",
+    "inputs": {
+      "numerator": "3",
+      "denominator": "8"
+    },
+    "outputs": {
+      "mainResult": "37.5%",
+      "decimalOut": "0.375",
+      "fractionOut": "3/8",
+      "ratioOut": "3:8"
+    }
+  },
+  {
+    "path": "franchise-loan.html",
+    "inputs": {
+      "projectCost": "450000",
+      "ownerCash": "90000",
+      "otherCredits": "10000",
+      "loanFees": "12500",
+      "interestRate": "10.25",
+      "loanYears": "10"
+    },
+    "outputs": {
+      "mainResult": "$4,840.79",
+      "loanOut": "$362,500.00",
+      "interestOut": "$218,394.66",
+      "totalOut": "$580,894.66",
+      "equityOut": "20%"
+    }
+  },
+  {
+    "path": "furnace-replacement-cost.html",
+    "inputs": {
+      "equipmentCost": "4800",
+      "laborCost": "2800",
+      "ventingCost": "900",
+      "utilityUpgrade": "600",
+      "permitRemoval": "450",
+      "rebates": "500",
+      "contingencyRate": "8"
+    },
+    "outputs": {
+      "mainResult": "$9,814.00",
+      "grossOut": "$10,314.00",
+      "contingencyOut": "$764.00",
+      "rebateOut": "$500.00",
+      "beforeOut": "$9,550.00"
+    }
+  },
+  {
+    "path": "gap-insurance-cost.html",
+    "inputs": {
+      "vehiclePrice": "42000",
+      "downPayment": "3000",
+      "taxFees": "3500",
+      "annualRate": "7",
+      "loanMonths": "72",
+      "firstYearDepreciation": "22",
+      "annualGapPremium": "180",
+      "coverageYears": "3"
+    },
+    "outputs": {
+      "mainResult": "$3,832.87",
+      "balanceOut": "$36,592.87",
+      "valueOut": "$32,760.00",
+      "premiumOut": "$540.00",
+      "ratioOut": "7.1×"
+    }
+  },
+  {
+    "path": "garage-conversion-cost.html",
+    "inputs": {
+      "qty": "400",
+      "low": "80",
+      "high": "200",
+      "fixed": "3000"
+    },
+    "outputs": {
+      "mainResult": "$59,000.00",
+      "o1": "$35,000.00 – $83,000.00",
+      "o2": "$147.50 per unit",
+      "o3": "$3,000.00"
+    }
+  },
+  {
+    "path": "garage-cost.html",
+    "inputs": {
+      "area": "600",
+      "costPerSqFt": "85",
+      "doorCount": "2",
+      "doorCost": "2400",
+      "electricalCost": "5000",
+      "permitCost": "4500",
+      "contingencyRate": "10"
+    },
+    "outputs": {
+      "mainResult": "$71,830.00",
+      "baseOut": "$51,000.00",
+      "doorsOut": "$4,800.00",
+      "extrasOut": "$9,500.00",
+      "contingencyOut": "$6,530.00"
+    }
+  },
+  {
+    "path": "garage-door-replacement-cost.html",
+    "inputs": {
+      "doors": "2",
+      "doorCost": "2200",
+      "installCost": "650",
+      "openerCost": "550",
+      "disposalCost": "450",
+      "trimRepairs": "700",
+      "permitCost": "150",
+      "rebates": "300"
+    },
+    "outputs": {
+      "mainResult": "$7,800.00",
+      "equipmentOut": "$4,400.00",
+      "laborOut": "$1,300.00",
+      "extrasOut": "$2,400.00",
+      "rebateOut": "$300.00"
+    }
+  },
+  {
+    "path": "gas-vs-electric-car-cost.html",
+    "inputs": {
+      "miles": "12000",
+      "mpg": "28",
+      "gas": "3.5",
+      "kwh": "30",
+      "electric": "0.17"
+    },
+    "outputs": {
+      "mainResult": "EV saves $888.00 / year",
+      "o1": "$1,500.00",
+      "o2": "$612.00",
+      "o3": "$4,440.00"
+    }
+  },
+  {
+    "path": "general-liability-insurance-cost.html",
+    "inputs": {
+      "annualRevenue": "750000",
+      "ratePerThousand": "0.55",
+      "minimumPremium": "600",
+      "policyFees": "150"
+    },
+    "outputs": {
+      "mainResult": "$750.00",
+      "rawOut": "$412.50",
+      "baseOut": "$600.00",
+      "monthlyOut": "$62.50"
+    }
+  },
+  {
+    "path": "google-ads-roi.html",
+    "inputs": {
+      "adSpend": "12000",
+      "costMetric": "8.5",
+      "ctrRate": "5",
+      "conversionRate": "6",
+      "averageOrder": "550",
+      "grossMargin": "65",
+      "otherCosts": "1500"
+    },
+    "outputs": {
+      "mainResult": "124.31%",
+      "clicksOut": "1,412",
+      "conversionsOut": "84.7",
+      "revenueOut": "$46,588.24 / 3.88x",
+      "profitOut": "$16,782.35"
+    }
+  },
+  {
+    "path": "graduate-school-roi.html",
+    "inputs": {
+      "tuition": "40000",
+      "years": "2",
+      "aid": "5000",
+      "current": "65000",
+      "after": "95000",
+      "workyears": "10"
+    },
+    "outputs": {
+      "mainResult": "50%",
+      "o1": "$200,000.00",
+      "o2": "$300,000.00",
+      "o3": "$100,000.00",
+      "o4": "6.7 years"
+    }
+  },
+  {
+    "path": "gum-disease-treatment-cost.html",
+    "inputs": {
+      "unit": "850",
+      "count": "4",
+      "extra": "900",
+      "coverage": "1800",
+      "discount": "5"
+    },
+    "outputs": {
+      "mainResult": "$2,285.00",
+      "o1": "$4,300.00",
+      "o2": "$2,015.00",
+      "o3": "$571.25"
+    }
+  },
+  {
+    "path": "gutter-installation-cost.html",
+    "inputs": {
+      "linearFeet": "220",
+      "materialRate": "18",
+      "complexityFactor": "1.15",
+      "downspouts": "6",
+      "downspoutCost": "180",
+      "removalCost": "650",
+      "guardRate": "9",
+      "contingencyRate": "8"
+    },
+    "outputs": {
+      "mainResult": "$8,925.12",
+      "gutterOut": "$4,554.00",
+      "downspoutOut": "$1,080.00",
+      "extrasOut": "$2,630.00",
+      "contingencyOut": "$661.12"
+    }
+  },
+  {
+    "path": "hair-transplant-cost.html",
+    "inputs": {
+      "qty": "2500",
+      "unit": "5",
+      "fixed": "1000",
+      "discount": "0",
+      "financing": "0"
+    },
+    "outputs": {
+      "mainResult": "$13,500.00",
+      "o1": "$13,500.00",
+      "o2": "$0.00",
+      "o3": "$0.00"
+    }
+  },
+  {
+    "path": "hard-money-loan.html",
+    "inputs": {
+      "purchasePrice": "300000",
+      "rehabCost": "80000",
+      "ltvRate": "75",
+      "interestRate": "12",
+      "months": "12",
+      "pointsRate": "2"
+    },
+    "outputs": {
+      "mainResult": "$285,000.00",
+      "cashOut": "$95,000.00",
+      "monthlyOut": "$2,850.00",
+      "pointsOut": "$5,700.00",
+      "costOut": "$39,900.00"
+    }
+  },
+  {
+    "path": "health-insurance-premium.html",
+    "inputs": {
+      "monthlyPremium": "850",
+      "employerContribution": "550",
+      "expectedSpend": "6000",
+      "deductible": "2000",
+      "coinsurance": "20",
+      "oopMax": "7000"
+    },
+    "outputs": {
+      "mainResult": "$6,400.00",
+      "premiumOut": "$3,600.00",
+      "oopOut": "$2,800.00",
+      "monthlyOut": "$533.33",
+      "employerOut": "$6,600.00"
+    }
+  },
+  {
+    "path": "heat-pump-cost.html",
+    "inputs": {
+      "equipmentCost": "10500",
+      "laborCost": "6500",
+      "electricalCost": "1800",
+      "otherCost": "900",
+      "incentives": "3000",
+      "oldAnnualCost": "2800",
+      "newAnnualCost": "1750"
+    },
+    "outputs": {
+      "mainResult": "$16,700.00",
+      "grossOut": "$19,700.00",
+      "savingsOut": "$1,050.00",
+      "paybackOut": "15.9 years",
+      "monthlyOut": "$87.50"
+    }
+  },
+  {
+    "path": "help-desk-software-roi.html",
+    "inputs": {
+      "initial": "30000",
+      "benefit": "12000",
+      "ongoing": "4200",
+      "months": "24",
+      "other": "10000"
+    },
+    "outputs": {
+      "mainResult": "127.83%",
+      "o1": "$167,200.00",
+      "o2": "3.8 months",
+      "o3": "$298,000.00"
+    }
+  },
+  {
+    "path": "hipaa-compliance-cost.html",
+    "inputs": {
+      "employees": "100",
+      "base": "30000",
+      "audit": "15000",
+      "tooling": "1200",
+      "training": "100",
+      "remediation": "40000"
+    },
+    "outputs": {
+      "mainResult": "$109,400.00",
+      "o1": "$85,000.00",
+      "o2": "$14,400.00",
+      "o3": "$10,000.00"
+    }
+  },
+  {
+    "path": "home-addition-cost.html",
+    "inputs": {
+      "squareFeet": "600",
+      "costPerSqFt": "275",
+      "designFees": "18000",
+      "permits": "6500",
+      "utilities": "22000",
+      "contingencyRate": "12"
+    },
+    "outputs": {
+      "mainResult": "$236,880.00",
+      "baseOut": "$165,000.00",
+      "fixedOut": "$46,500.00",
+      "contingencyOut": "$25,380.00",
+      "perOut": "$394.80"
+    }
+  },
+  {
+    "path": "home-appraisal-cost.html",
+    "inputs": {
+      "baseFee": "650",
+      "squareFeet": "2800",
+      "includedSqFt": "2000",
+      "extraPerSqFt": "0.15",
+      "complexityFee": "250",
+      "rushFee": "200",
+      "travelFee": "100",
+      "specialtyFee": "0"
+    },
+    "outputs": {
+      "mainResult": "$1,320.00",
+      "baseOut": "$650.00",
+      "sizeOut": "$120.00",
+      "complexityOut": "$250.00",
+      "serviceOut": "$300.00"
+    }
+  },
+  {
+    "path": "home-elevator-cost.html",
+    "inputs": {
+      "equipment": "30000",
+      "floors": "3",
+      "additionalFloor": "8000",
+      "construction": "20000",
+      "electrical": "3000",
+      "designPermits": "4000",
+      "finishes": "5000",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$77,000.00",
+      "equipmentOut": "$38,000.00",
+      "constructionOut": "$23,000.00",
+      "softOut": "$9,000.00",
+      "contingencyOut": "$7,000.00"
+    }
+  },
+  {
+    "path": "home-equity-loan.html",
+    "inputs": {
+      "loanAmount": "50000",
+      "annualRate": "9",
+      "termYears": "10",
+      "closingCosts": "1500"
+    },
+    "outputs": {
+      "mainResult": "$633.38",
+      "interestOut": "$26,005.46",
+      "feesOut": "$1,500.00",
+      "totalOut": "$27,505.46",
+      "cashOut": "$48,500.00"
+    }
+  },
+  {
+    "path": "home-inspection-cost.html",
+    "inputs": {
+      "baseFee": "425",
+      "squareFeet": "2500",
+      "includedSqFt": "2000",
+      "extraPerSqFt": "0.12",
+      "ageSurcharge": "125",
+      "radonTest": "175",
+      "sewerScope": "275",
+      "moldTest": "250",
+      "poolInspection": "225"
+    },
+    "outputs": {
+      "mainResult": "$1,535.00",
+      "baseOut": "$425.00",
+      "surchargeOut": "$185.00",
+      "testingOut": "$700.00",
+      "specialOut": "$225.00"
+    }
+  },
+  {
+    "path": "home-insulation-cost.html",
+    "inputs": {
+      "area": "2200",
+      "installRate": "3.25",
+      "airSealing": "1800",
+      "removalCost": "1200",
+      "accessCost": "700",
+      "rebates": "1500",
+      "annualSavings": "850"
+    },
+    "outputs": {
+      "mainResult": "$9,350.00",
+      "grossOut": "$10,850.00",
+      "rebateOut": "$1,500.00",
+      "savingsOut": "$850.00",
+      "paybackOut": "11 years"
+    }
+  },
+  {
+    "path": "home-office-deduction.html",
+    "inputs": {
+      "office": "200",
+      "home": "1800",
+      "expenses": "24000",
+      "simple": "5",
+      "cap": "300"
+    },
+    "outputs": {
+      "mainResult": "$2,666.67",
+      "o1": "$2,666.67",
+      "o2": "$1,000.00",
+      "o3": "11.11%"
+    }
+  },
+  {
+    "path": "home-office-remodel-cost.html",
+    "inputs": {
+      "qty": "120",
+      "low": "75",
+      "high": "250",
+      "fixed": "500"
+    },
+    "outputs": {
+      "mainResult": "$20,000.00",
+      "o1": "$9,500.00 – $30,500.00",
+      "o2": "$166.67 per unit",
+      "o3": "$500.00"
+    }
+  },
+  {
+    "path": "home-sale-capital-gains.html",
+    "inputs": {
+      "sale": "650000",
+      "selling": "39000",
+      "purchase": "350000",
+      "improvements": "50000",
+      "exclusion": "250000"
+    },
+    "outputs": {
+      "mainResult": "$0.00",
+      "o1": "$211,000.00",
+      "o2": "$611,000.00",
+      "o3": "$400,000.00"
+    }
+  },
+  {
+    "path": "home-sale-proceeds.html",
+    "inputs": {
+      "salePrice": "550000",
+      "mortgagePayoff": "275000",
+      "agentRate": "5",
+      "closingRate": "1.5",
+      "repairs": "12000",
+      "otherCosts": "3000"
+    },
+    "outputs": {
+      "mainResult": "$224,250.00",
+      "equityOut": "$275,000.00",
+      "agentOut": "$27,500.00",
+      "closingOut": "$8,250.00",
+      "costOut": "$50,750.00"
+    }
+  },
+  {
+    "path": "home-security-system-cost.html",
+    "inputs": {
+      "baseEquipment": "650",
+      "sensors": "8",
+      "costPerSensor": "125",
+      "installation": "350",
+      "monthlyMonitoring": "45",
+      "months": "12",
+      "activation": "125"
+    },
+    "outputs": {
+      "mainResult": "$2,665.00",
+      "equipmentOut": "$1,650.00",
+      "setupOut": "$475.00",
+      "monitoringOut": "$540.00",
+      "monthlyOut": "$45.00"
+    }
+  },
+  {
+    "path": "home-warranty-cost.html",
+    "inputs": {
+      "annualPremium": "720",
+      "addOns": "180",
+      "serviceFee": "100",
+      "expectedClaims": "3",
+      "averageRepair": "850",
+      "coveredRate": "75",
+      "excludedCosts": "300"
+    },
+    "outputs": {
+      "mainResult": "$2,137.50",
+      "withoutOut": "$2,850.00",
+      "coveredOut": "$1,912.50",
+      "savingsOut": "$712.50",
+      "monthlyOut": "$178.13"
+    }
+  },
+  {
+    "path": "homeowners-insurance-deductible.html",
+    "inputs": {
+      "claimAmount": "15000",
+      "lowDeductible": "1000",
+      "lowPremium": "2600",
+      "highDeductible": "5000",
+      "highPremium": "2100",
+      "years": "5"
+    },
+    "outputs": {
+      "mainResult": "$14,000.00",
+      "highOut": "$15,500.00",
+      "savingsOut": "$2,500.00",
+      "extraClaimOut": "$4,000.00",
+      "advantageOut": "Lower deductible saves $1,500.00"
+    }
+  },
+  {
+    "path": "hours-calculator.html",
+    "inputs": {
+      "startHour": "8",
+      "startMinute": "30",
+      "endHour": "17",
+      "endMinute": "15",
+      "breakMinutes": "30"
+    },
+    "outputs": {
+      "mainResult": "8 hr 15 min",
+      "grossOut": "8.75",
+      "minutesOut": "495",
+      "decimalOut": "8.25"
+    }
+  },
+  {
+    "path": "house-flipping.html",
+    "inputs": {
+      "purchasePrice": "250000",
+      "rehabCost": "65000",
+      "holdingMonths": "6",
+      "monthlyHolding": "1800",
+      "sellingPrice": "400000",
+      "sellingCostRate": "7"
+    },
+    "outputs": {
+      "mainResult": "$46,200.00",
+      "totalCostOut": "$353,800.00",
+      "sellingCostOut": "$28,000.00",
+      "roiOut": "14.18%"
+    }
+  },
+  {
+    "path": "house-hacking.html",
+    "inputs": {
+      "mortgagePayment": "2450",
+      "taxInsurance": "750",
+      "utilities": "420",
+      "maintenanceReserve": "350",
+      "rentIncome": "2200",
+      "otherIncome": "150",
+      "vacancyRate": "5"
+    },
+    "outputs": {
+      "mainResult": "$1,737.50",
+      "costOut": "$3,970.00",
+      "incomeOut": "$2,232.50",
+      "coverageOut": "56.23%",
+      "annualOut": "$20,850.00"
+    }
+  },
+  {
+    "path": "hvac-financing-payment.html",
+    "inputs": {
+      "project": "17000",
+      "rebate": "1500",
+      "down": "2000",
+      "rate": "9.5",
+      "months": "84",
+      "fees": "350"
+    },
+    "outputs": {
+      "mainResult": "$226.36",
+      "o1": "$13,850.00",
+      "o2": "$21,014.59",
+      "o3": "$5,514.59"
+    }
+  },
+  {
+    "path": "hvac-size.html",
+    "inputs": {
+      "squareFeet": "2000",
+      "btuPerSqFt": "25",
+      "ceilingFactor": "1",
+      "occupants": "4"
+    },
+    "outputs": {
+      "mainResult": "4.27 tons",
+      "btuOut": "51,200 BTU/h",
+      "tonsOut": "4.27",
+      "rangeOut": "3.8–4.7 tons"
+    }
+  },
+  {
+    "path": "immigration-lawyer-cost.html",
+    "inputs": {
+      "attorneyHours": "18",
+      "hourlyRate": "325",
+      "flatFee": "4200",
+      "courtFees": "725",
+      "specialistFees": "900",
+      "otherCosts": "300"
+    },
+    "outputs": {
+      "mainResult": "$7,775.00",
+      "hourlyOut": "$5,850.00",
+      "externalOut": "$1,925.00",
+      "legalOut": "$5,850.00",
+      "aboveOut": "$3,575.00"
+    }
+  },
+  {
+    "path": "improper-fraction-to-mixed-number-calculator.html",
+    "inputs": {
+      "numerator": "17",
+      "denominator": "5"
+    },
+    "outputs": {
+      "mainResult": "3 2/5",
+      "decimalOut": "3.4",
+      "quotientOut": "3",
+      "remainderOut": "2",
+      "fractionOut": "17/5"
+    }
+  },
+  {
+    "path": "inland-marine-insurance-cost.html",
+    "inputs": {
+      "propertyValue": "500000",
+      "premiumRate": "1",
+      "riskFactor": "1.1",
+      "deductibleDiscount": "5",
+      "endorsements": "500"
+    },
+    "outputs": {
+      "mainResult": "$5,725.00",
+      "monthlyOut": "$477.08",
+      "baseOut": "$5,000.00",
+      "riskOut": "$5,225.00",
+      "rateOut": "1.15%"
+    }
+  },
+  {
+    "path": "interest-only-mortgage.html",
+    "inputs": {
+      "loanAmount": "500000",
+      "interestRate": "6.5",
+      "totalYears": "30",
+      "ioYears": "10"
+    },
+    "outputs": {
+      "mainResult": "$2,708.33",
+      "laterOut": "$3,727.87",
+      "increaseOut": "$1,019.53",
+      "interestOut": "$719,687.76",
+      "balanceOut": "$500,000.00"
+    }
+  },
+  {
+    "path": "interest-rate-calculator.html",
+    "inputs": {
+      "principal": "10000",
+      "totalInterest": "1800",
+      "years": "3"
+    },
+    "outputs": {
+      "mainResult": "6%",
+      "returnOut": "18%",
+      "annualInterestOut": "$600.00",
+      "endingOut": "$11,800.00"
+    }
+  },
+  {
+    "path": "iui-cost.html",
+    "inputs": {
+      "count": "3",
+      "unit": "1200",
+      "other": "2400",
+      "deductible": "1000",
+      "coins": "20",
+      "copay": "0"
+    },
+    "outputs": {
+      "mainResult": "$2,000.00",
+      "o1": "$6,000.00",
+      "o2": "$1,000.00",
+      "o3": "$4,000.00",
+      "o4": "$0.00"
+    }
+  },
+  {
+    "path": "job-offer-comparison.html",
+    "inputs": {
+      "salaryA": "120000",
+      "bonusA": "35000",
+      "costA": "8000",
+      "salaryB": "110000",
+      "bonusB": "50000",
+      "costB": "3000"
+    },
+    "outputs": {
+      "mainResult": "$157,000.00",
+      "o1": "$147,000.00",
+      "o2": "$157,000.00",
+      "o3": "$10,000.00",
+      "o4": "Offer B"
+    }
+  },
+  {
+    "path": "jumbo-mortgage.html",
+    "inputs": {
+      "loanAmount": "900000",
+      "interestRate": "6.75",
+      "termYears": "30",
+      "propertyTax": "14000",
+      "insurance": "3600",
+      "hoa": "250"
+    },
+    "outputs": {
+      "mainResult": "$7,554.05",
+      "piOut": "$5,837.38",
+      "taxOut": "$1,166.67",
+      "insuranceOut": "$300.00",
+      "hoaOut": "$250.00"
+    }
+  },
+  {
+    "path": "key-person-insurance.html",
+    "inputs": {
+      "annualCompensation": "180000",
+      "incomeMultiple": "7",
+      "replacementCost": "75000",
+      "lostProfit": "600000",
+      "bufferRate": "10"
+    },
+    "outputs": {
+      "mainResult": "$1,386,000.00",
+      "incomeOut": "$1,260,000.00",
+      "replacementOut": "$675,000.00",
+      "baseOut": "$1,260,000.00"
+    }
+  },
+  {
+    "path": "kitchen-cabinet-cost.html",
+    "inputs": {
+      "linearFeet": "28",
+      "cabinetRate": "650",
+      "installRate": "180",
+      "removalCost": "1800",
+      "hardwareCost": "2200",
+      "finishCost": "1500",
+      "designPermit": "1200",
+      "contingencyRate": "10"
+    },
+    "outputs": {
+      "mainResult": "$32,934.00",
+      "materialOut": "$18,200.00",
+      "laborOut": "$5,040.00",
+      "extrasOut": "$6,700.00",
+      "contingencyOut": "$2,994.00"
+    }
+  },
+  {
+    "path": "kitchen-remodel-cost.html",
+    "inputs": {
+      "area": "180",
+      "cabinets": "18000",
+      "countertops": "6000",
+      "appliances": "8000",
+      "floorRate": "15",
+      "laborRate": "35",
+      "permits": "1200",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$52,849.50",
+      "materialsOut": "$34,700.00",
+      "laborOut": "$12,145.00",
+      "contingencyOut": "$4,804.50",
+      "perFootOut": "$293.61"
+    }
+  },
+  {
+    "path": "land-loan.html",
+    "inputs": {
+      "purchasePrice": "180000",
+      "downPayment": "45000",
+      "taxRate": "0",
+      "fees": "6500",
+      "interestRate": "9.25",
+      "loanYears": "15"
+    },
+    "outputs": {
+      "mainResult": "$1,456.31",
+      "financedOut": "$141,500.00",
+      "interestOut": "$120,635.28",
+      "totalOut": "$262,135.28",
+      "cashOut": "$45,000.00"
+    }
+  },
+  {
+    "path": "landlord-cash-flow.html",
+    "inputs": {
+      "rent": "4200",
+      "other": "150",
+      "vacancy": "5",
+      "operating": "1250",
+      "mortgage": "2100"
+    },
+    "outputs": {
+      "mainResult": "$782.50",
+      "o1": "$9,390.00",
+      "o2": "$4,132.50",
+      "o3": "$3,350.00"
+    }
+  },
+  {
+    "path": "landlord-insurance-cost.html",
+    "inputs": {
+      "dwellingValue": "450000",
+      "ratePerThousand": "4.25",
+      "units": "2",
+      "unitFactor": "325",
+      "liabilityAddon": "350",
+      "lossRentAddon": "425",
+      "deductibleAdjustment": "5",
+      "endorsements": "250"
+    },
+    "outputs": {
+      "mainResult": "$3,425.63",
+      "monthlyOut": "$285.47",
+      "baseOut": "$1,912.50",
+      "addonsOut": "$1,350.00",
+      "unitOut": "$1,712.81"
+    }
+  },
+  {
+    "path": "landscaping-cost.html",
+    "inputs": {
+      "lawnArea": "5000",
+      "lawnRate": "1.75",
+      "bedArea": "800",
+      "bedRate": "7.5",
+      "plantsCost": "8500",
+      "irrigationCost": "6000",
+      "hardscapeCost": "12000",
+      "designCost": "2500",
+      "contingencyRate": "10"
+    },
+    "outputs": {
+      "mainResult": "$48,125.00",
+      "lawnOut": "$8,750.00",
+      "bedsOut": "$6,000.00",
+      "greenOut": "$14,500.00",
+      "extrasOut": "$18,875.00"
+    }
+  },
+  {
+    "path": "lcm-gcf-calculator.html",
+    "inputs": {
+      "aValue": "84",
+      "bValue": "126"
+    },
+    "outputs": {
+      "mainResult": "42",
+      "lcmOut": "252",
+      "productOut": "10,584",
+      "coprimeOut": "No"
+    }
+  },
+  {
+    "path": "lead-value.html",
+    "inputs": {
+      "averageSale": "4500",
+      "grossMargin": "45",
+      "closeRate": "12",
+      "futureLeads": "250",
+      "costPerLead": "180"
+    },
+    "outputs": {
+      "mainResult": "$243.00",
+      "grossOut": "$60,750.00",
+      "spendOut": "$45,000.00",
+      "netOut": "$15,750.00",
+      "customerOut": "30"
+    }
+  },
+  {
+    "path": "lease-buyout.html",
+    "inputs": {
+      "purchasePrice": "28500",
+      "downPayment": "4000",
+      "taxRate": "7.25",
+      "fees": "850",
+      "interestRate": "7.75",
+      "loanYears": "5"
+    },
+    "outputs": {
+      "mainResult": "$552.63",
+      "financedOut": "$27,416.25",
+      "interestOut": "$5,741.44",
+      "totalOut": "$33,157.69",
+      "cashOut": "$4,000.00"
+    }
+  },
+  {
+    "path": "lease-vs-buy-car.html",
+    "inputs": {
+      "leaseup": "3500",
+      "leasemonth": "499",
+      "months": "36",
+      "leaseend": "500",
+      "buydown": "5000",
+      "buymonth": "700",
+      "equity": "12000"
+    },
+    "outputs": {
+      "mainResult": "Buying is lower by $3,764.00",
+      "o1": "$21,964.00",
+      "o2": "$18,200.00",
+      "o3": "$3,764.00"
+    }
+  },
+  {
+    "path": "lemon-law-refund.html",
+    "inputs": {
+      "price": "42000",
+      "taxfees": "4500",
+      "miles": "3500",
+      "mileagebase": "120000",
+      "incidental": "1200",
+      "deductions": "0"
+    },
+    "outputs": {
+      "mainResult": "$46,475.00",
+      "o1": "$1,225.00",
+      "o2": "$5,700.00",
+      "o3": "$0.00"
+    }
+  },
+  {
+    "path": "length-converter.html",
+    "inputs": {
+      "meters": "10"
+    },
+    "outputs": {
+      "mainResult": "32.80839895 ft",
+      "inchesOut": "393.7007874 in",
+      "cmOut": "1,000 cm",
+      "kmOut": "0.01 km",
+      "milesOut": "0.006213711922 mi"
+    }
+  },
+  {
+    "path": "linear-equation-calculator.html",
+    "inputs": {
+      "coefA": "3",
+      "constB": "5",
+      "rightC": "20"
+    },
+    "outputs": {
+      "mainResult": "x = 5",
+      "equationOut": "3x + 5 = 20",
+      "checkOut": "20",
+      "absoluteOut": "5"
+    }
+  },
+  {
+    "path": "liquor-liability-insurance-cost.html",
+    "inputs": {
+      "alcoholSales": "750000",
+      "premiumRate": "0.6",
+      "venueFactor": "1.2",
+      "claimsSurcharge": "10",
+      "deductibleDiscount": "5",
+      "fees": "400"
+    },
+    "outputs": {
+      "mainResult": "$6,043.00",
+      "monthlyOut": "$503.58",
+      "baseOut": "$4,500.00",
+      "adjustOut": "$1,143.00",
+      "rateOut": "0.81%"
+    }
+  },
+  {
+    "path": "local-seo-roi.html",
+    "inputs": {
+      "initial": "7500",
+      "benefit": "12000",
+      "ongoing": "3500",
+      "months": "18",
+      "other": "5000"
+    },
+    "outputs": {
+      "mainResult": "213.48%",
+      "o1": "$150,500.00",
+      "o2": "0.9 months",
+      "o3": "$221,000.00"
+    }
+  },
+  {
+    "path": "logarithm-calculator.html",
+    "inputs": {
+      "numberValue": "1000",
+      "baseValue": "10"
+    },
+    "outputs": {
+      "mainResult": "3",
+      "lnOut": "6.907755278982",
+      "log10Out": "3",
+      "checkOut": "1,000"
+    }
+  },
+  {
+    "path": "long-term-care-cost.html",
+    "inputs": {
+      "monthlyCost": "7500",
+      "yearsUntilCare": "20",
+      "yearsOfCare": "3",
+      "inflationRate": "3",
+      "currentSavings": "100000",
+      "coverageMonthly": "2000"
+    },
+    "outputs": {
+      "mainResult": "$315,650.03",
+      "futureMonthlyOut": "$13,545.83",
+      "totalOut": "$487,650.03",
+      "coverageOut": "$72,000.00",
+      "savingsOut": "$100,000.00"
+    }
+  },
+  {
+    "path": "ltv-cac-ratio.html",
+    "inputs": {
+      "monthlyRevenuePerCustomer": "250",
+      "grossMargin": "80",
+      "monthlyChurn": "3",
+      "cac": "1800",
+      "targetRatio": "3"
+    },
+    "outputs": {
+      "mainResult": "3.7×",
+      "ltvOut": "$6,666.67",
+      "paybackOut": "9 months",
+      "maxCacOut": "$2,222.22",
+      "grossProfitOut": "$200.00"
+    }
+  },
+  {
+    "path": "malpractice-insurance-cost.html",
+    "inputs": {
+      "basePremium": "5000",
+      "specialtyFactor": "1.4",
+      "coverageFactor": "1.2",
+      "claimsSurcharge": "15",
+      "deductibleDiscount": "5",
+      "policyFees": "350"
+    },
+    "outputs": {
+      "mainResult": "$9,527.00",
+      "monthlyOut": "$793.92",
+      "baseOut": "$8,400.00",
+      "adjustOut": "$777.00",
+      "feesOut": "$350.00"
+    }
+  },
+  {
+    "path": "managed-it-cost.html",
+    "inputs": {
+      "users": "75",
+      "peruser": "150",
+      "devices": "25",
+      "perdevice": "40",
+      "sites": "2",
+      "persite": "750"
+    },
+    "outputs": {
+      "mainResult": "$13,750.00",
+      "o1": "$165,000.00",
+      "o2": "$11,250.00",
+      "o3": "$1,000.00",
+      "o4": "$1,500.00"
+    }
+  },
+  {
+    "path": "managed-it-services-cost.html",
+    "inputs": {
+      "users": "75",
+      "userMonthly": "150",
+      "devices": "100",
+      "deviceMonthly": "30",
+      "projectsMonthly": "2000",
+      "securityMonthly": "1000",
+      "onboarding": "8000"
+    },
+    "outputs": {
+      "mainResult": "$215,000.00",
+      "monthlyOut": "$17,250.00",
+      "userOut": "$135,000.00",
+      "deviceOut": "$48,000.00",
+      "onboardingOut": "$8,000.00"
+    }
+  },
+  {
+    "path": "marketplace-profit.html",
+    "inputs": {
+      "units": "500",
+      "price": "45",
+      "product": "14",
+      "shipping": "7",
+      "market": "15",
+      "ads": "2500"
+    },
+    "outputs": {
+      "mainResult": "$6,125.00",
+      "o1": "$12.25",
+      "o2": "$3,375.00",
+      "o3": "27.22%"
+    }
+  },
+  {
+    "path": "medicare-supplement-cost.html",
+    "inputs": {
+      "supplementPremium": "180",
+      "drugPremium": "45",
+      "dentalVision": "55",
+      "annualOop": "1200",
+      "years": "10",
+      "inflationRate": "5"
+    },
+    "outputs": {
+      "mainResult": "$380.00",
+      "annualOut": "$4,560.00",
+      "futureOut": "$7,427.76",
+      "futureMonthlyOut": "$618.98",
+      "yearsOut": "10 years"
+    }
+  },
+  {
+    "path": "merchant-cash-advance.html",
+    "inputs": {
+      "advanceAmount": "50000",
+      "factorRate": "1.35",
+      "holdbackRate": "12",
+      "monthlySales": "80000"
+    },
+    "outputs": {
+      "mainResult": "$67,500.00",
+      "costOut": "$17,500.00",
+      "remitOut": "$9,600.00",
+      "monthsOut": "7 months",
+      "aprOut": "59.73%"
+    }
+  },
+  {
+    "path": "midpoint-calculator.html",
+    "inputs": {
+      "x1": "-4",
+      "y1": "6",
+      "x2": "10",
+      "y2": "2"
+    },
+    "outputs": {
+      "mainResult": "(3, 4)",
+      "distanceOut": "14.5602197786",
+      "dxOut": "14",
+      "dyOut": "-4"
+    }
+  },
+  {
+    "path": "mini-split-cost.html",
+    "inputs": {
+      "zones": "3",
+      "equipmentPerZone": "2200",
+      "laborPerZone": "1400",
+      "electricalCost": "1200",
+      "permitCost": "350",
+      "removalCost": "700",
+      "rebates": "2500",
+      "annualSavings": "900"
+    },
+    "outputs": {
+      "mainResult": "$10,550.00",
+      "grossOut": "$13,050.00",
+      "zoneOut": "$10,800.00",
+      "rebateOut": "$2,500.00",
+      "paybackOut": "11.7 years"
+    }
+  },
+  {
+    "path": "mixed-number-calculator.html",
+    "inputs": {
+      "wholeNumber": "2",
+      "numerator": "3",
+      "denominator": "4"
+    },
+    "outputs": {
+      "mainResult": "11/4",
+      "decimalOut": "2.75",
+      "percentOut": "275%",
+      "mixedOut": "2 3/4"
+    }
+  },
+  {
+    "path": "mobile-app-development-cost.html",
+    "inputs": {
+      "platforms": "2",
+      "platformSetup": "20000",
+      "designHours": "200",
+      "designRate": "100",
+      "devHours": "1000",
+      "devRate": "120",
+      "backend": "30000",
+      "qaLaunch": "25000",
+      "contingency": "15"
+    },
+    "outputs": {
+      "mainResult": "$270,250.00",
+      "platformOut": "$40,000.00",
+      "laborOut": "$140,000.00",
+      "supportOut": "$55,000.00",
+      "platformAvgOut": "$135,125.00"
+    }
+  },
+  {
+    "path": "mobile-home-loan.html",
+    "inputs": {
+      "purchasePrice": "125000",
+      "downPayment": "12500",
+      "taxRate": "4",
+      "fees": "4500",
+      "interestRate": "8.75",
+      "loanYears": "20"
+    },
+    "outputs": {
+      "mainResult": "$1,078.13",
+      "financedOut": "$122,000.00",
+      "interestOut": "$136,750.50",
+      "totalOut": "$258,750.50",
+      "cashOut": "$12,500.00"
+    }
+  },
+  {
+    "path": "mold-remediation-cost.html",
+    "inputs": {
+      "affectedArea": "350",
+      "remediationRate": "18",
+      "testingCost": "650",
+      "containmentCost": "1800",
+      "repairCost": "3500",
+      "lodgingCost": "800",
+      "contingencyRate": "12"
+    },
+    "outputs": {
+      "mainResult": "$14,616.00",
+      "remediationOut": "$6,300.00",
+      "testingOut": "$2,450.00",
+      "repairOut": "$4,300.00",
+      "contingencyOut": "$1,566.00"
+    }
+  },
+  {
+    "path": "mortgage-buydown.html",
+    "inputs": {
+      "loanAmount": "400000",
+      "interestRate": "6.75",
+      "termYears": "30",
+      "yearOneReduction": "2",
+      "yearTwoReduction": "1"
+    },
+    "outputs": {
+      "mainResult": "$9,214.85",
+      "standardOut": "$2,594.39",
+      "year1Out": "$2,086.59",
+      "year2Out": "$2,334.29",
+      "save1Out": "$507.80"
+    }
+  },
+  {
+    "path": "mortgage-payoff.html",
+    "inputs": {
+      "balance": "250000",
+      "interestRate": "6",
+      "monthlyPayment": "1800",
+      "extraPayment": "200"
+    },
+    "outputs": {
+      "mainResult": "16 yrs 5 mo",
+      "monthsOut": "197",
+      "interestOut": "$143,312.84",
+      "totalOut": "$393,312.84"
+    }
+  },
+  {
+    "path": "mortgage-prepayment-penalty.html",
+    "inputs": {
+      "loanBalance": "325000",
+      "interestRate": "6.25",
+      "penaltyMethod": "months",
+      "monthsInterest": "6",
+      "balanceRate": "2"
+    },
+    "outputs": {
+      "mainResult": "$10,156.25",
+      "monthOut": "$1,692.71",
+      "monthsOut": "$10,156.25",
+      "percentOut": "$6,500.00",
+      "totalOut": "$335,156.25"
+    }
+  },
+  {
+    "path": "mortgage-recast.html",
+    "inputs": {
+      "balance": "320000",
+      "lumpSum": "50000",
+      "interestRate": "5.75",
+      "remainingYears": "24",
+      "recastFee": "300"
+    },
+    "outputs": {
+      "mainResult": "$1,730.56",
+      "oldPaymentOut": "$2,051.03",
+      "savingsOut": "$320.47",
+      "newBalanceOut": "$270,000.00",
+      "breakEvenOut": "1 months"
+    }
+  },
+  {
+    "path": "motorcycle-insurance-cost.html",
+    "inputs": {
+      "basePremium": "650",
+      "riderFactor": "1.1",
+      "bikeFactor": "1.25",
+      "locationFactor": "1.15",
+      "coverageFactor": "1.2",
+      "discountRate": "12"
+    },
+    "outputs": {
+      "mainResult": "$90.45",
+      "annualOut": "$1,085.37",
+      "grossOut": "$1,233.38",
+      "discountOut": "$148.01",
+      "sixOut": "$542.69"
+    }
+  },
+  {
+    "path": "motorcycle-loan.html",
+    "inputs": {
+      "purchasePrice": "18000",
+      "downPayment": "3000",
+      "taxRate": "7",
+      "fees": "850",
+      "interestRate": "9.25",
+      "loanYears": "5"
+    },
+    "outputs": {
+      "mainResult": "$357.26",
+      "financedOut": "$17,110.00",
+      "interestOut": "$4,325.30",
+      "totalOut": "$21,435.30",
+      "cashOut": "$3,000.00"
+    }
+  },
+  {
+    "path": "moving-cost.html",
+    "inputs": {
+      "movers": "3",
+      "hours": "7",
+      "hourlyRatePerMover": "65",
+      "truckFee": "250",
+      "distanceMiles": "40",
+      "costPerMile": "1.5",
+      "tipsAndExtras": "150"
+    },
+    "outputs": {
+      "mainResult": "$1,825.00",
+      "laborOut": "$1,365.00",
+      "mileageOut": "$60.00",
+      "feesOut": "$400.00"
+    }
+  },
+  {
+    "path": "mrr-growth.html",
+    "inputs": {
+      "startingMrr": "75000",
+      "newMrr": "12000",
+      "expansionMrr": "5000",
+      "churnedMrr": "6500",
+      "contractionMrr": "1800",
+      "projectionMonths": "12"
+    },
+    "outputs": {
+      "mainResult": "$83,700.00",
+      "changeOut": "$8,700.00",
+      "growthOut": "11.6%",
+      "grossAddedOut": "$17,000.00",
+      "projectedOut": "$279,918.50"
+    }
+  },
+  {
+    "path": "net-revenue-retention.html",
+    "inputs": {
+      "startingRevenue": "500000",
+      "expansionRevenue": "65000",
+      "contractionRevenue": "18000",
+      "churnedRevenue": "32000",
+      "newRevenue": "90000"
+    },
+    "outputs": {
+      "mainResult": "103%",
+      "cohortOut": "$515,000.00",
+      "grrOut": "90%",
+      "endingOut": "$605,000.00",
+      "changeOut": "$15,000.00"
+    }
+  },
+  {
+    "path": "online-degree-cost.html",
+    "inputs": {
+      "credits": "120",
+      "percredit": "450",
+      "fees": "6000",
+      "aid": "12000",
+      "borrowed": "70",
+      "rate": "7"
+    },
+    "outputs": {
+      "mainResult": "$48,000.00",
+      "o1": "$60,000.00",
+      "o2": "$12,000.00",
+      "o3": "$33,600.00",
+      "o4": "$13,214.94"
+    }
+  },
+  {
+    "path": "orthodontic-monthly-payment.html",
+    "inputs": {
+      "price": "7000",
+      "insurance": "1800",
+      "down": "1000",
+      "rate": "0",
+      "months": "24",
+      "fees": "450"
+    },
+    "outputs": {
+      "mainResult": "$193.75",
+      "o1": "$4,650.00",
+      "o2": "$5,650.00",
+      "o3": "$0.00"
+    }
+  },
+  {
+    "path": "overtime-tax.html",
+    "inputs": {
+      "hourlyRate": "30",
+      "regularHours": "40",
+      "overtimeHours": "10",
+      "overtimeMultiplier": "1.5",
+      "withholdingRate": "28",
+      "otherDeductions": "25"
+    },
+    "outputs": {
+      "mainResult": "$299.00",
+      "overtimeGrossOut": "$450.00",
+      "withholdingOut": "$126.00",
+      "totalGrossOut": "$1,650.00"
+    }
+  },
+  {
+    "path": "owner-operator-profit.html",
+    "inputs": {
+      "miles": "105000",
+      "revenue": "2.75",
+      "mpg": "7",
+      "diesel": "4",
+      "other": "0.75",
+      "fixed": "70000"
+    },
+    "outputs": {
+      "mainResult": "$80,000.00",
+      "o1": "$288,750.00",
+      "o2": "$60,000.00",
+      "o3": "27.71%"
+    }
+  },
+  {
+    "path": "pain-and-suffering-multiplier.html",
+    "inputs": {
+      "medical": "30000",
+      "lost": "0",
+      "other": "0",
+      "multiplier": "2",
+      "fault": "0",
+      "fee": "33.33",
+      "costs": "5000"
+    },
+    "outputs": {
+      "mainResult": "$55,003.00",
+      "o1": "$30,000.00",
+      "o2": "$60,000.00",
+      "o3": "$90,000.00",
+      "o4": "$34,997.00"
+    }
+  },
+  {
+    "path": "payment-calculator.html",
+    "inputs": {
+      "principal": "25000",
+      "annualRate": "7",
+      "termMonths": "60"
+    },
+    "outputs": {
+      "mainResult": "$495.03",
+      "totalOut": "$29,701.80",
+      "interestOut": "$4,701.80",
+      "firstInterestOut": "$145.83"
+    }
+  },
+  {
+    "path": "paypal-fee.html",
+    "inputs": {
+      "amount": "250",
+      "transactions": "20",
+      "rate": "3.49",
+      "fixedFee": "0.49",
+      "otherFees": "0",
+      "targetNet": "250"
+    },
+    "outputs": {
+      "mainResult": "$184.30",
+      "grossOut": "$5,000.00",
+      "netOut": "$4,815.70",
+      "effectiveOut": "3.69%",
+      "chargeOut": "$259.55"
+    }
+  },
+  {
+    "path": "payroll-software-roi.html",
+    "inputs": {
+      "hours": "35",
+      "rate": "50",
+      "avoided": "10000",
+      "monthly": "500",
+      "setup": "4000"
+    },
+    "outputs": {
+      "mainResult": "210%",
+      "o1": "$31,000.00",
+      "o2": "$10,000.00",
+      "o3": "$21,000.00",
+      "o4": "3.9 months"
+    }
+  },
+  {
+    "path": "pci-compliance-cost.html",
+    "inputs": {
+      "employees": "100",
+      "base": "25000",
+      "audit": "25000",
+      "tooling": "1500",
+      "training": "80",
+      "remediation": "45000"
+    },
+    "outputs": {
+      "mainResult": "$121,000.00",
+      "o1": "$95,000.00",
+      "o2": "$18,000.00",
+      "o3": "$8,000.00"
+    }
+  },
+  {
+    "path": "percent-error-calculator.html",
+    "inputs": {
+      "observedValue": "98",
+      "acceptedValue": "100"
+    },
+    "outputs": {
+      "mainResult": "2%",
+      "absoluteOut": "2",
+      "relativeOut": "0.02",
+      "directionOut": "Measured value is lower"
+    }
+  },
+  {
+    "path": "percent-to-decimal-calculator.html",
+    "inputs": {
+      "percentValue": "25"
+    },
+    "outputs": {
+      "mainResult": "0.25",
+      "percentOut": "25%",
+      "fractionOut": "1/4",
+      "ratioOut": "25:100",
+      "perThousandOut": "250‰"
+    }
+  },
+  {
+    "path": "percentage-increase-calculator.html",
+    "inputs": {
+      "originalValue": "80",
+      "newValue": "100"
+    },
+    "outputs": {
+      "mainResult": "25%",
+      "changeOut": "20",
+      "factorOut": "1.25",
+      "directionOut": "Increase"
+    }
+  },
+  {
+    "path": "permutation-combination-calculator.html",
+    "inputs": {
+      "nValue": "10",
+      "rValue": "3"
+    },
+    "outputs": {
+      "mainResult": "120",
+      "permutationOut": "720",
+      "rfactOut": "6",
+      "probabilityOut": "0.008333333333"
+    }
+  },
+  {
+    "path": "personal-injury-lawyer-fee.html",
+    "inputs": {
+      "settlement": "150000",
+      "contingencyRate": "33.33",
+      "caseExpenses": "8500",
+      "medicalLiens": "22000",
+      "otherDeductions": "1500"
+    },
+    "outputs": {
+      "mainResult": "$49,995.00",
+      "expensesOut": "$8,500.00",
+      "deductionsOut": "$23,500.00",
+      "totalOut": "$81,995.00",
+      "clientOut": "$68,005.00"
+    }
+  },
+  {
+    "path": "pest-control-cost.html",
+    "inputs": {
+      "initialTreatment": "350",
+      "visits": "4",
+      "visitCost": "125",
+      "specialtyTreatment": "900",
+      "exclusionWork": "650",
+      "discountRate": "8"
+    },
+    "outputs": {
+      "mainResult": "$2,208.00",
+      "serviceOut": "$850.00",
+      "specialOut": "$1,550.00",
+      "discountOut": "$192.00",
+      "monthlyOut": "$184.00"
+    }
+  },
+  {
+    "path": "pet-insurance-cost.html",
+    "inputs": {
+      "annualPremium": "600",
+      "deductible": "500",
+      "reimbursement": "80",
+      "vetBills": "4000",
+      "annualMax": "10000"
+    },
+    "outputs": {
+      "mainResult": "$1,800.00",
+      "insurerOut": "$2,800.00",
+      "billsOut": "$1,200.00",
+      "premiumOut": "$600.00",
+      "effectiveOut": "70%"
+    }
+  },
+  {
+    "path": "plumbing-cost.html",
+    "inputs": {
+      "laborHours": "16",
+      "hourlyRate": "145",
+      "fixturesCost": "1800",
+      "materialsCost": "900",
+      "accessCost": "600",
+      "permitCost": "250",
+      "contingencyRate": "10"
+    },
+    "outputs": {
+      "mainResult": "$6,457.00",
+      "laborOut": "$2,320.00",
+      "materialOut": "$2,700.00",
+      "accessOut": "$850.00",
+      "contingencyOut": "$587.00"
+    }
+  },
+  {
+    "path": "pmi.html",
+    "inputs": {
+      "homePrice": "400000",
+      "downPayment": "40000",
+      "pmiRate": "0.55",
+      "pmiMonths": "60"
+    },
+    "outputs": {
+      "mainResult": "$165.00",
+      "loanOut": "$360,000.00",
+      "ltvOut": "90% — verify lender rules",
+      "annualOut": "$1,980.00",
+      "totalOut": "$9,900.00"
+    }
+  },
+  {
+    "path": "polynomial-calculator.html",
+    "inputs": {
+      "coefA": "1",
+      "coefB": "-2",
+      "coefC": "3",
+      "coefD": "-4",
+      "xValue": "2"
+    },
+    "outputs": {
+      "mainResult": "2",
+      "firstOut": "7",
+      "secondOut": "8",
+      "expressionOut": "1x³ + -2x² + 3x + -4"
+    }
+  },
+  {
+    "path": "pool-cost.html",
+    "inputs": {
+      "poolArea": "450",
+      "shellRate": "115",
+      "deckArea": "700",
+      "deckRate": "18",
+      "equipmentCost": "16000",
+      "siteCost": "12000",
+      "fencePermitCost": "9000",
+      "contingencyRate": "12"
+    },
+    "outputs": {
+      "mainResult": "$113,512.00",
+      "shellOut": "$51,750.00",
+      "deckOut": "$12,600.00",
+      "workOut": "$28,000.00",
+      "extrasOut": "$21,162.00"
+    }
+  },
+  {
+    "path": "ppc-agency-fee.html",
+    "inputs": {
+      "spend": "30000",
+      "percent": "15",
+      "flat": "1500",
+      "setup": "3500",
+      "months": "12",
+      "creative": "2000"
+    },
+    "outputs": {
+      "mainResult": "$459,500.00",
+      "o1": "$360,000.00",
+      "o2": "$99,500.00",
+      "o3": "27.64%"
+    }
+  },
+  {
+    "path": "ppc-profit.html",
+    "inputs": {
+      "adSpend": "25000",
+      "averageCpc": "4.5",
+      "conversionRate": "4.2",
+      "averageOrderValue": "450",
+      "grossMargin": "55",
+      "variableCost": "35",
+      "campaignOverhead": "3500"
+    },
+    "outputs": {
+      "mainResult": "$21,083.33",
+      "volumeOut": "5,556 clicks / 233.3 conversions",
+      "revenueOut": "$105,000.00",
+      "roasOut": "4.2×",
+      "roiOut": "73.98% / $8.93 CPC"
+    }
+  },
+  {
+    "path": "pregnancy-conception-calculator.html",
+    "inputs": {
+      "dueYear": "2026",
+      "dueMonth": "12",
+      "dueDay": "1",
+      "refYear": "2026",
+      "refMonth": "7",
+      "refDay": "24"
+    },
+    "outputs": {
+      "mainResult": "2026-03-10",
+      "gestationOut": "21 weeks, 3 days",
+      "remainingOut": "130 days",
+      "lmpOut": "2026-02-24"
+    }
+  },
+  {
+    "path": "prime-factorization-calculator.html",
+    "inputs": {
+      "numberValue": "360"
+    },
+    "outputs": {
+      "mainResult": "2^3 × 3^2 × 5",
+      "primeOut": "No",
+      "divisorCountOut": "24",
+      "factorSumOut": "10"
+    }
+  },
+  {
+    "path": "probate-estate-distribution.html",
+    "inputs": {
+      "assets": "750000",
+      "debts": "80000",
+      "taxes": "30000",
+      "specific": "50000",
+      "beneficiaries": "3"
+    },
+    "outputs": {
+      "mainResult": "$196,666.67",
+      "o1": "$590,000.00",
+      "o2": "$110,000.00",
+      "o3": "$50,000.00"
+    }
+  },
+  {
+    "path": "product-liability-insurance-cost.html",
+    "inputs": {
+      "annualSales": "1500000",
+      "ratePerThousand": "1.4",
+      "productRisk": "1.35",
+      "coverageFactor": "1.2",
+      "deductibleDiscount": "5",
+      "endorsements": "1800",
+      "fees": "250"
+    },
+    "outputs": {
+      "mainResult": "$5,281.90",
+      "monthlyOut": "$440.16",
+      "baseOut": "$3,402.00",
+      "discountOut": "$170.10",
+      "unitOut": "$3,521.27"
+    }
+  },
+  {
+    "path": "professional-liability-insurance-cost.html",
+    "inputs": {
+      "annualRevenue": "2000000",
+      "professionals": "15",
+      "revenueRate": "0.18",
+      "staffCost": "110",
+      "riskMultiplier": "1.2",
+      "limitMultiplier": "1.1",
+      "deductibleCredit": "5"
+    },
+    "outputs": {
+      "mainResult": "$6,583.50",
+      "monthlyOut": "$548.63",
+      "revenueOut": "$3,600.00",
+      "staffOut": "$1,650.00",
+      "perOut": "$438.90"
+    }
+  },
+  {
+    "path": "property-management-fee.html",
+    "inputs": {
+      "monthlyRent": "4200",
+      "managementRate": "9",
+      "leasingRate": "75",
+      "newLeasesYear": "1",
+      "annualMaintenance": "8000",
+      "maintenanceMarkup": "10",
+      "otherMonthly": "65"
+    },
+    "outputs": {
+      "mainResult": "$9,266.00",
+      "managementOut": "$5,316.00",
+      "leasingOut": "$3,150.00",
+      "maintenanceOut": "$800.00",
+      "effectiveOut": "18.38%"
+    }
+  },
+  {
+    "path": "proportion-calculator.html",
+    "inputs": {
+      "aValue": "3",
+      "bValue": "4",
+      "cValue": "15"
+    },
+    "outputs": {
+      "mainResult": "20",
+      "leftOut": "0.75",
+      "rightOut": "0.75",
+      "crossOut": "60"
+    }
+  },
+  {
+    "path": "psychiatrist-visit-cost.html",
+    "inputs": {
+      "count": "12",
+      "unit": "250",
+      "other": "600",
+      "deductible": "1000",
+      "coins": "20",
+      "copay": "40"
+    },
+    "outputs": {
+      "mainResult": "$2,000.00",
+      "o1": "$3,600.00",
+      "o2": "$1,000.00",
+      "o3": "$1,600.00",
+      "o4": "$480.00"
+    }
+  },
+  {
+    "path": "pto-payout.html",
+    "inputs": {
+      "hourlyRate": "35",
+      "unusedHours": "80",
+      "payoutMultiplier": "1",
+      "withholdingRate": "22"
+    },
+    "outputs": {
+      "mainResult": "$2,184.00",
+      "grossOut": "$2,800.00",
+      "withholdingOut": "$616.00",
+      "daysOut": "10"
+    }
+  },
+  {
+    "path": "pythagorean-theorem-calculator.html",
+    "inputs": {
+      "legA": "3",
+      "legB": "4"
+    },
+    "outputs": {
+      "mainResult": "5",
+      "areaOut": "6",
+      "perimeterOut": "12",
+      "angleAOut": "36.869898°",
+      "angleBOut": "53.130102°"
+    }
+  },
+  {
+    "path": "radon-mitigation-cost.html",
+    "inputs": {
+      "baseSystem": "1500",
+      "zones": "2",
+      "additionalZone": "500",
+      "crawlSpace": "0",
+      "electrical": "350",
+      "testing": "250",
+      "permits": "150"
+    },
+    "outputs": {
+      "mainResult": "$2,750.00",
+      "systemOut": "$2,000.00",
+      "crawlOut": "$0.00",
+      "supportOut": "$750.00",
+      "zoneOut": "$1,375.00"
+    }
+  },
+  {
+    "path": "ransomware-downtime-cost.html",
+    "inputs": {
+      "employees": "250",
+      "hours": "48",
+      "hourly": "55",
+      "revenue": "18000",
+      "recovery": "450000",
+      "insurance": "500000"
+    },
+    "outputs": {
+      "mainResult": "$1,474,000.00",
+      "o1": "$1,974,000.00",
+      "o2": "$660,000.00",
+      "o3": "$500,000.00"
+    }
+  },
+  {
+    "path": "ratio-calculator.html",
+    "inputs": {
+      "ratioA": "24",
+      "ratioB": "36"
+    },
+    "outputs": {
+      "mainResult": "2:3",
+      "decimalOut": "0.6666666667",
+      "percentOut": "66.67%",
+      "factorOut": "12"
+    }
+  },
+  {
+    "path": "rent-increase.html",
+    "inputs": {
+      "currentRent": "1850",
+      "increaseRate": "5",
+      "fixedIncrease": "0",
+      "units": "4",
+      "monthsEffective": "12",
+      "expectedVacancyLoss": "0"
+    },
+    "outputs": {
+      "mainResult": "$1,942.50",
+      "increaseOut": "$92.50",
+      "annualOut": "$4,440.00",
+      "netOut": "$4,440.00",
+      "unitAnnualOut": "$23,310.00"
+    }
+  },
+  {
+    "path": "rental-property-depreciation.html",
+    "inputs": {
+      "purchase": "450000",
+      "land": "90000",
+      "improvements": "30000",
+      "years": "27.5",
+      "business": "100"
+    },
+    "outputs": {
+      "mainResult": "$14,181.82",
+      "o1": "$390,000.00",
+      "o2": "$1,181.82",
+      "o3": "$90,000.00"
+    }
+  },
+  {
+    "path": "rental-yield.html",
+    "inputs": {
+      "propertyValue": "425000",
+      "purchaseCosts": "18000",
+      "monthlyRent": "3600",
+      "vacancyRate": "6",
+      "annualOperating": "14500",
+      "annualOtherIncome": "1200"
+    },
+    "outputs": {
+      "mainResult": "6.43%",
+      "grossOut": "10.16%",
+      "incomeOut": "$41,808.00",
+      "noiOut": "$27,308.00",
+      "costYieldOut": "6.16%"
+    }
+  },
+  {
+    "path": "retaining-wall-cost.html",
+    "inputs": {
+      "wallArea": "480",
+      "costPerSqFt": "65",
+      "excavation": "6500",
+      "drainage": "4200",
+      "engineering": "3200",
+      "contingencyRate": "10"
+    },
+    "outputs": {
+      "mainResult": "$49,610.00",
+      "baseOut": "$31,200.00",
+      "fixedOut": "$13,900.00",
+      "contingencyOut": "$4,510.00",
+      "perOut": "$103.35"
+    }
+  },
+  {
+    "path": "reverse-mortgage.html",
+    "inputs": {
+      "homeValue": "500000",
+      "principalLimitRate": "45",
+      "existingMortgage": "80000",
+      "upfrontCosts": "12000"
+    },
+    "outputs": {
+      "mainResult": "$133,000.00",
+      "grossOut": "$225,000.00",
+      "payoffOut": "$80,000.00",
+      "costOut": "$12,000.00"
+    }
+  },
+  {
+    "path": "rideshare-earnings.html",
+    "inputs": {
+      "gross": "1800",
+      "platform": "22",
+      "miles": "950",
+      "costmile": "0.4",
+      "hours": "45"
+    },
+    "outputs": {
+      "mainResult": "$1,024.00",
+      "o1": "$22.76 / hour",
+      "o2": "$396.00",
+      "o3": "$380.00"
+    }
+  },
+  {
+    "path": "roof-cost.html",
+    "inputs": {
+      "roofArea": "2200",
+      "wasteRate": "12",
+      "costPerSqFt": "7.5"
+    },
+    "outputs": {
+      "mainResult": "$18,480.00",
+      "adjustedAreaOut": "2,464 sq ft",
+      "squaresOut": "24.6",
+      "materialOut": "$16,500.00"
+    }
+  },
+  {
+    "path": "rounding-calculator.html",
+    "inputs": {
+      "numberValue": "1234.5678",
+      "decimalPlaces": "2"
+    },
+    "outputs": {
+      "mainResult": "1,234.57",
+      "integerOut": "1,235",
+      "floorOut": "1,234.56",
+      "ceilOut": "1,234.57",
+      "truncateOut": "1,234.56"
+    }
+  },
+  {
+    "path": "rv-insurance-cost.html",
+    "inputs": {
+      "rvValue": "85000",
+      "ratePerThousand": "8",
+      "usageFactor": "1.15",
+      "storageFactor": "1.05",
+      "coverageFactor": "1.2",
+      "policyFee": "65",
+      "discountRate": "10"
+    },
+    "outputs": {
+      "mainResult": "$78.77",
+      "annualOut": "$945.29",
+      "grossOut": "$1,050.32",
+      "discountOut": "$105.03",
+      "sixOut": "$472.64"
+    }
+  },
+  {
+    "path": "rv-loan.html",
+    "inputs": {
+      "purchasePrice": "95000",
+      "downPayment": "19000",
+      "taxRate": "6.5",
+      "fees": "2400",
+      "interestRate": "8.5",
+      "loanYears": "15"
+    },
+    "outputs": {
+      "mainResult": "$832.84",
+      "financedOut": "$84,575.00",
+      "interestOut": "$65,336.83",
+      "totalOut": "$149,911.83",
+      "cashOut": "$19,000.00"
+    }
+  },
+  {
+    "path": "saas-mrr.html",
+    "inputs": {
+      "customers": "500",
+      "arpu": "80",
+      "newMrr": "6000",
+      "expansionMrr": "2500",
+      "churnedMrr": "4000"
+    },
+    "outputs": {
+      "mainResult": "$44,500.00",
+      "baseMrrOut": "$40,000.00",
+      "netNewOut": "$4,500.00",
+      "arrOut": "$534,000.00"
+    }
+  },
+  {
+    "path": "saas-valuation.html",
+    "inputs": {
+      "arrValue": "3000000",
+      "baseMultiple": "5",
+      "growthAdjustment": "20",
+      "cash": "600000",
+      "debt": "900000"
+    },
+    "outputs": {
+      "mainResult": "$17,700,000.00",
+      "multipleOut": "6×",
+      "enterpriseOut": "$18,000,000.00",
+      "cashOut": "$600,000.00",
+      "debtOut": "$900,000.00"
+    }
+  },
+  {
+    "path": "sba-loan.html",
+    "inputs": {
+      "loanAmount": "250000",
+      "annualRate": "10.5",
+      "termYears": "10",
+      "guaranteeFee": "2.77",
+      "otherFees": "3500"
+    },
+    "outputs": {
+      "mainResult": "$3,373.37",
+      "interestOut": "$154,804.99",
+      "feeOut": "$10,425.00",
+      "totalOut": "$165,229.99",
+      "proceedsOut": "$239,575.00"
+    }
+  },
+  {
+    "path": "scholarship-need.html",
+    "inputs": {
+      "coa": "42000",
+      "years": "4",
+      "family": "12000",
+      "grants": "8000",
+      "earnings": "4000",
+      "loanlimit": "25000"
+    },
+    "outputs": {
+      "mainResult": "$47,000.00",
+      "o1": "$168,000.00",
+      "o2": "$96,000.00",
+      "o3": "$25,000.00",
+      "o4": "$11,750.00"
+    }
+  },
+  {
+    "path": "scientific-calculator.html",
+    "inputs": {
+      "xValue": "64",
+      "yValue": "2",
+      "angle": "30"
+    },
+    "outputs": {
+      "mainResult": "4,096",
+      "sqrtOut": "8",
+      "logOut": "1.806179974",
+      "sinOut": "0.5",
+      "cosOut": "0.8660254038"
+    }
+  },
+  {
+    "path": "security-deposit.html",
+    "inputs": {
+      "rent": "2200",
+      "multiple": "1",
+      "pet": "300",
+      "other": "0",
+      "fees": "250"
+    },
+    "outputs": {
+      "mainResult": "$2,750.00",
+      "o1": "$2,500.00",
+      "o2": "$250.00",
+      "o3": "1.14 months"
+    }
+  },
+  {
+    "path": "seo-roi.html",
+    "inputs": {
+      "monthlySpend": "5000",
+      "months": "12",
+      "monthlyVisits": "12000",
+      "conversionRate": "2.5",
+      "averageOrder": "220",
+      "grossMargin": "55"
+    },
+    "outputs": {
+      "mainResult": "626%",
+      "revenueOut": "$792,000.00",
+      "profitOut": "$435,600.00",
+      "costOut": "$60,000.00",
+      "conversionOut": "3,600"
+    }
+  },
+  {
+    "path": "septic-system-cost.html",
+    "inputs": {
+      "tankCost": "6500",
+      "drainArea": "1200",
+      "drainRate": "8.5",
+      "excavationCost": "5000",
+      "designPermit": "2500",
+      "restorationCost": "1800",
+      "contingencyRate": "12"
+    },
+    "outputs": {
+      "mainResult": "$29,120.00",
+      "tankOut": "$6,500.00",
+      "fieldOut": "$10,200.00",
+      "siteOut": "$9,300.00",
+      "contingencyOut": "$3,120.00"
+    }
+  },
+  {
+    "path": "severance-pay.html",
+    "inputs": {
+      "weeklyPay": "1500",
+      "yearsService": "8",
+      "weeksPerYear": "2",
+      "additionalPay": "5000",
+      "withholdingRate": "25"
+    },
+    "outputs": {
+      "mainResult": "$21,750.00",
+      "grossOut": "$29,000.00",
+      "withholdingOut": "$7,250.00",
+      "serviceOut": "$24,000.00"
+    }
+  },
+  {
+    "path": "sewer-line-replacement-cost.html",
+    "inputs": {
+      "length": "90",
+      "costPerFoot": "190",
+      "excavation": "6500",
+      "restoration": "4800",
+      "permits": "1400",
+      "contingencyRate": "12"
+    },
+    "outputs": {
+      "mainResult": "$33,376.00",
+      "pipeOut": "$17,100.00",
+      "fixedOut": "$12,700.00",
+      "contingencyOut": "$3,576.00",
+      "perOut": "$370.84"
+    }
+  },
+  {
+    "path": "shopify-fee.html",
+    "inputs": {
+      "sales": "60000",
+      "orders": "1200",
+      "plan": "105",
+      "percent": "2.7",
+      "perorder": "0.3",
+      "other": "250"
+    },
+    "outputs": {
+      "mainResult": "$2,335.00",
+      "o1": "$57,665.00",
+      "o2": "3.89%",
+      "o3": "$1.95"
+    }
+  },
+  {
+    "path": "shopify-profit.html",
+    "inputs": {
+      "monthlyRevenue": "85000",
+      "orders": "1200",
+      "cogsRate": "34",
+      "paymentRate": "2.9",
+      "paymentFixed": "0.3",
+      "refundRate": "4",
+      "adSpend": "18000",
+      "platformApps": "950",
+      "otherOverhead": "6500"
+    },
+    "outputs": {
+      "mainResult": "$24,425.00",
+      "contributionOut": "$49,875.00",
+      "feesOut": "$6,225.00",
+      "marginOut": "28.74%",
+      "breakEvenOut": "$43,373.43"
+    }
+  },
+  {
+    "path": "siding-cost.html",
+    "inputs": {
+      "wallArea": "2000",
+      "wasteRate": "10",
+      "materialRate": "7",
+      "laborRate": "5",
+      "removalRate": "2",
+      "permits": "600"
+    },
+    "outputs": {
+      "mainResult": "$31,400.00",
+      "adjustedAreaOut": "2,200 sq ft",
+      "materialsOut": "$15,400.00",
+      "laborOut": "$15,400.00",
+      "perFootOut": "$15.70"
+    }
+  },
+  {
+    "path": "slope-calculator.html",
+    "inputs": {
+      "x1": "2",
+      "y1": "3",
+      "x2": "8",
+      "y2": "15"
+    },
+    "outputs": {
+      "mainResult": "2",
+      "riseOut": "12",
+      "runOut": "6",
+      "interceptOut": "-1",
+      "equationOut": "y = 2x - 1"
+    }
+  },
+  {
+    "path": "small-business-health-insurance-cost.html",
+    "inputs": {
+      "employees": "12",
+      "monthlyPremium": "750",
+      "employerShare": "70",
+      "adminPerEmployee": "25",
+      "annualCredits": "0"
+    },
+    "outputs": {
+      "mainResult": "$79,200.00",
+      "monthlyOut": "$6,600.00",
+      "premiumOut": "$75,600.00",
+      "adminOut": "$3,600.00",
+      "creditsOut": "$0.00"
+    }
+  },
+  {
+    "path": "soc-2-compliance-cost.html",
+    "inputs": {
+      "employees": "100",
+      "base": "45000",
+      "audit": "35000",
+      "tooling": "1800",
+      "training": "150",
+      "remediation": "50000"
+    },
+    "outputs": {
+      "mainResult": "$166,600.00",
+      "o1": "$130,000.00",
+      "o2": "$21,600.00",
+      "o3": "$15,000.00"
+    }
+  },
+  {
+    "path": "solar-battery-cost.html",
+    "inputs": {
+      "batteries": "2",
+      "equipmentPerBattery": "10500",
+      "installation": "6500",
+      "electricalUpgrade": "3500",
+      "permits": "1200",
+      "incentives": "8500"
+    },
+    "outputs": {
+      "mainResult": "$23,700.00",
+      "equipmentOut": "$21,000.00",
+      "installOut": "$11,200.00",
+      "grossOut": "$32,200.00",
+      "incentiveOut": "$8,500.00"
+    }
+  },
+  {
+    "path": "solar-panel-cleaning-cost.html",
+    "inputs": {
+      "qty": "24",
+      "low": "10",
+      "high": "25",
+      "fixed": "100"
+    },
+    "outputs": {
+      "mainResult": "$520.00",
+      "o1": "$340.00 – $700.00",
+      "o2": "$21.67 per unit",
+      "o3": "$100.00"
+    }
+  },
+  {
+    "path": "speed-converter.html",
+    "inputs": {
+      "kph": "100"
+    },
+    "outputs": {
+      "mainResult": "62.1371192237 mph",
+      "mpsOut": "27.7777777778 m/s",
+      "knotsOut": "53.9956803456 kn",
+      "fpsOut": "91.1344415 ft/s",
+      "paceOut": "0.6 min/km"
+    }
+  },
+  {
+    "path": "sprinkler-system-cost.html",
+    "inputs": {
+      "zones": "8",
+      "costPerZone": "900",
+      "controller": "850",
+      "backflow": "1200",
+      "trenching": "1600",
+      "permits": "350"
+    },
+    "outputs": {
+      "mainResult": "$11,200.00",
+      "zonesOut": "$7,200.00",
+      "equipmentOut": "$2,050.00",
+      "siteOut": "$1,950.00",
+      "perOut": "$1,400.00"
+    }
+  },
+  {
+    "path": "square-fee.html",
+    "inputs": {
+      "averageSale": "85",
+      "transactions": "250",
+      "rate": "2.6",
+      "fixedFee": "0.15",
+      "monthlySoftware": "60",
+      "otherFees": "0"
+    },
+    "outputs": {
+      "mainResult": "$650.00",
+      "salesOut": "$21,250.00",
+      "processingOut": "$590.00",
+      "netOut": "$20,600.00",
+      "effectiveOut": "3.06%"
+    }
+  },
+  {
+    "path": "square-root-calculator.html",
+    "inputs": {
+      "numberValue": "144"
+    },
+    "outputs": {
+      "mainResult": "12",
+      "cubeOut": "5.241482788418",
+      "squareOut": "20,736",
+      "reciprocalOut": "0.006944444444"
+    }
+  },
+  {
+    "path": "standby-generator-cost.html",
+    "inputs": {
+      "generatorCost": "9500",
+      "laborCost": "4200",
+      "transferSwitch": "2600",
+      "fuelConnection": "1800",
+      "sitePermit": "1200",
+      "firstYearMaintenance": "450",
+      "rebates": "0",
+      "contingencyRate": "8"
+    },
+    "outputs": {
+      "mainResult": "$21,330.00",
+      "grossOut": "$21,330.00",
+      "connectionOut": "$4,400.00",
+      "maintenanceOut": "$450.00",
+      "adjustOut": "$1,580.00"
+    }
+  },
+  {
+    "path": "startup-cost.html",
+    "inputs": {
+      "formation": "3500",
+      "equipment": "45000",
+      "buildout": "25000",
+      "inventory": "30000",
+      "marketing": "18000",
+      "deposits": "12000",
+      "monthlyOverhead": "28000",
+      "runwayMonths": "6",
+      "contingencyRate": "12"
+    },
+    "outputs": {
+      "mainResult": "$317,520.00",
+      "launchOut": "$133,500.00",
+      "contingencyOut": "$16,020.00",
+      "workingOut": "$168,000.00",
+      "founderOut": "$158,760.00"
+    }
+  },
+  {
+    "path": "stock-average-price.html",
+    "inputs": {
+      "oldshares": "150",
+      "oldprice": "82",
+      "newshares": "75",
+      "newprice": "64",
+      "fees": "5"
+    },
+    "outputs": {
+      "mainResult": "$76.02",
+      "o1": "225",
+      "o2": "$17,105.00",
+      "o3": "-$5.98"
+    }
+  },
+  {
+    "path": "stock-option-exercise-cost.html",
+    "inputs": {
+      "options": "10000",
+      "strike": "2.5",
+      "fmv": "8",
+      "tax": "35",
+      "fees": "500"
+    },
+    "outputs": {
+      "mainResult": "$44,750.00",
+      "o1": "$25,000.00",
+      "o2": "$55,000.00",
+      "o3": "$19,250.00",
+      "o4": "$35,250.00"
+    }
+  },
+  {
+    "path": "stripe-fee.html",
+    "inputs": {
+      "transactionAmount": "125",
+      "transactions": "100",
+      "rate": "2.9",
+      "fixedFee": "0.3",
+      "refundedTransactions": "2",
+      "refundFee": "0",
+      "disputes": "1",
+      "disputeFee": "15"
+    },
+    "outputs": {
+      "mainResult": "$407.50",
+      "processingOut": "$392.50",
+      "extraOut": "$15.00",
+      "grossOut": "$12,500.00",
+      "netOut": "$12,092.50"
+    }
+  },
+  {
+    "path": "surety-bond-cost.html",
+    "inputs": {
+      "bondAmount": "250000",
+      "annualRate": "2.5",
+      "termYears": "1",
+      "creditFactor": "1.1",
+      "industryFactor": "1.15",
+      "fees": "350"
+    },
+    "outputs": {
+      "mainResult": "$8,256.25",
+      "baseOut": "$6,250.00",
+      "riskOut": "$1,656.25",
+      "monthlyOut": "$688.02",
+      "percentOut": "3.3%"
+    }
+  },
+  {
+    "path": "surrogacy-total-cost.html",
+    "inputs": {
+      "agency": "35000",
+      "comp": "65000",
+      "medical": "50000",
+      "legal": "18000",
+      "coverage": "15000",
+      "contingency": "12"
+    },
+    "outputs": {
+      "mainResult": "$173,160.00",
+      "o1": "$168,000.00",
+      "o2": "$20,160.00",
+      "o3": "$15,000.00"
+    }
+  },
+  {
+    "path": "temperature-converter.html",
+    "inputs": {
+      "celsius": "25"
+    },
+    "outputs": {
+      "mainResult": "77 °F",
+      "kelvinOut": "298.15 K",
+      "rankineOut": "536.67 °R",
+      "celsiusOut": "25 °C"
+    }
+  },
+  {
+    "path": "term-life-insurance-cost.html",
+    "inputs": {
+      "coverage": "500000",
+      "ratePerThousand": "0.65",
+      "annualFee": "75",
+      "termYears": "20"
+    },
+    "outputs": {
+      "mainResult": "$33.33",
+      "annualOut": "$400.00",
+      "totalOut": "$8,000.00",
+      "unitOut": "$80.00",
+      "coverageOut": "$500,000.00"
+    }
+  },
+  {
+    "path": "tiktok-ads-roi.html",
+    "inputs": {
+      "adSpend": "12000",
+      "costMetric": "12",
+      "ctrRate": "1.1",
+      "conversionRate": "2.8",
+      "averageOrder": "550",
+      "grossMargin": "65",
+      "otherCosts": "1500"
+    },
+    "outputs": {
+      "mainResult": "715.63%",
+      "clicksOut": "11,000",
+      "conversionsOut": "308",
+      "revenueOut": "$169,400.00 / 14.12x",
+      "profitOut": "$96,610.00"
+    }
+  },
+  {
+    "path": "time-calculator.html",
+    "inputs": {
+      "startHour": "9",
+      "startMinute": "30",
+      "addHours": "5",
+      "addMinutes": "45"
+    },
+    "outputs": {
+      "mainResult": "15:15",
+      "totalOut": "345",
+      "dayOut": "Same day",
+      "minuteOut": "915"
+    }
+  },
+  {
+    "path": "time-tracking-roi.html",
+    "inputs": {
+      "hours": "80",
+      "rate": "60",
+      "avoided": "8000",
+      "monthly": "400",
+      "setup": "2500"
+    },
+    "outputs": {
+      "mainResult": "798.63%",
+      "o1": "$65,600.00",
+      "o2": "$7,300.00",
+      "o3": "$58,300.00",
+      "o4": "1.3 months"
+    }
+  },
+  {
+    "path": "title-insurance-cost.html",
+    "inputs": {
+      "purchasePrice": "450000",
+      "loanAmount": "360000",
+      "ownerRate": "3.5",
+      "lenderRate": "2.25",
+      "endorsements": "650",
+      "settlementFees": "1250",
+      "simultaneousDiscount": "500"
+    },
+    "outputs": {
+      "mainResult": "$3,785.00",
+      "ownerOut": "$1,575.00",
+      "lenderOut": "$810.00",
+      "feesOut": "$1,900.00",
+      "rateOut": "0.84%"
+    }
+  },
+  {
+    "path": "total-compensation.html",
+    "inputs": {
+      "salary": "120000",
+      "bonus": "15000",
+      "retirement": "6000",
+      "benefits": "18000",
+      "equity": "25000",
+      "other": "3000"
+    },
+    "outputs": {
+      "mainResult": "$187,000.00",
+      "o1": "$67,000.00",
+      "o2": "$15,583.33",
+      "o3": "64.17%"
+    }
+  },
+  {
+    "path": "transmission-replacement-cost.html",
+    "inputs": {
+      "parts": "3500",
+      "laborHours": "12",
+      "laborRate": "150",
+      "fluids": "250",
+      "diagnostics": "200",
+      "towing": "150",
+      "taxRate": "8"
+    },
+    "outputs": {
+      "mainResult": "$6,200.00",
+      "partsOut": "$3,750.00",
+      "laborOut": "$1,800.00",
+      "supportOut": "$350.00",
+      "taxOut": "$300.00"
+    }
+  },
+  {
+    "path": "travel-insurance-cost.html",
+    "inputs": {
+      "tripCost": "6000",
+      "baseRate": "6",
+      "travelers": "2",
+      "travelerSurcharge": "35",
+      "addOns": "120",
+      "policyFee": "25"
+    },
+    "outputs": {
+      "mainResult": "$575.00",
+      "perTravelerOut": "$287.50",
+      "rateOut": "9.58%",
+      "extrasOut": "$215.00",
+      "tripOut": "$6,000.00"
+    }
+  },
+  {
+    "path": "travel-nurse-pay.html",
+    "inputs": {
+      "rate": "55",
+      "hours": "36",
+      "ot": "8",
+      "stipend": "1800",
+      "weeks": "13",
+      "tax": "25"
+    },
+    "outputs": {
+      "mainResult": "$49,140.00",
+      "o1": "$57,720.00",
+      "o2": "$34,320.00",
+      "o3": "$23,400.00",
+      "o4": "$3,780.00"
+    }
+  },
+  {
+    "path": "tree-removal-cost.html",
+    "inputs": {
+      "treeCount": "2",
+      "averageHeight": "55",
+      "baseCost": "1200",
+      "hazardFactor": "1.25",
+      "stumpCost": "500",
+      "debrisCost": "350",
+      "permitCost": "150"
+    },
+    "outputs": {
+      "mainResult": "$4,300.00",
+      "removalOut": "$3,300.00",
+      "stumpOut": "$500.00",
+      "extrasOut": "$500.00",
+      "perTreeOut": "$2,150.00"
+    }
+  },
+  {
+    "path": "triangle-calculator.html",
+    "inputs": {
+      "sideA": "3",
+      "sideB": "4",
+      "sideC": "5"
+    },
+    "outputs": {
+      "mainResult": "6 square units",
+      "perimeterOut": "12",
+      "semiOut": "6",
+      "typeOut": "Scalene",
+      "angleOut": "90°"
+    }
+  },
+  {
+    "path": "trucking-insurance-cost.html",
+    "inputs": {
+      "trucks": "5",
+      "basePerTruck": "10000",
+      "operatingFactor": "1.25",
+      "driverSurcharge": "10",
+      "deductibleDiscount": "5",
+      "endorsements": "2500"
+    },
+    "outputs": {
+      "mainResult": "$67,812.50",
+      "monthlyOut": "$5,651.04",
+      "baseOut": "$62,500.00",
+      "adjustOut": "$2,812.50",
+      "perTruckOut": "$13,562.50"
+    }
+  },
+  {
+    "path": "tubal-ligation-cost.html",
+    "inputs": {
+      "count": "1",
+      "unit": "7000",
+      "other": "1500",
+      "deductible": "1500",
+      "coins": "20",
+      "copay": "0"
+    },
+    "outputs": {
+      "mainResult": "$2,900.00",
+      "o1": "$8,500.00",
+      "o2": "$1,500.00",
+      "o3": "$5,600.00",
+      "o4": "$0.00"
+    }
+  },
+  {
+    "path": "umbrella-insurance.html",
+    "inputs": {
+      "netWorth": "1200000",
+      "annualIncome": "150000",
+      "incomeYears": "5",
+      "existingLiability": "300000"
+    },
+    "outputs": {
+      "mainResult": "$2,000,000.00",
+      "exposureOut": "$1,950,000.00",
+      "existingOut": "$300,000.00",
+      "gapOut": "$1,650,000.00",
+      "roundOut": "$2,000,000.00"
+    }
+  },
+  {
+    "path": "urgent-care-vs-er-cost.html",
+    "inputs": {
+      "urgent": "250",
+      "er": "2500",
+      "deductible": "1000",
+      "coins": "20",
+      "urgentcopay": "50",
+      "ercopay": "300"
+    },
+    "outputs": {
+      "mainResult": "$250.00",
+      "o1": "$250.00",
+      "o2": "$1,600.00",
+      "o3": "$1,350.00",
+      "o4": "$900.00"
+    }
+  },
+  {
+    "path": "usda-loan.html",
+    "inputs": {
+      "homePrice": "350000",
+      "downPayment": "12250",
+      "interestRate": "6.5",
+      "termYears": "30",
+      "upfrontRate": "1",
+      "annualFeeRate": "0.35",
+      "propertyTax": "4200",
+      "insurance": "1800"
+    },
+    "outputs": {
+      "mainResult": "$2,754.67",
+      "principalOut": "$341,127.50",
+      "piOut": "$2,156.16",
+      "feeOut": "$98.51",
+      "taxInsOut": "$500.00"
+    }
+  },
+  {
+    "path": "va-loan.html",
+    "inputs": {
+      "homePrice": "350000",
+      "downPayment": "12250",
+      "interestRate": "6.5",
+      "termYears": "30",
+      "upfrontRate": "2.15",
+      "annualFeeRate": "0",
+      "propertyTax": "4200",
+      "insurance": "1800"
+    },
+    "outputs": {
+      "mainResult": "$2,680.71",
+      "principalOut": "$345,011.63",
+      "piOut": "$2,180.71",
+      "feeOut": "$0.00",
+      "taxInsOut": "$500.00"
+    }
+  },
+  {
+    "path": "vacancy-rate.html",
+    "inputs": {
+      "units": "12",
+      "periodDays": "365",
+      "vacantUnitDays": "420",
+      "monthlyRentUnit": "1650"
+    },
+    "outputs": {
+      "mainResult": "9.59%",
+      "occupiedOut": "90.41%",
+      "potentialOut": "$237,600.00",
+      "lostOut": "$22,783.56",
+      "averageOut": "1.15 units"
+    }
+  },
+  {
+    "path": "vacation-rental-roi.html",
+    "inputs": {
+      "revenue": "85000",
+      "other": "5000",
+      "operating": "38000",
+      "debt": "24000",
+      "cash": "180000"
+    },
+    "outputs": {
+      "mainResult": "$28,000.00",
+      "o1": "15.56%",
+      "o2": "$90,000.00",
+      "o3": "$62,000.00"
+    }
+  },
+  {
+    "path": "vasectomy-cost.html",
+    "inputs": {
+      "count": "1",
+      "unit": "1500",
+      "other": "200",
+      "deductible": "750",
+      "coins": "20",
+      "copay": "50"
+    },
+    "outputs": {
+      "mainResult": "$990.00",
+      "o1": "$1,700.00",
+      "o2": "$750.00",
+      "o3": "$710.00",
+      "o4": "$50.00"
+    }
+  },
+  {
+    "path": "volume-calculator.html",
+    "inputs": {
+      "length": "10",
+      "width": "6",
+      "height": "4",
+      "radius": "3"
+    },
+    "outputs": {
+      "mainResult": "240 cubic units",
+      "cylinderOut": "113.09733553 cubic units",
+      "sphereOut": "113.09733553 cubic units",
+      "surfaceOut": "248 square units"
+    }
+  },
+  {
+    "path": "water-damage-restoration-cost.html",
+    "inputs": {
+      "affectedArea": "900",
+      "extractionRate": "3.5",
+      "dryingDays": "4",
+      "dryingPerDay": "850",
+      "demoRate": "4",
+      "moldTreatment": "1800",
+      "reconstruction": "18000",
+      "coveredRate": "70",
+      "deductible": "2500"
+    },
+    "outputs": {
+      "mainResult": "$11,485.00",
+      "grossOut": "$29,950.00",
+      "insuranceOut": "$18,465.00",
+      "mitigationOut": "$10,150.00",
+      "rebuildOut": "$19,800.00"
+    }
+  },
+  {
+    "path": "water-heater-replacement-cost.html",
+    "inputs": {
+      "unitCost": "2300",
+      "laborCost": "1400",
+      "permitCost": "250",
+      "upgradeCost": "900",
+      "removalCost": "200",
+      "rebates": "500",
+      "oldAnnualCost": "650",
+      "newAnnualCost": "420"
+    },
+    "outputs": {
+      "mainResult": "$4,550.00",
+      "grossOut": "$5,050.00",
+      "savingsOut": "$230.00",
+      "paybackOut": "19.8 years",
+      "monthlyOut": "$19.17"
+    }
+  },
+  {
+    "path": "website-development-cost.html",
+    "inputs": {
+      "pages": "20",
+      "pageContentCost": "250",
+      "designHours": "80",
+      "designRate": "100",
+      "devHours": "160",
+      "devRate": "120",
+      "ecommerce": "5000",
+      "seo": "3000",
+      "hostingSetup": "500",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$44,770.00",
+      "contentOut": "$5,000.00",
+      "laborOut": "$27,200.00",
+      "featuresOut": "$8,500.00",
+      "pageOut": "$2,238.50"
+    }
+  },
+  {
+    "path": "wedding-insurance-cost.html",
+    "inputs": {
+      "weddingBudget": "50000",
+      "baseRate": "1",
+      "guests": "150",
+      "guestCharge": "1",
+      "liabilityAddOn": "300",
+      "weatherAddOn": "250",
+      "deductibleDiscount": "5"
+    },
+    "outputs": {
+      "mainResult": "$1,140.00",
+      "baseOut": "$500.00",
+      "guestOut": "$150.00",
+      "addonsOut": "$550.00",
+      "rateOut": "2.28%"
+    }
+  },
+  {
+    "path": "weeks-between-dates-calculator.html",
+    "inputs": {
+      "y1": "2026",
+      "m1": "1",
+      "d1": "1",
+      "y2": "2026",
+      "m2": "7",
+      "d2": "25"
+    },
+    "outputs": {
+      "mainResult": "29.28571429",
+      "daysOut": "205 days",
+      "fullWeeksOut": "29 weeks",
+      "remainingOut": "2 days",
+      "orderOut": "End date is later"
+    }
+  },
+  {
+    "path": "weight-converter.html",
+    "inputs": {
+      "kilograms": "70"
+    },
+    "outputs": {
+      "mainResult": "154.3235835295 lb",
+      "ouncesOut": "2,469.177336472 oz",
+      "gramsOut": "70,000 g",
+      "stonesOut": "11.0231131093 st",
+      "tonsOut": "0.07 t"
+    }
+  },
+  {
+    "path": "weighted-average-calculator.html",
+    "inputs": {
+      "v1": "80",
+      "w1": "20",
+      "v2": "90",
+      "w2": "30",
+      "v3": "75",
+      "w3": "10",
+      "v4": "95",
+      "w4": "40"
+    },
+    "outputs": {
+      "mainResult": "88.5",
+      "weightOut": "100",
+      "simpleOut": "85",
+      "minOut": "75",
+      "maxOut": "95"
+    }
+  },
+  {
+    "path": "well-drilling-cost.html",
+    "inputs": {
+      "depth": "300",
+      "drillRate": "40",
+      "casingRate": "15",
+      "pump": "2500",
+      "testing": "400",
+      "permits": "600",
+      "access": "1000",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$23,100.00",
+      "drillingOut": "$16,500.00",
+      "pumpOut": "$2,500.00",
+      "supportOut": "$2,000.00",
+      "unitOut": "$77.00"
+    }
+  },
+  {
+    "path": "whole-life-insurance-cost.html",
+    "inputs": {
+      "coverage": "250000",
+      "ratePerThousand": "8.5",
+      "annualFee": "120",
+      "years": "20",
+      "cashShare": "55",
+      "growthRate": "3.5"
+    },
+    "outputs": {
+      "mainResult": "$187.08",
+      "annualOut": "$2,245.00",
+      "totalOut": "$44,900.00",
+      "cashOut": "$34,918.34",
+      "coverageOut": "$250,000.00"
+    }
+  },
+  {
+    "path": "window-replacement-cost.html",
+    "inputs": {
+      "windowCount": "12",
+      "windowCost": "700",
+      "laborPerWindow": "250",
+      "trimFinish": "1500",
+      "permits": "300",
+      "contingency": "8"
+    },
+    "outputs": {
+      "mainResult": "$14,256.00",
+      "unitsOut": "$8,400.00",
+      "laborOut": "$3,000.00",
+      "contingencyOut": "$1,056.00",
+      "perWindowOut": "$1,188.00"
+    }
+  },
+  {
+    "path": "workers-compensation-average-weekly-wage.html",
+    "inputs": {
+      "gross": "26000",
+      "weeks": "26",
+      "extras": "1800",
+      "rate": "66.67",
+      "cap": "1800"
+    },
+    "outputs": {
+      "mainResult": "$1,069.23",
+      "o1": "$712.86",
+      "o2": "$27,800.00",
+      "o3": "66.67%"
+    }
+  },
+  {
+    "path": "workers-compensation-premium.html",
+    "inputs": {
+      "annualPayroll": "1000000",
+      "classRate": "1.25",
+      "experienceMod": "0.9",
+      "fees": "750"
+    },
+    "outputs": {
+      "mainResult": "$12,000.00",
+      "manualOut": "$12,500.00",
+      "modifiedOut": "$11,250.00",
+      "effectiveOut": "$1.20"
+    }
+  },
+  {
+    "path": "z-score-calculator.html",
+    "inputs": {
+      "value": "85",
+      "mean": "70",
+      "sd": "10"
+    },
+    "outputs": {
+      "mainResult": "1.5",
+      "deviationOut": "15",
+      "percentileOut": "93.3193%",
+      "positionOut": "Above the mean"
+    }
+  }
+]

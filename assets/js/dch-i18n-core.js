@@ -285,7 +285,36 @@ function filSanitize(value){
  return s;
 }
 function translateFil(s){if(!s)return s;var raw=String(s),norm=raw.replace(/\s+/g,' ').trim(),v;if(Object.prototype.hasOwnProperty.call(FIL_ROOT,raw))v=FIL_ROOT[raw];else if(Object.prototype.hasOwnProperty.call(FIL_ROOT,norm))v=FIL_ROOT[norm];else if(Object.prototype.hasOwnProperty.call(FIL,raw))v=FIL[raw];else if(Object.prototype.hasOwnProperty.call(FIL,norm))v=FIL[norm];else v=filDynamic(norm);return filSanitize(v==null?raw:v)}
-function translateFor(value,to){var m=String(value).match(/^(\s*)([\s\S]*?)(\s*)$/),core=m?m[2]:String(value),translated=to==='es'?generic(core):(to==='zh-CN'?translateZh(core):(to==='fil'?translateFil(core):core));return(m?m[1]:'')+translated+(m?m[3]:'')}
+function reviewedUiText(s,to){
+ var shared={
+  'Back to home':{es:'Volver al inicio','zh-CN':'返回首页',fil:'Bumalik sa pangunahing pahina'},
+  'All Calculators':{es:'Todas las calculadoras','zh-CN':'全部计算器',fil:'Lahat ng calculator'},
+  'Language':{es:'Idioma','zh-CN':'语言',fil:'Wika'},
+  'Switch to dark mode':{es:'Cambiar al modo oscuro','zh-CN':'切换到深色模式',fil:'Lumipat sa madilim na tema'},
+  'Switch to light mode':{es:'Cambiar al modo claro','zh-CN':'切换到浅色模式',fil:'Lumipat sa maliwanag na tema'},
+  'Date of birth':{'zh-CN':'出生日期'},
+  'Age Calculator – Exact Age in Years, Months and Days | Daily Calculator Hub':{fil:'Calculator ng Edad – Eksaktong Edad sa Taon, Buwan at Araw | Daily Calculator Hub'},
+  'Save this calculator to favorites':{es:'Guardar esta calculadora en favoritos','zh-CN':'将此计算器加入收藏',fil:'Idagdag ang calculator na ito sa mga paborito'},
+  'Age is calculated from the selected birth date through the selected comparison date.':{fil:'Kinakalkula ang edad mula sa napiling petsa ng kapanganakan hanggang sa napiling petsa ng paghahambing.'},
+  'Pregnancy Due Date Calculator':{fil:'Calculator ng Inaasahang Petsa ng Panganganak'},
+  'Open Pregnancy Due Date Calculator':{fil:'Buksan ang Calculator ng Inaasahang Petsa ng Panganganak'}
+ };
+ if(shared[s]&&shared[s][to])return shared[s][to];
+ var age=s.match(/^(\d+) years?,\s*(\d+) months?,\s*(\d+) days?$/i);
+ if(age&&to==='en')return age[1]+' year'+(Number(age[1])===1?'':'s')+', '+age[2]+' month'+(Number(age[2])===1?'':'s')+', '+age[3]+' day'+(Number(age[3])===1?'':'s');
+ if(age&&to==='es')return age[1]+(Number(age[1])===1?' año, ':' años, ')+age[2]+(Number(age[2])===1?' mes y ':' meses y ')+age[3]+(Number(age[3])===1?' día':' días');
+ if(age&&to==='fil')return age[1]+' taon, '+age[2]+' buwan, '+age[3]+' araw';
+ var updated=s.match(/^(Last updated:|Updated) (January|February|March|April|May|June|July|August|September|October|November|December) (\d{1,2}), (\d{4})$/);
+ if(updated&&to!=='en'){
+  var month=['January','February','March','April','May','June','July','August','September','October','November','December'].indexOf(updated[2]);
+  var date=new Date(Date.UTC(Number(updated[4]),month,Number(updated[3])));
+  var locale=to==='es'?'es-ES':to==='zh-CN'?'zh-CN':'fil-PH';
+  var prefix=to==='es'?(updated[1]==='Updated'?'Actualizado: ':'Última actualización: '):to==='zh-CN'?'更新日期：':'Huling na-update: ';
+  return prefix+new Intl.DateTimeFormat(locale,{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}).format(date);
+ }
+ return null;
+}
+function translateFor(value,to){var m=String(value).match(/^(\s*)([\s\S]*?)(\s*)$/),core=m?m[2]:String(value),reviewed=reviewedUiText(core,to),translated=reviewed!==null?reviewed:to==='es'?generic(core):(to==='zh-CN'?translateZh(core):(to==='fil'?translateFil(core):core));return(m?m[1]:'')+translated+(m?m[3]:'')}
 function translateCore(value){return translateFor(value,'es')}
 function skipNode(n){var p=n.parentElement;if(!p)return true;return !!p.closest('script,style,noscript,code,pre,textarea,[data-dch-no-i18n],.adsbygoogle')}
 function currentIsTranslation(cur,rec){return cur===rec.en||cur===rec.es||cur===rec.zh||cur===rec.fil}

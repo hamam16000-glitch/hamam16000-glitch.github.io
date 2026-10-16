@@ -1,0 +1,9 @@
+.dch-example-table-wrap {max-width:100%; overflow-x:auto; margin:1rem 0;}
+.dch-example-table {width:100%; border-collapse:collapse; font-size:.95rem; line-height:1.5;}
+.dch-example-table caption {text-align:left; font-weight:700; padding:.5rem 0;}
+.dch-example-table th,.dch-example-table td {text-align:left; padding:.6rem .7rem; border-bottom:1px solid currentColor; overflow-wrap:anywhere; vertical-align:top;}
+.dch-example-table th {width:65%; font-weight:500;}
+.dch-guide-language-note {font-size:.9rem; line-height:1.5; padding:.75rem; border-left:3px solid currentColor;}
+.dch-guide-language-note[hidden] {display:none;}
+@media (max-width:480px) {.dch-example-table th,.dch-example-table td {padding:.5rem .3rem;} .dch-example-table th {width:60%;}}
+@media print {.dch-example-table-wrap {overflow:visible;} .dch-example-table tr {break-inside:avoid;}}

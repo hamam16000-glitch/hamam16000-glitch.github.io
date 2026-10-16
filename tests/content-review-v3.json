@@ -1,0 +1,3036 @@
+{
+  "date": "2026-10-15",
+  "base_commit": "f319be5810a03feb95fcb6c47e91d9d87659f5d3",
+  "content_changes": {
+    "pages": 500,
+    "filler_sections_removed": 294,
+    "generic_questions_removed": 1187,
+    "specific_input_instructions": 327,
+    "examples_added": 326,
+    "methods_rewritten": 24
+  },
+  "inline_engines_unchanged": 500,
+  "static_review": {
+    "checked": {
+      "html_pages": 515,
+      "calculator_pages": 500,
+      "FAQ_schemas": 13
+    },
+    "issues": [],
+    "syntax_scripts": 3075,
+    "scope": "Source consistency, local links, example presence and schema matching. This is not a visual browser test or an AdSense approval."
+  },
+  "checks": {
+    "prior_regression_assertions": 29320,
+    "new_example_pages": 326,
+    "example_outputs_checked": 1512,
+    "i18n_assertions": 21
+  },
+  "limits": [
+    "Updated reference sections are in English. The complete translation set has not been reviewed.",
+    "This new update has not been published or visually verified on the user phone.",
+    "Source and regression checks do not guarantee AdSense acceptance."
+  ],
+  "pages": [
+    {
+      "page": "disability-insurance-needs.html",
+      "guide_words": 145,
+      "has_worked_example": true,
+      "description": "Estimate the monthly disability-income benefit and waiting-period cash reserve you may need."
+    },
+    {
+      "page": "tiktok-ads-roi.html",
+      "guide_words": 173,
+      "has_worked_example": true,
+      "description": "Estimate TikTok Ads traffic, conversions, revenue, ROAS and ROI using spend, CPM, click-through and conversion assumptions."
+    },
+    {
+      "page": "cash-runway.html",
+      "guide_words": 161,
+      "has_worked_example": true,
+      "description": "Estimate business cash runway from available cash, recurring revenue, operating expenses, debt payments, planned spending and a minimum reserve."
+    },
+    {
+      "page": "student-loan-refinance.html",
+      "guide_words": 175,
+      "has_worked_example": true,
+      "description": "Compare current student loan payments and interest with a proposed refinance."
+    },
+    {
+      "page": "car-shipping-cost.html",
+      "guide_words": 161,
+      "has_worked_example": true,
+      "description": "Estimate a vehicle-shipping quote from distance, mileage rate, vehicle size, enclosed transport, urgency, fuel surcharge and added coverage."
+    },
+    {
+      "page": "debt-avalanche.html",
+      "guide_words": 363,
+      "has_worked_example": true,
+      "description": "Estimate payoff time and interest using the debt avalanche method, which targets the highest APR first."
+    },
+    {
+      "page": "slope-calculator.html",
+      "guide_words": 94,
+      "has_worked_example": true,
+      "description": "Calculate the slope, rise, run and line equation from two coordinate points."
+    },
+    {
+      "page": "burn-rate.html",
+      "guide_words": 145,
+      "has_worked_example": true,
+      "description": "Estimate gross and net monthly burn, annualized burn and runway from cash, operating expenses, revenue and one-time spending."
+    },
+    {
+      "page": "debt-snowball.html",
+      "guide_words": 365,
+      "has_worked_example": true,
+      "description": "Estimate payoff time and interest using the debt snowball method, which targets the smallest balance first."
+    },
+    {
+      "page": "date-difference.html",
+      "guide_words": 237,
+      "has_worked_example": true,
+      "description": "Calculate the number of days between two dates."
+    },
+    {
+      "page": "roth-ira.html",
+      "guide_words": 172,
+      "has_worked_example": true,
+      "description": "Estimate tax-free Roth IRA growth from a current balance, annual contributions, expected return, and investment period."
+    },
+    {
+      "page": "new-home-construction-cost.html",
+      "guide_words": 252,
+      "has_worked_example": true,
+      "description": "Estimate a new home construction budget from square footage and cost per square foot."
+    },
+    {
+      "page": "capital-gains-tax.html",
+      "guide_words": 194,
+      "has_worked_example": true,
+      "description": "Estimate 2026 U.S. long-term capital gains tax using filing status and taxable income."
+    },
+    {
+      "page": "rmd.html",
+      "guide_words": 189,
+      "has_worked_example": true,
+      "description": "Estimate an annual RMD using an account balance and life-expectancy factor."
+    },
+    {
+      "page": "bathroom-tile-cost.html",
+      "guide_words": 187,
+      "has_worked_example": true,
+      "description": "Estimate bathroom tile installation cost for floors and walls including material, labor, waterproofing, demolition and contingency."
+    },
+    {
+      "page": "transmission-replacement-cost.html",
+      "guide_words": 155,
+      "has_worked_example": true,
+      "description": "Estimate an automatic-transmission replacement cost from parts, labor, fluids, diagnostics, towing and sales tax."
+    },
+    {
+      "page": "facebook-ads-roi.html",
+      "guide_words": 174,
+      "has_worked_example": true,
+      "description": "Estimate Facebook or Meta Ads traffic, conversions, revenue, ROAS and ROI from spend, CPM and conversion assumptions."
+    },
+    {
+      "page": "quadratic-formula-calculator.html",
+      "guide_words": 174,
+      "has_worked_example": true,
+      "description": "Solve ax² + bx + c = 0 and review the discriminant and vertex."
+    },
+    {
+      "page": "stock-option-exercise-cost.html",
+      "guide_words": 145,
+      "has_worked_example": true,
+      "description": "Estimate cash required to exercise stock options and pay tax on the spread."
+    },
+    {
+      "page": "cyber-breach-cost.html",
+      "guide_words": 124,
+      "has_worked_example": true,
+      "description": "Estimate direct breach-response, record, downtime and uninsured costs."
+    },
+    {
+      "page": "gazebo-cost.html",
+      "guide_words": 240,
+      "has_worked_example": true,
+      "description": "Estimate a gazebo construction and installation budget."
+    },
+    {
+      "page": "fireplace-installation-cost.html",
+      "guide_words": 242,
+      "has_worked_example": true,
+      "description": "Estimate a new fireplace and venting installation budget."
+    },
+    {
+      "page": "bmr.html",
+      "guide_words": 205,
+      "has_worked_example": true,
+      "description": "Estimate basal metabolic rate using the Mifflin-St Jeor equation."
+    },
+    {
+      "page": "retirement.html",
+      "guide_words": 175,
+      "has_worked_example": true,
+      "description": "Estimate retirement savings at retirement and a possible monthly withdrawal amount."
+    },
+    {
+      "page": "annuity-payout.html",
+      "guide_words": 222,
+      "has_worked_example": true,
+      "description": "Estimate a fixed monthly payout from a lump sum."
+    },
+    {
+      "page": "driveway-cost.html",
+      "guide_words": 159,
+      "has_worked_example": true,
+      "description": "Estimate driveway installation or replacement cost from area, paving material, demolition, base preparation, drainage, permits and contingency."
+    },
+    {
+      "page": "sales-tax-reverse.html",
+      "guide_words": 200,
+      "has_worked_example": true,
+      "description": "Find the pre-tax price and tax amount from a tax-inclusive total."
+    },
+    {
+      "page": "electrical-project-cost.html",
+      "guide_words": 147,
+      "has_worked_example": true,
+      "description": "Estimate an electrical project budget from electrician hours, material, panel or circuit work, permits and contingency."
+    },
+    {
+      "page": "rental-property-depreciation.html",
+      "guide_words": 113,
+      "has_worked_example": true,
+      "description": "Estimate annual straight-line depreciation for residential rental property."
+    },
+    {
+      "page": "addiction-treatment-cost.html",
+      "guide_words": 126,
+      "has_worked_example": true,
+      "description": "Estimate residential or outpatient addiction-treatment cost after coverage and assistance."
+    },
+    {
+      "page": "bmi.html",
+      "guide_words": 313,
+      "has_worked_example": true,
+      "description": "Calculate BMI from metric height and weight."
+    },
+    {
+      "page": "calorie.html",
+      "guide_words": 215,
+      "has_worked_example": true,
+      "description": "Estimate maintenance calories using the Mifflin–St Jeor equation."
+    },
+    {
+      "page": "lead-value.html",
+      "guide_words": 149,
+      "has_worked_example": true,
+      "description": "Estimate expected gross profit per lead, total lead value and net acquisition return from close rate, sale value, margin and cost per lead."
+    },
+    {
+      "page": "skylight-installation-cost.html",
+      "guide_words": 240,
+      "has_worked_example": true,
+      "description": "Estimate skylight product and installation cost."
+    },
+    {
+      "page": "currency-converter.html",
+      "guide_words": 272,
+      "has_worked_example": true,
+      "description": "Convert using a rate you enter manually."
+    },
+    {
+      "page": "medicare-part-b-late-enrollment-penalty.html",
+      "guide_words": 194,
+      "has_worked_example": true,
+      "description": "Estimate the added Part B premium caused by delayed enrollment."
+    },
+    {
+      "page": "key-person-insurance.html",
+      "guide_words": 127,
+      "has_worked_example": true,
+      "description": "Compare income-multiple and replacement-cost approaches for key person coverage."
+    },
+    {
+      "page": "brrrr.html",
+      "guide_words": 178,
+      "has_worked_example": true,
+      "description": "Estimate refinance proceeds, cash left in a BRRRR deal, rental NOI, monthly cash flow and DSCR."
+    },
+    {
+      "page": "home-inspection-cost.html",
+      "guide_words": 179,
+      "has_worked_example": true,
+      "description": "Estimate a home-inspection budget including base inspection, size, age, radon, sewer scope, mold, pool and other add-ons."
+    },
+    {
+      "page": "usda-loan.html",
+      "guide_words": 193,
+      "has_worked_example": true,
+      "description": "Estimate a USDA-style monthly housing payment with editable guarantee-fee assumptions."
+    },
+    {
+      "page": "charitable-deduction.html",
+      "guide_words": 234,
+      "has_worked_example": true,
+      "description": "Estimate potential federal tax savings from a deductible donation."
+    },
+    {
+      "page": "online-degree-cost.html",
+      "guide_words": 133,
+      "has_worked_example": true,
+      "description": "Estimate online degree tuition, aid and loan interest."
+    },
+    {
+      "page": "cargo-insurance-cost.html",
+      "guide_words": 146,
+      "has_worked_example": true,
+      "description": "Estimate an annual cargo-insurance premium from shipped value, rate, commodity risk, deductible discount and policy fees."
+    },
+    {
+      "page": "life-insurance.html",
+      "guide_words": 207,
+      "has_worked_example": true,
+      "description": "Estimate a practical life insurance coverage target using income replacement, debts, future needs, savings, and existing coverage."
+    },
+    {
+      "page": "ev-charging-cost.html",
+      "guide_words": 166,
+      "has_worked_example": true,
+      "description": "Compare monthly electric-vehicle charging cost with a gasoline vehicle."
+    },
+    {
+      "page": "property-management-fee.html",
+      "guide_words": 144,
+      "has_worked_example": true,
+      "description": "Estimate annual property-management, leasing, maintenance-markup and other landlord fees."
+    },
+    {
+      "page": "quartz-countertop-cost.html",
+      "guide_words": 244,
+      "has_worked_example": true,
+      "description": "Estimate quartz countertop fabrication and installation cost."
+    },
+    {
+      "page": "auto-loan.html",
+      "guide_words": 232,
+      "has_worked_example": true,
+      "description": "Estimate a vehicle loan payment."
+    },
+    {
+      "page": "roi.html",
+      "guide_words": 206,
+      "has_worked_example": true,
+      "description": "Calculate net profit, return on investment, and annualized ROI."
+    },
+    {
+      "page": "percent-error-calculator.html",
+      "guide_words": 99,
+      "has_worked_example": true,
+      "description": "Calculate absolute error, relative error and percent error between measured and accepted values."
+    },
+    {
+      "page": "kitchen-island-cost.html",
+      "guide_words": 238,
+      "has_worked_example": true,
+      "description": "Estimate a custom kitchen island construction budget."
+    },
+    {
+      "page": "whole-life-insurance-cost.html",
+      "guide_words": 161,
+      "has_worked_example": true,
+      "description": "Estimate whole life insurance premiums and a simplified projected cash value using editable premium and accumulation assumptions."
+    },
+    {
+      "page": "fence-cost.html",
+      "guide_words": 151,
+      "has_worked_example": true,
+      "description": "Estimate installed fence cost from linear footage, material and labor rates, gates, removal, permits and contingency."
+    },
+    {
+      "page": "mortgage-buydown.html",
+      "guide_words": 156,
+      "has_worked_example": true,
+      "description": "Compare a standard mortgage payment with temporary 2-1 or 1-0 interest-rate buydown payments and estimate the required subsidy."
+    },
+    {
+      "page": "churn-rate.html",
+      "guide_words": 170,
+      "has_worked_example": true,
+      "description": "Calculate customer churn, retention and an approximate customer lifetime."
+    },
+    {
+      "page": "arr.html",
+      "guide_words": 137,
+      "has_worked_example": true,
+      "description": "Calculate current and projected annual recurring revenue from monthly recurring revenue, annual contracts, expansion and recurring churn assumptions."
+    },
+    {
+      "page": "water-softener-installation-cost.html",
+      "guide_words": 239,
+      "has_worked_example": true,
+      "description": "Estimate water-softener equipment and installation cost."
+    },
+    {
+      "page": "savings.html",
+      "guide_words": 263,
+      "has_worked_example": true,
+      "description": "Calculate monthly savings needed."
+    },
+    {
+      "page": "auto-loan-payoff.html",
+      "guide_words": 197,
+      "has_worked_example": true,
+      "description": "Estimate how quickly an auto loan can be paid off and how much interest may be saved by adding an extra monthly payment."
+    },
+    {
+      "page": "tdee.html",
+      "guide_words": 172,
+      "has_worked_example": true,
+      "description": "Estimate total daily energy expenditure from BMR and activity level."
+    },
+    {
+      "page": "college-savings.html",
+      "guide_words": 235,
+      "has_worked_example": true,
+      "description": "Estimate monthly savings needed to reach a future college funding goal."
+    },
+    {
+      "page": "ebitda.html",
+      "guide_words": 110,
+      "has_worked_example": true,
+      "description": "Calculate EBITDA from net income, interest, taxes, depreciation and amortization."
+    },
+    {
+      "page": "401k-match.html",
+      "guide_words": 235,
+      "has_worked_example": true,
+      "description": "Estimate annual employer match and total retirement contributions."
+    },
+    {
+      "page": "bankruptcy-attorney-cost.html",
+      "guide_words": 172,
+      "has_worked_example": true,
+      "description": "Estimate bankruptcy attorney, filing, counseling, trustee-related and other case costs for budgeting purposes."
+    },
+    {
+      "page": "hair-transplant-cost.html",
+      "guide_words": 122,
+      "has_worked_example": true,
+      "description": "Estimate hair transplant cost from graft count and price per graft."
+    },
+    {
+      "page": "discount.html",
+      "guide_words": 233,
+      "has_worked_example": true,
+      "description": "Calculate a sale price."
+    },
+    {
+      "page": "home-affordability.html",
+      "guide_words": 260,
+      "has_worked_example": true,
+      "description": "Estimate an affordable home price from income, debts, down payment, taxes, insurance, and mortgage rate."
+    },
+    {
+      "page": "surety-bond-cost.html",
+      "guide_words": 153,
+      "has_worked_example": true,
+      "description": "Estimate the premium for a contract, license or court surety bond using bond amount, rate, term, credit and industry risk factors and fees."
+    },
+    {
+      "page": "ovulation.html",
+      "guide_words": 198,
+      "has_worked_example": true,
+      "description": "Estimate a fertile window and ovulation date from cycle information."
+    },
+    {
+      "page": "seo-roi.html",
+      "guide_words": 179,
+      "has_worked_example": true,
+      "description": "Estimate SEO revenue, gross profit and return on investment from campaign cost, organic traffic, conversion rate, order value and margin."
+    },
+    {
+      "page": "agency-profit-margin.html",
+      "guide_words": 157,
+      "has_worked_example": true,
+      "description": "Estimate an agency’s monthly operating profit, margin, revenue per employee and revenue required to reach a target margin."
+    },
+    {
+      "page": "ctr.html",
+      "guide_words": 120,
+      "has_worked_example": true,
+      "description": "Calculate click-through rate from impressions and clicks, then estimate clicks and spend for another impression level."
+    },
+    {
+      "page": "garage-conversion-cost.html",
+      "guide_words": 128,
+      "has_worked_example": true,
+      "description": "Estimate the cost to convert garage space into finished living area."
+    },
+    {
+      "page": "liquor-liability-insurance-cost.html",
+      "guide_words": 150,
+      "has_worked_example": true,
+      "description": "Estimate an annual liquor-liability insurance premium from alcohol sales, rate, venue risk, claims history, deductible and fees."
+    },
+    {
+      "page": "home-addition-cost.html",
+      "guide_words": 150,
+      "has_worked_example": true,
+      "description": "Estimate a home-addition project budget from square footage, construction, design, permits, utility work and contingency."
+    },
+    {
+      "page": "bootcamp-roi.html",
+      "guide_words": 167,
+      "has_worked_example": true,
+      "description": "Estimate coding or career bootcamp ROI and payback period."
+    },
+    {
+      "page": "home-appraisal-cost.html",
+      "guide_words": 173,
+      "has_worked_example": true,
+      "description": "Estimate a home-appraisal fee from base pricing, size, property complexity, rush service, travel and specialty requirements."
+    },
+    {
+      "page": "gap-insurance-cost.html",
+      "guide_words": 170,
+      "has_worked_example": true,
+      "description": "Estimate first-year loan-to-value gap exposure and compare it with the entered cost of GAP insurance coverage."
+    },
+    {
+      "page": "lease.html",
+      "guide_words": 308,
+      "has_worked_example": true,
+      "description": "Estimate an auto lease payment from negotiated price, residual value, money factor, term, fees, and sales tax."
+    },
+    {
+      "page": "workers-compensation-average-weekly-wage.html",
+      "guide_words": 132,
+      "has_worked_example": true,
+      "description": "Estimate average weekly wage and a replacement-rate benefit from a wage history."
+    },
+    {
+      "page": "dividend-yield.html",
+      "guide_words": 249,
+      "has_worked_example": true,
+      "description": "Calculate dividend yield and estimated annual dividend income from a stock investment."
+    },
+    {
+      "page": "mortgage-prepayment-penalty.html",
+      "guide_words": 145,
+      "has_worked_example": true,
+      "description": "Estimate a possible mortgage prepayment penalty using either months of interest or a percentage of the remaining loan balance."
+    },
+    {
+      "page": "credit-card-payoff.html",
+      "guide_words": 214,
+      "has_worked_example": true,
+      "description": "Calculate the monthly payment needed to pay off a credit card balance within your target time."
+    },
+    {
+      "page": "days-from-today-calculator.html",
+      "guide_words": 103,
+      "has_worked_example": true,
+      "description": "Add or subtract a number of days from a reference date and identify the resulting weekday."
+    },
+    {
+      "page": "amazon-fba-profit.html",
+      "guide_words": 194,
+      "has_worked_example": true,
+      "description": "Estimate monthly Amazon FBA revenue, fees, contribution profit and margin using editable product, fulfillment, advertising and return assumptions."
+    },
+    {
+      "page": "macro-calculator.html",
+      "guide_words": 136,
+      "has_worked_example": true,
+      "description": "Convert a daily calorie target and macro percentages into grams of protein, carbohydrates and fat."
+    },
+    {
+      "page": "cac-payback-period.html",
+      "guide_words": 149,
+      "has_worked_example": true,
+      "description": "Estimate how many months of gross-margin contribution are needed to recover customer acquisition cost."
+    },
+    {
+      "page": "confidence-interval-calculator.html",
+      "guide_words": 113,
+      "has_worked_example": true,
+      "description": "Estimate a mean confidence interval from a sample mean, standard deviation, sample size and critical value."
+    },
+    {
+      "page": "landscaping-cost.html",
+      "guide_words": 179,
+      "has_worked_example": true,
+      "description": "Estimate landscaping project costs for lawn, planting beds, plants, irrigation, hardscape, design and contingency."
+    },
+    {
+      "page": "sewer-line-replacement-cost.html",
+      "guide_words": 144,
+      "has_worked_example": true,
+      "description": "Estimate a sewer-line replacement budget from pipe length, excavation, access, restoration, permits and contingency."
+    },
+    {
+      "page": "home-security-system-cost.html",
+      "guide_words": 156,
+      "has_worked_example": true,
+      "description": "Estimate the first-year cost of a home security system including equipment, sensors, installation, monitoring and activation."
+    },
+    {
+      "page": "car-lease-buyout.html",
+      "guide_words": 137,
+      "has_worked_example": true,
+      "description": "Estimate a lease buyout price and compare it with the vehicle’s current market value."
+    },
+    {
+      "page": "mini-split-installation-cost.html",
+      "guide_words": 242,
+      "has_worked_example": true,
+      "description": "Estimate ductless mini-split equipment and installation cost."
+    },
+    {
+      "page": "septic-system-cost.html",
+      "guide_words": 149,
+      "has_worked_example": true,
+      "description": "Estimate septic system installation or replacement cost from tank, drain-field area, excavation, engineering, permits, restoration and contingency."
+    },
+    {
+      "page": "vat.html",
+      "guide_words": 264,
+      "has_worked_example": true,
+      "description": "Add VAT to a net price."
+    },
+    {
+      "page": "weighted-average-calculator.html",
+      "guide_words": 113,
+      "has_worked_example": true,
+      "description": "Calculate a weighted average from four values and their corresponding weights."
+    },
+    {
+      "page": "heloc.html",
+      "guide_words": 198,
+      "has_worked_example": true,
+      "description": "Estimate monthly interest-only and repayment payments for a home equity line of credit."
+    },
+    {
+      "page": "finance-calculator.html",
+      "guide_words": 105,
+      "has_worked_example": true,
+      "description": "Project future value from a starting balance, recurring monthly contribution, annual return and time."
+    },
+    {
+      "page": "steam-shower-cost.html",
+      "guide_words": 234,
+      "has_worked_example": true,
+      "description": "Estimate steam shower equipment and installation cost."
+    },
+    {
+      "page": "linear-equation-calculator.html",
+      "guide_words": 101,
+      "has_worked_example": true,
+      "description": "Solve a linear equation in the form ax + b = c and verify the solution."
+    },
+    {
+      "page": "flooring-cost.html",
+      "guide_words": 161,
+      "has_worked_example": true,
+      "description": "Estimate flooring materials, waste and installation cost."
+    },
+    {
+      "page": "home-office-deduction.html",
+      "guide_words": 115,
+      "has_worked_example": true,
+      "description": "Compare simplified and actual-expense home-office deduction estimates."
+    },
+    {
+      "page": "percent-to-decimal-calculator.html",
+      "guide_words": 66,
+      "has_worked_example": true,
+      "description": "Convert a percentage to a decimal, fraction, ratio and per-thousand value."
+    },
+    {
+      "page": "crawl-space-encapsulation-cost.html",
+      "guide_words": 169,
+      "has_worked_example": true,
+      "description": "Estimate a crawl-space encapsulation project cost from area, liner, labor, drainage, dehumidification, mold treatment, permits and contingency."
+    },
+    {
+      "page": "water-heater-replacement-cost.html",
+      "guide_words": 161,
+      "has_worked_example": true,
+      "description": "Estimate water-heater replacement cost and operating savings for tank, tankless or heat-pump options using editable project assumptions."
+    },
+    {
+      "page": "car-total-cost-of-ownership.html",
+      "guide_words": 137,
+      "has_worked_example": true,
+      "description": "Estimate the multi-year cost of owning a vehicle after depreciation and operating expenses."
+    },
+    {
+      "page": "sales-tax.html",
+      "guide_words": 216,
+      "has_worked_example": true,
+      "description": "Add or remove U.S. sales tax and calculate the tax amount."
+    },
+    {
+      "page": "paver-patio-cost.html",
+      "guide_words": 237,
+      "has_worked_example": true,
+      "description": "Estimate a paver patio installation budget."
+    },
+    {
+      "page": "date-calculator.html",
+      "guide_words": 116,
+      "has_worked_example": true,
+      "description": "Add or subtract a number of days from a calendar date and show the resulting date."
+    },
+    {
+      "page": "house-flipping.html",
+      "guide_words": 184,
+      "has_worked_example": true,
+      "description": "Estimate flip profit, project cost and return on cash invested."
+    },
+    {
+      "page": "age.html",
+      "guide_words": 315,
+      "has_worked_example": true,
+      "description": "Calculate exact age in years, months, and days."
+    },
+    {
+      "page": "accounting-software-roi.html",
+      "guide_words": 164,
+      "has_worked_example": true,
+      "description": "Estimate first-year ROI from accounting software time and error savings."
+    },
+    {
+      "page": "event-insurance-cost.html",
+      "guide_words": 162,
+      "has_worked_example": true,
+      "description": "Estimate a one-time event-insurance premium from event value, attendance, liability, cancellation risk, deductible and add-ons."
+    },
+    {
+      "page": "lcm-gcf-calculator.html",
+      "guide_words": 99,
+      "has_worked_example": true,
+      "description": "Find the greatest common factor and least common multiple of two whole numbers."
+    },
+    {
+      "page": "mixed-number-calculator.html",
+      "guide_words": 82,
+      "has_worked_example": true,
+      "description": "Convert a mixed number to an improper fraction, decimal and percentage."
+    },
+    {
+      "page": "overtime-tax.html",
+      "guide_words": 152,
+      "has_worked_example": true,
+      "description": "Estimate the gross and take-home value of overtime using an editable withholding rate."
+    },
+    {
+      "page": "net-worth.html",
+      "guide_words": 217,
+      "has_worked_example": true,
+      "description": "Calculate total assets, total liabilities, and personal net worth."
+    },
+    {
+      "page": "refinance.html",
+      "guide_words": 255,
+      "has_worked_example": true,
+      "description": "Compare your current mortgage with a new refinance loan, including closing costs and break-even time."
+    },
+    {
+      "page": "car-repair-vs-replace.html",
+      "guide_words": 232,
+      "has_worked_example": true,
+      "description": "Compare a major repair with the near-term net cost of replacing a vehicle."
+    },
+    {
+      "page": "rv-insurance-cost.html",
+      "guide_words": 147,
+      "has_worked_example": true,
+      "description": "Estimate RV insurance premium using vehicle value, an annual rate, usage, storage, coverage and discount assumptions."
+    },
+    {
+      "page": "sump-pump-installation-cost.html",
+      "guide_words": 240,
+      "has_worked_example": true,
+      "description": "Estimate a sump pump and drainage installation budget."
+    },
+    {
+      "page": "furnace-replacement-cost.html",
+      "guide_words": 150,
+      "has_worked_example": true,
+      "description": "Estimate furnace replacement cost including equipment, labor, venting, gas or electrical upgrades, permits, removal and rebates."
+    },
+    {
+      "page": "rounding-calculator.html",
+      "guide_words": 97,
+      "has_worked_example": true,
+      "description": "Round a number to a selected number of decimal places and compare floor, ceiling and truncation."
+    },
+    {
+      "page": "hot-tub-installation-cost.html",
+      "guide_words": 244,
+      "has_worked_example": true,
+      "description": "Estimate hot tub purchase, site preparation and installation cost."
+    },
+    {
+      "page": "boat-loan.html",
+      "guide_words": 156,
+      "has_worked_example": true,
+      "description": "Estimate a boat loan payment, financed amount and total borrowing cost."
+    },
+    {
+      "page": "rental-property.html",
+      "guide_words": 147,
+      "has_worked_example": true,
+      "description": "Estimate rental cash flow, cap rate and cash-on-cash return."
+    },
+    {
+      "page": "pet-insurance-cost.html",
+      "guide_words": 134,
+      "has_worked_example": true,
+      "description": "Estimate annual pet insurance reimbursements, owner out-of-pocket bills and total annual cost."
+    },
+    {
+      "page": "basement-remodel-cost.html",
+      "guide_words": 149,
+      "has_worked_example": true,
+      "description": "Estimate basement finishing and remodeling costs from area, cost per square foot, bathroom, egress, permits and contingency."
+    },
+    {
+      "page": "demolition-cost.html",
+      "guide_words": 164,
+      "has_worked_example": true,
+      "description": "Estimate a building-demolition project cost from square footage, demolition rate, hazardous materials, disposal, utilities, permits and restoration."
+    },
+    {
+      "page": "well-drilling-cost.html",
+      "guide_words": 168,
+      "has_worked_example": true,
+      "description": "Estimate a private-water-well project cost from drilling depth, casing, pump, testing, permits, access and contingency."
+    },
+    {
+      "page": "umbrella-insurance.html",
+      "guide_words": 147,
+      "has_worked_example": true,
+      "description": "Estimate an umbrella liability coverage target from net worth, income exposure and existing liability limits."
+    },
+    {
+      "page": "weight-converter.html",
+      "guide_words": 88,
+      "has_worked_example": true,
+      "description": "Convert kilograms into pounds, ounces, grams, stones and metric tons."
+    },
+    {
+      "page": "land-loan.html",
+      "guide_words": 155,
+      "has_worked_example": true,
+      "description": "Estimate a land-loan payment, financed closing costs and total interest."
+    },
+    {
+      "page": "severance-pay.html",
+      "guide_words": 125,
+      "has_worked_example": true,
+      "description": "Estimate gross severance, withholding and take-home severance pay."
+    },
+    {
+      "page": "cloud-cost.html",
+      "guide_words": 171,
+      "has_worked_example": true,
+      "description": "Estimate a cloud-infrastructure budget from compute, storage, data transfer, managed services and support."
+    },
+    {
+      "page": "mrr-growth.html",
+      "guide_words": 161,
+      "has_worked_example": true,
+      "description": "Calculate ending monthly recurring revenue, net MRR growth and an annualized projection from new, expansion, churned and contraction MRR."
+    },
+    {
+      "page": "payroll-software-roi.html",
+      "guide_words": 162,
+      "has_worked_example": true,
+      "description": "Estimate first-year ROI from payroll software automation and error reduction."
+    },
+    {
+      "page": "general-liability-insurance-cost.html",
+      "guide_words": 126,
+      "has_worked_example": true,
+      "description": "Estimate a planning premium using revenue, a quote rate, minimum premium and fees."
+    },
+    {
+      "page": "lease-buyout.html",
+      "guide_words": 164,
+      "has_worked_example": true,
+      "description": "Estimate financing for a vehicle lease buyout, including residual value, taxes, fees and loan interest."
+    },
+    {
+      "page": "ev-battery-replacement-cost.html",
+      "guide_words": 187,
+      "has_worked_example": true,
+      "description": "Estimate an electric-vehicle battery replacement cost from capacity, battery price, labor, supporting parts, credits, warranty contribution and tax."
+    },
+    {
+      "page": "surrogacy-total-cost.html",
+      "guide_words": 128,
+      "has_worked_example": true,
+      "description": "Estimate a surrogacy journey budget after insurance, reimbursements and contingency."
+    },
+    {
+      "page": "etsy-fee.html",
+      "guide_words": 165,
+      "has_worked_example": true,
+      "description": "Estimate Etsy listing, transaction, payment-processing and optional advertising fees with net proceeds and profit per order."
+    },
+    {
+      "page": "countertop-cost.html",
+      "guide_words": 173,
+      "has_worked_example": true,
+      "description": "Estimate countertop replacement cost from surface area, material, fabrication, demolition, cutouts, backsplash, delivery and contingency."
+    },
+    {
+      "page": "saas-mrr.html",
+      "guide_words": 177,
+      "has_worked_example": true,
+      "description": "Estimate monthly recurring revenue and net new MRR."
+    },
+    {
+      "page": "gas-vs-electric-car-cost.html",
+      "guide_words": 140,
+      "has_worked_example": true,
+      "description": "Compare annual gasoline and electric-vehicle energy costs for the same driving distance."
+    },
+    {
+      "page": "concrete.html",
+      "guide_words": 270,
+      "has_worked_example": true,
+      "description": "Estimate concrete volume and ready-mix bags."
+    },
+    {
+      "page": "divorce-lawyer-cost.html",
+      "guide_words": 176,
+      "has_worked_example": true,
+      "description": "Estimate a divorce legal budget from attorney time, hourly rates, filing, mediation, expert and other case costs."
+    },
+    {
+      "page": "owner-operator-profit.html",
+      "guide_words": 125,
+      "has_worked_example": true,
+      "description": "Estimate owner-operator trucking profit after fuel, variable and fixed costs."
+    },
+    {
+      "page": "moving-cost.html",
+      "guide_words": 168,
+      "has_worked_example": true,
+      "description": "Estimate local or long-distance moving labor, truck and mileage charges."
+    },
+    {
+      "page": "simple-interest.html",
+      "guide_words": 240,
+      "has_worked_example": true,
+      "description": "Calculate interest without compounding."
+    },
+    {
+      "page": "inventory-turnover.html",
+      "guide_words": 134,
+      "has_worked_example": true,
+      "description": "Calculate inventory turnover and estimated days inventory on hand."
+    },
+    {
+      "page": "retaining-wall-cost.html",
+      "guide_words": 140,
+      "has_worked_example": true,
+      "description": "Estimate a retaining-wall project cost from wall area, material, excavation, drainage, engineering and contingency."
+    },
+    {
+      "page": "business-days-calculator.html",
+      "guide_words": 156,
+      "has_worked_example": true,
+      "description": "Add business days to a start date while skipping Saturdays and Sundays."
+    },
+    {
+      "page": "malpractice-insurance-cost.html",
+      "guide_words": 150,
+      "has_worked_example": true,
+      "description": "Estimate an annual medical-malpractice insurance premium from base pricing, specialty risk, coverage limits, claims history, deductible and policy fees."
+    },
+    {
+      "page": "system-of-equations-calculator.html",
+      "guide_words": 189,
+      "has_worked_example": true,
+      "description": "Solve two linear equations with two unknowns using the determinant method."
+    },
+    {
+      "page": "drywall-repair-cost.html",
+      "guide_words": 129,
+      "has_worked_example": true,
+      "description": "Estimate drywall repair cost from damaged area, repair rate and contractor minimums."
+    },
+    {
+      "page": "cups-to-grams-calculator.html",
+      "guide_words": 117,
+      "has_worked_example": true,
+      "description": "Convert cups to grams using an editable ingredient density, with volume and serving equivalents."
+    },
+    {
+      "page": "binary-calculator.html",
+      "guide_words": 73,
+      "has_worked_example": true,
+      "description": "Convert a whole decimal number to binary, hexadecimal and octal notation."
+    },
+    {
+      "page": "whole-house-remodel-cost.html",
+      "guide_words": 250,
+      "has_worked_example": true,
+      "description": "Estimate a whole-house renovation budget from square footage and scope."
+    },
+    {
+      "page": "escrow.html",
+      "guide_words": 216,
+      "has_worked_example": true,
+      "description": "Estimate monthly escrow for property tax and homeowners insurance."
+    },
+    {
+      "page": "google-ads-roi.html",
+      "guide_words": 176,
+      "has_worked_example": true,
+      "description": "Estimate Google Ads clicks, conversions, revenue, ROAS, contribution profit and ROI from editable campaign assumptions."
+    },
+    {
+      "page": "age-specific-date-calculator.html",
+      "guide_words": 175,
+      "has_worked_example": true,
+      "description": "Calculate exact age in years, months and days on a selected reference date."
+    },
+    {
+      "page": "customer-lifetime-value.html",
+      "guide_words": 161,
+      "has_worked_example": true,
+      "description": "Estimate gross-margin customer lifetime value and compare it with CAC."
+    },
+    {
+      "page": "lemon-law-refund.html",
+      "guide_words": 129,
+      "has_worked_example": true,
+      "description": "Estimate a vehicle refund after a mileage offset and deductions."
+    },
+    {
+      "page": "psychiatrist-visit-cost.html",
+      "guide_words": 122,
+      "has_worked_example": true,
+      "description": "Estimate psychiatrist visit costs after insurance assumptions."
+    },
+    {
+      "page": "fraction-to-percent-calculator.html",
+      "guide_words": 73,
+      "has_worked_example": true,
+      "description": "Convert a numerator and denominator to a percentage, decimal, simplified fraction and ratio."
+    },
+    {
+      "page": "ltv-cac-ratio.html",
+      "guide_words": 155,
+      "has_worked_example": true,
+      "description": "Calculate customer lifetime value, acquisition cost ratio, gross-margin payback period and maximum CAC for a target ratio."
+    },
+    {
+      "page": "ratio-calculator.html",
+      "guide_words": 91,
+      "has_worked_example": true,
+      "description": "Simplify an integer ratio and calculate its decimal and percentage relationship."
+    },
+    {
+      "page": "ira.html",
+      "guide_words": 205,
+      "has_worked_example": true,
+      "description": "Project the future value of an IRA using a current balance, annual contributions, expected return, and years to invest."
+    },
+    {
+      "page": "cobra-vs-marketplace-cost.html",
+      "guide_words": 125,
+      "has_worked_example": true,
+      "description": "Compare total premium and expected out-of-pocket costs for COBRA and Marketplace coverage."
+    },
+    {
+      "page": "amortization.html",
+      "guide_words": 314,
+      "has_worked_example": true,
+      "description": "Estimate monthly payment, total interest, and remaining balance after a selected number of years."
+    },
+    {
+      "page": "closet-remodel-cost.html",
+      "guide_words": 128,
+      "has_worked_example": true,
+      "description": "Estimate closet remodel cost from wall length, storage-system rate and demolition."
+    },
+    {
+      "page": "iui-cost.html",
+      "guide_words": 126,
+      "has_worked_example": true,
+      "description": "Estimate IUI treatment and medication out-of-pocket cost."
+    },
+    {
+      "page": "home-elevator-cost.html",
+      "guide_words": 165,
+      "has_worked_example": true,
+      "description": "Estimate a residential-elevator project cost from equipment, floors served, construction, electrical work, design, finishes and contingency."
+    },
+    {
+      "page": "scientific-notation-calculator.html",
+      "guide_words": 150,
+      "has_worked_example": true,
+      "description": "Convert a number to scientific notation, E notation, coefficient and exponent."
+    },
+    {
+      "page": "auto-accident-diminished-value-claim.html",
+      "guide_words": 123,
+      "has_worked_example": true,
+      "description": "Estimate a vehicle diminished-value claim using pre-loss value and adjustable condition factors."
+    },
+    {
+      "page": "significant-figures-calculator.html",
+      "guide_words": 158,
+      "has_worked_example": true,
+      "description": "Round a number to a chosen number of significant figures and show scientific notation."
+    },
+    {
+      "page": "loan.html",
+      "guide_words": 266,
+      "has_worked_example": true,
+      "description": "Calculate a fixed installment loan."
+    },
+    {
+      "page": "business-interruption-insurance.html",
+      "guide_words": 133,
+      "has_worked_example": true,
+      "description": "Estimate a business income coverage need for a potential restoration period."
+    },
+    {
+      "page": "delivery-driver-earnings.html",
+      "guide_words": 112,
+      "has_worked_example": true,
+      "description": "Estimate delivery-driver net earnings after mileage costs."
+    },
+    {
+      "page": "personal-injury-lawyer-fee.html",
+      "guide_words": 155,
+      "has_worked_example": true,
+      "description": "Estimate a contingency attorney fee, case expenses and potential client net from an entered settlement or award."
+    },
+    {
+      "page": "months-between-dates-calculator.html",
+      "guide_words": 165,
+      "has_worked_example": true,
+      "description": "Estimate full calendar months, remaining days and total days between two dates."
+    },
+    {
+      "page": "trade-in-equity.html",
+      "guide_words": 203,
+      "has_worked_example": true,
+      "description": "Estimate positive or negative vehicle trade-in equity and how it may affect the amount financed on another vehicle."
+    },
+    {
+      "page": "pension.html",
+      "guide_words": 223,
+      "has_worked_example": true,
+      "description": "Estimate a defined-benefit pension from final average salary, service years, and plan multiplier."
+    },
+    {
+      "page": "tub-to-shower-conversion-cost.html",
+      "guide_words": 242,
+      "has_worked_example": true,
+      "description": "Estimate the cost to convert a bathtub to a shower."
+    },
+    {
+      "page": "working-capital.html",
+      "guide_words": 159,
+      "has_worked_example": true,
+      "description": "Calculate net working capital, current ratio and quick ratio."
+    },
+    {
+      "page": "motorcycle-insurance-cost.html",
+      "guide_words": 132,
+      "has_worked_example": true,
+      "description": "Estimate motorcycle insurance premium using a base annual price and editable rider, motorcycle, location, coverage and discount factors."
+    },
+    {
+      "page": "trucking-insurance-cost.html",
+      "guide_words": 152,
+      "has_worked_example": true,
+      "description": "Estimate an annual commercial-trucking insurance budget from truck count, base premium, operating risk, driver history, deductible and endorsements."
+    },
+    {
+      "page": "car-affordability.html",
+      "guide_words": 180,
+      "has_worked_example": true,
+      "description": "Estimate a maximum vehicle price from a target monthly payment."
+    },
+    {
+      "page": "variance-calculator.html",
+      "guide_words": 151,
+      "has_worked_example": true,
+      "description": "Calculate population variance, sample variance, mean and standard deviation from a list of numbers."
+    },
+    {
+      "page": "total-compensation.html",
+      "guide_words": 125,
+      "has_worked_example": true,
+      "description": "Estimate annual compensation including salary, bonus, benefits and equity."
+    },
+    {
+      "page": "ebay-fee.html",
+      "guide_words": 145,
+      "has_worked_example": true,
+      "description": "Estimate eBay final-value, promoted-listing and per-order fees with net proceeds and order profit."
+    },
+    {
+      "page": "home-office-remodel-cost.html",
+      "guide_words": 125,
+      "has_worked_example": true,
+      "description": "Estimate home-office remodeling cost from room area, finishes and wiring."
+    },
+    {
+      "page": "logarithm-calculator.html",
+      "guide_words": 96,
+      "has_worked_example": true,
+      "description": "Calculate a logarithm with an editable base plus natural and base-10 logarithms."
+    },
+    {
+      "page": "decimal-to-percent-calculator.html",
+      "guide_words": 76,
+      "has_worked_example": true,
+      "description": "Convert a decimal to a percentage, fraction and per-thousand value."
+    },
+    {
+      "page": "contractor-insurance-cost.html",
+      "guide_words": 170,
+      "has_worked_example": true,
+      "description": "Estimate a contractor insurance budget combining general liability, workers compensation, tools coverage, commercial auto and umbrella insurance."
+    },
+    {
+      "page": "escrow-shortage.html",
+      "guide_words": 159,
+      "has_worked_example": true,
+      "description": "Estimate a mortgage escrow shortage or surplus and the adjusted monthly escrow deposit using editable tax, insurance and cushion assumptions."
+    },
+    {
+      "page": "cyber-insurance-cost.html",
+      "guide_words": 157,
+      "has_worked_example": true,
+      "description": "Estimate a planning budget for cyber insurance premiums using revenue, employee count, risk level, coverage and deductible assumptions."
+    },
+    {
+      "page": "landlord-insurance-cost.html",
+      "guide_words": 177,
+      "has_worked_example": true,
+      "description": "Estimate an annual landlord insurance budget from dwelling value, an editable base rate, units, liability, loss-of-rent and deductible assumptions."
+    },
+    {
+      "page": "time-duration.html",
+      "guide_words": 150,
+      "has_worked_example": true,
+      "description": "Calculate elapsed hours and minutes between two times."
+    },
+    {
+      "page": "commercial-auto-insurance-cost.html",
+      "guide_words": 165,
+      "has_worked_example": true,
+      "description": "Estimate an annual commercial-auto insurance budget from vehicle count, base premium, driver risk, industry risk, deductible choices and endorsements."
+    },
+    {
+      "page": "tubal-ligation-cost.html",
+      "guide_words": 125,
+      "has_worked_example": true,
+      "description": "Estimate tubal ligation out-of-pocket cost after insurance assumptions."
+    },
+    {
+      "page": "standby-generator-cost.html",
+      "guide_words": 156,
+      "has_worked_example": true,
+      "description": "Estimate standby generator installation cost including equipment, labor, transfer switch, fuel connection, site work, permits and maintenance."
+    },
+    {
+      "page": "hearing-aid-cost.html",
+      "guide_words": 225,
+      "has_worked_example": true,
+      "description": "Estimate hearing-aid devices, fitting, testing, warranty and out-of-pocket costs."
+    },
+    {
+      "page": "directors-officers-insurance-cost.html",
+      "guide_words": 162,
+      "has_worked_example": true,
+      "description": "Estimate a D&O insurance premium from company revenue, base rate, coverage limit, governance and claims risk, deductible adjustment and fees."
+    },
+    {
+      "page": "days-until.html",
+      "guide_words": 146,
+      "has_worked_example": true,
+      "description": "Count calendar days between today and a future date."
+    },
+    {
+      "page": "radon-mitigation-cost.html",
+      "guide_words": 169,
+      "has_worked_example": true,
+      "description": "Estimate a radon-mitigation project cost from base system pricing, foundation zones, crawl-space work, electrical service, testing and permits."
+    },
+    {
+      "page": "1031-exchange.html",
+      "guide_words": 132,
+      "has_worked_example": true,
+      "description": "Estimate taxable boot and deferred gain in a simplified like-kind exchange."
+    },
+    {
+      "page": "balance-transfer.html",
+      "guide_words": 149,
+      "has_worked_example": true,
+      "description": "Estimate payoff time and savings from a credit card balance-transfer offer."
+    },
+    {
+      "page": "invisalign-cost.html",
+      "guide_words": 224,
+      "has_worked_example": true,
+      "description": "Estimate clear-aligner treatment cost with provider, scan, retainer and insurance assumptions."
+    },
+    {
+      "page": "commercial-mortgage.html",
+      "guide_words": 183,
+      "has_worked_example": true,
+      "description": "Estimate monthly payment and balloon balance for a commercial real estate loan."
+    },
+    {
+      "page": "day-of-week-calculator.html",
+      "guide_words": 94,
+      "has_worked_example": true,
+      "description": "Find the weekday, day of year, ISO week and remaining days for a calendar date."
+    },
+    {
+      "page": "solar-savings.html",
+      "guide_words": 183,
+      "has_worked_example": true,
+      "description": "Estimate solar bill savings, net system cost and simple payback period."
+    },
+    {
+      "page": "estate-planning-cost.html",
+      "guide_words": 175,
+      "has_worked_example": true,
+      "description": "Estimate estate-planning legal costs for wills, trusts, powers of attorney, document preparation and related professional work."
+    },
+    {
+      "page": "flood-insurance-cost.html",
+      "guide_words": 155,
+      "has_worked_example": true,
+      "description": "Estimate an annual flood insurance premium from building and contents coverage, editable rates, policy fees and mitigation discounts."
+    },
+    {
+      "page": "covered-patio-cost.html",
+      "guide_words": 239,
+      "has_worked_example": true,
+      "description": "Estimate a covered patio construction budget."
+    },
+    {
+      "page": "walk-in-shower-cost.html",
+      "guide_words": 234,
+      "has_worked_example": true,
+      "description": "Estimate a walk-in shower renovation budget."
+    },
+    {
+      "page": "cash-flow.html",
+      "guide_words": 139,
+      "has_worked_example": true,
+      "description": "Estimate net cash movement and ending cash from operating, investing and financing activity."
+    },
+    {
+      "page": "fraction-calculator.html",
+      "guide_words": 98,
+      "has_worked_example": true,
+      "description": "Add and multiply two fractions, simplify the results and review their decimal values."
+    },
+    {
+      "page": "dui-lawyer-cost.html",
+      "guide_words": 176,
+      "has_worked_example": true,
+      "description": "Estimate a DUI-defense legal budget from attorney time, flat fees, court costs, experts and other case expenses."
+    },
+    {
+      "page": "water-damage-restoration-cost.html",
+      "guide_words": 179,
+      "has_worked_example": true,
+      "description": "Estimate water-damage restoration cost from affected area, extraction, drying, demolition, mold treatment, reconstruction and insurance assumptions."
+    },
+    {
+      "page": "merchant-cash-advance.html",
+      "guide_words": 122,
+      "has_worked_example": true,
+      "description": "Estimate merchant cash advance payback, holdback remittance, repayment time and simple annualized cost."
+    },
+    {
+      "page": "student-loan.html",
+      "guide_words": 233,
+      "has_worked_example": true,
+      "description": "Estimate student loan payments, interest cost, and the effect of making an extra monthly payment."
+    },
+    {
+      "page": "startup-cost.html",
+      "guide_words": 167,
+      "has_worked_example": true,
+      "description": "Estimate total startup funding needed from launch costs, inventory, deposits, working capital and contingency."
+    },
+    {
+      "page": "home-insulation-cost.html",
+      "guide_words": 164,
+      "has_worked_example": true,
+      "description": "Estimate insulation upgrade cost, rebates, annual energy savings and simple payback using area, material and air-sealing assumptions."
+    },
+    {
+      "page": "gutter-installation-cost.html",
+      "guide_words": 152,
+      "has_worked_example": true,
+      "description": "Estimate gutter installation cost from linear footage, material rate, complexity, downspouts, removal, gutter guards and contingency."
+    },
+    {
+      "page": "fmla-income-gap.html",
+      "guide_words": 132,
+      "has_worked_example": true,
+      "description": "Estimate lost income and benefits cost during an unpaid or partly paid FMLA leave."
+    },
+    {
+      "page": "standard-deviation.html",
+      "guide_words": 191,
+      "has_worked_example": true,
+      "description": "Calculate population and sample standard deviation."
+    },
+    {
+      "page": "commission.html",
+      "guide_words": 217,
+      "has_worked_example": true,
+      "description": "Estimate commission earnings, total annual compensation, and monthly average pay."
+    },
+    {
+      "page": "reverse-mortgage.html",
+      "guide_words": 156,
+      "has_worked_example": true,
+      "description": "Estimate potential reverse-mortgage proceeds using an editable principal-limit assumption."
+    },
+    {
+      "page": "overtime.html",
+      "guide_words": 239,
+      "has_worked_example": true,
+      "description": "Calculate weekly regular pay, overtime pay, and estimated annual gross earnings."
+    },
+    {
+      "page": "bridge-loan.html",
+      "guide_words": 128,
+      "has_worked_example": true,
+      "description": "Estimate interest-only payments, lender fees and total payoff for a short-term real-estate bridge loan."
+    },
+    {
+      "page": "crm-roi.html",
+      "guide_words": 213,
+      "has_worked_example": true,
+      "description": "Estimate CRM software return on investment from licenses, implementation, training, staff time savings and incremental revenue."
+    },
+    {
+      "page": "mold-remediation-cost.html",
+      "guide_words": 151,
+      "has_worked_example": true,
+      "description": "Estimate mold remediation cost from affected area, testing, containment, repairs, temporary lodging and contingency."
+    },
+    {
+      "page": "whole-house-water-filter-cost.html",
+      "guide_words": 245,
+      "has_worked_example": true,
+      "description": "Estimate whole-house water filtration equipment and installation cost."
+    },
+    {
+      "page": "root-canal-cost.html",
+      "guide_words": 225,
+      "has_worked_example": true,
+      "description": "Estimate root-canal, crown, imaging and related dental costs with editable insurance assumptions."
+    },
+    {
+      "page": "heat-pump-cost.html",
+      "guide_words": 167,
+      "has_worked_example": true,
+      "description": "Estimate heat-pump installation cost, incentives, annual energy savings and simple payback using editable equipment and utility assumptions."
+    },
+    {
+      "page": "business-loan.html",
+      "guide_words": 230,
+      "has_worked_example": true,
+      "description": "Estimate payment, total interest, and total cost for a fixed-rate business loan."
+    },
+    {
+      "page": "small-business-health-insurance-cost.html",
+      "guide_words": 148,
+      "has_worked_example": true,
+      "description": "Estimate a small employer’s annual health-insurance cost from employee count, premiums, employer contribution, administration and potential credits."
+    },
+    {
+      "page": "mortgage.html",
+      "guide_words": 309,
+      "has_worked_example": true,
+      "description": "Estimate principal and interest for a fixed-rate mortgage."
+    },
+    {
+      "page": "freelance-hourly-rate.html",
+      "guide_words": 190,
+      "has_worked_example": true,
+      "description": "Estimate a sustainable freelance hourly rate from desired take-home income, expenses, taxes, billable hours and non-billable time."
+    },
+    {
+      "page": "long-term-care-cost.html",
+      "guide_words": 154,
+      "has_worked_example": true,
+      "description": "Project future long-term care costs and estimate the funding gap after savings and existing coverage."
+    },
+    {
+      "page": "franchise-loan.html",
+      "guide_words": 150,
+      "has_worked_example": true,
+      "description": "Estimate franchise financing payments, owner cash contribution and total borrowing cost."
+    },
+    {
+      "page": "tip.html",
+      "guide_words": 223,
+      "has_worked_example": true,
+      "description": "Calculate tip and split a bill."
+    },
+    {
+      "page": "title-insurance-cost.html",
+      "guide_words": 166,
+      "has_worked_example": true,
+      "description": "Estimate owner and lender title-insurance premiums plus endorsements, settlement and recording charges."
+    },
+    {
+      "page": "fuel-cost.html",
+      "guide_words": 522,
+      "has_worked_example": true,
+      "description": "Estimate fuel use and total trip cost."
+    },
+    {
+      "page": "cost-of-employee.html",
+      "guide_words": 168,
+      "has_worked_example": true,
+      "description": "Estimate the full annual employer cost beyond base salary."
+    },
+    {
+      "page": "hourly-pay.html",
+      "guide_words": 242,
+      "has_worked_example": true,
+      "description": "Estimate weekly, monthly, and annual earnings from an hourly wage."
+    },
+    {
+      "page": "cybersecurity-services-cost.html",
+      "guide_words": 170,
+      "has_worked_example": true,
+      "description": "Estimate an annual cybersecurity-services budget from users, endpoints, monitoring, assessments, incident response and training."
+    },
+    {
+      "page": "mobile-app-development-cost.html",
+      "guide_words": 168,
+      "has_worked_example": true,
+      "description": "Estimate a mobile-app project cost from platforms, design, development, backend, quality assurance, launch and contingency."
+    },
+    {
+      "page": "adoption-cost.html",
+      "guide_words": 133,
+      "has_worked_example": true,
+      "description": "Estimate net adoption expenses after grants, employer benefits and expected tax credit."
+    },
+    {
+      "page": "break-even.html",
+      "guide_words": 210,
+      "has_worked_example": true,
+      "description": "Calculate break-even units, break-even revenue, and contribution margin for a product or service."
+    },
+    {
+      "page": "workers-compensation-premium.html",
+      "guide_words": 129,
+      "has_worked_example": true,
+      "description": "Estimate workers compensation premium from payroll, class rate and experience modifier."
+    },
+    {
+      "page": "cobra-insurance-cost.html",
+      "guide_words": 134,
+      "has_worked_example": true,
+      "description": "Estimate monthly and total COBRA continuation coverage cost from employee and employer premium shares."
+    },
+    {
+      "page": "travel-nurse-pay.html",
+      "guide_words": 139,
+      "has_worked_example": true,
+      "description": "Estimate gross and take-home pay for a travel nurse contract."
+    },
+    {
+      "page": "length-converter.html",
+      "guide_words": 91,
+      "has_worked_example": true,
+      "description": "Convert meters into centimeters, feet, inches, kilometers and miles."
+    },
+    {
+      "page": "graduate-school-roi.html",
+      "guide_words": 168,
+      "has_worked_example": true,
+      "description": "Estimate graduate-school ROI using program cost and expected salary gain."
+    },
+    {
+      "page": "house-hacking.html",
+      "guide_words": 178,
+      "has_worked_example": true,
+      "description": "Estimate net monthly housing cost and rent coverage when rooms or units offset a homeowner’s carrying costs."
+    },
+    {
+      "page": "solar-panel-cleaning-cost.html",
+      "guide_words": 129,
+      "has_worked_example": true,
+      "description": "Estimate solar-panel cleaning cost from panel count and service assumptions."
+    },
+    {
+      "page": "paint.html",
+      "guide_words": 279,
+      "has_worked_example": true,
+      "description": "Estimate paint gallons from wall area and coverage."
+    },
+    {
+      "page": "stripe-fee.html",
+      "guide_words": 153,
+      "has_worked_example": true,
+      "description": "Estimate Stripe processing, refund and dispute fees for one or many transactions and the net amount received."
+    },
+    {
+      "page": "qualified-business-income-deduction.html",
+      "guide_words": 226,
+      "has_worked_example": true,
+      "description": "Estimate a simplified QBI deduction using entered income and limitation assumptions."
+    },
+    {
+      "page": "marketplace-profit.html",
+      "guide_words": 114,
+      "has_worked_example": true,
+      "description": "Estimate per-unit and total profit after marketplace, product, shipping and advertising costs."
+    },
+    {
+      "page": "medicare-supplement-cost.html",
+      "guide_words": 174,
+      "has_worked_example": true,
+      "description": "Estimate a combined monthly and annual retirement health budget for a Medicare supplement, drug plan, dental or vision coverage and out-of-pocket costs."
+    },
+    {
+      "page": "ransomware-downtime-cost.html",
+      "guide_words": 132,
+      "has_worked_example": true,
+      "description": "Estimate labor, revenue and recovery cost from ransomware downtime."
+    },
+    {
+      "page": "appendectomy-cost.html",
+      "guide_words": 124,
+      "has_worked_example": true,
+      "description": "Estimate appendectomy out-of-pocket cost after insurance assumptions."
+    },
+    {
+      "page": "pto-payout.html",
+      "guide_words": 117,
+      "has_worked_example": true,
+      "description": "Estimate the gross and net value of unused paid time off."
+    },
+    {
+      "page": "bookkeeping-cost.html",
+      "guide_words": 111,
+      "has_worked_example": true,
+      "description": "Estimate monthly bookkeeping cost from transaction volume, hourly work, cleanup and software fees."
+    },
+    {
+      "page": "probability-calculator.html",
+      "guide_words": 169,
+      "has_worked_example": true,
+      "description": "Calculate a single-event probability and the chance of at least one success over repeated independent trials."
+    },
+    {
+      "page": "vacancy-rate.html",
+      "guide_words": 132,
+      "has_worked_example": true,
+      "description": "Estimate physical vacancy rate, occupied rate, potential rent and lost rent from vacant unit-days."
+    },
+    {
+      "page": "personal-loan.html",
+      "guide_words": 237,
+      "has_worked_example": true,
+      "description": "Estimate monthly payments, total repayment, and total interest for a fixed-rate personal loan."
+    },
+    {
+      "page": "hvac-financing-payment.html",
+      "guide_words": 121,
+      "has_worked_example": true,
+      "description": "Estimate the monthly payment and total financing cost for an HVAC project."
+    },
+    {
+      "page": "percentage.html",
+      "guide_words": 255,
+      "has_worked_example": true,
+      "description": "Find X percent of Y."
+    },
+    {
+      "page": "landlord-cash-flow.html",
+      "guide_words": 122,
+      "has_worked_example": true,
+      "description": "Estimate monthly and annual landlord cash flow after vacancy, expenses and debt service."
+    },
+    {
+      "page": "midpoint-calculator.html",
+      "guide_words": 91,
+      "has_worked_example": true,
+      "description": "Find the midpoint, distance and coordinate changes between two points."
+    },
+    {
+      "page": "ductwork-replacement-cost.html",
+      "guide_words": 170,
+      "has_worked_example": true,
+      "description": "Estimate HVAC ductwork replacement cost from conditioned area, unit rate, demolition, access difficulty, sealing, repairs, permits and contingency."
+    },
+    {
+      "page": "apr.html",
+      "guide_words": 218,
+      "has_worked_example": true,
+      "description": "Estimate annual percentage rate from a loan amount, finance charge, term, and monthly payment."
+    },
+    {
+      "page": "cpc.html",
+      "guide_words": 122,
+      "has_worked_example": true,
+      "description": "Calculate advertising cost per click and estimate clicks available from a campaign budget."
+    },
+    {
+      "page": "home-sale-capital-gains.html",
+      "guide_words": 111,
+      "has_worked_example": true,
+      "description": "Estimate gain on a home sale after selling costs, adjusted basis and entered exclusion."
+    },
+    {
+      "page": "saas-valuation.html",
+      "guide_words": 154,
+      "has_worked_example": true,
+      "description": "Estimate SaaS enterprise and equity value from ARR, an editable revenue multiple, growth adjustment, cash and debt."
+    },
+    {
+      "page": "dermatologist-visit-cost.html",
+      "guide_words": 126,
+      "has_worked_example": true,
+      "description": "Estimate dermatologist visit costs after deductible, coinsurance and copays."
+    },
+    {
+      "page": "distance-calculator.html",
+      "guide_words": 104,
+      "has_worked_example": true,
+      "description": "Calculate the straight-line distance, coordinate changes, midpoint and slope between two points."
+    },
+    {
+      "page": "markup.html",
+      "guide_words": 235,
+      "has_worked_example": true,
+      "description": "Convert between cost, markup, selling price, and margin."
+    },
+    {
+      "page": "siding-cost.html",
+      "guide_words": 151,
+      "has_worked_example": true,
+      "description": "Estimate siding materials, labor, removal and permits from exterior wall area and waste allowance."
+    },
+    {
+      "page": "gum-disease-treatment-cost.html",
+      "guide_words": 124,
+      "has_worked_example": true,
+      "description": "Estimate periodontal treatment and maintenance costs after coverage and discounts."
+    },
+    {
+      "page": "mortgage-income.html",
+      "guide_words": 242,
+      "has_worked_example": true,
+      "description": "Estimate the gross income needed for a housing payment using a front-end DTI limit."
+    },
+    {
+      "page": "sales-commission.html",
+      "guide_words": 219,
+      "has_worked_example": true,
+      "description": "Estimate commission and total compensation from sales."
+    },
+    {
+      "page": "equipment-financing.html",
+      "guide_words": 161,
+      "has_worked_example": true,
+      "description": "Estimate equipment loan payments, total interest and optional end-of-term buyout."
+    },
+    {
+      "page": "proportion-calculator.html",
+      "guide_words": 104,
+      "has_worked_example": true,
+      "description": "Solve a proportion of the form a divided by b equals c divided by x."
+    },
+    {
+      "page": "college-tuition-roi.html",
+      "guide_words": 169,
+      "has_worked_example": true,
+      "description": "Estimate college ROI using tuition, aid, foregone earnings and salary gain."
+    },
+    {
+      "page": "permutation-combination-calculator.html",
+      "guide_words": 98,
+      "has_worked_example": true,
+      "description": "Calculate combinations and permutations for choosing r items from n items."
+    },
+    {
+      "page": "memory-care-cost.html",
+      "guide_words": 176,
+      "has_worked_example": true,
+      "description": "Project memory-care costs over time with inflation and benefits."
+    },
+    {
+      "page": "total-cost-car-ownership.html",
+      "guide_words": 242,
+      "has_worked_example": true,
+      "description": "Estimate multi-year vehicle ownership cost from financing, fuel, insurance, maintenance, registration and expected resale value."
+    },
+    {
+      "page": "calorie-deficit-calculator.html",
+      "guide_words": 181,
+      "has_worked_example": true,
+      "description": "Estimate a daily calorie deficit and projected weekly weight change from maintenance calories and intake."
+    },
+    {
+      "page": "dental-implant-cost.html",
+      "guide_words": 224,
+      "has_worked_example": true,
+      "description": "Estimate dental-implant treatment cost and potential out-of-pocket expense using editable implant, crown, imaging and insurance assumptions."
+    },
+    {
+      "page": "window-replacement-cost.html",
+      "guide_words": 125,
+      "has_worked_example": true,
+      "description": "Estimate window replacement materials, installation labor, finishing, permits and contingency."
+    },
+    {
+      "page": "apy.html",
+      "guide_words": 284,
+      "has_worked_example": true,
+      "description": "Calculate annual percentage yield from a stated interest rate and compounding frequency."
+    },
+    {
+      "page": "mini-split-cost.html",
+      "guide_words": 171,
+      "has_worked_example": true,
+      "description": "Estimate ductless mini-split installation cost from zones, equipment, labor, electrical work, permits, removal, rebates and expected energy savings."
+    },
+    {
+      "page": "circumference-calculator.html",
+      "guide_words": 75,
+      "has_worked_example": true,
+      "description": "Calculate a circle’s circumference, diameter and area from its radius."
+    },
+    {
+      "page": "hours-calculator.html",
+      "guide_words": 115,
+      "has_worked_example": true,
+      "description": "Calculate worked hours between two clock times after subtracting an unpaid break."
+    },
+    {
+      "page": "generator-installation-cost.html",
+      "guide_words": 241,
+      "has_worked_example": true,
+      "description": "Estimate standby generator equipment and installation cost."
+    },
+    {
+      "page": "payment-calculator.html",
+      "guide_words": 103,
+      "has_worked_example": true,
+      "description": "Estimate a fixed monthly loan payment, total repayment and total interest."
+    },
+    {
+      "page": "interest-only-mortgage.html",
+      "guide_words": 137,
+      "has_worked_example": true,
+      "description": "Estimate the initial interest-only payment, later principal-and-interest payment and total interest for an interest-only mortgage."
+    },
+    {
+      "page": "car-accident-lost-wages.html",
+      "guide_words": 122,
+      "has_worked_example": true,
+      "description": "Estimate past and future wage losses after a car accident."
+    },
+    {
+      "page": "plumbing-cost.html",
+      "guide_words": 141,
+      "has_worked_example": true,
+      "description": "Estimate a plumbing project budget from labor hours, hourly rate, fixtures, pipe materials, access work, permits and contingency."
+    },
+    {
+      "page": "asbestos-removal-cost.html",
+      "guide_words": 161,
+      "has_worked_example": true,
+      "description": "Estimate an asbestos-abatement project cost from affected area, removal rate, testing, containment, disposal, clearance and contingency."
+    },
+    {
+      "page": "attic-conversion-cost.html",
+      "guide_words": 143,
+      "has_worked_example": true,
+      "description": "Estimate an attic conversion budget including finished area, stairs, insulation, HVAC, permits and contingency."
+    },
+    {
+      "page": "urgent-care-vs-er-cost.html",
+      "guide_words": 130,
+      "has_worked_example": true,
+      "description": "Compare estimated out-of-pocket costs for urgent care and an emergency room."
+    },
+    {
+      "page": "buy-now-pay-later.html",
+      "guide_words": 109,
+      "has_worked_example": true,
+      "description": "Estimate installment amount, fees and effective financing cost for a buy-now-pay-later purchase."
+    },
+    {
+      "page": "polynomial-calculator.html",
+      "guide_words": 110,
+      "has_worked_example": true,
+      "description": "Evaluate a cubic polynomial and its first two derivatives at a selected x value."
+    },
+    {
+      "page": "average-calculator.html",
+      "guide_words": 86,
+      "has_worked_example": true,
+      "description": "Calculate the mean, sum, minimum, maximum and range of five values."
+    },
+    {
+      "page": "basic-calculator.html",
+      "guide_words": 76,
+      "has_worked_example": true,
+      "description": "Perform the four basic arithmetic operations and compare the results instantly."
+    },
+    {
+      "page": "mean-median-mode.html",
+      "guide_words": 184,
+      "has_worked_example": true,
+      "description": "Calculate mean, median, mode, minimum, and maximum."
+    },
+    {
+      "page": "assisted-living-cost.html",
+      "guide_words": 175,
+      "has_worked_example": true,
+      "description": "Project assisted-living costs over time with inflation and benefits."
+    },
+    {
+      "page": "customer-acquisition-cost.html",
+      "guide_words": 137,
+      "has_worked_example": true,
+      "description": "Calculate blended CAC from marketing and sales spend."
+    },
+    {
+      "page": "rent-vs-buy.html",
+      "guide_words": 214,
+      "has_worked_example": true,
+      "description": "Compare the estimated long-term cost of renting with buying a home."
+    },
+    {
+      "page": "lasik-cost.html",
+      "guide_words": 223,
+      "has_worked_example": true,
+      "description": "Estimate LASIK procedure and out-of-pocket costs for one or both eyes with consultation, facility and financing-related assumptions."
+    },
+    {
+      "page": "unit-converter.html",
+      "guide_words": 266,
+      "has_worked_example": true,
+      "description": "Convert meters, kilometers, miles and feet."
+    },
+    {
+      "page": "auto-total-loss-payout.html",
+      "guide_words": 136,
+      "has_worked_example": true,
+      "description": "Estimate an auto total-loss payout, loan payoff and remaining equity or deficiency."
+    },
+    {
+      "page": "closing-cost.html",
+      "guide_words": 245,
+      "has_worked_example": true,
+      "description": "Estimate buyer closing costs and cash needed to close on a U.S. home purchase."
+    },
+    {
+      "page": "payroll-burden.html",
+      "guide_words": 178,
+      "has_worked_example": true,
+      "description": "Estimate an employer’s total payroll cost and burden rate from wages, payroll taxes, insurance, benefits, retirement and administration."
+    },
+    {
+      "page": "buy-now-pay-later-cost.html",
+      "guide_words": 114,
+      "has_worked_example": true,
+      "description": "Estimate installment size and total BNPL cost above cash price."
+    },
+    {
+      "page": "product-liability-insurance-cost.html",
+      "guide_words": 158,
+      "has_worked_example": true,
+      "description": "Estimate product-liability insurance cost from annual sales, a rate per $1,000, product risk, coverage limits, deductible adjustment and endorsements."
+    },
+    {
+      "page": "probate-estate-distribution.html",
+      "guide_words": 127,
+      "has_worked_example": true,
+      "description": "Estimate the residuary estate and equal beneficiary shares."
+    },
+    {
+      "page": "orthodontic-monthly-payment.html",
+      "guide_words": 120,
+      "has_worked_example": true,
+      "description": "Estimate monthly orthodontic payments after insurance and down payment."
+    },
+    {
+      "page": "granite-countertop-cost.html",
+      "guide_words": 244,
+      "has_worked_example": true,
+      "description": "Estimate granite countertop fabrication and installation cost."
+    },
+    {
+      "page": "mortgage-payoff.html",
+      "guide_words": 165,
+      "has_worked_example": true,
+      "description": "Estimate payoff time and total interest from a current balance and monthly payment."
+    },
+    {
+      "page": "business-valuation.html",
+      "guide_words": 115,
+      "has_worked_example": true,
+      "description": "Estimate enterprise and equity value using an earnings multiple."
+    },
+    {
+      "page": "motorcycle-loan.html",
+      "guide_words": 155,
+      "has_worked_example": true,
+      "description": "Estimate a motorcycle loan payment, amount financed and total interest."
+    },
+    {
+      "page": "ideal-weight.html",
+      "guide_words": 191,
+      "has_worked_example": true,
+      "description": "Estimate ideal weight using the Devine formula."
+    },
+    {
+      "page": "retirement-withdrawal.html",
+      "guide_words": 281,
+      "has_worked_example": true,
+      "description": "Estimate annual and monthly retirement withdrawals using a selected portfolio withdrawal rate."
+    },
+    {
+      "page": "travel-insurance-cost.html",
+      "guide_words": 142,
+      "has_worked_example": true,
+      "description": "Estimate travel insurance cost as a percentage of insured trip cost plus traveler surcharges, optional coverage and policy fees."
+    },
+    {
+      "page": "pest-control-cost.html",
+      "guide_words": 144,
+      "has_worked_example": true,
+      "description": "Estimate first-year pest-control cost from initial treatment, recurring visits, specialty treatment, exclusion work and service discounts."
+    },
+    {
+      "page": "medicare-advantage-out-of-pocket.html",
+      "guide_words": 162,
+      "has_worked_example": true,
+      "description": "Estimate annual Medicare Advantage premiums and medical out-of-pocket spending."
+    },
+    {
+      "page": "cybersecurity-roi.html",
+      "guide_words": 165,
+      "has_worked_example": true,
+      "description": "Estimate expected financial ROI from a cybersecurity investment."
+    },
+    {
+      "page": "income-tax.html",
+      "guide_words": 199,
+      "has_worked_example": true,
+      "description": "Estimate 2026 U.S. federal income tax using filing status, income, and deductions."
+    },
+    {
+      "page": "compound-interest.html",
+      "guide_words": 197,
+      "has_worked_example": true,
+      "description": "Estimate growth with monthly contributions."
+    },
+    {
+      "page": "mortgage-extra-payment.html",
+      "guide_words": 156,
+      "has_worked_example": true,
+      "description": "See how an extra monthly mortgage payment can reduce interest and payoff time."
+    },
+    {
+      "page": "speed-converter.html",
+      "guide_words": 99,
+      "has_worked_example": true,
+      "description": "Convert kilometers per hour into miles per hour, meters per second, knots and feet per second."
+    },
+    {
+      "page": "roof-cost.html",
+      "guide_words": 165,
+      "has_worked_example": true,
+      "description": "Estimate roofing area, waste allowance and project cost."
+    },
+    {
+      "page": "renters-insurance.html",
+      "guide_words": 213,
+      "has_worked_example": true,
+      "description": "Estimate a renters insurance budget from personal property coverage, an annual rate, liability coverage, and discounts."
+    },
+    {
+      "page": "square-fee.html",
+      "guide_words": 131,
+      "has_worked_example": true,
+      "description": "Estimate Square processing fees for in-person or online payments with net proceeds and effective rate."
+    },
+    {
+      "page": "z-score-calculator.html",
+      "guide_words": 87,
+      "has_worked_example": true,
+      "description": "Calculate a z-score, deviation from the mean and approximate normal-distribution percentile."
+    },
+    {
+      "page": "car-down-payment.html",
+      "guide_words": 125,
+      "has_worked_example": true,
+      "description": "Estimate cash down payment needed to reach a target monthly car payment."
+    },
+    {
+      "page": "egg-freezing-cost.html",
+      "guide_words": 133,
+      "has_worked_example": true,
+      "description": "Estimate retrieval, medication and storage costs for egg freezing."
+    },
+    {
+      "page": "divorce-asset-split.html",
+      "guide_words": 137,
+      "has_worked_example": true,
+      "description": "Estimate a marital property and debt allocation between two parties."
+    },
+    {
+      "page": "home-insurance.html",
+      "guide_words": 288,
+      "has_worked_example": true,
+      "description": "Estimate an annual homeowners insurance budget from dwelling replacement cost, a planning rate, and deductible discount."
+    },
+    {
+      "page": "health-insurance-premium.html",
+      "guide_words": 156,
+      "has_worked_example": true,
+      "description": "Estimate annual employee health-plan cost from premiums, employer contributions, expected medical spending, deductible and coinsurance."
+    },
+    {
+      "page": "pool-cost.html",
+      "guide_words": 173,
+      "has_worked_example": true,
+      "description": "Estimate an in-ground swimming pool project budget including shell, decking, equipment, site work, fencing, permits and contingency."
+    },
+    {
+      "page": "area-calculator.html",
+      "guide_words": 106,
+      "has_worked_example": true,
+      "description": "Calculate rectangle, circle and triangle areas from common dimensions."
+    },
+    {
+      "page": "car-insurance.html",
+      "guide_words": 313,
+      "has_worked_example": true,
+      "description": "Estimate a household auto insurance budget using a base monthly premium, number of vehicles, drivers, coverage factor, and discounts."
+    },
+    {
+      "page": "vasectomy-cost.html",
+      "guide_words": 125,
+      "has_worked_example": true,
+      "description": "Estimate vasectomy out-of-pocket cost after deductible and coinsurance."
+    },
+    {
+      "page": "net-income.html",
+      "guide_words": 257,
+      "has_worked_example": true,
+      "description": "Estimate take-home income after taxes and deductions."
+    },
+    {
+      "page": "va-loan.html",
+      "guide_words": 212,
+      "has_worked_example": true,
+      "description": "Estimate a VA-style monthly housing payment with an editable funding-fee assumption."
+    },
+    {
+      "page": "volume-calculator.html",
+      "guide_words": 106,
+      "has_worked_example": true,
+      "description": "Calculate rectangular-prism, cylinder and sphere volumes from editable dimensions."
+    },
+    {
+      "page": "square-footage.html",
+      "guide_words": 199,
+      "has_worked_example": true,
+      "description": "Calculate rectangular area and estimated project cost."
+    },
+    {
+      "page": "cpm.html",
+      "guide_words": 124,
+      "has_worked_example": true,
+      "description": "Calculate advertising cost per one thousand impressions."
+    },
+    {
+      "page": "debt-to-income.html",
+      "guide_words": 226,
+      "has_worked_example": true,
+      "description": "Calculate front-end and back-end debt-to-income ratios used in lending decisions."
+    },
+    {
+      "page": "soc-2-compliance-cost.html",
+      "guide_words": 641,
+      "has_worked_example": true,
+      "description": "Estimate first-year SOC 2 readiness, audit, tooling and remediation cost."
+    },
+    {
+      "page": "break-even-cpa.html",
+      "guide_words": 137,
+      "has_worked_example": true,
+      "description": "Calculate the maximum cost per acquisition that breaks even on a first order."
+    },
+    {
+      "page": "bathroom-addition-cost.html",
+      "guide_words": 241,
+      "has_worked_example": true,
+      "description": "Estimate the cost to add a new bathroom."
+    },
+    {
+      "page": "email-marketing-roi.html",
+      "guide_words": 188,
+      "has_worked_example": true,
+      "description": "Estimate email marketing revenue, gross profit and ROI from list size, send frequency, click rate, conversion rate, order value and campaign costs."
+    },
+    {
+      "page": "refinance-break-even.html",
+      "guide_words": 234,
+      "has_worked_example": true,
+      "description": "Estimate how long it may take refinance savings to recover closing costs."
+    },
+    {
+      "page": "airbnb-profit.html",
+      "guide_words": 189,
+      "has_worked_example": true,
+      "description": "Estimate monthly short-term rental revenue, operating costs, net profit and annualized return from nightly rate and occupancy assumptions."
+    },
+    {
+      "page": "homeowners-insurance-deductible.html",
+      "guide_words": 160,
+      "has_worked_example": true,
+      "description": "Compare lower- and higher-deductible homeowners insurance options using premium savings and an assumed claim amount."
+    },
+    {
+      "page": "time-tracking-roi.html",
+      "guide_words": 165,
+      "has_worked_example": true,
+      "description": "Estimate ROI from recovered billable time and reduced administration."
+    },
+    {
+      "page": "shopify-profit.html",
+      "guide_words": 176,
+      "has_worked_example": true,
+      "description": "Estimate monthly Shopify store profit, contribution margin and break-even revenue from sales, product cost, payments, ads, apps and refunds."
+    },
+    {
+      "page": "cpa.html",
+      "guide_words": 122,
+      "has_worked_example": true,
+      "description": "Calculate advertising cost per acquisition and estimate acquisitions available from a future budget."
+    },
+    {
+      "page": "sauna-installation-cost.html",
+      "guide_words": 232,
+      "has_worked_example": true,
+      "description": "Estimate home sauna equipment and installation cost."
+    },
+    {
+      "page": "hipaa-compliance-cost.html",
+      "guide_words": 633,
+      "has_worked_example": true,
+      "description": "Estimate first-year HIPAA risk assessment, safeguards, training and tooling cost."
+    },
+    {
+      "page": "401k.html",
+      "guide_words": 165,
+      "has_worked_example": true,
+      "description": "Estimate the future value of a 401(k), including employee contributions and an employer match."
+    },
+    {
+      "page": "body-fat.html",
+      "guide_words": 326,
+      "has_worked_example": true,
+      "description": "Estimate body fat percentage using the U.S. Navy circumference method."
+    },
+    {
+      "page": "dscr.html",
+      "guide_words": 102,
+      "has_worked_example": true,
+      "description": "Calculate debt service coverage ratio for a rental or business property."
+    },
+    {
+      "page": "invoice-factoring.html",
+      "guide_words": 167,
+      "has_worked_example": true,
+      "description": "Estimate factoring advances, fees, reserve release and net proceeds from an invoice."
+    },
+    {
+      "page": "chimney-repair-cost.html",
+      "guide_words": 157,
+      "has_worked_example": true,
+      "description": "Estimate a chimney-repair budget from masonry area, liner, cap, scaffolding, inspection, permits and contingency."
+    },
+    {
+      "page": "website-development-cost.html",
+      "guide_words": 178,
+      "has_worked_example": true,
+      "description": "Estimate a business website project cost from pages, design, development, e-commerce, content, SEO, setup and contingency."
+    },
+    {
+      "page": "foundation-repair-cost.html",
+      "guide_words": 160,
+      "has_worked_example": true,
+      "description": "Estimate a foundation repair budget from crack work, piers, waterproofing, engineering, permits and contingency."
+    },
+    {
+      "page": "wedding-insurance-cost.html",
+      "guide_words": 154,
+      "has_worked_example": true,
+      "description": "Estimate a wedding-insurance premium from wedding budget, guest count, cancellation coverage, liability, weather options and deductible."
+    },
+    {
+      "page": "loan-comparison.html",
+      "guide_words": 211,
+      "has_worked_example": true,
+      "description": "Compare monthly payment and total interest for two loans."
+    },
+    {
+      "page": "inflation.html",
+      "guide_words": 132,
+      "has_worked_example": true,
+      "description": "Estimate how inflation changes future prices and the purchasing power of today’s money."
+    },
+    {
+      "page": "gutter-guard-cost.html",
+      "guide_words": 242,
+      "has_worked_example": true,
+      "description": "Estimate gutter-guard material and installation cost."
+    },
+    {
+      "page": "pain-and-suffering-multiplier.html",
+      "guide_words": 146,
+      "has_worked_example": true,
+      "description": "Estimate non-economic damages using an adjustable multiplier."
+    },
+    {
+      "page": "ac-replacement-cost.html",
+      "guide_words": 139,
+      "has_worked_example": true,
+      "description": "Estimate central air-conditioning replacement cost including equipment, labor, ductwork, electrical work, permits, removal, rebates and contingency."
+    },
+    {
+      "page": "mortgage-recast.html",
+      "guide_words": 175,
+      "has_worked_example": true,
+      "description": "Estimate a new monthly payment after applying a lump-sum principal reduction."
+    },
+    {
+      "page": "vacation-rental-roi.html",
+      "guide_words": 114,
+      "has_worked_example": true,
+      "description": "Estimate cash flow and cash-on-cash return for a vacation rental."
+    },
+    {
+      "page": "term-life-insurance-cost.html",
+      "guide_words": 144,
+      "has_worked_example": true,
+      "description": "Estimate a term life insurance premium from coverage, a rate per $1,000, policy fees and the selected term length."
+    },
+    {
+      "page": "medicare-irmaa-surcharge.html",
+      "guide_words": 174,
+      "has_worked_example": true,
+      "description": "Estimate total Medicare income-related monthly adjustment surcharges for a household."
+    },
+    {
+      "page": "pregnancy-conception-calculator.html",
+      "guide_words": 127,
+      "has_worked_example": true,
+      "description": "Estimate conception date, gestational age and time remaining from an expected due date and reference date."
+    },
+    {
+      "page": "garage-cost.html",
+      "guide_words": 143,
+      "has_worked_example": true,
+      "description": "Estimate the cost to build or expand a garage using floor area, construction rate, doors, electrical work, permits and contingency."
+    },
+    {
+      "page": "immigration-lawyer-cost.html",
+      "guide_words": 174,
+      "has_worked_example": true,
+      "description": "Estimate immigration legal-service costs using editable attorney hours, package fees, filing, translation and specialist assumptions."
+    },
+    {
+      "page": "weeks-between-dates-calculator.html",
+      "guide_words": 105,
+      "has_worked_example": true,
+      "description": "Calculate total weeks, full weeks and remaining days between two calendar dates."
+    },
+    {
+      "page": "security-deposit.html",
+      "guide_words": 110,
+      "has_worked_example": true,
+      "description": "Estimate move-in deposit requirements from rent, deposit multiplier, pet deposit and fees."
+    },
+    {
+      "page": "nursing-home-cost.html",
+      "guide_words": 170,
+      "has_worked_example": true,
+      "description": "Project nursing-home costs over time with inflation and benefits."
+    },
+    {
+      "page": "rent-increase.html",
+      "guide_words": 157,
+      "has_worked_example": true,
+      "description": "Estimate a proposed rent increase, annual revenue change and tenant cost under percentage or fixed-dollar assumptions."
+    },
+    {
+      "page": "fuel-economy.html",
+      "guide_words": 483,
+      "has_worked_example": true,
+      "description": "Calculate MPG and fuel cost per mile."
+    },
+    {
+      "page": "pythagorean-theorem-calculator.html",
+      "guide_words": 94,
+      "has_worked_example": true,
+      "description": "Solve a right triangle’s hypotenuse, area, perimeter and acute angles from two legs."
+    },
+    {
+      "page": "home-sale-proceeds.html",
+      "guide_words": 146,
+      "has_worked_example": true,
+      "description": "Estimate net proceeds from selling a home after mortgage payoff, agent compensation, seller closing costs, repairs and other expenses."
+    },
+    {
+      "page": "deck-cost.html",
+      "guide_words": 148,
+      "has_worked_example": true,
+      "description": "Estimate deck materials, labor, railing, permits and contingency from planned deck area."
+    },
+    {
+      "page": "debt-payoff.html",
+      "guide_words": 222,
+      "has_worked_example": true,
+      "description": "Estimate how long it will take to pay off a debt and how much interest you can save with extra payments."
+    },
+    {
+      "page": "shopify-fee.html",
+      "guide_words": 117,
+      "has_worked_example": true,
+      "description": "Estimate online-store platform and payment fees using adjustable assumptions."
+    },
+    {
+      "page": "lease-vs-buy-car.html",
+      "guide_words": 141,
+      "has_worked_example": true,
+      "description": "Compare the net cost of leasing a vehicle with buying and retaining equity."
+    },
+    {
+      "page": "contribution-margin.html",
+      "guide_words": 126,
+      "has_worked_example": true,
+      "description": "Calculate contribution margin per unit, ratio, profit and break-even volume."
+    },
+    {
+      "page": "cpap-cost.html",
+      "guide_words": 157,
+      "has_worked_example": true,
+      "description": "Estimate first-year out-of-pocket CPAP equipment and supply costs."
+    },
+    {
+      "page": "net-revenue-retention.html",
+      "guide_words": 149,
+      "has_worked_example": true,
+      "description": "Calculate net revenue retention, ending recurring revenue and the effect of expansion, contraction and churn."
+    },
+    {
+      "page": "ppc-agency-fee.html",
+      "guide_words": 135,
+      "has_worked_example": true,
+      "description": "Estimate paid-search agency management fees and total campaign budget."
+    },
+    {
+      "page": "kitchen-cabinet-cost.html",
+      "guide_words": 162,
+      "has_worked_example": true,
+      "description": "Estimate kitchen cabinet replacement cost from linear footage, cabinet grade, installation, demolition, hardware, finishing and contingency."
+    },
+    {
+      "page": "managed-it-services-cost.html",
+      "guide_words": 156,
+      "has_worked_example": true,
+      "description": "Estimate the first-year cost of managed IT services from users, devices, projects, security services and onboarding."
+    },
+    {
+      "page": "percentage-increase-calculator.html",
+      "guide_words": 83,
+      "has_worked_example": true,
+      "description": "Calculate percentage increase or decrease, absolute change and change factor between two values."
+    },
+    {
+      "page": "high-yield-savings-interest.html",
+      "guide_words": 182,
+      "has_worked_example": true,
+      "description": "Project a high-yield savings balance with monthly deposits, APY and account fees."
+    },
+    {
+      "page": "airbnb-break-even-occupancy.html",
+      "guide_words": 164,
+      "has_worked_example": true,
+      "description": "Estimate the occupancy rate and booked nights needed for a short-term rental to cover fixed and variable operating costs."
+    },
+    {
+      "page": "pregnancy-due-date.html",
+      "guide_words": 305,
+      "has_worked_example": true,
+      "description": "Estimate a pregnancy due date from the first day of the last menstrual period."
+    },
+    {
+      "page": "triangle-calculator.html",
+      "guide_words": 91,
+      "has_worked_example": true,
+      "description": "Calculate a triangle’s area, perimeter and classification from three side lengths."
+    },
+    {
+      "page": "solar-battery-cost.html",
+      "guide_words": 155,
+      "has_worked_example": true,
+      "description": "Estimate a residential solar-battery project cost after equipment, installation, electrical upgrades, permits and incentives."
+    },
+    {
+      "page": "dental-insurance-cost.html",
+      "guide_words": 148,
+      "has_worked_example": true,
+      "description": "Compare expected annual dental spending with estimated premiums, deductible, coinsurance and plan maximum benefits."
+    },
+    {
+      "page": "decimal-to-fraction-calculator.html",
+      "guide_words": 159,
+      "has_worked_example": true,
+      "description": "Convert a decimal number into a simplified fraction using an adjustable precision limit."
+    },
+    {
+      "page": "inland-marine-insurance-cost.html",
+      "guide_words": 139,
+      "has_worked_example": true,
+      "description": "Estimate an annual inland-marine insurance premium for mobile equipment, tools and property in transit."
+    },
+    {
+      "page": "rental-yield.html",
+      "guide_words": 164,
+      "has_worked_example": true,
+      "description": "Estimate gross and net rental yield, NOI and yield on total acquisition cost for a rental property."
+    },
+    {
+      "page": "home-warranty-cost.html",
+      "guide_words": 176,
+      "has_worked_example": true,
+      "description": "Estimate annual home-warranty cost and compare it with expected repair spending using plan premiums, service fees, coverage percentage and exclusions."
+    },
+    {
+      "page": "cap-rate.html",
+      "guide_words": 111,
+      "has_worked_example": true,
+      "description": "Calculate capitalization rate from property value and net operating income."
+    },
+    {
+      "page": "pace.html",
+      "guide_words": 122,
+      "has_worked_example": true,
+      "description": "Calculate pace from distance and finish time."
+    },
+    {
+      "page": "rv-loan.html",
+      "guide_words": 159,
+      "has_worked_example": true,
+      "description": "Estimate an RV loan payment, financing amount, total interest and cash needed at purchase."
+    },
+    {
+      "page": "scientific-calculator.html",
+      "guide_words": 104,
+      "has_worked_example": true,
+      "description": "Calculate powers, roots, logarithms and trigonometric values from editable numbers and angles."
+    },
+    {
+      "page": "budget.html",
+      "guide_words": 219,
+      "has_worked_example": true,
+      "description": "Compare monthly income and expenses, calculate cash flow, and estimate your savings rate."
+    },
+    {
+      "page": "fire-damage-restoration-cost.html",
+      "guide_words": 244,
+      "has_worked_example": true,
+      "description": "Estimate a fire and smoke damage restoration budget."
+    },
+    {
+      "page": "pci-compliance-cost.html",
+      "guide_words": 641,
+      "has_worked_example": true,
+      "description": "Estimate first-year PCI DSS assessment, scanning, tooling and remediation cost."
+    },
+    {
+      "page": "builders-risk-insurance-cost.html",
+      "guide_words": 154,
+      "has_worked_example": true,
+      "description": "Estimate a builders-risk insurance premium using project value, policy rate, construction duration, project risk, deductible adjustment and endorsements."
+    },
+    {
+      "page": "profit-margin.html",
+      "guide_words": 115,
+      "has_worked_example": true,
+      "description": "Calculate gross profit, margin, and markup."
+    },
+    {
+      "page": "ppc-profit.html",
+      "guide_words": 193,
+      "has_worked_example": true,
+      "description": "Estimate paid-search or paid-social clicks, conversions, revenue, net profit, ROAS, ROI and a contribution-based break-even CPC."
+    },
+    {
+      "page": "commute-cost.html",
+      "guide_words": 120,
+      "has_worked_example": true,
+      "description": "Estimate annual commuting cost from mileage, fuel economy, parking and tolls."
+    },
+    {
+      "page": "self-employment-tax.html",
+      "guide_words": 271,
+      "has_worked_example": true,
+      "description": "Estimate 2026 U.S. self-employment tax, Social Security, Medicare, and the deductible half."
+    },
+    {
+      "page": "allergy-shot-cost.html",
+      "guide_words": 126,
+      "has_worked_example": true,
+      "description": "Estimate allergy immunotherapy visit and testing costs."
+    },
+    {
+      "page": "basement-waterproofing-cost.html",
+      "guide_words": 172,
+      "has_worked_example": true,
+      "description": "Estimate a basement-waterproofing project cost from perimeter drainage, sump pumps, wall sealing, exterior work, permits and contingency."
+    },
+    {
+      "page": "property-tax.html",
+      "guide_words": 246,
+      "has_worked_example": true,
+      "description": "Estimate annual and monthly property tax from home value, assessment ratio, and local tax rate."
+    },
+    {
+      "page": "credit-card-interest.html",
+      "guide_words": 144,
+      "has_worked_example": true,
+      "description": "Estimate monthly interest, payoff time, and total interest for a fixed credit card payment."
+    },
+    {
+      "page": "paypal-fee.html",
+      "guide_words": 144,
+      "has_worked_example": true,
+      "description": "Estimate PayPal payment-processing fees and the amount to charge or receive after fees."
+    },
+    {
+      "page": "emergency-fund.html",
+      "guide_words": 238,
+      "has_worked_example": true,
+      "description": "Estimate an emergency savings target from essential monthly expenses and desired months of coverage."
+    },
+    {
+      "page": "hard-money-loan.html",
+      "guide_words": 152,
+      "has_worked_example": true,
+      "description": "Estimate a hard-money loan amount, cash required, interest-only payment, points and total financing cost for a property project."
+    },
+    {
+      "page": "kitchen-remodel-cost.html",
+      "guide_words": 129,
+      "has_worked_example": true,
+      "description": "Estimate kitchen remodeling costs for cabinets, countertops, appliances, flooring, labor and contingency."
+    },
+    {
+      "page": "debt-consolidation.html",
+      "guide_words": 141,
+      "has_worked_example": true,
+      "description": "Compare current debt payments and interest with a proposed consolidation loan."
+    },
+    {
+      "page": "help-desk-software-roi.html",
+      "guide_words": 155,
+      "has_worked_example": true,
+      "description": "Estimate help-desk software ROI from faster resolution and recovered employee productivity."
+    },
+    {
+      "page": "local-seo-roi.html",
+      "guide_words": 167,
+      "has_worked_example": true,
+      "description": "Estimate local SEO ROI from leads, close rate and customer profit."
+    },
+    {
+      "page": "rideshare-earnings.html",
+      "guide_words": 116,
+      "has_worked_example": true,
+      "description": "Estimate net rideshare earnings after platform fees and vehicle costs."
+    },
+    {
+      "page": "cube-root-calculator.html",
+      "guide_words": 83,
+      "has_worked_example": true,
+      "description": "Calculate the real cube root, cube, nearest integer and verification value."
+    },
+    {
+      "page": "sprinkler-system-cost.html",
+      "guide_words": 143,
+      "has_worked_example": true,
+      "description": "Estimate a lawn irrigation or sprinkler-system installation cost from zones, controller, backflow, trenching and permits."
+    },
+    {
+      "page": "professional-liability-insurance-cost.html",
+      "guide_words": 139,
+      "has_worked_example": true,
+      "description": "Estimate a professional liability or errors-and-omissions insurance budget using revenue, staff, risk and coverage assumptions."
+    },
+    {
+      "page": "fha-loan.html",
+      "guide_words": 201,
+      "has_worked_example": true,
+      "description": "Estimate an FHA-style monthly housing payment with editable mortgage-insurance assumptions."
+    },
+    {
+      "page": "business-property-insurance-cost.html",
+      "guide_words": 160,
+      "has_worked_example": true,
+      "description": "Estimate a commercial property insurance premium budget from building, contents, equipment, rate, risk and deductible assumptions."
+    },
+    {
+      "page": "business-line-of-credit.html",
+      "guide_words": 124,
+      "has_worked_example": true,
+      "description": "Estimate payments and financing cost for a business line-of-credit draw."
+    },
+    {
+      "page": "contractor-hourly-rate.html",
+      "guide_words": 161,
+      "has_worked_example": true,
+      "description": "Convert an employee-equivalent salary into a contractor billing rate using benefits, taxes, overhead, utilization and profit margin."
+    },
+    {
+      "page": "earthquake-insurance-cost.html",
+      "guide_words": 161,
+      "has_worked_example": true,
+      "description": "Estimate earthquake insurance premium and deductible exposure from dwelling coverage, rates, contents coverage and mitigation discounts."
+    },
+    {
+      "page": "pay-raise.html",
+      "guide_words": 108,
+      "has_worked_example": true,
+      "description": "Calculate the dollar and percentage impact of a salary increase."
+    },
+    {
+      "page": "scholarship-need.html",
+      "guide_words": 145,
+      "has_worked_example": true,
+      "description": "Estimate the scholarship funding gap after family resources, aid and desired borrowing."
+    },
+    {
+      "page": "gpa.html",
+      "guide_words": 190,
+      "has_worked_example": true,
+      "description": "Calculate a weighted GPA from course grades and credit hours."
+    },
+    {
+      "page": "factorial-calculator.html",
+      "guide_words": 98,
+      "has_worked_example": true,
+      "description": "Calculate n factorial, its digit count, trailing zeros and a simple permutation count."
+    },
+    {
+      "page": "amazon-seller-fee.html",
+      "guide_words": 155,
+      "has_worked_example": true,
+      "description": "Estimate Amazon referral, fulfillment, storage and other per-order fees plus expected net proceeds from a sale."
+    },
+    {
+      "page": "quarterly-estimated-tax.html",
+      "guide_words": 158,
+      "has_worked_example": true,
+      "description": "Divide a projected remaining annual tax balance across the quarters left to pay."
+    },
+    {
+      "page": "auto-refinance.html",
+      "guide_words": 163,
+      "has_worked_example": true,
+      "description": "Compare an existing auto loan with a proposed refinance offer."
+    },
+    {
+      "page": "square-root-calculator.html",
+      "guide_words": 73,
+      "has_worked_example": true,
+      "description": "Calculate square root, cube root, square and reciprocal for an entered number."
+    },
+    {
+      "page": "tree-removal-cost.html",
+      "guide_words": 160,
+      "has_worked_example": true,
+      "description": "Estimate tree removal cost using tree count, average height, base price, hazard factor, stump grinding, debris hauling and permits."
+    },
+    {
+      "page": "arm-mortgage.html",
+      "guide_words": 209,
+      "has_worked_example": true,
+      "description": "Compare an adjustable-rate mortgage payment before and after the first rate reset."
+    },
+    {
+      "page": "conversion-rate.html",
+      "guide_words": 142,
+      "has_worked_example": true,
+      "description": "Calculate conversion rate and the number of visitors needed for a target."
+    },
+    {
+      "page": "roas.html",
+      "guide_words": 105,
+      "has_worked_example": true,
+      "description": "Calculate return on ad spend from attributed revenue and advertising cost."
+    },
+    {
+      "page": "mobile-home-loan.html",
+      "guide_words": 160,
+      "has_worked_example": true,
+      "description": "Estimate a manufactured or mobile-home loan payment and total borrowing cost."
+    },
+    {
+      "page": "prime-factorization-calculator.html",
+      "guide_words": 94,
+      "has_worked_example": true,
+      "description": "Break a positive whole number into prime factors and review divisor information."
+    },
+    {
+      "page": "job-offer-comparison.html",
+      "guide_words": 158,
+      "has_worked_example": true,
+      "description": "Compare two job offers after benefits, equity and work-related costs."
+    },
+    {
+      "page": "cd.html",
+      "guide_words": 231,
+      "has_worked_example": true,
+      "description": "Estimate certificate of deposit maturity value and interest earned."
+    },
+    {
+      "page": "pmi.html",
+      "guide_words": 132,
+      "has_worked_example": true,
+      "description": "Estimate monthly private mortgage insurance from the loan amount, down payment and an editable PMI rate."
+    },
+    {
+      "page": "paycheck.html",
+      "guide_words": 182,
+      "has_worked_example": true,
+      "description": "Estimate take-home pay after federal, state, payroll taxes, and other deductions."
+    },
+    {
+      "page": "random-number-generator.html",
+      "guide_words": 125,
+      "has_worked_example": true,
+      "description": "Generate random integers inside a chosen range and summarize the generated values."
+    },
+    {
+      "page": "managed-it-cost.html",
+      "guide_words": 125,
+      "has_worked_example": true,
+      "description": "Estimate monthly and annual managed IT service cost by users, devices and sites."
+    },
+    {
+      "page": "car-lease-payment.html",
+      "guide_words": 178,
+      "has_worked_example": true,
+      "description": "Estimate a monthly vehicle lease payment from negotiated price, residual value, money factor, term, fees, down payment and sales tax."
+    },
+    {
+      "page": "stock-average-price.html",
+      "guide_words": 115,
+      "has_worked_example": true,
+      "description": "Calculate the weighted average share price after an additional stock purchase."
+    },
+    {
+      "page": "improper-fraction-to-mixed-number-calculator.html",
+      "guide_words": 87,
+      "has_worked_example": true,
+      "description": "Convert an improper fraction to a simplified mixed number, decimal, quotient and remainder."
+    },
+    {
+      "page": "car-depreciation.html",
+      "guide_words": 238,
+      "has_worked_example": true,
+      "description": "Estimate a vehicle’s future value using annual depreciation."
+    },
+    {
+      "page": "hvac-size.html",
+      "guide_words": 176,
+      "has_worked_example": true,
+      "description": "Estimate a rough heating and cooling capacity from floor area and basic adjustments."
+    },
+    {
+      "page": "grade.html",
+      "guide_words": 196,
+      "has_worked_example": true,
+      "description": "Calculate a weighted course grade and the score needed on a final exam."
+    },
+    {
+      "page": "break-even-roas.html",
+      "guide_words": 165,
+      "has_worked_example": true,
+      "description": "Calculate break-even return on ad spend from order value, gross margin, payment fees, fulfillment costs, returns and advertising budget."
+    },
+    {
+      "page": "time-calculator.html",
+      "guide_words": 113,
+      "has_worked_example": true,
+      "description": "Add hours and minutes to a starting time and see the resulting clock time and day shift."
+    },
+    {
+      "page": "home-equity-loan.html",
+      "guide_words": 122,
+      "has_worked_example": true,
+      "description": "Estimate a fixed home equity loan payment, total interest and closing-cost impact."
+    },
+    {
+      "page": "interest-rate-calculator.html",
+      "guide_words": 107,
+      "has_worked_example": true,
+      "description": "Estimate a simple annual interest rate from principal, total interest and time."
+    },
+    {
+      "page": "sba-loan.html",
+      "guide_words": 131,
+      "has_worked_example": true,
+      "description": "Estimate an SBA-style business loan payment, interest and upfront fees using editable assumptions."
+    },
+    {
+      "page": "bond-yield.html",
+      "guide_words": 186,
+      "has_worked_example": true,
+      "description": "Calculate a bond’s current yield from annual coupon income and market price."
+    },
+    {
+      "page": "cash-on-cash-return.html",
+      "guide_words": 150,
+      "has_worked_example": true,
+      "description": "Measure annual pre-tax cash flow as a percentage of cash invested."
+    },
+    {
+      "page": "ev-charger-installation-cost.html",
+      "guide_words": 175,
+      "has_worked_example": true,
+      "description": "Estimate home electric-vehicle charger installation cost from equipment, wiring distance, labor, panel upgrades, permits and incentives."
+    },
+    {
+      "page": "investment.html",
+      "guide_words": 132,
+      "has_worked_example": true,
+      "description": "Estimate future investment value using an initial deposit, recurring contributions, time, and expected return."
+    },
+    {
+      "page": "salary-hourly.html",
+      "guide_words": 244,
+      "has_worked_example": true,
+      "description": "Estimate hourly pay from annual salary."
+    },
+    {
+      "page": "braces-cost.html",
+      "guide_words": 224,
+      "has_worked_example": true,
+      "description": "Estimate braces treatment cost including appliances, orthodontist fees, imaging, retainers and possible insurance coverage."
+    },
+    {
+      "page": "custom-software-development-cost.html",
+      "guide_words": 149,
+      "has_worked_example": true,
+      "description": "Estimate a custom-software project budget from development labor, project management, quality assurance, infrastructure, licenses and contingency."
+    },
+    {
+      "page": "auto-insurance-deductible.html",
+      "guide_words": 159,
+      "has_worked_example": true,
+      "description": "Compare auto insurance deductible options using annual premium differences and an assumed collision or comprehensive claim."
+    },
+    {
+      "page": "temperature-converter.html",
+      "guide_words": 79,
+      "has_worked_example": true,
+      "description": "Convert Celsius to Fahrenheit, Kelvin and Rankine temperatures."
+    },
+    {
+      "page": "bathroom-remodel-cost.html",
+      "guide_words": 130,
+      "has_worked_example": true,
+      "description": "Estimate bathroom remodeling materials, labor, fixtures, permits and contingency."
+    },
+    {
+      "page": "mortgage-points.html",
+      "guide_words": 273,
+      "has_worked_example": true,
+      "description": "Estimate the break-even time for paying discount points."
+    },
+    {
+      "page": "construction-loan.html",
+      "guide_words": 173,
+      "has_worked_example": true,
+      "description": "Estimate interest during construction and a projected permanent-loan payment."
+    },
+    {
+      "page": "exponent-calculator.html",
+      "guide_words": 97,
+      "has_worked_example": true,
+      "description": "Calculate a base raised to an exponent plus common related powers and roots."
+    },
+    {
+      "page": "outdoor-kitchen-cost.html",
+      "guide_words": 237,
+      "has_worked_example": true,
+      "description": "Estimate an outdoor kitchen construction budget."
+    },
+    {
+      "page": "employee-turnover-cost.html",
+      "guide_words": 179,
+      "has_worked_example": true,
+      "description": "Estimate the cost of replacing an employee from recruiting, vacancy, training, productivity loss and separation expenses."
+    },
+    {
+      "page": "garage-door-replacement-cost.html",
+      "guide_words": 161,
+      "has_worked_example": true,
+      "description": "Estimate garage-door replacement cost from door count, equipment, installation, openers, disposal, trim, permits and incentives."
+    },
+    {
+      "page": "jumbo-mortgage.html",
+      "guide_words": 150,
+      "has_worked_example": true,
+      "description": "Estimate monthly principal, interest, taxes, insurance and HOA for a large home loan."
+    },
+    {
+      "page": "driveway-paving-cost.html",
+      "guide_words": 247,
+      "has_worked_example": true,
+      "description": "Estimate a driveway paving budget from area and material cost."
+    },
+    {
+      "page": "biweekly-mortgage.html",
+      "guide_words": 148,
+      "has_worked_example": true,
+      "description": "Estimate payoff savings from making half-payments every two weeks."
+    }
+  ]
+}

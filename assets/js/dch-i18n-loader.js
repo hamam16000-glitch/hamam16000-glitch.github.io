@@ -12,7 +12,7 @@ var lang=saved(),base='assets/js/',queue=[];
 if(lang==='es')queue.push(base+'dch-es-global.js?v=19.5.9');
 if(isHome()&&lang==='zh-CN')queue.push(base+'dch-zh-home.js?v=19.5.9');
 if(isHome()&&lang==='fil')queue.push(base+'dch-fil-home.js?v=19.5.9');
-queue.push(base+'dch-i18n-core.js?v=19.5.9');
+queue.push(base+'dch-i18n-core.js?v=content-v3-20261015');
 var ready=Promise.resolve();queue.forEach(function(src){ready=ready.then(function(){return load(src);});});
 window.DCHI18NLoader={ready:ready,changeLanguage:function(next){next=normalize(next);try{localStorage.setItem(KEY,next);}catch(_){}location.reload();}};
 }());
