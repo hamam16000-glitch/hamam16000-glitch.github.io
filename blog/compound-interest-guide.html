@@ -20,7 +20,7 @@
     "headline": "Compound Interest: Formula, Contributions and Worked Examples",
     "description": "A practical guide to compound-interest projections and their limitations.",
     "datePublished": "2026-10-09",
-    "dateModified": "2026-10-09",
+    "dateModified": "2026-11-05",
     "mainEntityOfPage": "https://hamam16000-glitch.github.io/blog/compound-interest-guide.html",
     "author": {"@type": "Organization", "name": "Daily Calculator Hub"},
     "publisher": {"@type": "Organization", "name": "Daily Calculator Hub", "url": "https://hamam16000-glitch.github.io/"}
@@ -41,7 +41,7 @@
       <span class="eyebrow">Saving and investing</span>
       <h1>Compound interest: formula, contributions and worked examples</h1>
       <p class="lead">Compound growth means each period’s return is applied to the original principal and to prior growth. Regular contributions can become just as important as the starting balance, especially over long time horizons.</p>
-      <div class="page-meta"><span>Updated October 9, 2026</span><span>About 7 minutes</span><span>Source checked: Investor.gov</span></div>
+      <div class="page-meta"><span>Updated November 5, 2026</span><span>About 7 minutes</span><span>Source checked: Investor.gov</span></div>
 
       <nav class="toc" aria-label="On this page">
         <strong>On this page</strong>
@@ -55,7 +55,7 @@
         </ol>
       </nav>
 
-      <div class="callout"><p><strong>Calculator assumption:</strong> this site’s compound-interest tool converts the annual rate to a monthly rate, compounds monthly, and adds each monthly contribution at the end of the month.</p></div>
+      <div class="callout"><p><strong>Calculator assumption:</strong> this site’s compound-interest tool converts the annual rate to a monthly rate, compounds monthly, and lets you select whether monthly contributions arrive at the beginning or end of each month.</p></div>
 
       <h2 id="meaning">What compound interest means</h2>
       <p>Simple interest applies a rate only to the original amount. Compound interest applies the rate to the current balance, which can include previous interest. If $10,000 earns 5% once a year and nothing is added or withdrawn, the first year adds $500. The next year begins at $10,500, so another 5% would add $525.</p>
@@ -64,8 +64,8 @@
       <h2 id="formula">The formula and the timing of contributions</h2>
       <p>For a starting principal with no later contributions, a common formula is:</p>
       <div class="formula">A = P × (1 + r / n)<sup>n × t</sup><br><br>A = future amount · P = starting principal · r = annual rate · n = compounding periods per year · t = years</div>
-      <p>Regular deposits require an additional future-value calculation. The timing matters: a deposit made at the beginning of a month has one more month to grow than a deposit made at the end. The Daily Calculator Hub tool models end-of-month contributions.</p>
-      <p>The calculator performs the projection month by month: it grows the existing balance by the monthly rate, then adds that month’s contribution. This makes the result easy to understand, but it still assumes the same return every month.</p>
+      <p>Regular deposits require an additional future-value calculation. The timing matters: a deposit made at the beginning of a month has one more month to grow than a deposit made at the end. The Daily Calculator Hub tool offers both beginning-of-month and end-of-month contributions. The worked example below uses the end-of-month setting.</p>
+      <p>For end-of-month deposits, the balance earns that month’s growth before the contribution is added. For beginning-of-month deposits, the contribution is added before that month’s growth. This makes the result easy to understand, but it still assumes the same return every month.</p>
 
       <h2 id="example">Worked compound-interest example</h2>
       <p>Consider a $10,000 starting balance, a $300 contribution at the end of each month, a 6% annual return compounded monthly, and a 10-year period.</p>
@@ -104,7 +104,10 @@
       </ul>
       <p>A useful process is to run a conservative, middle, and optimistic case. For example, compare 3%, 5%, and 7%, then decide whether the goal still looks realistic under the lower case.</p>
 
-      <h2 id="faq">Common questions</h2>
+      <h2 id="timing-choice">Reproduce both timing choices</h2>
+<p>Start with $1,000, add $100 monthly, enter a nominal 6% annual rate and a one-year horizon. With end-of-month contributions the balance is $2,295.23. With beginning-of-month contributions it is $2,301.40. The $6.17 difference comes from each contribution receiving one additional month of growth; it is not an extra contribution.</p>
+<p>Money paid in is $2,200 under either timing choice. At a zero return both choices therefore give $2,200. The form also accepts a separate month count alongside years and a currency for display. The currency selector changes the label and formatting; it does not exchange one currency into another.</p>
+<p>Compare only scenarios with the same deposit amount and horizon when isolating timing. A beginning-of-month result can be lower than an end-of-month result when the assumed return is negative. These are constant-rate models, not predictions of the path of investment returns.</p><h2 id="faq">Common questions</h2>
       <h3>Does more frequent compounding always make a major difference?</h3>
       <p>More frequent compounding produces a higher result when the stated nominal rate and all other inputs are identical, but the difference may be small. Fees, contribution size, time, and the actual return can matter much more.</p>
       <h3>Should I enter an APY as the annual rate?</h3>

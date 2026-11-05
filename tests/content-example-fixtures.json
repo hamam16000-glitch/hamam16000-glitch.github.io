@@ -49,7 +49,7 @@
       "o1": "$39,000.00",
       "o2": "$6,600.00",
       "o3": "$32,400.00",
-      "o4": "2 months"
+      "o4": "1 month"
     }
   },
   {
@@ -3898,7 +3898,7 @@
       "o1": "$31,000.00",
       "o2": "$10,000.00",
       "o3": "$21,000.00",
-      "o4": "3.9 months"
+      "o4": "1.9 months"
     }
   },
   {
@@ -5082,7 +5082,7 @@
       "o1": "$65,600.00",
       "o2": "$7,300.00",
       "o3": "$58,300.00",
-      "o4": "1.3 months"
+      "o4": "0.5 months"
     }
   },
   {
@@ -5617,6 +5617,456 @@
       "deviationOut": "15",
       "percentileOut": "93.3193%",
       "positionOut": "Above the mean"
+    }
+  },
+  {
+    "path": "bathroom-addition-cost.html",
+    "inputs": {
+      "qty": "1",
+      "low": "30000",
+      "typical": "55000",
+      "high": "90000",
+      "fixed": "3000",
+      "contingency": "15"
+    },
+    "outputs": {
+      "mainResult": "$66,700.00",
+      "o1": "$37,950.00",
+      "o2": "$106,950.00",
+      "o3": "$55,000.00",
+      "o4": "$63,700.00"
+    }
+  },
+  {
+    "path": "covered-patio-cost.html",
+    "inputs": {
+      "qty": "300",
+      "low": "20",
+      "typical": "45",
+      "high": "90",
+      "fixed": "2500",
+      "contingency": "12"
+    },
+    "outputs": {
+      "mainResult": "$17,920.00",
+      "o1": "$9,520.00",
+      "o2": "$33,040.00",
+      "o3": "$13,500.00",
+      "o4": "$15,420.00"
+    }
+  },
+  {
+    "path": "driveway-paving-cost.html",
+    "inputs": {
+      "qty": "800",
+      "low": "4",
+      "typical": "8",
+      "high": "15",
+      "fixed": "1500",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$8,690.00",
+      "o1": "$5,170.00",
+      "o2": "$14,850.00",
+      "o3": "$6,400.00",
+      "o4": "$7,190.00"
+    }
+  },
+  {
+    "path": "fire-damage-restoration-cost.html",
+    "inputs": {
+      "qty": "800",
+      "low": "25",
+      "typical": "60",
+      "high": "150",
+      "fixed": "5000",
+      "contingency": "20"
+    },
+    "outputs": {
+      "mainResult": "$63,600.00",
+      "o1": "$30,000.00",
+      "o2": "$150,000.00",
+      "o3": "$48,000.00",
+      "o4": "$58,600.00"
+    }
+  },
+  {
+    "path": "fireplace-installation-cost.html",
+    "inputs": {
+      "qty": "1",
+      "low": "2000",
+      "typical": "6000",
+      "high": "15000",
+      "fixed": "1500",
+      "contingency": "12"
+    },
+    "outputs": {
+      "mainResult": "$8,400.00",
+      "o1": "$3,920.00",
+      "o2": "$18,480.00",
+      "o3": "$6,000.00",
+      "o4": "$6,900.00"
+    }
+  },
+  {
+    "path": "gazebo-cost.html",
+    "inputs": {
+      "qty": "144",
+      "low": "40",
+      "typical": "80",
+      "high": "160",
+      "fixed": "1500",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$14,322.00",
+      "o1": "$7,986.00",
+      "o2": "$26,994.00",
+      "o3": "$11,520.00",
+      "o4": "$12,822.00"
+    }
+  },
+  {
+    "path": "generator-installation-cost.html",
+    "inputs": {
+      "qty": "20",
+      "low": "500",
+      "typical": "900",
+      "high": "1400",
+      "fixed": "1500",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$21,450.00",
+      "o1": "$12,650.00",
+      "o2": "$32,450.00",
+      "o3": "$18,000.00",
+      "o4": "$19,950.00"
+    }
+  },
+  {
+    "path": "granite-countertop-cost.html",
+    "inputs": {
+      "qty": "55",
+      "low": "40",
+      "typical": "70",
+      "high": "110",
+      "fixed": "800",
+      "contingency": "8"
+    },
+    "outputs": {
+      "mainResult": "$5,022.00",
+      "o1": "$3,240.00",
+      "o2": "$7,398.00",
+      "o3": "$3,850.00",
+      "o4": "$4,222.00"
+    }
+  },
+  {
+    "path": "gutter-guard-cost.html",
+    "inputs": {
+      "qty": "180",
+      "low": "4",
+      "typical": "10",
+      "high": "25",
+      "fixed": "300",
+      "contingency": "8"
+    },
+    "outputs": {
+      "mainResult": "$2,268.00",
+      "o1": "$1,101.60",
+      "o2": "$5,184.00",
+      "o3": "$1,800.00",
+      "o4": "$1,968.00"
+    }
+  },
+  {
+    "path": "hot-tub-installation-cost.html",
+    "inputs": {
+      "qty": "1",
+      "low": "5000",
+      "typical": "10000",
+      "high": "20000",
+      "fixed": "1500",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$12,650.00",
+      "o1": "$7,150.00",
+      "o2": "$23,650.00",
+      "o3": "$10,000.00",
+      "o4": "$11,150.00"
+    }
+  },
+  {
+    "path": "kitchen-island-cost.html",
+    "inputs": {
+      "qty": "8",
+      "low": "1000",
+      "typical": "2000",
+      "high": "4000",
+      "fixed": "2000",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$19,800.00",
+      "o1": "$11,000.00",
+      "o2": "$37,400.00",
+      "o3": "$16,000.00",
+      "o4": "$17,800.00"
+    }
+  },
+  {
+    "path": "mini-split-installation-cost.html",
+    "inputs": {
+      "qty": "3",
+      "low": "2500",
+      "typical": "4500",
+      "high": "7000",
+      "fixed": "1000",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$15,950.00",
+      "o1": "$9,350.00",
+      "o2": "$24,200.00",
+      "o3": "$13,500.00",
+      "o4": "$14,950.00"
+    }
+  },
+  {
+    "path": "new-home-construction-cost.html",
+    "inputs": {
+      "qty": "2200",
+      "low": "150",
+      "typical": "225",
+      "high": "350",
+      "fixed": "35000",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$583,000.00",
+      "o1": "$401,500.00",
+      "o2": "$885,500.00",
+      "o3": "$495,000.00",
+      "o4": "$548,000.00"
+    }
+  },
+  {
+    "path": "outdoor-kitchen-cost.html",
+    "inputs": {
+      "qty": "12",
+      "low": "1200",
+      "typical": "2500",
+      "high": "5000",
+      "fixed": "3000",
+      "contingency": "12"
+    },
+    "outputs": {
+      "mainResult": "$36,960.00",
+      "o1": "$19,488.00",
+      "o2": "$70,560.00",
+      "o3": "$30,000.00",
+      "o4": "$33,960.00"
+    }
+  },
+  {
+    "path": "paver-patio-cost.html",
+    "inputs": {
+      "qty": "400",
+      "low": "12",
+      "typical": "22",
+      "high": "40",
+      "fixed": "1000",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$10,780.00",
+      "o1": "$6,380.00",
+      "o2": "$18,700.00",
+      "o3": "$8,800.00",
+      "o4": "$9,780.00"
+    }
+  },
+  {
+    "path": "quartz-countertop-cost.html",
+    "inputs": {
+      "qty": "55",
+      "low": "50",
+      "typical": "80",
+      "high": "120",
+      "fixed": "800",
+      "contingency": "8"
+    },
+    "outputs": {
+      "mainResult": "$5,616.00",
+      "o1": "$3,834.00",
+      "o2": "$7,992.00",
+      "o3": "$4,400.00",
+      "o4": "$4,816.00"
+    }
+  },
+  {
+    "path": "sauna-installation-cost.html",
+    "inputs": {
+      "qty": "1",
+      "low": "4000",
+      "typical": "8000",
+      "high": "16000",
+      "fixed": "1000",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$9,900.00",
+      "o1": "$5,500.00",
+      "o2": "$18,700.00",
+      "o3": "$8,000.00",
+      "o4": "$8,900.00"
+    }
+  },
+  {
+    "path": "skylight-installation-cost.html",
+    "inputs": {
+      "qty": "2",
+      "low": "1000",
+      "typical": "2000",
+      "high": "4000",
+      "fixed": "500",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$4,950.00",
+      "o1": "$2,750.00",
+      "o2": "$9,350.00",
+      "o3": "$4,000.00",
+      "o4": "$4,450.00"
+    }
+  },
+  {
+    "path": "steam-shower-cost.html",
+    "inputs": {
+      "qty": "1",
+      "low": "5000",
+      "typical": "10000",
+      "high": "20000",
+      "fixed": "1500",
+      "contingency": "12"
+    },
+    "outputs": {
+      "mainResult": "$12,880.00",
+      "o1": "$7,280.00",
+      "o2": "$24,080.00",
+      "o3": "$10,000.00",
+      "o4": "$11,380.00"
+    }
+  },
+  {
+    "path": "sump-pump-installation-cost.html",
+    "inputs": {
+      "qty": "1",
+      "low": "800",
+      "typical": "1500",
+      "high": "3500",
+      "fixed": "500",
+      "contingency": "10"
+    },
+    "outputs": {
+      "mainResult": "$2,200.00",
+      "o1": "$1,430.00",
+      "o2": "$4,400.00",
+      "o3": "$1,500.00",
+      "o4": "$1,700.00"
+    }
+  },
+  {
+    "path": "tub-to-shower-conversion-cost.html",
+    "inputs": {
+      "qty": "1",
+      "low": "3500",
+      "typical": "7000",
+      "high": "14000",
+      "fixed": "750",
+      "contingency": "12"
+    },
+    "outputs": {
+      "mainResult": "$8,680.00",
+      "o1": "$4,760.00",
+      "o2": "$16,520.00",
+      "o3": "$7,000.00",
+      "o4": "$7,930.00"
+    }
+  },
+  {
+    "path": "walk-in-shower-cost.html",
+    "inputs": {
+      "qty": "1",
+      "low": "5000",
+      "typical": "9000",
+      "high": "18000",
+      "fixed": "1000",
+      "contingency": "12"
+    },
+    "outputs": {
+      "mainResult": "$11,200.00",
+      "o1": "$6,720.00",
+      "o2": "$21,280.00",
+      "o3": "$9,000.00",
+      "o4": "$10,200.00"
+    }
+  },
+  {
+    "path": "water-softener-installation-cost.html",
+    "inputs": {
+      "qty": "1",
+      "low": "1000",
+      "typical": "2500",
+      "high": "5000",
+      "fixed": "300",
+      "contingency": "8"
+    },
+    "outputs": {
+      "mainResult": "$3,024.00",
+      "o1": "$1,404.00",
+      "o2": "$5,724.00",
+      "o3": "$2,500.00",
+      "o4": "$2,724.00"
+    }
+  },
+  {
+    "path": "whole-house-remodel-cost.html",
+    "inputs": {
+      "qty": "1800",
+      "low": "30",
+      "typical": "75",
+      "high": "150",
+      "fixed": "15000",
+      "contingency": "15"
+    },
+    "outputs": {
+      "mainResult": "$172,500.00",
+      "o1": "$79,350.00",
+      "o2": "$327,750.00",
+      "o3": "$135,000.00",
+      "o4": "$157,500.00"
+    }
+  },
+  {
+    "path": "whole-house-water-filter-cost.html",
+    "inputs": {
+      "qty": "1",
+      "low": "800",
+      "typical": "2000",
+      "high": "5000",
+      "fixed": "300",
+      "contingency": "8"
+    },
+    "outputs": {
+      "mainResult": "$2,484.00",
+      "o1": "$1,188.00",
+      "o2": "$5,724.00",
+      "o3": "$2,000.00",
+      "o4": "$2,184.00"
     }
   }
 ]

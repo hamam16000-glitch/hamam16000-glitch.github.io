@@ -1,0 +1,20 @@
+.dch-scenarios{margin-top:24px;padding:18px;border:1px solid rgba(90,110,110,.3);border-radius:14px;max-width:100%;min-width:0}
+.dch-scenarios h2{font-size:1.25rem;line-height:1.4;margin:0 0 10px}
+.dch-scenarios p{line-height:1.65;margin:10px 0}
+.dch-scenario-actions{display:flex;flex-wrap:wrap;gap:8px}
+.dch-scenario-actions button{font:inherit;font-size:.9rem;cursor:pointer;border:1px solid #487e72;border-radius:8px;padding:9px 12px;background:#f1f8f6;color:#123c32;white-space:normal}
+.dch-scenario-actions button:disabled{opacity:.5;cursor:default}
+.dch-scenario-actions button:focus-visible{outline:3px solid #977dff;outline-offset:2px}
+.dch-scenario-table{max-width:100%;min-width:0}
+.dch-scenario-table table{table-layout:fixed;width:100%;border-collapse:collapse;font-size:.88rem}
+.dch-scenario-table caption{text-align:left;font-weight:700;padding:8px 0}
+.dch-scenario-table th,.dch-scenario-table td{border-bottom:1px solid rgba(90,110,110,.3);padding:9px 6px;text-align:left;vertical-align:top;overflow-wrap:anywhere!important;white-space:normal!important;min-width:0}
+.dch-scenario-table th{font-weight:650}
+.dch-scenario-table thead th:first-child{width:42%}
+.dch-scenario-table thead th:not(:first-child){width:29%}
+.dch-scenario-table th[colspan]{background:rgba(90,110,110,.08)}
+.dch-scenario-privacy{font-size:.83rem;opacity:.85}
+.dch-scenario-status{font-weight:600}
+.deep470-example-note{font-size:.9rem;line-height:1.6;border-left:3px solid #487e72;padding:8px 12px;margin:12px 0}
+@media(max-width:600px){.dch-scenarios{padding:12px}.dch-scenario-table th,.dch-scenario-table td{padding:8px 4px;font-size:.8rem}}
+@media print{.dch-scenario-actions,.dch-scenario-status{display:none!important}.dch-scenarios{break-inside:auto}}

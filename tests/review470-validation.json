@@ -3,9 +3,9 @@
   "pages": 470,
   "referenceCases": 190,
   "inputCases": 14766,
-  "examplePages": 319,
-  "exampleResults": 1481,
-  "assertions": 69633,
+  "examplePages": 344,
+  "exampleResults": 1606,
+  "assertions": 69758,
   "pageReferenceCases": {
     "rounding-calculator.html": 3,
     "home-sale-capital-gains.html": 1,

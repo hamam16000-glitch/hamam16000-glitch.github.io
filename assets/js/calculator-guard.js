@@ -33,6 +33,7 @@
     var primary = element(config.primary);
     if (primary) primary.textContent = message;
   }
+  var controller = null;
   function wrap(calculate, config) {
     config.fields.forEach(function (rule) {
       var field = element(rule.id);
@@ -40,7 +41,9 @@
         if (!valid(config)) clear(config, 'Invalid input');
       });
     });
-    return function () {
+    var state = {config: config, ok: false, run: null};
+    function wrapped() {
+      state.ok = false;
       if (!valid(config)) { clear(config, 'Invalid input'); return; }
       try { calculate.apply(this, arguments); }
       catch (error) {
@@ -52,8 +55,14 @@
         var field = element(id); return field && /NaN|Infinity|∞/.test(field.textContent);
       });
       if (bad) { clear(config, 'Result is outside the supported numeric range'); return; }
-      if (/^(Invalid|Enter |Select |Payment (?:is )?too low|Payoff exceeds)/i.test(message)) clear(config, message);
-    };
+      if (/^(Invalid|Enter |Select |Check |Use |These |Area is below|Temperature cannot|Payment (?:is )?too low|Payoff exceeds)/i.test(message)) { clear(config, message); return; }
+      var auxiliary = config.outputs.filter(function (id) { return id !== config.primary; });
+      var empty = auxiliary.length && auxiliary.every(function (id) { var node = element(id); return !node || !node.textContent || node.textContent === '—'; });
+      state.ok = !!message && message !== '—' && !empty;
+    }
+    state.run = wrapped;
+    controller = state;
+    return wrapped;
   }
   function parseList(raw) {
     var text = String(raw).trim();
@@ -111,5 +120,5 @@
   window.DCHCalculator = {wrap: wrap, parseList: parseList, numeric: numeric,
     annuityFactor: annuityFactor, loanPayment: loanPayment,
     loanBalance: loanBalance, futureValue: futureValue, formatNumber: formatNumber,
-    roundDecimal: roundDecimal};
+    roundDecimal: roundDecimal, getController: function () { return controller; }};
 })();

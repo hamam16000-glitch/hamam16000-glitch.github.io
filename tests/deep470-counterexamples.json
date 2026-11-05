@@ -1,0 +1,231 @@
+[
+  {
+    "file": "accounting-software-roi.html",
+    "inputs": {
+      "hours": 10,
+      "rate": 30,
+      "avoided": 0,
+      "monthly": 100,
+      "setup": 600
+    },
+    "outputs": [
+      "mainResult",
+      "o4"
+    ],
+    "before": {
+      "mainResult": "100%",
+      "o4": "6 months"
+    },
+    "after": {
+      "mainResult": "100%",
+      "o4": "3 months"
+    }
+  },
+  {
+    "file": "payroll-software-roi.html",
+    "inputs": {
+      "hours": 10,
+      "rate": 30,
+      "avoided": 0,
+      "monthly": 100,
+      "setup": 600
+    },
+    "outputs": [
+      "mainResult",
+      "o4"
+    ],
+    "before": {
+      "mainResult": "100%",
+      "o4": "6 months"
+    },
+    "after": {
+      "mainResult": "100%",
+      "o4": "3 months"
+    }
+  },
+  {
+    "file": "time-tracking-roi.html",
+    "inputs": {
+      "hours": 10,
+      "rate": 30,
+      "avoided": 0,
+      "monthly": 100,
+      "setup": 600
+    },
+    "outputs": [
+      "mainResult",
+      "o4"
+    ],
+    "before": {
+      "mainResult": "100%",
+      "o4": "6 months"
+    },
+    "after": {
+      "mainResult": "100%",
+      "o4": "3 months"
+    }
+  },
+  {
+    "file": "equipment-financing.html",
+    "inputs": {
+      "equipmentPrice": 12000,
+      "downPayment": 0,
+      "annualRate": "1e-20",
+      "termYears": 2,
+      "residualValue": 2400
+    },
+    "outputs": [
+      "mainResult",
+      "totalOut"
+    ],
+    "before": {
+      "mainResult": "Result is outside the supported numeric range",
+      "totalOut": "—"
+    },
+    "after": {
+      "mainResult": "$400.00",
+      "totalOut": "$12,000.00"
+    }
+  },
+  {
+    "file": "whole-life-insurance-cost.html",
+    "inputs": {
+      "coverage": 100000,
+      "ratePerThousand": 10,
+      "annualFee": 0,
+      "years": 10,
+      "cashShare": 100,
+      "growthRate": "1e-20"
+    },
+    "outputs": [
+      "cashOut",
+      "totalOut"
+    ],
+    "before": {
+      "cashOut": "$0.00",
+      "totalOut": "$10,000.00"
+    },
+    "after": {
+      "cashOut": "$10,000.00",
+      "totalOut": "$10,000.00"
+    }
+  },
+  {
+    "file": "churn-rate.html",
+    "inputs": {
+      "startingCustomers": 100,
+      "lostCustomers": "1e-20",
+      "periodMonths": 12
+    },
+    "outputs": [
+      "mainResult",
+      "lifetimeOut"
+    ],
+    "before": {
+      "mainResult": "0.00%",
+      "lifetimeOut": "No churn in period"
+    },
+    "after": {
+      "mainResult": "8.333E-22%",
+      "lifetimeOut": "1.2e+23 months"
+    }
+  },
+  {
+    "file": "net-revenue-retention.html",
+    "inputs": {
+      "startingRevenue": 10000,
+      "expansionRevenue": 0,
+      "contractionRevenue": 7000,
+      "churnedRevenue": 8000,
+      "newRevenue": 3000
+    },
+    "outputs": [
+      "mainResult",
+      "endingOut"
+    ],
+    "before": {
+      "mainResult": "-50%",
+      "endingOut": "-$2,000.00"
+    },
+    "after": {
+      "mainResult": "Enter losses no greater than the existing cohort plus expansion",
+      "endingOut": "—"
+    }
+  },
+  {
+    "file": "saas-mrr.html",
+    "inputs": {
+      "customers": 1,
+      "arpu": 100,
+      "newMrr": 0,
+      "expansionMrr": 0,
+      "churnedMrr": 120
+    },
+    "outputs": [
+      "mainResult",
+      "netNewOut"
+    ],
+    "before": {
+      "mainResult": "$0.00",
+      "netNewOut": "-$120.00"
+    },
+    "after": {
+      "mainResult": "Enter churn no greater than the recurring revenue available",
+      "netNewOut": "—"
+    }
+  },
+  {
+    "file": "google-ads-roi.html",
+    "inputs": {
+      "conversionRate": 101
+    },
+    "outputs": [
+      "mainResult",
+      "conversionsOut"
+    ],
+    "before": {
+      "mainResult": "3,675.95%",
+      "conversionsOut": "1,425.9"
+    },
+    "after": {
+      "mainResult": "Invalid input",
+      "conversionsOut": "—"
+    }
+  },
+  {
+    "file": "facebook-ads-roi.html",
+    "inputs": {
+      "conversionRate": 101
+    },
+    "outputs": [
+      "mainResult",
+      "conversionsOut"
+    ],
+    "before": {
+      "mainResult": "24,863.21%",
+      "conversionsOut": "9,426.7"
+    },
+    "after": {
+      "mainResult": "Invalid input",
+      "conversionsOut": "—"
+    }
+  },
+  {
+    "file": "tiktok-ads-roi.html",
+    "inputs": {
+      "conversionRate": 101
+    },
+    "outputs": [
+      "mainResult",
+      "conversionsOut"
+    ],
+    "before": {
+      "mainResult": "29,320.93%",
+      "conversionsOut": "11,110"
+    },
+    "after": {
+      "mainResult": "Invalid input",
+      "conversionsOut": "—"
+    }
+  }
+]
