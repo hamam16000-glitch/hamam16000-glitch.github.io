@@ -4,4 +4,4 @@ if(amount<=0||pmt<=0||!Number.isSafeInteger(n)||n<1||fees<0||net<=0||total<net){
 function value(r){return r===0?total:pmt*(-Math.expm1(-n*Math.log1p(r)))/r;}
 var lo=0,hi=1;if(total===net)hi=0;else{while(value(hi)>net&&hi<1e12)hi*=2;if(value(hi)>net){get('aprResult').textContent='Enter a supported payment schedule';return;}for(var i=0;i<120;i++){var mid=(lo+hi)/2;if(value(mid)>net)lo=mid;else hi=mid;}}
 var apr=(lo+hi)/2*1200;get('aprResult').textContent=apr.toFixed(2)+'%';get('totalPayments').textContent=money(total);get('totalCost').textContent=money(total-net);
-}calc=window.DCHCalculator.wrap(calc,{"fields":[{"id":"amount","min":0.0},{"id":"payment","min":0.0},{"id":"months","min":1.0},{"id":"fees","min":0.0}],"outputs":["aprResult","totalPayments","totalCost"],"primary":"aprResult"});document.getElementById('calculateButton').onclick=calc;calc()}());
+}calc=window.DCHCalculator.wrap(calc,{"fields":[{"id":"amount","min":0.0},{"id":"payment","min":0.0},{"id":"months","min":1.0,"integer":true},{"id":"fees","min":0.0}],"outputs":["aprResult","totalPayments","totalCost"],"primary":"aprResult"});document.getElementById('calculateButton').onclick=calc;calc()}());

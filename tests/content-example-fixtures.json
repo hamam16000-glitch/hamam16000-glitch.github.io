@@ -2450,7 +2450,6 @@
     "inputs": {
       "adSpend": "12000",
       "costMetric": "8.5",
-      "ctrRate": "5",
       "conversionRate": "6",
       "averageOrder": "550",
       "grossMargin": "65",
@@ -3294,8 +3293,8 @@
       "meters": "10"
     },
     "outputs": {
-      "mainResult": "32.80839895 ft",
-      "inchesOut": "393.7007874 in",
+      "mainResult": "32.8083989501 ft",
+      "inchesOut": "393.7007874016 in",
       "cmOut": "1,000 cm",
       "kmOut": "0.01 km",
       "milesOut": "0.006213711922 mi"
@@ -4826,7 +4825,7 @@
       "mainResult": "62.1371192237 mph",
       "mpsOut": "27.7777777778 m/s",
       "knotsOut": "53.9956803456 kn",
-      "fpsOut": "91.1344415 ft/s",
+      "fpsOut": "91.1344415281 ft/s",
       "paceOut": "0.6 min/km"
     }
   },
@@ -5492,10 +5491,10 @@
       "kilograms": "70"
     },
     "outputs": {
-      "mainResult": "154.3235835295 lb",
-      "ouncesOut": "2,469.177336472 oz",
+      "mainResult": "154.3235835294 lb",
+      "ouncesOut": "2,469.1773364706 oz",
       "gramsOut": "70,000 g",
-      "stonesOut": "11.0231131093 st",
+      "stonesOut": "11.0231131092 st",
       "tonsOut": "0.07 t"
     }
   },

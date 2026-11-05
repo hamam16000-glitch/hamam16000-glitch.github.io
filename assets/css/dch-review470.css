@@ -1,0 +1,13 @@
+/* Long exact integers and scientific results must remain readable on phones. */
+.result-main,[data-output]{overflow-wrap:anywhere;min-width:0}
+html body.v166-consistent:not(.home-page) .calc-card .result .result-main,
+html body.v166-consistent:not(.home-page) .calc-card .result .result-list strong[data-output]{
+  white-space:normal!important;
+  word-break:normal!important;
+  overflow-wrap:anywhere!important;
+  max-width:100%!important;
+  min-width:0!important;
+}
+.calc-card .result,.calc-card .result-list,.calc-card .result-list li{min-width:0;max-width:100%}
+.result-grid>*{min-width:0}
+.review470-method-notes p{line-height:1.7}

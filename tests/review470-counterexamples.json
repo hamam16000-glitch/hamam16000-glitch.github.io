@@ -1,0 +1,154 @@
+[
+  {
+    "file": "rounding-calculator.html",
+    "inputs": {
+      "numberValue": "10.075",
+      "decimalPlaces": 2
+    },
+    "output": "mainResult",
+    "before": "10.07",
+    "after": "10.08"
+  },
+  {
+    "file": "home-sale-capital-gains.html",
+    "inputs": {
+      "sale": 200000,
+      "selling": 10000,
+      "purchase": 250000,
+      "improvements": 0,
+      "exclusion": 250000
+    },
+    "output": "o1",
+    "before": "$0.00",
+    "after": "-$60,000.00"
+  },
+  {
+    "file": "home-affordability.html",
+    "inputs": {
+      "income": 1200000,
+      "debts": 0,
+      "down": 0,
+      "rate": 0,
+      "years": 30,
+      "tax": 0,
+      "insurance": 0
+    },
+    "output": "mainResult",
+    "before": "$3,000,000.00",
+    "after": "$12,960,000.00"
+  },
+  {
+    "file": "loan-comparison.html",
+    "inputs": {
+      "amount": 12000,
+      "rate1": 0,
+      "rate2": 0,
+      "term1": 2,
+      "term2": 2
+    },
+    "output": "mainResult",
+    "before": "Loan B has lower payment",
+    "after": "Payments are equal to the nearest cent"
+  },
+  {
+    "file": "mortgage-payoff.html",
+    "inputs": {
+      "balance": 12000,
+      "interestRate": 0,
+      "monthlyPayment": 10,
+      "extraPayment": 0
+    },
+    "output": "mainResult",
+    "before": "Payoff exceeds 100 years",
+    "after": "100 yrs 0 mo"
+  },
+  {
+    "file": "triangle-calculator.html",
+    "inputs": {
+      "sideA": "3e-100",
+      "sideB": "4e-100",
+      "sideC": "5e-100"
+    },
+    "output": "typeOut",
+    "before": "Equilateral",
+    "after": "Scalene"
+  },
+  {
+    "file": "system-of-equations-calculator.html",
+    "inputs": {
+      "a1": "1e-200",
+      "b1": 0,
+      "c1": "1e-200",
+      "a2": 0,
+      "b2": "1e-200",
+      "c2": "1e-200"
+    },
+    "output": "mainResult",
+    "before": "Infinitely many solutions",
+    "after": "x = 1, y = 1"
+  },
+  {
+    "file": "binary-calculator.html",
+    "inputs": {
+      "decimalInteger": "12abc"
+    },
+    "output": "mainResult",
+    "before": "1100",
+    "after": "Enter a whole decimal number"
+  },
+  {
+    "file": "loan.html",
+    "inputs": {
+      "amount": 12000,
+      "rate": "1e-20",
+      "months": 24
+    },
+    "output": "main",
+    "before": "Result is outside the supported numeric range",
+    "after": "$500.00"
+  },
+  {
+    "file": "investment.html",
+    "inputs": {
+      "initial": 1000,
+      "monthly": 100,
+      "rate": "1e-20",
+      "years": 1
+    },
+    "output": "futureValue",
+    "before": "$1,000.00",
+    "after": "$2,200.00"
+  },
+  {
+    "file": "vasectomy-cost.html",
+    "inputs": {
+      "count": 1,
+      "unit": 100,
+      "other": 0,
+      "deductible": 20,
+      "coins": 25,
+      "copay": 500
+    },
+    "output": "o4",
+    "before": "$500.00",
+    "after": "$60.00"
+  },
+  {
+    "file": "square-root-calculator.html",
+    "inputs": {
+      "numberValue": "1e-100"
+    },
+    "output": "mainResult",
+    "before": "0",
+    "after": "1E-50"
+  },
+  {
+    "file": "appendectomy-cost.html",
+    "inputs": {
+      "unit": "1e-999"
+    },
+    "output": "mainResult",
+    "before": "$3,400.00",
+    "after": "Invalid input"
+  }
+]

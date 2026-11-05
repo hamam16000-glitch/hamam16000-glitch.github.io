@@ -11,5 +11,5 @@
     get('main').textContent = result.toFixed(1);
     get('category').textContent = result < 18.5 ? 'Underweight' : result < 25 ? 'Healthy range' : result < 30 ? 'Overweight' : 'Obesity range';
   }
-  calculate=window.DCHCalculator.wrap(calculate,{"fields":[],"outputs":["main","category"],"primary":"main"});get('calculateButton').onclick = calculate; calculate();
+  calculate=window.DCHCalculator.wrap(calculate,{"fields":[{"id":"weight"},{"id":"height"}],"outputs":["main","category"],"primary":"main"});get('calculateButton').onclick = calculate; calculate();
 }());

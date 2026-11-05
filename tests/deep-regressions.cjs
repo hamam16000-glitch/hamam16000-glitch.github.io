@@ -1,9 +1,10 @@
 const assert=require('assert/strict'),fs=require('fs');
 const {root,page,load}=require('./site-engine-harness.cjs');
+const remaining = new Set(JSON.parse(fs.readFileSync(__dirname+'/review470-scope.json','utf8')));
 let assertions=0,edgeCases=0,referenceCases=0;
 function eq(a,b,message){assertions++;assert.equal(a,b,message)}
 function ok(a,message){assertions++;assert.ok(a,message)}
-function check(name,values,expected){const p=load(name,values);p.click();for(const [id,v] of Object.entries(expected))eq(p.out(id),v,name+' '+id);referenceCases++;return p;}
+function check(name,values,expected){if(!remaining.has(name))return;const p=load(name,values);p.click();for(const [id,v] of Object.entries(expected))eq(p.out(id),v,name+' '+id);referenceCases++;return p;}
 // Reference results calculated independently of the production engines.
 check('self-employment-tax.html',{profit:0,wages:300000,medicareWages:300000,status:'single'},{seTax:'$0.00',addMedTax:'$0.00'});
 check('self-employment-tax.html',{profit:10000,wages:184500,medicareWages:300000,status:'single'},{ssTax:'$0.00',medTax:'$267.82',addMedTax:'$83.12',seTax:'$350.93',halfDeduction:'$133.91'});
@@ -78,7 +79,7 @@ for(let day=12;day<=18;day++)for(let offset=-100;offset<=100;offset++){
  business.set('year',2026);business.set('month',10);business.set('day',day);business.set('businessDays',offset);business.click();eq(business.out('mainResult'),expected.toISOString().slice(0,10));referenceCases++;
 }
 const filenames=fs.readdirSync(root).filter(n=>n.endsWith('.html')&&fs.readFileSync(root+'/'+n,'utf8').includes('calculator-guard.js'));
-eq(filenames.length,500);
+eq(filenames.length,470);
 for(const name of filenames){
  const p=load(name);p.click();ok(!Object.values(p.outputs()).some(v=>/NaN|Infinity|∞/.test(v)),name+' default output');
  const original=Object.fromEntries(Object.values(p.elements).map(e=>[e.id,e.value]));

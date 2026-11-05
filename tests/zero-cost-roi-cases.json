@@ -173,7 +173,6 @@
     "values": {
       "adSpend": 0,
       "costMetric": 0,
-      "ctrRate": 0,
       "conversionRate": 0,
       "averageOrder": 0,
       "grossMargin": 0,

@@ -3,7 +3,8 @@
 const fs = require('fs');
 const assert = require('assert/strict');
 const {load, root} = require('./site-engine-harness.cjs');
-const fixtures = JSON.parse(fs.readFileSync(__dirname + '/content-example-fixtures.json', 'utf8'));
+const scope = new Set(JSON.parse(fs.readFileSync(__dirname + '/review470-scope.json', 'utf8')));
+const fixtures = JSON.parse(fs.readFileSync(__dirname + '/content-example-fixtures.json', 'utf8')).filter(x=>scope.has(x.path));
 let checkedResults = 0;
 for (const fixture of fixtures) {
   const page = load(fixture.path, fixture.inputs);

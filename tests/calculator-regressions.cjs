@@ -45,7 +45,7 @@ for(const locale of ['en-US','es-ES']){
   eq(page.out('fatMass'),locale==='en-US'?'38.3 lb':'38,3 lb');
   page.set('neck',40);page.set('waist',30);page.click();
   ok(!page.out('mainResult').includes('NaN'));eq(page.out('fatMass'),'—');eq(page.out('category'),'—');
-  page.set('height','');page.click();ok(page.out('mainResult').includes('positive'));
+  page.set('height','');page.click();eq(page.out('mainResult'),'Invalid input');
 }
 const mortgage=load('mortgage',{amount:100000,rate:0,years:10});
 eq(mortgage.out('main'),'$833.33');eq(mortgage.out('interest'),'$0.00');

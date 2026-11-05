@@ -6,5 +6,5 @@
     if (![a, r, converted].every(Number.isFinite) || r <= 0) { output.textContent = 'Enter an amount and a positive exchange rate.'; return; }
     output.textContent = converted.toFixed(2);
   }
-  calculate=window.DCHCalculator.wrap(calculate,{"fields":[],"outputs":["main"],"primary":"main"});document.getElementById('calculateButton').onclick = calculate; calculate();
+  calculate=window.DCHCalculator.wrap(calculate,{"fields":[{"id":"amount"},{"id":"rate"}],"outputs":["main"],"primary":"main"});document.getElementById('calculateButton').onclick = calculate; calculate();
 }());

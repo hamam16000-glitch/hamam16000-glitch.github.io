@@ -1,7 +1,7 @@
 /* Small DOM adapter for testing calculation engines directly.
    This is deliberately not a browser, layout or third-party-library test. */
 const fs=require('fs'),path=require('path'),vm=require('vm');
-const root=path.resolve(__dirname,'..');
+const root=process.env.DCH_CALCULATOR_ROOT||path.resolve(__dirname,'..');
 function attrs(text){const out={};for(const m of text.matchAll(/([\w-]+)\s*=\s*(["'])(.*?)\2/g))out[m[1]]=m[3];return out;}
 function page(name){
  const html=fs.readFileSync(path.join(root,name),'utf8'),elements=[];
@@ -15,7 +15,7 @@ function page(name){
  }
  const scripts=[];
  for(const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)){
-  const a=attrs(m[1]);if(a.src){const filename=a.src.split('?')[0];if(filename.startsWith('assets/js/')&&!filename.includes('bundle')&&fs.existsSync(path.join(root,filename))){const code=fs.readFileSync(path.join(root,filename),'utf8');if(code.includes('window.DCHCalculator.wrap(')||filename==='assets/js/debt-strategy.js')scripts.push(code);}}
+  const a=attrs(m[1]);if(a.src){const filename=a.src.split('?')[0];if(filename.startsWith('assets/js/')&&!filename.includes('bundle')&&fs.existsSync(path.join(root,filename))){const code=fs.readFileSync(path.join(root,filename),'utf8');if(code.includes('window.DCHCalculator.wrap(')||['assets/js/debt-strategy.js','assets/js/debt-snowball.js','assets/js/debt-avalanche.js'].includes(filename))scripts.push(code);}}
   else if(m[2].includes('window.DCHCalculator.wrap('))scripts.push(m[2]);
  }
  if(name==='vat.html')scripts.push(fs.readFileSync(path.join(root,'assets/js/vat.js'),'utf8'));

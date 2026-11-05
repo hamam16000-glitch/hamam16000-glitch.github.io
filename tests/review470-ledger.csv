@@ -1,0 +1,471 @@
+﻿file,title,guide_expanded,generic_removed,example_checked,additional_reference_cases,mobile,desktop
+1031-exchange.html,1031 Exchange Boot Calculator,False,False,True,0,passed,passed
+401k-match.html,401(k) Employer Match Calculator,False,False,False,0,passed,passed
+401k.html,401(k) Calculator,False,False,False,0,passed,passed
+ac-replacement-cost.html,AC Replacement Cost Calculator,False,False,True,0,passed,passed
+accounting-software-roi.html,Accounting Software ROI Calculator,True,False,True,1,passed,passed
+addiction-treatment-cost.html,Addiction Treatment Cost Calculator,True,True,True,0,passed,passed
+adoption-cost.html,Adoption Cost Calculator,True,True,True,0,passed,passed
+age-specific-date-calculator.html,Age on a Specific Date Calculator,False,False,False,0,passed,passed
+agency-profit-margin.html,Agency Profit Margin Calculator,False,False,True,0,passed,passed
+airbnb-break-even-occupancy.html,Airbnb Break-Even Occupancy Calculator,False,False,True,0,passed,passed
+airbnb-profit.html,Airbnb Profit Calculator,False,False,True,0,passed,passed
+allergy-shot-cost.html,Allergy Shot Cost Calculator,True,True,True,3,passed,passed
+amazon-fba-profit.html,Amazon FBA Profit Calculator,False,False,True,0,passed,passed
+amazon-seller-fee.html,Amazon Seller Fee Calculator,False,False,True,0,passed,passed
+amortization.html,Loan Amortization Calculator,False,False,False,1,passed,passed
+annuity-payout.html,Annuity Payout Calculator,False,False,False,1,passed,passed
+appendectomy-cost.html,Appendectomy Cost Calculator,True,True,True,3,passed,passed
+apr.html,APR Calculator,False,False,False,0,passed,passed
+arm-mortgage.html,ARM Mortgage Calculator,False,False,True,0,passed,passed
+arr.html,ARR Calculator,False,False,True,0,passed,passed
+asbestos-removal-cost.html,Asbestos Removal Cost Calculator,False,False,True,0,passed,passed
+assisted-living-cost.html,Assisted Living Cost Calculator,True,True,False,0,passed,passed
+attic-conversion-cost.html,Attic Conversion Cost Calculator,False,False,True,0,passed,passed
+auto-accident-diminished-value-claim.html,Auto Accident Diminished Value Claim Calculator,False,False,True,0,passed,passed
+auto-insurance-deductible.html,Auto Insurance Deductible Calculator,False,False,True,0,passed,passed
+auto-loan-payoff.html,Auto Loan Payoff Calculator,False,False,False,0,passed,passed
+auto-loan.html,Auto Loan Calculator,False,False,False,1,passed,passed
+auto-refinance.html,Auto Refinance Calculator,False,False,True,0,passed,passed
+auto-total-loss-payout.html,Auto Total Loss Payout Calculator,False,False,True,0,passed,passed
+average-calculator.html,Average Calculator,True,False,True,0,passed,passed
+balance-transfer.html,Credit Card Balance Transfer Calculator,False,False,True,0,passed,passed
+bankruptcy-attorney-cost.html,Bankruptcy Attorney Cost Calculator,True,False,True,2,passed,passed
+basement-remodel-cost.html,Basement Remodel Cost Calculator,False,False,True,0,passed,passed
+basement-waterproofing-cost.html,Basement Waterproofing Cost Calculator,False,False,True,0,passed,passed
+basic-calculator.html,Basic Calculator,True,False,True,0,passed,passed
+bathroom-addition-cost.html,Bathroom Addition Cost Calculator,True,True,False,0,passed,passed
+bathroom-remodel-cost.html,Bathroom Remodel Cost Calculator,False,False,True,0,passed,passed
+bathroom-tile-cost.html,Bathroom Tile Cost Calculator,False,False,True,0,passed,passed
+binary-calculator.html,Binary Calculator,True,False,True,3,passed,passed
+biweekly-mortgage.html,Biweekly Mortgage Calculator,False,False,False,0,passed,passed
+bmi.html,BMI Calculator,False,False,False,0,passed,passed
+bmr.html,BMR Calculator,False,False,False,0,passed,passed
+boat-loan.html,Boat Loan Calculator,True,False,True,0,passed,passed
+body-fat.html,Body Fat Calculator,False,False,False,0,passed,passed
+bond-yield.html,Bond Current Yield Calculator,False,False,False,0,passed,passed
+bookkeeping-cost.html,Bookkeeping Cost Calculator,True,True,True,0,passed,passed
+bootcamp-roi.html,Bootcamp ROI Calculator,True,False,True,1,passed,passed
+braces-cost.html,Braces Cost Calculator,False,False,False,0,passed,passed
+break-even-cpa.html,Break-Even CPA Calculator,False,False,True,0,passed,passed
+break-even-roas.html,Break-Even ROAS Calculator,False,False,True,0,passed,passed
+bridge-loan.html,Bridge Loan Calculator,False,False,True,0,passed,passed
+brrrr.html,BRRRR Calculator,False,False,True,0,passed,passed
+builders-risk-insurance-cost.html,Builders Risk Insurance Cost Calculator,False,False,True,0,passed,passed
+burn-rate.html,Burn Rate Calculator,False,False,True,0,passed,passed
+business-days-calculator.html,Business Days Calculator,False,False,False,0,passed,passed
+business-interruption-insurance.html,Business Interruption Insurance Calculator,False,False,True,0,passed,passed
+business-line-of-credit.html,Business Line of Credit Calculator,False,False,True,0,passed,passed
+business-loan.html,Business Loan Calculator,False,False,False,0,passed,passed
+business-property-insurance-cost.html,Business Property Insurance Cost Calculator,False,False,True,0,passed,passed
+business-valuation.html,Business Valuation Calculator,False,False,True,0,passed,passed
+buy-now-pay-later-cost.html,Buy Now Pay Later Cost Calculator,False,False,True,0,passed,passed
+buy-now-pay-later.html,Buy Now Pay Later Calculator,True,False,True,0,passed,passed
+cac-payback-period.html,CAC Payback Period Calculator,False,False,True,0,passed,passed
+calorie-deficit-calculator.html,Calorie Deficit Calculator,False,False,False,0,passed,passed
+calorie.html,Calorie Calculator,False,False,False,0,passed,passed
+cap-rate.html,Cap Rate Calculator,False,False,False,0,passed,passed
+capital-gains-tax.html,Capital Gains Tax Calculator,False,False,False,0,passed,passed
+car-accident-lost-wages.html,Car Accident Lost Wages Calculator,False,False,True,0,passed,passed
+car-affordability.html,Car Affordability Calculator,False,False,True,0,passed,passed
+car-depreciation.html,Car Depreciation Calculator,False,False,False,0,passed,passed
+car-down-payment.html,Car Down Payment Calculator,False,False,True,0,passed,passed
+car-insurance.html,Car Insurance Budget Calculator,False,False,False,0,passed,passed
+car-lease-buyout.html,Car Lease Buyout Calculator,False,False,True,0,passed,passed
+car-lease-payment.html,Car Lease Payment Calculator,False,False,True,0,passed,passed
+car-repair-vs-replace.html,Car Repair vs Replace Calculator,True,True,False,0,passed,passed
+car-shipping-cost.html,Car Shipping Cost Calculator,False,False,True,0,passed,passed
+car-total-cost-of-ownership.html,Car Total Cost of Ownership Calculator,True,True,True,0,passed,passed
+cargo-insurance-cost.html,Cargo Insurance Cost Calculator,False,False,True,0,passed,passed
+cash-flow.html,Cash Flow Calculator,False,False,True,0,passed,passed
+cash-on-cash-return.html,Cash-on-Cash Return Calculator,False,False,True,0,passed,passed
+cash-runway.html,Cash Runway Calculator,False,False,True,0,passed,passed
+cd.html,CD Calculator,False,False,False,0,passed,passed
+charitable-deduction.html,Charitable Donation Tax Savings Calculator,False,False,False,0,passed,passed
+chimney-repair-cost.html,Chimney Repair Cost Calculator,False,False,True,0,passed,passed
+churn-rate.html,Churn Rate Calculator,False,False,True,0,passed,passed
+closet-remodel-cost.html,Closet Remodel Cost Calculator,True,True,True,0,passed,passed
+closing-cost.html,Closing Cost Calculator,False,False,False,0,passed,passed
+cloud-cost.html,Cloud Cost Calculator,False,False,True,0,passed,passed
+cobra-insurance-cost.html,COBRA Insurance Cost Calculator,False,False,True,0,passed,passed
+cobra-vs-marketplace-cost.html,COBRA vs Marketplace Cost Calculator,True,True,True,0,passed,passed
+college-savings.html,College Savings Calculator,False,False,False,0,passed,passed
+college-tuition-roi.html,College Tuition ROI Calculator,True,False,True,1,passed,passed
+commercial-auto-insurance-cost.html,Commercial Auto Insurance Cost Calculator,False,False,True,0,passed,passed
+commercial-mortgage.html,Commercial Mortgage Calculator,False,False,False,0,passed,passed
+commission.html,Commission Calculator,False,False,False,0,passed,passed
+commute-cost.html,Commute Cost Calculator,True,True,True,0,passed,passed
+concrete.html,Concrete Calculator,False,False,False,0,passed,passed
+confidence-interval-calculator.html,Confidence Interval Calculator,False,False,True,0,passed,passed
+construction-loan.html,Construction Loan Calculator,False,False,True,0,passed,passed
+contractor-hourly-rate.html,Contractor Hourly Rate Calculator,False,False,True,0,passed,passed
+contractor-insurance-cost.html,Contractor Insurance Cost Calculator,False,False,True,0,passed,passed
+contribution-margin.html,Contribution Margin Calculator,False,False,True,0,passed,passed
+conversion-rate.html,Conversion Rate Calculator,False,False,True,0,passed,passed
+cost-of-employee.html,Cost of Employee Calculator,False,False,False,0,passed,passed
+countertop-cost.html,Countertop Cost Calculator,False,False,True,0,passed,passed
+covered-patio-cost.html,Covered Patio Cost Calculator,True,True,False,0,passed,passed
+cpa.html,CPA Calculator,False,False,False,0,passed,passed
+cpap-cost.html,CPAP Cost Calculator,True,True,True,0,passed,passed
+cpc.html,CPC Calculator,False,False,False,0,passed,passed
+cpm.html,CPM Calculator,False,False,True,0,passed,passed
+crawl-space-encapsulation-cost.html,Crawl Space Encapsulation Cost Calculator,False,False,True,0,passed,passed
+credit-card-interest.html,Credit Card Interest Calculator,False,False,False,0,passed,passed
+credit-card-payoff.html,Credit Card Payoff Calculator,False,False,False,0,passed,passed
+crm-roi.html,CRM ROI Calculator,False,False,True,0,passed,passed
+ctr.html,CTR Calculator,False,False,True,0,passed,passed
+cube-root-calculator.html,Cube Root Calculator,True,False,True,0,passed,passed
+cups-to-grams-calculator.html,Cups to Grams Calculator,True,False,True,0,passed,passed
+currency-converter.html,Currency Converter,False,False,False,0,passed,passed
+custom-software-development-cost.html,Custom Software Development Cost Calculator,False,False,True,0,passed,passed
+customer-acquisition-cost.html,Customer Acquisition Cost Calculator,False,False,True,0,passed,passed
+customer-lifetime-value.html,Customer Lifetime Value Calculator,False,False,True,0,passed,passed
+cyber-breach-cost.html,Cyber Breach Cost Calculator,True,True,True,0,passed,passed
+cyber-insurance-cost.html,Cyber Insurance Cost Calculator,False,False,True,0,passed,passed
+cybersecurity-roi.html,Cybersecurity ROI Calculator,False,False,True,0,passed,passed
+cybersecurity-services-cost.html,Cybersecurity Services Cost Calculator,False,False,True,0,passed,passed
+date-calculator.html,Date Calculator,False,False,True,0,passed,passed
+day-of-week-calculator.html,Day of Week Calculator,True,False,True,0,passed,passed
+days-from-today-calculator.html,Days From Today Calculator,True,False,True,0,passed,passed
+days-until.html,Days Until Calculator,False,False,False,0,passed,passed
+debt-avalanche.html,Debt Avalanche Calculator,False,False,False,0,passed,passed
+debt-consolidation.html,Debt Consolidation Calculator,False,False,True,0,passed,passed
+debt-payoff.html,Debt Payoff Calculator,False,False,False,0,passed,passed
+debt-snowball.html,Debt Snowball Calculator,False,False,False,0,passed,passed
+debt-to-income.html,Debt-to-Income Ratio Calculator,False,False,False,0,passed,passed
+decimal-to-fraction-calculator.html,Decimal to Fraction Calculator,True,False,False,1,passed,passed
+decimal-to-percent-calculator.html,Decimal to Percent Calculator,True,False,True,0,passed,passed
+deck-cost.html,Deck Cost Calculator,False,False,True,0,passed,passed
+delivery-driver-earnings.html,Delivery Driver Earnings Calculator,True,False,True,0,passed,passed
+demolition-cost.html,Demolition Cost Calculator,False,False,True,0,passed,passed
+dental-implant-cost.html,Dental Implant Cost Calculator,False,False,False,0,passed,passed
+dental-insurance-cost.html,Dental Insurance Cost Calculator,False,False,True,0,passed,passed
+dermatologist-visit-cost.html,Dermatologist Visit Cost Calculator,True,True,True,3,passed,passed
+directors-officers-insurance-cost.html,Directors and Officers Insurance Cost Calculator,False,False,True,0,passed,passed
+disability-insurance-needs.html,Disability Insurance Needs Calculator,False,False,True,0,passed,passed
+dividend-yield.html,Dividend Yield Calculator,False,False,False,0,passed,passed
+divorce-asset-split.html,Divorce Asset Split Calculator,False,False,True,0,passed,passed
+divorce-lawyer-cost.html,Divorce Lawyer Cost Calculator,True,False,True,2,passed,passed
+driveway-cost.html,Driveway Cost Calculator,False,False,True,0,passed,passed
+driveway-paving-cost.html,Driveway Paving Cost Calculator,True,True,False,0,passed,passed
+drywall-repair-cost.html,Drywall Repair Cost Calculator,True,True,True,0,passed,passed
+dscr.html,DSCR Calculator,False,False,False,0,passed,passed
+ductwork-replacement-cost.html,Ductwork Replacement Cost Calculator,False,False,True,0,passed,passed
+dui-lawyer-cost.html,DUI Lawyer Cost Calculator,True,False,True,2,passed,passed
+earthquake-insurance-cost.html,Earthquake Insurance Cost Calculator,False,False,True,0,passed,passed
+ebay-fee.html,eBay Fee Calculator,False,False,True,0,passed,passed
+ebitda.html,EBITDA Calculator,True,False,True,0,passed,passed
+egg-freezing-cost.html,Egg Freezing Cost Calculator,True,True,True,0,passed,passed
+electrical-project-cost.html,Electrical Project Cost Calculator,False,False,True,0,passed,passed
+email-marketing-roi.html,Email Marketing ROI Calculator,False,False,True,0,passed,passed
+employee-turnover-cost.html,Employee Turnover Cost Calculator,False,False,True,0,passed,passed
+equipment-financing.html,Equipment Financing Calculator,False,False,False,0,passed,passed
+escrow-shortage.html,Escrow Shortage Calculator,False,False,True,0,passed,passed
+escrow.html,Mortgage Escrow Calculator,False,False,False,0,passed,passed
+estate-planning-cost.html,Estate Planning Cost Calculator,True,False,True,2,passed,passed
+etsy-fee.html,Etsy Fee Calculator,False,False,True,0,passed,passed
+ev-battery-replacement-cost.html,EV Battery Replacement Cost Calculator,False,False,True,0,passed,passed
+ev-charger-installation-cost.html,EV Charger Installation Cost Calculator,False,False,True,0,passed,passed
+ev-charging-cost.html,EV Charging Cost Calculator,False,False,True,0,passed,passed
+event-insurance-cost.html,Event Insurance Cost Calculator,False,False,True,0,passed,passed
+exponent-calculator.html,Exponent Calculator,True,False,True,0,passed,passed
+facebook-ads-roi.html,Facebook Ads ROI Calculator,True,False,True,1,passed,passed
+factorial-calculator.html,Factorial Calculator,True,False,True,0,passed,passed
+fence-cost.html,Fence Cost Calculator,False,False,True,0,passed,passed
+fha-loan.html,FHA Loan Calculator,False,False,True,0,passed,passed
+finance-calculator.html,Finance Calculator,True,False,True,1,passed,passed
+fire-damage-restoration-cost.html,Fire Damage Restoration Cost Calculator,True,True,False,0,passed,passed
+fireplace-installation-cost.html,Fireplace Installation Cost Calculator,True,True,False,0,passed,passed
+flood-insurance-cost.html,Flood Insurance Cost Calculator,False,False,True,0,passed,passed
+flooring-cost.html,Flooring Cost Calculator,False,False,True,0,passed,passed
+fmla-income-gap.html,FMLA Income Gap Calculator,False,False,True,0,passed,passed
+foundation-repair-cost.html,Foundation Repair Cost Calculator,False,False,True,0,passed,passed
+fraction-to-percent-calculator.html,Fraction to Percent Calculator,True,False,True,1,passed,passed
+franchise-loan.html,Franchise Loan Calculator,False,False,True,0,passed,passed
+freelance-hourly-rate.html,Freelance Hourly Rate Calculator,False,False,False,0,passed,passed
+fuel-economy.html,Fuel Economy Calculator,False,False,False,0,passed,passed
+furnace-replacement-cost.html,Furnace Replacement Cost Calculator,False,False,True,0,passed,passed
+gap-insurance-cost.html,GAP Insurance Cost Calculator,False,False,True,0,passed,passed
+garage-conversion-cost.html,Garage Conversion Cost Calculator,True,False,True,0,passed,passed
+garage-cost.html,Garage Cost Calculator,False,False,True,0,passed,passed
+garage-door-replacement-cost.html,Garage Door Replacement Cost Calculator,False,False,True,0,passed,passed
+gas-vs-electric-car-cost.html,Gas vs Electric Car Cost Calculator,True,True,True,0,passed,passed
+gazebo-cost.html,Gazebo Cost Calculator,True,True,False,0,passed,passed
+general-liability-insurance-cost.html,General Liability Insurance Cost Calculator,False,False,True,0,passed,passed
+generator-installation-cost.html,Generator Installation Cost Calculator,True,True,False,0,passed,passed
+google-ads-roi.html,Google Ads ROI Calculator,True,False,True,1,passed,passed
+grade.html,Grade Calculator,False,False,False,0,passed,passed
+graduate-school-roi.html,Graduate School ROI Calculator,True,False,True,1,passed,passed
+granite-countertop-cost.html,Granite Countertop Cost Calculator,True,True,False,0,passed,passed
+gum-disease-treatment-cost.html,Gum Disease Treatment Cost Calculator,True,True,True,0,passed,passed
+gutter-guard-cost.html,Gutter Guard Cost Calculator,True,True,False,0,passed,passed
+gutter-installation-cost.html,Gutter Installation Cost Calculator,False,False,True,0,passed,passed
+hair-transplant-cost.html,Hair Transplant Cost Calculator,True,True,True,0,passed,passed
+hard-money-loan.html,Hard Money Loan Calculator,True,False,True,0,passed,passed
+health-insurance-premium.html,Health Insurance Premium Calculator,False,False,True,0,passed,passed
+hearing-aid-cost.html,Hearing Aid Cost Calculator,False,False,False,0,passed,passed
+heat-pump-cost.html,Heat Pump Cost Calculator,False,False,True,0,passed,passed
+heloc.html,HELOC Payment Calculator,False,False,False,0,passed,passed
+help-desk-software-roi.html,Help Desk Software ROI Calculator,False,False,True,0,passed,passed
+high-yield-savings-interest.html,High-Yield Savings Interest Calculator,False,False,False,0,passed,passed
+hipaa-compliance-cost.html,HIPAA Compliance Cost Calculator,True,True,True,0,passed,passed
+home-addition-cost.html,Home Addition Cost Calculator,False,False,True,0,passed,passed
+home-affordability.html,Home Affordability Calculator,True,False,False,3,passed,passed
+home-appraisal-cost.html,Home Appraisal Cost Calculator,False,False,True,0,passed,passed
+home-elevator-cost.html,Home Elevator Cost Calculator,False,False,True,0,passed,passed
+home-equity-loan.html,Home Equity Loan Calculator,False,False,True,0,passed,passed
+home-inspection-cost.html,Home Inspection Cost Calculator,False,False,True,0,passed,passed
+home-insulation-cost.html,Home Insulation Cost Calculator,False,False,True,0,passed,passed
+home-insurance.html,Home Insurance Cost Calculator,False,False,False,0,passed,passed
+home-office-deduction.html,Home Office Deduction Calculator,False,False,True,0,passed,passed
+home-office-remodel-cost.html,Home Office Remodel Cost Calculator,True,True,True,0,passed,passed
+home-sale-capital-gains.html,Home Sale Capital Gains Calculator,True,False,True,1,passed,passed
+home-sale-proceeds.html,Home Sale Proceeds Calculator,False,False,True,0,passed,passed
+home-security-system-cost.html,Home Security System Cost Calculator,False,False,True,0,passed,passed
+home-warranty-cost.html,Home Warranty Cost Calculator,False,False,True,0,passed,passed
+homeowners-insurance-deductible.html,Homeowners Insurance Deductible Calculator,False,False,True,0,passed,passed
+hot-tub-installation-cost.html,Hot Tub Installation Cost Calculator,True,True,False,0,passed,passed
+hourly-pay.html,Hourly Pay Calculator,False,False,False,0,passed,passed
+hours-calculator.html,Hours Calculator,False,False,True,0,passed,passed
+house-flipping.html,House Flipping Calculator,False,False,True,0,passed,passed
+house-hacking.html,House Hacking Calculator,False,False,True,0,passed,passed
+hvac-financing-payment.html,HVAC Financing Payment Calculator,False,False,True,0,passed,passed
+hvac-size.html,HVAC Size Calculator,False,False,True,0,passed,passed
+ideal-weight.html,Ideal Weight Calculator,False,False,False,0,passed,passed
+immigration-lawyer-cost.html,Immigration Lawyer Cost Calculator,True,False,True,2,passed,passed
+improper-fraction-to-mixed-number-calculator.html,Improper Fraction to Mixed Number Calculator,True,False,True,0,passed,passed
+income-tax.html,Income Tax Calculator,False,False,False,0,passed,passed
+inflation.html,Inflation Calculator,False,False,False,0,passed,passed
+inland-marine-insurance-cost.html,Inland Marine Insurance Cost Calculator,False,False,True,0,passed,passed
+interest-only-mortgage.html,Interest-Only Mortgage Calculator,False,False,True,0,passed,passed
+interest-rate-calculator.html,Interest Rate Calculator,True,False,True,0,passed,passed
+inventory-turnover.html,Inventory Turnover Calculator,False,False,False,0,passed,passed
+investment.html,Investment Calculator,False,False,False,1,passed,passed
+invisalign-cost.html,Invisalign Cost Calculator,False,False,False,0,passed,passed
+invoice-factoring.html,Invoice Factoring Calculator,False,False,False,0,passed,passed
+ira.html,IRA Calculator,False,False,False,0,passed,passed
+iui-cost.html,IUI Cost Calculator,True,True,True,3,passed,passed
+job-offer-comparison.html,Job Offer Comparison Calculator,False,False,True,0,passed,passed
+jumbo-mortgage.html,Jumbo Mortgage Calculator,False,False,True,0,passed,passed
+key-person-insurance.html,Key Person Insurance Calculator,False,False,True,0,passed,passed
+kitchen-cabinet-cost.html,Kitchen Cabinet Cost Calculator,False,False,True,0,passed,passed
+kitchen-island-cost.html,Kitchen Island Cost Calculator,True,True,False,0,passed,passed
+kitchen-remodel-cost.html,Kitchen Remodel Cost Calculator,False,False,True,0,passed,passed
+land-loan.html,Land Loan Calculator,True,False,True,0,passed,passed
+landlord-cash-flow.html,Landlord Cash Flow Calculator,False,False,True,0,passed,passed
+landlord-insurance-cost.html,Landlord Insurance Cost Calculator,False,False,True,0,passed,passed
+landscaping-cost.html,Landscaping Cost Calculator,False,False,True,0,passed,passed
+lasik-cost.html,LASIK Cost Calculator,False,False,False,0,passed,passed
+lcm-gcf-calculator.html,LCM and GCF Calculator,True,False,True,1,passed,passed
+lead-value.html,Lead Value Calculator,False,False,True,0,passed,passed
+lease-buyout.html,Lease Buyout Calculator,True,False,True,0,passed,passed
+lease-vs-buy-car.html,Lease vs Buy Car Calculator,False,False,True,0,passed,passed
+lease.html,Auto Lease Calculator,False,False,False,0,passed,passed
+lemon-law-refund.html,Lemon Law Refund Calculator,False,False,True,0,passed,passed
+length-converter.html,Length Converter,True,False,True,1,passed,passed
+life-insurance.html,Life Insurance Calculator,False,False,False,0,passed,passed
+linear-equation-calculator.html,Linear Equation Calculator,True,False,True,0,passed,passed
+liquor-liability-insurance-cost.html,Liquor Liability Insurance Cost Calculator,False,False,True,0,passed,passed
+loan-comparison.html,Loan Comparison Calculator,True,False,False,1,passed,passed
+loan.html,Loan Calculator,False,False,False,1,passed,passed
+local-seo-roi.html,Local SEO ROI Calculator,False,False,True,0,passed,passed
+logarithm-calculator.html,Logarithm Calculator,True,False,True,0,passed,passed
+long-term-care-cost.html,Long-Term Care Cost Calculator,False,False,True,0,passed,passed
+ltv-cac-ratio.html,LTV to CAC Ratio Calculator,False,False,True,0,passed,passed
+macro-calculator.html,Macro Calculator,False,False,False,0,passed,passed
+malpractice-insurance-cost.html,Medical Malpractice Insurance Cost Calculator,False,False,True,0,passed,passed
+managed-it-cost.html,Managed IT Cost Calculator,True,True,True,0,passed,passed
+managed-it-services-cost.html,Managed IT Services Cost Calculator,False,False,True,0,passed,passed
+marketplace-profit.html,Marketplace Profit Calculator,True,False,True,0,passed,passed
+markup.html,Markup Calculator,False,False,False,0,passed,passed
+medicare-advantage-out-of-pocket.html,Medicare Advantage Out-of-Pocket Calculator,False,False,False,0,passed,passed
+medicare-irmaa-surcharge.html,Medicare IRMAA Surcharge Calculator,False,False,False,0,passed,passed
+medicare-part-b-late-enrollment-penalty.html,Medicare Part B Late Enrollment Penalty Calculator,False,False,False,0,passed,passed
+medicare-supplement-cost.html,Medicare Supplement Cost Calculator,False,False,True,0,passed,passed
+memory-care-cost.html,Memory Care Cost Calculator,True,True,False,0,passed,passed
+merchant-cash-advance.html,Merchant Cash Advance Calculator,False,False,True,0,passed,passed
+mini-split-cost.html,Mini-Split Installation Cost Calculator,False,False,True,0,passed,passed
+mini-split-installation-cost.html,Mini Split Installation Cost Calculator,True,True,False,0,passed,passed
+mixed-number-calculator.html,Mixed Number Calculator,True,False,True,0,passed,passed
+mobile-app-development-cost.html,Mobile App Development Cost Calculator,False,False,True,0,passed,passed
+mobile-home-loan.html,Mobile Home Loan Calculator,True,False,True,0,passed,passed
+mold-remediation-cost.html,Mold Remediation Cost Calculator,False,False,True,0,passed,passed
+months-between-dates-calculator.html,Months Between Dates Calculator,False,False,False,0,passed,passed
+mortgage-buydown.html,Mortgage Buydown Calculator,True,False,True,0,passed,passed
+mortgage-extra-payment.html,Mortgage Extra Payment Calculator,False,False,False,0,passed,passed
+mortgage-income.html,Mortgage Income Calculator,False,False,False,0,passed,passed
+mortgage-payoff.html,Mortgage Payoff Calculator,True,False,True,2,passed,passed
+mortgage-points.html,Mortgage Points Calculator,False,False,False,0,passed,passed
+mortgage-prepayment-penalty.html,Mortgage Prepayment Penalty Calculator,False,False,True,0,passed,passed
+mortgage-recast.html,Mortgage Recast Calculator,False,False,True,0,passed,passed
+motorcycle-insurance-cost.html,Motorcycle Insurance Cost Calculator,False,False,True,0,passed,passed
+motorcycle-loan.html,Motorcycle Loan Calculator,True,False,True,0,passed,passed
+moving-cost.html,Moving Cost Calculator,False,False,True,0,passed,passed
+mrr-growth.html,MRR Growth Calculator,False,False,True,0,passed,passed
+net-income.html,Net Income Calculator,False,False,False,0,passed,passed
+net-revenue-retention.html,Net Revenue Retention Calculator,False,False,True,0,passed,passed
+new-home-construction-cost.html,New Home Construction Cost Calculator,True,True,False,0,passed,passed
+nursing-home-cost.html,Nursing Home Cost Calculator,True,True,False,0,passed,passed
+online-degree-cost.html,Online Degree Cost Calculator,True,True,True,0,passed,passed
+orthodontic-monthly-payment.html,Orthodontic Monthly Payment Calculator,True,False,True,0,passed,passed
+outdoor-kitchen-cost.html,Outdoor Kitchen Cost Calculator,True,True,False,0,passed,passed
+overtime-tax.html,Overtime Tax Calculator,False,False,True,0,passed,passed
+overtime.html,Overtime Pay Calculator,False,False,False,0,passed,passed
+ovulation.html,Ovulation Calculator,False,False,False,0,passed,passed
+owner-operator-profit.html,Owner-Operator Profit Calculator,False,False,True,0,passed,passed
+pace.html,Pace Calculator,False,False,False,0,passed,passed
+pain-and-suffering-multiplier.html,Pain and Suffering Multiplier Calculator,False,False,True,0,passed,passed
+paint.html,Paint Calculator,False,False,False,0,passed,passed
+paver-patio-cost.html,Paver Patio Cost Calculator,True,True,False,0,passed,passed
+pay-raise.html,Pay Raise Calculator,False,False,False,0,passed,passed
+paycheck.html,Paycheck Calculator,False,False,False,0,passed,passed
+payment-calculator.html,Payment Calculator,True,False,True,1,passed,passed
+paypal-fee.html,PayPal Fee Calculator,False,False,True,0,passed,passed
+payroll-burden.html,Payroll Burden Calculator,False,False,False,0,passed,passed
+payroll-software-roi.html,Payroll Software ROI Calculator,True,False,True,1,passed,passed
+pci-compliance-cost.html,PCI Compliance Cost Calculator,True,True,True,0,passed,passed
+pension.html,Pension Calculator,False,False,False,0,passed,passed
+percent-error-calculator.html,Percent Error Calculator,True,False,True,0,passed,passed
+percent-to-decimal-calculator.html,Percent to Decimal Calculator,True,False,True,0,passed,passed
+percentage-increase-calculator.html,Percentage Increase Calculator,True,False,True,0,passed,passed
+permutation-combination-calculator.html,Permutation and Combination Calculator,True,False,True,0,passed,passed
+personal-injury-lawyer-fee.html,Personal Injury Lawyer Fee Calculator,False,False,True,0,passed,passed
+personal-loan.html,Personal Loan Calculator,False,False,False,0,passed,passed
+pest-control-cost.html,Pest Control Cost Calculator,False,False,True,0,passed,passed
+pet-insurance-cost.html,Pet Insurance Cost Calculator,False,False,True,0,passed,passed
+plumbing-cost.html,Plumbing Cost Calculator,False,False,True,0,passed,passed
+pmi.html,PMI Calculator,False,False,True,0,passed,passed
+polynomial-calculator.html,Polynomial Calculator,True,False,True,0,passed,passed
+pool-cost.html,Swimming Pool Cost Calculator,False,False,True,0,passed,passed
+ppc-agency-fee.html,PPC Agency Fee Calculator,False,False,True,0,passed,passed
+ppc-profit.html,PPC Profit Calculator,False,False,True,0,passed,passed
+pregnancy-conception-calculator.html,Pregnancy Conception Calculator,False,False,True,0,passed,passed
+pregnancy-due-date.html,Pregnancy Due Date Calculator,False,False,False,0,passed,passed
+prime-factorization-calculator.html,Prime Factorization Calculator,True,False,True,0,passed,passed
+probate-estate-distribution.html,Probate Estate Distribution Calculator,False,False,True,0,passed,passed
+product-liability-insurance-cost.html,Product Liability Insurance Cost Calculator,False,False,True,0,passed,passed
+professional-liability-insurance-cost.html,Professional Liability Insurance Cost Calculator,False,False,True,0,passed,passed
+profit-margin.html,Profit Margin Calculator,False,False,False,0,passed,passed
+property-management-fee.html,Property Management Fee Calculator,False,False,True,0,passed,passed
+property-tax.html,Property Tax Calculator,False,False,False,0,passed,passed
+psychiatrist-visit-cost.html,Psychiatrist Visit Cost Calculator,True,True,True,3,passed,passed
+pto-payout.html,PTO Payout Calculator,False,False,True,0,passed,passed
+pythagorean-theorem-calculator.html,Pythagorean Theorem Calculator,True,False,True,0,passed,passed
+qualified-business-income-deduction.html,Qualified Business Income Deduction Calculator,False,False,False,0,passed,passed
+quarterly-estimated-tax.html,Quarterly Estimated Tax Calculator,False,False,False,0,passed,passed
+quartz-countertop-cost.html,Quartz Countertop Cost Calculator,True,True,False,0,passed,passed
+radon-mitigation-cost.html,Radon Mitigation Cost Calculator,False,False,True,0,passed,passed
+random-number-generator.html,Random Number Generator,False,False,False,0,passed,passed
+ransomware-downtime-cost.html,Ransomware Downtime Cost Calculator,True,True,True,0,passed,passed
+ratio-calculator.html,Ratio Calculator,True,False,True,0,passed,passed
+refinance-break-even.html,Refinance Break-Even Calculator,False,False,False,0,passed,passed
+refinance.html,Mortgage Refinance Calculator,False,False,False,0,passed,passed
+rent-increase.html,Rent Increase Calculator,False,False,True,0,passed,passed
+rent-vs-buy.html,Rent vs. Buy Calculator,False,False,False,0,passed,passed
+rental-property-depreciation.html,Rental Property Depreciation Calculator,True,False,True,0,passed,passed
+rental-property.html,Rental Property Calculator,False,False,False,0,passed,passed
+rental-yield.html,Rental Yield Calculator,False,False,True,0,passed,passed
+renters-insurance.html,Renters Insurance Calculator,False,False,False,0,passed,passed
+retaining-wall-cost.html,Retaining Wall Cost Calculator,False,False,True,0,passed,passed
+retirement-withdrawal.html,Retirement Withdrawal Calculator,False,False,False,0,passed,passed
+retirement.html,Retirement Calculator,False,False,False,0,passed,passed
+reverse-mortgage.html,Reverse Mortgage Calculator,False,False,True,0,passed,passed
+rideshare-earnings.html,Rideshare Earnings Calculator,False,False,True,0,passed,passed
+rmd.html,Required Minimum Distribution Calculator,False,False,False,0,passed,passed
+roas.html,ROAS Calculator,False,False,False,0,passed,passed
+roof-cost.html,Roof Cost Calculator,False,False,True,0,passed,passed
+root-canal-cost.html,Root Canal Cost Calculator,False,False,False,0,passed,passed
+roth-ira.html,Roth IRA Calculator,False,False,False,0,passed,passed
+rounding-calculator.html,Rounding Calculator,True,False,True,3,passed,passed
+rv-insurance-cost.html,RV Insurance Cost Calculator,False,False,True,0,passed,passed
+rv-loan.html,RV Loan Calculator,True,False,True,0,passed,passed
+saas-mrr.html,SaaS MRR Calculator,False,False,True,0,passed,passed
+saas-valuation.html,SaaS Valuation Calculator,False,False,True,0,passed,passed
+sales-commission.html,Sales Commission Calculator,False,False,False,0,passed,passed
+sales-tax-reverse.html,Reverse Sales Tax Calculator,False,False,False,0,passed,passed
+sales-tax.html,Sales Tax Calculator,False,False,False,0,passed,passed
+sauna-installation-cost.html,Sauna Installation Cost Calculator,True,True,False,0,passed,passed
+savings.html,Savings Goal Calculator,False,False,False,0,passed,passed
+sba-loan.html,SBA Loan Calculator,False,False,True,0,passed,passed
+scholarship-need.html,Scholarship Need Calculator,False,False,True,0,passed,passed
+scientific-calculator.html,Scientific Calculator,True,False,True,0,passed,passed
+scientific-notation-calculator.html,Scientific Notation Calculator,False,False,False,0,passed,passed
+security-deposit.html,Security Deposit Calculator,True,False,True,0,passed,passed
+self-employment-tax.html,Self-Employment Tax Calculator,False,False,False,0,passed,passed
+seo-roi.html,SEO ROI Calculator,False,False,True,0,passed,passed
+septic-system-cost.html,Septic System Cost Calculator,False,False,True,0,passed,passed
+severance-pay.html,Severance Pay Calculator,False,False,True,0,passed,passed
+sewer-line-replacement-cost.html,Sewer Line Replacement Cost Calculator,False,False,True,0,passed,passed
+shopify-fee.html,Shopify Fee Calculator,True,False,True,0,passed,passed
+shopify-profit.html,Shopify Profit Calculator,False,False,True,0,passed,passed
+siding-cost.html,Siding Cost Calculator,False,False,True,0,passed,passed
+significant-figures-calculator.html,Significant Figures Calculator,False,False,False,0,passed,passed
+skylight-installation-cost.html,Skylight Installation Cost Calculator,True,True,False,0,passed,passed
+small-business-health-insurance-cost.html,Small Business Health Insurance Cost Calculator,False,False,True,0,passed,passed
+soc-2-compliance-cost.html,SOC 2 Compliance Cost Calculator,True,True,True,0,passed,passed
+solar-battery-cost.html,Solar Battery Cost Calculator,False,False,True,0,passed,passed
+solar-panel-cleaning-cost.html,Solar Panel Cleaning Cost Calculator,True,True,True,0,passed,passed
+solar-savings.html,Solar Panel Savings Calculator,False,False,False,0,passed,passed
+speed-converter.html,Speed Converter,True,False,True,2,passed,passed
+sprinkler-system-cost.html,Sprinkler System Cost Calculator,False,False,True,0,passed,passed
+square-fee.html,Square Fee Calculator,False,False,True,0,passed,passed
+square-footage.html,Square Footage Calculator,False,False,False,0,passed,passed
+square-root-calculator.html,Square Root Calculator,True,False,True,0,passed,passed
+standby-generator-cost.html,Standby Generator Cost Calculator,False,False,True,0,passed,passed
+startup-cost.html,Startup Cost Calculator,False,False,True,0,passed,passed
+steam-shower-cost.html,Steam Shower Cost Calculator,True,True,False,0,passed,passed
+stock-average-price.html,Stock Average Price Calculator,True,True,True,0,passed,passed
+stock-option-exercise-cost.html,Stock Option Exercise Cost Calculator,True,True,True,0,passed,passed
+stripe-fee.html,Stripe Fee Calculator,False,False,True,0,passed,passed
+student-loan-refinance.html,Student Loan Refinance Calculator,False,False,False,0,passed,passed
+student-loan.html,Student Loan Calculator,False,False,False,0,passed,passed
+sump-pump-installation-cost.html,Sump Pump Installation Cost Calculator,True,True,False,0,passed,passed
+surety-bond-cost.html,Surety Bond Cost Calculator,False,False,True,0,passed,passed
+surrogacy-total-cost.html,Surrogacy Total Cost Calculator,True,True,True,0,passed,passed
+system-of-equations-calculator.html,System of Equations Calculator,False,False,False,1,passed,passed
+tdee.html,TDEE Calculator,False,False,False,0,passed,passed
+temperature-converter.html,Temperature Converter,True,False,True,0,passed,passed
+term-life-insurance-cost.html,Term Life Insurance Cost Calculator,False,False,True,0,passed,passed
+tiktok-ads-roi.html,TikTok Ads ROI Calculator,True,False,True,1,passed,passed
+time-calculator.html,Time Calculator,False,False,True,0,passed,passed
+time-duration.html,Time Duration Calculator,False,False,False,0,passed,passed
+time-tracking-roi.html,Time Tracking ROI Calculator,True,False,True,1,passed,passed
+title-insurance-cost.html,Title Insurance Cost Calculator,False,False,True,0,passed,passed
+total-compensation.html,Total Compensation Calculator,False,False,True,0,passed,passed
+total-cost-car-ownership.html,Total Cost of Car Ownership Calculator,False,False,False,0,passed,passed
+trade-in-equity.html,Trade-In Equity Calculator,False,False,False,0,passed,passed
+transmission-replacement-cost.html,Transmission Replacement Cost Calculator,False,False,True,0,passed,passed
+travel-insurance-cost.html,Travel Insurance Cost Calculator,False,False,True,0,passed,passed
+travel-nurse-pay.html,Travel Nurse Pay Calculator,False,False,True,0,passed,passed
+tree-removal-cost.html,Tree Removal Cost Calculator,False,False,True,0,passed,passed
+triangle-calculator.html,Triangle Calculator,True,False,True,2,passed,passed
+trucking-insurance-cost.html,Trucking Insurance Cost Calculator,False,False,True,0,passed,passed
+tub-to-shower-conversion-cost.html,Tub to Shower Conversion Cost Calculator,True,False,False,0,passed,passed
+tubal-ligation-cost.html,Tubal Ligation Cost Calculator,True,True,True,3,passed,passed
+umbrella-insurance.html,Umbrella Insurance Coverage Calculator,False,False,True,0,passed,passed
+urgent-care-vs-er-cost.html,Urgent Care vs ER Cost Calculator,True,True,True,0,passed,passed
+usda-loan.html,USDA Loan Calculator,False,False,True,0,passed,passed
+va-loan.html,VA Loan Calculator,False,False,True,0,passed,passed
+vacancy-rate.html,Vacancy Rate Calculator,False,False,True,0,passed,passed
+vacation-rental-roi.html,Vacation Rental ROI Calculator,True,False,True,0,passed,passed
+variance-calculator.html,Variance Calculator,False,False,False,0,passed,passed
+vasectomy-cost.html,Vasectomy Cost Calculator,True,True,True,3,passed,passed
+volume-calculator.html,Volume Calculator,True,False,True,0,passed,passed
+walk-in-shower-cost.html,Walk-In Shower Cost Calculator,True,True,False,0,passed,passed
+water-damage-restoration-cost.html,Water Damage Restoration Cost Calculator,False,False,True,0,passed,passed
+water-heater-replacement-cost.html,Water Heater Replacement Cost Calculator,False,False,True,0,passed,passed
+water-softener-installation-cost.html,Water Softener Installation Cost Calculator,True,True,False,0,passed,passed
+website-development-cost.html,Website Development Cost Calculator,False,False,True,0,passed,passed
+wedding-insurance-cost.html,Wedding Insurance Cost Calculator,False,False,True,0,passed,passed
+weeks-between-dates-calculator.html,Weeks Between Dates Calculator,True,False,True,0,passed,passed
+weight-converter.html,Weight Converter,True,False,True,1,passed,passed
+weighted-average-calculator.html,Weighted Average Calculator,False,False,True,0,passed,passed
+well-drilling-cost.html,Well Drilling Cost Calculator,False,False,True,0,passed,passed
+whole-house-remodel-cost.html,Whole House Remodel Cost Calculator,True,True,False,0,passed,passed
+whole-house-water-filter-cost.html,Whole House Water Filter Cost Calculator,True,True,False,0,passed,passed
+whole-life-insurance-cost.html,Whole Life Insurance Cost Calculator,False,False,True,0,passed,passed
+window-replacement-cost.html,Window Replacement Cost Calculator,False,False,True,0,passed,passed
+workers-compensation-average-weekly-wage.html,Workers' Compensation Average Weekly Wage Calculator,False,False,True,0,passed,passed
+workers-compensation-premium.html,Workers Compensation Premium Calculator,False,False,True,0,passed,passed
+working-capital.html,Working Capital Calculator,False,False,False,0,passed,passed
+z-score-calculator.html,Z-Score Calculator,True,False,True,0,passed,passed

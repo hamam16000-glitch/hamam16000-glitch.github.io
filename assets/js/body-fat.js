@@ -22,5 +22,5 @@
     get('fatMass').textContent = new Intl.NumberFormat(locale, {minimumFractionDigits: 1, maximumFractionDigits: 1}).format(weight * fat / 100) + ' lb';
     get('category').textContent = 'Estimate calculated';
   }
-  calculate=window.DCHCalculator.wrap(calculate,{"fields":[],"outputs":["mainResult","fatMass","category"],"primary":"mainResult"});get('calculateButton').onclick = calculate; calculate();
+  calculate=window.DCHCalculator.wrap(calculate,{"fields":[{"id":"height"},{"id":"neck"},{"id":"waist"},{"id":"hip","when":["sex","female"]},{"id":"weightHidden"}],"outputs":["mainResult","fatMass","category"],"primary":"mainResult"});get('calculateButton').onclick = calculate; calculate();
 }());
