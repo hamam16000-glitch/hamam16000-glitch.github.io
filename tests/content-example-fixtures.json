@@ -1258,7 +1258,7 @@
     "outputs": {
       "mainResult": "3.00%",
       "nonConversionsOut": "24,250",
-      "targetVisitorsOut": "33,333",
+      "targetVisitorsOut": "33,334",
       "oneInOut": "33.3 visitors"
     }
   },
@@ -1310,7 +1310,7 @@
     "outputs": {
       "mainResult": "$6.67",
       "impressionsOut": "750,000",
-      "costPerImpressionOut": "$0.01",
+      "costPerImpressionOut": "$0.006667",
       "costPerMillionOut": "$6,666.67"
     }
   },
