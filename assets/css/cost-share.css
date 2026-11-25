@@ -1,0 +1,7 @@
+.dch-split{display:flex;height:14px;border-radius:7px;overflow:hidden;border:1px solid var(--line);margin:8px 0 4px}
+.dch-split-you{background:#c0562b;display:block}
+.dch-split-plan{background:#2b7a78;display:block}
+.dch-table tr.dch-total th,.dch-table tr.dch-total td{font-weight:700;border-top:2px solid var(--line)}
+.dch-assume{margin:6px 0 10px;font-size:.9rem;color:var(--muted)}
+#costShare .dch-table{font-size:.8rem}
+#costShare .dch-table th,#costShare .dch-table td{padding:6px 4px;overflow-wrap:anywhere}
