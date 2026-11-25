@@ -1,0 +1,13 @@
+.dch-detail{margin-top:18px}
+.dch-detail h3{margin:18px 0 8px;font-size:1.05rem}
+.dch-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.dch-table{width:100%;border-collapse:collapse;font-size:.88rem}
+.dch-table caption{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.dch-table th,.dch-table td{padding:8px 7px;text-align:right;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+.dch-table thead th{font-weight:700;background:rgba(127,127,127,.1)}
+.dch-table th[scope=row],.dch-table thead th:first-child{text-align:left}
+.dch-table tbody tr:last-child th,.dch-table tbody tr:last-child td{border-bottom:0}
+.dch-note{margin:10px 0 0;color:var(--muted);font-size:.92rem;line-height:1.5}
+.dch-order{margin:8px 0 0;padding-left:22px;line-height:1.6}
+@media (max-width:480px){.dch-table{font-size:.8rem}.dch-table th,.dch-table td{padding:7px 5px}}
+.dch-table.num td{white-space:nowrap}
