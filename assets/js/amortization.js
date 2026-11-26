@@ -10,17 +10,23 @@
     var locale = window.DCHI18N && window.DCHI18N.getLocale ? window.DCHI18N.getLocale() : 'en-US';
     return new Intl.NumberFormat(locale, {style: 'currency', currency: 'USD', currencyDisplay: 'narrowSymbol', minimumFractionDigits: 0, maximumFractionDigits: 0}).format(x);
   }
+  function curLang() { return (window.DCHI18N && window.DCHI18N.getLanguage && window.DCHI18N.getLanguage()) || document.documentElement.lang || 'en'; }
+  function t(tpl) {
+    var args = Array.prototype.slice.call(arguments, 1), l = curLang();
+    var d = l !== 'en' && window.DCH_GUIDE_I18N && window.DCH_GUIDE_I18N[l];
+    return ((d && d[tpl]) || tpl).replace(/\{(\d+)\}/g, function (m, i) { return args[+i]; });
+  }
   var OUT = ['totalInterest', 'remaining', 'extraPayoff', 'extraInterest', 'extraSaved'];
   function fail(message) {
-    get('mainResult').textContent = message || 'Enter valid values.';
+    get('mainResult').textContent = t(message || 'Enter valid values.');
     OUT.forEach(function (id) { get(id).textContent = '—'; });
     get('extraList').hidden = true;
     get('schedOut').textContent = '';
   }
   function span(months) {
     var y = Math.floor(months / 12), m = months % 12, out = [];
-    if (y) out.push(y + (y === 1 ? ' year' : ' years'));
-    if (m || !y) out.push(m + (m === 1 ? ' month' : ' months'));
+    if (y) out.push(t(y === 1 ? '{0} year' : '{0} years', y));
+    if (m || !y) out.push(t(m === 1 ? '{0} month' : '{0} months', m));
     return out.join(' ');
   }
   // Month-by-month balance. Interest is balance x monthly rate, the same
@@ -38,20 +44,20 @@
   function cell(row, text, head, scope) { var c = el(head ? 'th' : 'td', text); if (scope) c.setAttribute('scope', scope); row.appendChild(c); }
   function schedule(base, plan, hasExtra, m) {
     var box = get('schedOut'); box.textContent = '';
-    box.appendChild(el('h3', 'Year-by-year schedule' + (hasExtra ? ' with the extra payment' : '')));
-    var heads = ['Year', 'Interest', 'Principal', hasExtra ? 'Balance (with extra)' : 'Balance'];
-    if (hasExtra) heads.push('Balance (no extra)');
-    var wrap = el('div', undefined, 'dch-table-wrap'), t = el('table', undefined, 'dch-table num');
-    t.appendChild(el('caption', 'Interest, principal and ending balance for each year of the loan'));
+    box.appendChild(el('h3', t(hasExtra ? 'Year-by-year schedule with the extra payment' : 'Year-by-year schedule')));
+    var heads = [t('Year'), t('Interest'), t('Principal'), t(hasExtra ? 'Balance (with extra)' : 'Balance')];
+    if (hasExtra) heads.push(t('Balance (no extra)'));
+    var wrap = el('div', undefined, 'dch-table-wrap'), tbl = el('table', undefined, 'dch-table num');
+    tbl.appendChild(el('caption', t('Interest, principal and ending balance for each year of the loan')));
     var hr = el('tr'); heads.forEach(function (h) { cell(hr, h, true, 'col'); });
-    var th = el('thead'); th.appendChild(hr); t.appendChild(th);
+    var th = el('thead'); th.appendChild(hr); tbl.appendChild(th);
     var tb = el('tbody');
     var years = Math.ceil(plan.rows.length / 12), shown = Math.min(years, 50);
     for (var y = 0; y < shown; y++) {
       var from = y * 12, to = Math.min(plan.rows.length, from + 12), ip = 0, pp = 0;
       for (var k = from; k < to; k++) { ip += plan.rows[k].interest; pp += plan.rows[k].principal; }
       var tr = el('tr');
-      cell(tr, to - from === 12 ? String(y + 1) : (y + 1) + ' (months ' + (from + 1) + '-' + to + ')', true, 'row');
+      cell(tr, to - from === 12 ? String(y + 1) : t('{0} (months {1}-{2})', y + 1, from + 1, to), true, 'row');
       cell(tr, whole(ip)); cell(tr, whole(pp)); cell(tr, whole(plan.rows[to - 1].balance));
       if (hasExtra) {
         var bi = Math.min(base.rows.length, to) - 1;
@@ -59,9 +65,11 @@
       }
       tb.appendChild(tr);
     }
-    t.appendChild(tb); wrap.appendChild(t); box.appendChild(wrap);
-    if (years > shown) box.appendChild(el('p', 'Showing the first ' + shown + ' of ' + years + ' years.', 'dch-note'));
-    box.appendChild(el('p', 'Yearly figures add up the monthly payments and are rounded to the dollar. A lender rounds each payment to the cent, so the last payment on a real loan can differ by a few dollars.', 'dch-note'));
+    tbl.appendChild(tb); wrap.appendChild(tbl); box.appendChild(wrap);
+    var hint = el('p', t('Swipe the table sideways to see every column.'), 'dch-note'); hint.hidden = true; box.insertBefore(hint, wrap);
+    setTimeout(function () { hint.hidden = !(wrap.scrollWidth > wrap.clientWidth + 2); }, 0);
+    if (years > shown) box.appendChild(el('p', t('Showing the first {0} of {1} years.', shown, years), 'dch-note'));
+    box.appendChild(el('p', t('Yearly figures add up the monthly payments and are rounded to the dollar. A lender rounds each payment to the cent, so the last payment on a real loan can differ by a few dollars.'), 'dch-note'));
   }
   var okRun = false;
   function calc() {
@@ -80,7 +88,7 @@
     okRun = true;
     var whole = Math.abs(m - Math.round(m)) < 1e-9;
     if (!whole) {
-      box.appendChild(el('p', 'The year-by-year schedule and the extra-payment result need a term that is a whole number of months (years x 12). Try a term such as 15, 20 or 7.5 years.', 'dch-note'));
+      box.appendChild(el('p', t('The year-by-year schedule and the extra-payment result need a term that is a whole number of months (years x 12). Try a term such as 15, 20 or 7.5 years.'), 'dch-note'));
       return;
     }
     m = Math.round(m);
@@ -88,7 +96,7 @@
     var plan = x > 0 ? run(P, r, pay + x, m) : base;
     if (x > 0) {
       get('extraList').hidden = false;
-      get('extraPayoff').textContent = plan.months === m ? span(m) + ' (' + m + ' payments, no earlier than the schedule)' : span(plan.months) + ' (' + plan.months + (plan.months === 1 ? ' payment' : ' payments') + ' instead of ' + m + ')';
+      get('extraPayoff').textContent = plan.months === m ? span(m) + ' ' + t('({0} payments, no earlier than the schedule)', m) : span(plan.months) + ' ' + t(plan.months === 1 ? '({0} payment instead of {1})' : '({0} payments instead of {1})', plan.months, m);
       get('extraInterest').textContent = money(plan.interest);
       get('extraSaved').textContent = money(Math.max(0, base.interest - plan.interest));
     }
@@ -105,4 +113,5 @@
   }
   get('calculateButton').onclick = run2;
   run2();
+  document.addEventListener('dch:guideapplied', function () { get('schedOut').setAttribute('data-dch-no-i18n', 'true'); if (okRun) run2(); else if (get('mainResult').textContent !== '\u2014' && /valid|Invalid/i.test(get('mainResult').textContent)) {} });
 }());

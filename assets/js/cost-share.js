@@ -50,60 +50,79 @@
       r.cells.forEach(function (c, i) { cell(tr, c, i === 0, i === 0 ? 'row' : null); });
       tb.appendChild(tr);
     });
-    t.appendChild(tb); wrap.appendChild(t); return wrap;
+    t.appendChild(tb); wrap.appendChild(t);
+    if (heads.length > 3) { t.classList.add('dch-stack'); [].forEach.call(tb.rows, function (r) { [].forEach.call(r.cells, function (c, i) { if (i) c.setAttribute('data-label', heads[i]); }); }); }
+    return wrap;
+  }
+  (function () {
+    if (document.getElementById('dchCostShareCss')) return;
+    var st = document.createElement('style'); st.id = 'dchCostShareCss';
+    st.textContent = '#costShare .dch-table th,#costShare .dch-table td{overflow-wrap:normal;word-break:normal;hyphens:manual;padding:.4rem .25rem;font-size:.78rem;line-height:1.3}#costShare .dch-table th:not(:first-child),#costShare .dch-table td:not(:first-child){min-width:4.6em;text-align:right}#costShare .dch-table th:first-child{min-width:7em}';
+    document.head.appendChild(st);
+    st.textContent += '@media(max-width:560px){#costShare .dch-stack thead{position:absolute;left:-9999px}#costShare .dch-stack,#costShare .dch-stack tbody{display:block}#costShare .dch-stack tr{display:block;padding:.45rem .2rem;border-bottom:1px solid rgba(128,128,128,.3)}#costShare .dch-stack th[scope=row]{display:block;padding:.15rem .25rem;font-size:.85rem;min-width:0;width:auto}#costShare .dch-stack td{display:flex;justify-content:space-between;gap:.75rem;border:0;padding:.1rem .25rem;min-width:0;text-align:right}#costShare .dch-stack td::before{content:attr(data-label);font-weight:400;text-align:left;opacity:.8}}';
+  }());
+  function curLang() { return (window.DCHI18N && window.DCHI18N.getLanguage && window.DCHI18N.getLanguage()) || document.documentElement.lang || 'en'; }
+  function t(tpl) {
+    var args = Array.prototype.slice.call(arguments, 1), l = curLang();
+    var d = l !== 'en' && window.DCH_GUIDE_I18N && window.DCH_GUIDE_I18N[l];
+    var out = (d && d[tpl]) || tpl;
+    return out.replace(/\{(\d+)\}/g, function (m, i) { return args[+i]; });
   }
   function render() {
     box.textContent = '';
+    box.setAttribute('lang', curLang() === 'en' ? 'en' : curLang());
     var ctrl = window.DCHCalculator.getController && window.DCHCalculator.getController();
     if (!ctrl || !ctrl.ok) { box.hidden = true; return; }
     var m = read(), allowed = m.c[0] + m.c[1];
     if (![allowed, m.ded, m.share, m.copay].every(Number.isFinite)) { box.hidden = true; return; }
     box.hidden = false;
     var base = split(allowed, m.ded, m.share, m.copay);
-    var share = function (x) { return allowed > 0 ? pct(100 * x / allowed) : '0.0%'; };
-    var shareLabel = kind === 'visits' ? 'coinsurance (' + m.share + '% of the amount after the deductible)' : 'your percentage share (' + Math.round(m.share * 100) / 100 + '% of the amount after the deductible)';
-    var copayLabel = kind === 'visits' ? 'entered copays (' + m.per + ' x ' + money(m.copay / (m.per || 1)) + ')' : 'entered copay';
+    var share = function (x) { return allowed > 0 ? pct(100 * x / allowed) : pct(0); };
+    var shareLabel = kind === 'visits' ? t('coinsurance ({0}% of the amount after the deductible)', m.share) : t('your percentage share ({0}% of the amount after the deductible)', Math.round(m.share * 100) / 100);
+    var copayLabel = kind === 'visits' ? t('entered copays ({0} x {1})', m.per, money(m.copay / (m.per || 1))) : t('entered copay');
 
-    box.appendChild(el('h3', 'Who pays what in this estimate'));
+    box.appendChild(el('h3', t('Who pays what in this estimate')));
     var as = el('ul', undefined, 'dch-order dch-assume');
     ['Every amount you entered is treated as a plan-allowed charge that the percentage applies to.',
      'The deductible comes off first, then your share of what is left, then the copay you entered is added on top.',
      'There is no out-of-pocket maximum, annual benefit limit or exclusion in this model, so real coverage may differ.',
-     'The plan figure is only what remains of the charges after your part. It is not a coverage decision.'].forEach(function (t) { as.appendChild(el('li', t)); });
+     'The plan figure is only what remains of the charges after your part. It is not a coverage decision.'].forEach(function (x) { as.appendChild(el('li', t(x))); });
     box.appendChild(as);
     var bar = el('div', undefined, 'dch-split'); bar.setAttribute('role', 'img');
-    bar.setAttribute('aria-label', 'Share of charges entered: you ' + share(base.you) + ', estimated plan contribution ' + share(base.plan));
+    bar.setAttribute('aria-label', t('Share of charges entered: you {0}, estimated plan contribution {1}', share(base.you), share(base.plan)));
     var youW = allowed > 0 ? 100 * base.you / allowed : 0;
     var a = el('span', undefined, 'dch-split-you'); a.style.width = youW + '%';
     var b = el('span', undefined, 'dch-split-plan'); b.style.width = (100 - youW) + '%';
     bar.appendChild(a); bar.appendChild(b); box.appendChild(bar);
-    var legend = el('p', 'You: ' + share(base.you) + '. Estimated plan contribution: ' + share(base.plan) + '. Percentages are shares of the ' + money(allowed) + ' of charges entered, rounded to one decimal. Amounts are rounded to cents, so displayed rows can differ from the total by a cent.', 'dch-note'); box.appendChild(legend);
-    box.appendChild(table('Split of the entered charges between you and the plan', ['Line', 'Amount', 'Share of charges'], [
-      {cells: ['Charges entered', money(allowed), allowed > 0 ? '100.0%' : '0.0%']},
-      {cells: ['You: deductible applied', money(base.ded), share(base.ded)]},
-      {cells: ['You: ' + shareLabel, money(base.coins), share(base.coins)]},
-      {cells: ['You: ' + copayLabel, money(base.copay), share(base.copay)]},
-      {cls: 'dch-total', cells: ['You pay in total', money(base.you), share(base.you)]},
-      {cells: ['Estimated plan contribution (what is left of the charges, an arithmetic remainder)', money(base.plan), share(base.plan)]}
+    box.appendChild(el('p', t('You: {0}. Estimated plan contribution: {1}. Percentages are shares of the {2} of charges entered, rounded to one decimal. Amounts are rounded to cents, so displayed rows can differ from the total by a cent.', share(base.you), share(base.plan), money(allowed)), 'dch-note'));
+    box.appendChild(table(t('Split of the entered charges between you and the plan'), [t('Line'), t('Amount'), t('Share of charges')], [
+      {cells: [t('Charges entered'), money(allowed), allowed > 0 ? pct(100) : pct(0)]},
+      {cells: [t('You: deductible applied'), money(base.ded), share(base.ded)]},
+      {cells: [t('You: {0}', shareLabel), money(base.coins), share(base.coins)]},
+      {cells: [t('You: {0}', copayLabel), money(base.copay), share(base.copay)]},
+      {cls: 'dch-total', cells: [t('You pay in total'), money(base.you), share(base.you)]},
+      {cells: [t('Estimated plan contribution (what is left of the charges, an arithmetic remainder)'), money(base.plan), share(base.plan)]}
     ]));
-    if (base.cap) box.appendChild(el('p', 'Capped: the deductible, your percentage share and the entered copays added up to more than the charges entered. Your total is held at the charges, and the copay line shows only the part that fits (' + money(base.copay) + ' of ' + money(m.copay) + ' entered), so the rows above add up to your total.', 'dch-note'));
-    if (m.per > 1) box.appendChild(el('p', 'Your total per ' + unitWord + ': ' + money(base.you / m.per) + ' (' + money(base.you) + ' over ' + m.per + ').', 'dch-note'));
+    if (base.cap) box.appendChild(el('p', t('Capped: the deductible, your percentage share and the entered copays added up to more than the charges entered. Your total is held at the charges, and the copay line shows only the part that fits ({0} of {1} entered), so the rows above add up to your total.', money(base.copay), money(m.copay)), 'dch-note'));
+    if (m.per > 1) box.appendChild(el('p', t('Your total per {0}: {1} ({2} over {3}).', t(unitWord), money(base.you / m.per), money(base.you), m.per), 'dch-note'));
 
-    box.appendChild(el('h3', 'What if the numbers were different?'));
-    var rows = [{cells: ['As entered', money(base.you), money(base.plan), '-']}];
+    box.appendChild(el('h3', t('What if the numbers were different?')));
+    var rows = [{cells: [t('As entered'), money(base.you), money(base.plan), '-']}];
     function add(label, s) {
       var diff = s.you - base.you;
-      rows.push({cells: [label, money(s.you), money(s.plan), Math.abs(diff) < 0.005 ? 'no change' : (diff > 0 ? '+' : '-') + money(Math.abs(diff))]});
+      rows.push({cells: [label, money(s.you), money(s.plan), Math.abs(diff) < 0.005 ? t('no change') : (diff > 0 ? '+' : '-') + money(Math.abs(diff))]});
     }
-    add('Deductible already met (remaining = 0)', split(allowed, 0, m.share, m.copay));
+    add(t('Deductible already met (remaining = 0)'), split(allowed, 0, m.share, m.copay));
     var lower = Math.max(0, m.share - 10);
-    add(kind === 'visits' ? 'Coinsurance 10 points lower (' + lower + '%)' : 'Plan share 10 points higher (' + Math.round((100 - lower) * 100) / 100 + '%)', split(allowed, m.ded, lower, m.copay));
-    if (m.copay > 0) add('Copays removed', split(allowed, m.ded, m.share, 0));
-    add('Charges 10% higher (deductible and copays unchanged)', split(scaled(m, 1.1), m.ded, m.share, m.copay));
-    add('Charges 10% lower (deductible and copays unchanged)', split(scaled(m, 0.9), m.ded, m.share, m.copay));
-    box.appendChild(table('Your cost under changed assumptions, using the same arithmetic as the calculator', ['Scenario', 'You pay', 'Plan est.', 'Change'], rows));
-    box.appendChild(el('p', 'Each row changes one thing and re-runs the calculator\u2019s own arithmetic. These are comparisons of the figures you entered, not coverage determinations. Because the model applies no out-of-pocket maximum or annual benefit limit, a plan with one could cost you less than shown.', 'dch-note'));
+    add(kind === 'visits' ? t('Coinsurance 10 points lower ({0}%)', lower) : t('Plan share 10 points higher ({0}%)', Math.round((100 - lower) * 100) / 100), split(allowed, m.ded, lower, m.copay));
+    if (m.copay > 0) add(t('Copays removed'), split(allowed, m.ded, m.share, 0));
+    add(t('Charges 10% higher (deductible and copays unchanged)'), split(scaled(m, 1.1), m.ded, m.share, m.copay));
+    add(t('Charges 10% lower (deductible and copays unchanged)'), split(scaled(m, 0.9), m.ded, m.share, m.copay));
+    box.appendChild(table(t('Your cost under changed assumptions, using the same arithmetic as the calculator'), [t('Scenario'), t('You pay'), t('Plan est.'), t('Change')], rows));
+    box.appendChild(el('p', t('Each row changes one thing and re-runs the calculator\u2019s own arithmetic. These are comparisons of the figures you entered, not coverage determinations. Because the model applies no out-of-pocket maximum or annual benefit limit, a plan with one could cost you less than shown.'), 'dch-note'));
   }
+  document.addEventListener('dch:languagechange', function () { schedule(); });
+  document.addEventListener('dch:guideapplied', function () { schedule(); });
   var queued = false;
   function schedule() { if (queued) return; queued = true; setTimeout(function () { queued = false; render(); }, 0); }
   new MutationObserver(schedule).observe(main, {childList: true, characterData: true, subtree: true});
