@@ -82,7 +82,25 @@
   "Add the products: {0}. Add the weights: {1}.": "Suma los productos: {0}. Suma los pesos: {1}.",
   "Divide the weighted total by the total weight: {0} ÷ {1} = {2}.": "Divide el total ponderado entre el peso total: {0} ÷ {1} = {2}.",
   "For comparison, the simple average of the four values is {0}.": "A modo de comparación, el promedio simple de los cuatro valores es {0}.",
-  "undefined": "indefinido"
+  "undefined": "indefinido",
+  "Count the digits after the decimal point: there are {0}, so write the number over 10^{0} = {1}: {2}/{1}.": "Cuenta los dígitos después del punto decimal: hay {0}, así que escribe el número sobre 10^{0} = {1}: {2}/{1}.",
+  "Find the greatest common factor of {0} and {1}: it is {2}.": "Halla el máximo común divisor de {0} y {1}: es {2}.",
+  "Divide the top and the bottom by {0}: {1} ÷ {0} = {2} and {3} ÷ {0} = {4}.": "Divide el numerador y el denominador entre {0}: {1} ÷ {0} = {2} y {3} ÷ {0} = {4}.",
+  "The fraction in lowest terms is {0}.": "La fracción en su forma más simple es {0}.",
+  "Multiply the whole number by the denominator: {0} × {1} = {2}.": "Multiplica el número entero por el denominador: {0} × {1} = {2}.",
+  "Add the numerator: {0} + {1} = {2}, so the improper fraction is {2}/{3}.": "Suma el numerador: {0} + {1} = {2}, así que la fracción impropia es {2}/{3}.",
+  "The page shows it as {0}. Divide the top by the bottom to check: {1} ÷ {2} = {3}.": "La página lo muestra como {0}. Para comprobarlo, divide el numerador entre el denominador: {1} ÷ {2} = {3}.",
+  "Divide the top by the bottom: {0} ÷ {1} = {2} with a remainder.": "Divide el numerador entre el denominador: {0} ÷ {1} = {2} con resto.",
+  "The whole part is {0}. The remainder is what is left over: {1} − {2} × {0} = {3}.": "La parte entera es {0}. El resto es lo que sobra: {1} − {2} × {0} = {3}.",
+  "Put the remainder over the original denominator: {0}/{1}. The mixed number is {2}.": "Pon el resto sobre el denominador original: {0}/{1}. El número mixto es {2}.",
+  "Divide by the smallest prime that fits, again and again, until nothing is left: {0}.": "Divide entre el menor primo que encaje, una y otra vez, hasta que no quede nada: {0}.",
+  "Collect the primes that were used: {0}.": "Reúne los primos que se usaron: {0}.",
+  "Check: multiplying these primes gives back {0}.": "Comprobación: al multiplicar estos primos se obtiene de nuevo {0}.",
+  "The number of divisors is the product of (exponent + 1) for each prime: {0}.": "El número de divisores es el producto de (exponente + 1) de cada primo: {0}.",
+  "Move the decimal point until one non-zero digit is left in front of it. The power of 10 is {0}.": "Mueve el punto decimal hasta que quede un solo dígito distinto de cero delante. La potencia de 10 es {0}.",
+  "Keep {0} significant figures for the front number: {1}.": "Conserva {0} cifras significativas para el número de delante: {1}.",
+  "Write it as the front number times 10 to that power: {0}.": "Escríbelo como el número de delante por 10 elevado a esa potencia: {0}.",
+  "In E notation this is {0}.": "En notación E es {0}."
  },
  "zh-CN": {
   "Show the steps": "查看计算步骤",
@@ -160,7 +178,25 @@
   "Add the products: {0}. Add the weights: {1}.": "把乘积相加：{0}。把权重相加：{1}。",
   "Divide the weighted total by the total weight: {0} ÷ {1} = {2}.": "用加权总和除以总权重：{0} ÷ {1} = {2}。",
   "For comparison, the simple average of the four values is {0}.": "作为对比，这四个数值的简单平均数是 {0}。",
-  "undefined": "未定义"
+  "undefined": "未定义",
+  "Count the digits after the decimal point: there are {0}, so write the number over 10^{0} = {1}: {2}/{1}.": "数一数小数点后的位数：共 {0} 位，所以把这个数写成分母为 10^{0} = {1} 的分数：{2}/{1}。",
+  "Find the greatest common factor of {0} and {1}: it is {2}.": "求 {0} 和 {1} 的最大公因数：是 {2}。",
+  "Divide the top and the bottom by {0}: {1} ÷ {0} = {2} and {3} ÷ {0} = {4}.": "分子和分母同时除以 {0}：{1} ÷ {0} = {2}，{3} ÷ {0} = {4}。",
+  "The fraction in lowest terms is {0}.": "最简分数是 {0}。",
+  "Multiply the whole number by the denominator: {0} × {1} = {2}.": "整数部分乘以分母：{0} × {1} = {2}。",
+  "Add the numerator: {0} + {1} = {2}, so the improper fraction is {2}/{3}.": "再加上分子：{0} + {1} = {2}，所以假分数是 {2}/{3}。",
+  "The page shows it as {0}. Divide the top by the bottom to check: {1} ÷ {2} = {3}.": "页面显示为 {0}。用分子除以分母来验算：{1} ÷ {2} = {3}。",
+  "Divide the top by the bottom: {0} ÷ {1} = {2} with a remainder.": "用分子除以分母：{0} ÷ {1} = {2}，还有余数。",
+  "The whole part is {0}. The remainder is what is left over: {1} − {2} × {0} = {3}.": "整数部分是 {0}。余数是剩下的部分：{1} − {2} × {0} = {3}。",
+  "Put the remainder over the original denominator: {0}/{1}. The mixed number is {2}.": "把余数放在原来的分母上：{0}/{1}。带分数是 {2}。",
+  "Divide by the smallest prime that fits, again and again, until nothing is left: {0}.": "不断除以能整除的最小质数，直到除尽：{0}。",
+  "Collect the primes that were used: {0}.": "把用到的质数汇总起来：{0}。",
+  "Check: multiplying these primes gives back {0}.": "验算：把这些质数相乘就得回 {0}。",
+  "The number of divisors is the product of (exponent + 1) for each prime: {0}.": "约数的个数等于各质数（指数 + 1）的乘积：{0}。",
+  "Move the decimal point until one non-zero digit is left in front of it. The power of 10 is {0}.": "移动小数点，使其前面只剩一位非零数字。10 的指数是 {0}。",
+  "Keep {0} significant figures for the front number: {1}.": "前面的数保留 {0} 位有效数字：{1}。",
+  "Write it as the front number times 10 to that power: {0}.": "写成前面的数乘以 10 的该次幂：{0}。",
+  "In E notation this is {0}.": "用 E 记数法表示为 {0}。"
  },
  "fil": {
   "Show the steps": "Ipakita ang mga hakbang",
@@ -238,7 +274,25 @@
   "Add the products: {0}. Add the weights: {1}.": "Pagsamahin ang mga produkto: {0}. Pagsamahin ang mga timbang: {1}.",
   "Divide the weighted total by the total weight: {0} ÷ {1} = {2}.": "Hatiin ang weighted total sa kabuuang timbang: {0} ÷ {1} = {2}.",
   "For comparison, the simple average of the four values is {0}.": "Bilang paghahambing, ang simpleng average ng apat na halaga ay {0}.",
-  "undefined": "hindi tinukoy"
+  "undefined": "hindi tinukoy",
+  "Count the digits after the decimal point: there are {0}, so write the number over 10^{0} = {1}: {2}/{1}.": "Bilangin ang mga digit pagkatapos ng decimal point: {0} ang mga ito, kaya isulat ang bilang sa ibabaw ng 10^{0} = {1}: {2}/{1}.",
+  "Find the greatest common factor of {0} and {1}: it is {2}.": "Hanapin ang pinakamalaking karaniwang salik ng {0} at {1}: ito ay {2}.",
+  "Divide the top and the bottom by {0}: {1} ÷ {0} = {2} and {3} ÷ {0} = {4}.": "Hatiin ang itaas at ibaba sa {0}: {1} ÷ {0} = {2} at {3} ÷ {0} = {4}.",
+  "The fraction in lowest terms is {0}.": "Ang praksyon sa pinakamababang termino ay {0}.",
+  "Multiply the whole number by the denominator: {0} × {1} = {2}.": "Paramihin ang buong bilang sa denominator: {0} × {1} = {2}.",
+  "Add the numerator: {0} + {1} = {2}, so the improper fraction is {2}/{3}.": "Idagdag ang numerator: {0} + {1} = {2}, kaya ang improper na praksyon ay {2}/{3}.",
+  "The page shows it as {0}. Divide the top by the bottom to check: {1} ÷ {2} = {3}.": "Ipinapakita ito ng pahina bilang {0}. Hatiin ang itaas sa ibaba para suriin: {1} ÷ {2} = {3}.",
+  "Divide the top by the bottom: {0} ÷ {1} = {2} with a remainder.": "Hatiin ang itaas sa ibaba: {0} ÷ {1} = {2} na may natira.",
+  "The whole part is {0}. The remainder is what is left over: {1} − {2} × {0} = {3}.": "Ang buong bahagi ay {0}. Ang natira ay ang matitira: {1} − {2} × {0} = {3}.",
+  "Put the remainder over the original denominator: {0}/{1}. The mixed number is {2}.": "Ilagay ang natira sa ibabaw ng orihinal na denominator: {0}/{1}. Ang mixed number ay {2}.",
+  "Divide by the smallest prime that fits, again and again, until nothing is left: {0}.": "Hatiin sa pinakamaliit na prime na akma, paulit-ulit, hanggang wala nang matira: {0}.",
+  "Collect the primes that were used: {0}.": "Tipunin ang mga prime na ginamit: {0}.",
+  "Check: multiplying these primes gives back {0}.": "Pagsusuri: ang pagpaparami ng mga prime na ito ay nagbabalik ng {0}.",
+  "The number of divisors is the product of (exponent + 1) for each prime: {0}.": "Ang bilang ng mga divisor ay ang produkto ng (exponent + 1) para sa bawat prime: {0}.",
+  "Move the decimal point until one non-zero digit is left in front of it. The power of 10 is {0}.": "Ilipat ang decimal point hanggang isang digit na hindi zero na lang ang nasa unahan. Ang kapangyarihan ng 10 ay {0}.",
+  "Keep {0} significant figures for the front number: {1}.": "Panatilihin ang {0} makabuluhang digit para sa bilang sa unahan: {1}.",
+  "Write it as the front number times 10 to that power: {0}.": "Isulat ito bilang bilang sa unahan beses 10 sa kapangyarihang iyon: {0}.",
+  "In E notation this is {0}.": "Sa E notation ito ay {0}."
  }
 };
   function curLang() { return (window.DCHI18N && window.DCHI18N.getLanguage && window.DCHI18N.getLanguage()) || document.documentElement.lang || 'en'; }
@@ -517,6 +571,75 @@
       t('Add the products: {0}. Add the weights: {1}.', fmt(sp), fmt(sw)),
       t('Divide the weighted total by the total weight: {0} ÷ {1} = {2}.', fmt(sp), fmt(sw), fmt(wa)),
       t('For comparison, the simple average of the four values is {0}.', plain('simpleOut'))
+    ];
+  };
+
+  function gcd2(a, b) { a = Math.abs(a); b = Math.abs(b); while (b) { var r = a % b; a = b; b = r; } return a; }
+  P['decimal-to-fraction-calculator'] = function () {
+    var raw = document.getElementById('decimalValue').value.trim(), mx = num('maxDenominator');
+    must(/^-?\d*\.?\d+$/.test(raw));
+    var neg = raw.charAt(0) === '-', body = neg ? raw.slice(1) : raw, parts = body.split('.'), dec = parts[1] || '';
+    must(dec.length <= 9);
+    var den = Math.pow(10, dec.length), n = parseInt((parts[0] || '0') + dec, 10), g = gcd2(n, den);
+    var rn = n / g, rd = den / g; must(rd <= mx && g >= 1);
+    var res = (neg ? '-' : '') + rn + '/' + rd;
+    must(plain('mainResult').replace(/\s/g, '') === res || (rd === 1 && plain('mainResult').replace(/\s/g, '') === (neg ? '-' : '') + rn));
+    return [
+      t('Count the digits after the decimal point: there are {0}, so write the number over 10^{0} = {1}: {2}/{1}.', fmt(dec.length), fmt(den), fmt(n)),
+      t('Find the greatest common factor of {0} and {1}: it is {2}.', fmt(n), fmt(den), fmt(g)),
+      t('Divide the top and the bottom by {0}: {1} ÷ {0} = {2} and {3} ÷ {0} = {4}.', fmt(g), fmt(n), fmt(rn), fmt(den), fmt(rd)),
+      t('The fraction in lowest terms is {0}.', plain('mainResult'))
+    ];
+  };
+  P['mixed-number-calculator'] = function () {
+    var w = num('wholeNumber'), n = num('numerator'), d = num('denominator');
+    must(d > 0 && w >= 0 && n >= 0 && w === Math.floor(w) && n === Math.floor(n) && d === Math.floor(d));
+    var top = w * d + n, g = gcd2(top, d), rt = top / g, rd = d / g;
+    var m = plain('mainResult').replace(/\s/g, '');
+    must(m === top + '/' + d || m === rt + '/' + rd || (rd === 1 && m === String(rt)));
+    must(close(top / d, pn(plain('decimalOut'))));
+    return [
+      t('Multiply the whole number by the denominator: {0} × {1} = {2}.', fmt(w), fmt(d), fmt(w * d)),
+      t('Add the numerator: {0} + {1} = {2}, so the improper fraction is {2}/{3}.', fmt(w * d), fmt(n), fmt(top), fmt(d)),
+      t('The page shows it as {0}. Divide the top by the bottom to check: {1} ÷ {2} = {3}.', plain('mainResult'), fmt(top), fmt(d), fmt(top / d))
+    ];
+  };
+  P['improper-fraction-to-mixed-number-calculator'] = function () {
+    var n = num('numerator'), d = num('denominator'); must(d > 0 && n >= 0 && n === Math.floor(n) && d === Math.floor(d));
+    var q = Math.floor(n / d), r = n % d;
+    var rg = r ? gcd2(r, d) : 1; must(q === pn(plain('quotientOut'))); must(r === pn(plain('remainderOut')) || r / rg === pn(plain('remainderOut')));
+    return [
+      t('Divide the top by the bottom: {0} ÷ {1} = {2} with a remainder.', fmt(n), fmt(d), fmt(q)),
+      t('The whole part is {0}. The remainder is what is left over: {1} − {2} × {0} = {3}.', fmt(q), fmt(n), fmt(d), fmt(r)),
+      t('Put the remainder over the original denominator: {0}/{1}. The mixed number is {2}.', fmt(r), fmt(d), plain('mainResult'))
+    ];
+  };
+  P['prime-factorization-calculator'] = function () {
+    var n = num('numberValue'); must(n >= 2 && n === Math.floor(n) && n <= 1e9);
+    var x = n, f = [], p, e, lines = [];
+    for (p = 2; p * p <= x; p += (p === 2 ? 1 : 2)) { e = 0; while (x % p === 0) { x /= p; e++; lines.push(fmt(x * p) + ' ÷ ' + p + ' = ' + fmt(x)); } if (e) f.push([p, e]); }
+    if (x > 1) f.push([x, 1]);
+    must(f.length > 1 || f[0][1] > 1);
+    var s = f.map(function (a) { return a[1] > 1 ? a[0] + '^' + a[1] : String(a[0]); }).join(' × ');
+    must(plain('mainResult').replace(/\s/g, '') === s.replace(/\s/g, ''));
+    var dc = 1; f.forEach(function (a) { dc *= a[1] + 1; }); must(dc === pn(plain('divisorCountOut')));
+    if (lines.length > 8) lines = lines.slice(0, 6).concat(['…']);
+    return [
+      t('Divide by the smallest prime that fits, again and again, until nothing is left: {0}.', lines.join('; ')),
+      t('Collect the primes that were used: {0}.', plain('mainResult')),
+      t('Check: multiplying these primes gives back {0}.', fmt(n)),
+      t('The number of divisors is the product of (exponent + 1) for each prime: {0}.', fmt(dc))
+    ];
+  };
+  P['scientific-notation-calculator'] = function () {
+    var x = num('numberValue'), s = num('sigFigs'); must(x !== 0 && s >= 1 && s === Math.floor(s) && s <= 15);
+    var ex = x.toExponential(s - 1).split('e'), co = parseFloat(ex[0]), m = parseInt(ex[1], 10);
+    must(m === pn(plain('exponentOut'))); must(close(co, parseFloat(plain('coefficientOut')), 1e-9));
+    return [
+      t('Move the decimal point until one non-zero digit is left in front of it. The power of 10 is {0}.', fmt(m)),
+      t('Keep {0} significant figures for the front number: {1}.', fmt(s), plain('coefficientOut')),
+      t('Write it as the front number times 10 to that power: {0}.', plain('mainResult')),
+      t('In E notation this is {0}.', plain('eNotationOut'))
     ];
   };
 
