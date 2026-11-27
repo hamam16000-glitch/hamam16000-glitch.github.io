@@ -100,7 +100,50 @@
   "Move the decimal point until one non-zero digit is left in front of it. The power of 10 is {0}.": "Mueve el punto decimal hasta que quede un solo dígito distinto de cero delante. La potencia de 10 es {0}.",
   "Keep {0} significant figures for the front number: {1}.": "Conserva {0} cifras significativas para el número de delante: {1}.",
   "Write it as the front number times 10 to that power: {0}.": "Escríbelo como el número de delante por 10 elevado a esa potencia: {0}.",
-  "In E notation this is {0}.": "En notación E es {0}."
+  "In E notation this is {0}.": "En notación E es {0}.",
+  "Subtract the birth date {0} from the reference date {1}, counting whole years first, then months, then days: {2} years, {3} months, {4} days.": "Resta la fecha de nacimiento {0} de la fecha de referencia {1}, contando primero los años completos, luego los meses y luego los días: {2} años, {3} meses, {4} días.",
+  "Counting every calendar day from {0} to {1} gives {2} days.": "Contando cada día de calendario de {0} a {1} resultan {2} días.",
+  "Dividing {0} days by 7 gives {1} weeks (rounded to two decimals).": "Dividir {0} días entre 7 da {1} semanas (redondeado a dos decimales).",
+  "The next birthday after the reference date is {0}.": "El próximo cumpleaños después de la fecha de referencia es el {0}.",
+  "Start on {0} and count {1} business days, skipping Saturdays and Sundays.": "Empieza el {0} y cuenta {1} días hábiles, saltándote sábados y domingos.",
+  "The count ends on {0}, which is {1} calendar days away.": "El recuento termina el {0}, a {1} días de calendario de distancia.",
+  "{0} calendar days minus {1} business days leaves {2} weekend days that were skipped.": "{0} días de calendario menos {1} días hábiles dejan {2} días de fin de semana que se saltaron.",
+  "The end date falls on {0}.": "La fecha final cae en {0}.",
+  "Start from the date {0}.": "Parte de la fecha {0}.",
+  "Move it by {0} calendar days (a negative number moves backward): {1}.": "Desplázala {0} días de calendario (un número negativo retrocede): {1}.",
+  "Check: {0} plus {1} days is {2}.": "Comprobación: {0} más {1} días es {2}.",
+  "That date falls on {0}.": "Esa fecha cae en {0}.",
+  "Add the lengths of the months before month {0}: {1} days. Then add the day {2}: day {3} of the year.": "Suma la duración de los meses anteriores al mes {0}: {1} días. Luego suma el día {2}: día {3} del año.",
+  "The year {0} has {1} days, so {2} days remain after this date: {1} − {3} = {2}.": "El año {0} tiene {1} días, así que quedan {2} días después de esta fecha: {1} − {3} = {2}.",
+  "The date {0} falls on {1}.": "La fecha {0} cae en {1}.",
+  "Its ISO week number is {0}.": "Su número de semana ISO es {0}.",
+  "Start from the reference date {0} and shift it by {1} calendar days (a negative number moves backward): {2}.": "Parte de la fecha de referencia {0} y desplázala {1} días de calendario (un número negativo retrocede): {2}.",
+  "The resulting date falls on {0}.": "La fecha resultante cae en {0}.",
+  "The size of the shift is {0} days.": "El tamaño del desplazamiento es de {0} días.",
+  "Splitting {0} days into sevens gives {1} weeks and {2} days.": "Dividir {0} días en grupos de siete da {1} semanas y {2} días.",
+  "Convert both times to minutes after midnight: {0}:{1} is {2} and {3}:{4} is {5}.": "Convierte ambas horas a minutos desde la medianoche: {0}:{1} es {2} y {3}:{4} es {5}.",
+  "The end is earlier than the start, so it is read as the next day: add 1,440 minutes, giving {0}.": "El fin es anterior al inicio, así que se interpreta como del día siguiente: suma 1,440 minutos, lo que da {0}.",
+  "The end is not earlier than the start, so both times are on the same day.": "El fin no es anterior al inicio, así que ambas horas son del mismo día.",
+  "Gross span: {0} − {1} = {2} minutes, which is {3} hours.": "Intervalo bruto: {0} − {1} = {2} minutos, que son {3} horas.",
+  "Subtract the {0}-minute unpaid break: {1} − {0} = {2} minutes.": "Resta el descanso no remunerado de {0} minutos: {1} − {0} = {2} minutos.",
+  "{0} minutes is {1} hr {2} min, or {3} in decimal hours.": "{0} minutos son {1} h {2} min, o {3} en horas decimales.",
+  "Count whole calendar months from the earlier date {0}: {1} months later is {2}.": "Cuenta los meses de calendario completos desde la fecha anterior {0}: {1} meses después es el {2}.",
+  "From {0} to {1} there are {2} days left over.": "De {0} a {1} sobran {2} días.",
+  "Counting every calendar day from {0} to {1} gives {2} days in total.": "Contando cada día de calendario de {0} a {1} resultan {2} días en total.",
+  "The decimal view divides the days by a fixed average month of 30.436875 days: {0} ÷ 30.436875 = {1}.": "La vista decimal divide los días entre un mes medio fijo de 30.436875 días: {0} ÷ 30.436875 = {1}.",
+  "Count the calendar days between {0} and {1}: {2} days.": "Cuenta los días de calendario entre {0} y {1}: {2} días.",
+  "Divide by 7: {0} ÷ 7 = {1} weeks.": "Divide entre 7: {0} ÷ 7 = {1} semanas.",
+  "Full weeks and leftover days: {0} × 7 + {1} = {2}, so {0} full weeks and {1} days.": "Semanas completas y días sobrantes: {0} × 7 + {1} = {2}, es decir, {0} semanas completas y {1} días.",
+  "The later of the two dates is {0}.": "La más tardía de las dos fechas es el {0}.",
+  "Convert the start time to minutes after midnight: {0}:{1} is {2} minutes.": "Convierte la hora inicial a minutos desde la medianoche: {0}:{1} son {2} minutos.",
+  "Convert the addition to minutes: {0} × 60 + {1} = {2} minutes.": "Convierte la suma a minutos: {0} × 60 + {1} = {2} minutos.",
+  "Add them: {0} + {1} = {2} minutes.": "Súmalos: {0} + {1} = {2} minutos.",
+  "{0} minutes is {1}, still the same day.": "{0} minutos son las {1}, todavía el mismo día.",
+  "The sum is outside one day (0 to 1,439), so it wraps by {0} day(s) to {1} minutes after midnight, which reads {2}.": "La suma queda fuera de un día (0 a 1,439), así que da la vuelta {0} día(s) hasta {1} minutos después de medianoche, que se lee {2}.",
+  "Count back 266 days from the due date {0} to estimate conception: {1}.": "Cuenta hacia atrás 266 días desde la fecha prevista de parto {0} para estimar la concepción: {1}.",
+  "Count back 280 days from the due date to estimate the last menstrual period: {0}.": "Cuenta hacia atrás 280 días desde la fecha prevista de parto para estimar la última menstruación: {0}.",
+  "From {0} to the reference date {1} is {2} days, which is {3} weeks and {4} days.": "De {0} a la fecha de referencia {1} hay {2} días, que son {3} semanas y {4} días.",
+  "From the reference date to the due date is {0} days.": "De la fecha de referencia a la fecha prevista de parto hay {0} días."
  },
  "zh-CN": {
   "Show the steps": "查看计算步骤",
@@ -196,7 +239,50 @@
   "Move the decimal point until one non-zero digit is left in front of it. The power of 10 is {0}.": "移动小数点，使其前面只剩一位非零数字。10 的指数是 {0}。",
   "Keep {0} significant figures for the front number: {1}.": "前面的数保留 {0} 位有效数字：{1}。",
   "Write it as the front number times 10 to that power: {0}.": "写成前面的数乘以 10 的该次幂：{0}。",
-  "In E notation this is {0}.": "用 E 记数法表示为 {0}。"
+  "In E notation this is {0}.": "用 E 记数法表示为 {0}。",
+  "Subtract the birth date {0} from the reference date {1}, counting whole years first, then months, then days: {2} years, {3} months, {4} days.": "用参考日期 {1} 减去出生日期 {0}，先数整年，再数月，最后数天：{2} 年 {3} 个月 {4} 天。",
+  "Counting every calendar day from {0} to {1} gives {2} days.": "把 {0} 到 {1} 之间的每个日历日都算上，共 {2} 天。",
+  "Dividing {0} days by 7 gives {1} weeks (rounded to two decimals).": "{0} 天除以 7 得 {1} 周（保留两位小数）。",
+  "The next birthday after the reference date is {0}.": "参考日期之后的下一个生日是 {0}。",
+  "Start on {0} and count {1} business days, skipping Saturdays and Sundays.": "从 {0} 开始，数 {1} 个工作日，跳过周六和周日。",
+  "The count ends on {0}, which is {1} calendar days away.": "计数在 {0} 结束，相隔 {1} 个日历日。",
+  "{0} calendar days minus {1} business days leaves {2} weekend days that were skipped.": "{0} 个日历日减去 {1} 个工作日，剩下 {2} 个被跳过的周末日。",
+  "The end date falls on {0}.": "结束日期是{0}。",
+  "Start from the date {0}.": "从日期 {0} 开始。",
+  "Move it by {0} calendar days (a negative number moves backward): {1}.": "将它移动 {0} 个日历日（负数表示向前倒推）：{1}。",
+  "Check: {0} plus {1} days is {2}.": "验证：{0} 加 {1} 天是 {2}。",
+  "That date falls on {0}.": "该日期是{0}。",
+  "Add the lengths of the months before month {0}: {1} days. Then add the day {2}: day {3} of the year.": "把第 {0} 月之前各月的天数相加：{1} 天。再加上日 {2}：即一年中的第 {3} 天。",
+  "The year {0} has {1} days, so {2} days remain after this date: {1} − {3} = {2}.": "{0} 年共有 {1} 天，所以这一天之后还剩 {2} 天：{1} − {3} = {2}。",
+  "The date {0} falls on {1}.": "日期 {0} 是{1}。",
+  "Its ISO week number is {0}.": "它的 ISO 周数是 {0}。",
+  "Start from the reference date {0} and shift it by {1} calendar days (a negative number moves backward): {2}.": "从参考日期 {0} 开始，移动 {1} 个日历日（负数表示向前倒推）：{2}。",
+  "The resulting date falls on {0}.": "得到的日期是{0}。",
+  "The size of the shift is {0} days.": "移动的幅度是 {0} 天。",
+  "Splitting {0} days into sevens gives {1} weeks and {2} days.": "把 {0} 天按七天一组拆分，得到 {1} 周 {2} 天。",
+  "Convert both times to minutes after midnight: {0}:{1} is {2} and {3}:{4} is {5}.": "把两个时间都换算成午夜之后的分钟数：{0}:{1} 是 {2}，{3}:{4} 是 {5}。",
+  "The end is earlier than the start, so it is read as the next day: add 1,440 minutes, giving {0}.": "结束时间早于开始时间，所以按次日处理：加上 1,440 分钟，得到 {0}。",
+  "The end is not earlier than the start, so both times are on the same day.": "结束时间不早于开始时间，所以两个时间在同一天。",
+  "Gross span: {0} − {1} = {2} minutes, which is {3} hours.": "总时长：{0} − {1} = {2} 分钟，即 {3} 小时。",
+  "Subtract the {0}-minute unpaid break: {1} − {0} = {2} minutes.": "减去 {0} 分钟的无薪休息：{1} − {0} = {2} 分钟。",
+  "{0} minutes is {1} hr {2} min, or {3} in decimal hours.": "{0} 分钟即 {1} 小时 {2} 分钟，或十进制小时 {3}。",
+  "Count whole calendar months from the earlier date {0}: {1} months later is {2}.": "从较早的日期 {0} 起数完整的日历月：{1} 个月之后是 {2}。",
+  "From {0} to {1} there are {2} days left over.": "从 {0} 到 {1} 还剩 {2} 天。",
+  "Counting every calendar day from {0} to {1} gives {2} days in total.": "把 {0} 到 {1} 之间的每个日历日都算上，总共 {2} 天。",
+  "The decimal view divides the days by a fixed average month of 30.436875 days: {0} ÷ 30.436875 = {1}.": "十进制视图用天数除以固定的平均月长 30.436875 天：{0} ÷ 30.436875 = {1}。",
+  "Count the calendar days between {0} and {1}: {2} days.": "数一数 {0} 与 {1} 之间的日历天数：{2} 天。",
+  "Divide by 7: {0} ÷ 7 = {1} weeks.": "除以 7：{0} ÷ 7 = {1} 周。",
+  "Full weeks and leftover days: {0} × 7 + {1} = {2}, so {0} full weeks and {1} days.": "整周数和剩余天数：{0} × 7 + {1} = {2}，即 {0} 整周 {1} 天。",
+  "The later of the two dates is {0}.": "两个日期中较晚的是 {0}。",
+  "Convert the start time to minutes after midnight: {0}:{1} is {2} minutes.": "把起始时间换算成午夜之后的分钟数：{0}:{1} 是 {2} 分钟。",
+  "Convert the addition to minutes: {0} × 60 + {1} = {2} minutes.": "把增量换算成分钟：{0} × 60 + {1} = {2} 分钟。",
+  "Add them: {0} + {1} = {2} minutes.": "相加：{0} + {1} = {2} 分钟。",
+  "{0} minutes is {1}, still the same day.": "{0} 分钟即 {1}，仍在同一天。",
+  "The sum is outside one day (0 to 1,439), so it wraps by {0} day(s) to {1} minutes after midnight, which reads {2}.": "总和超出了一天（0 到 1,439），因此回绕 {0} 天，变为午夜之后 {1} 分钟，即 {2}。",
+  "Count back 266 days from the due date {0} to estimate conception: {1}.": "从预产期 {0} 倒推 266 天来估算受孕日期：{1}。",
+  "Count back 280 days from the due date to estimate the last menstrual period: {0}.": "从预产期倒推 280 天来估算末次月经：{0}。",
+  "From {0} to the reference date {1} is {2} days, which is {3} weeks and {4} days.": "从 {0} 到参考日期 {1} 共 {2} 天，即 {3} 周 {4} 天。",
+  "From the reference date to the due date is {0} days.": "从参考日期到预产期共 {0} 天。"
  },
  "fil": {
   "Show the steps": "Ipakita ang mga hakbang",
@@ -292,7 +378,50 @@
   "Move the decimal point until one non-zero digit is left in front of it. The power of 10 is {0}.": "Ilipat ang decimal point hanggang isang digit na hindi zero na lang ang nasa unahan. Ang kapangyarihan ng 10 ay {0}.",
   "Keep {0} significant figures for the front number: {1}.": "Panatilihin ang {0} makabuluhang digit para sa bilang sa unahan: {1}.",
   "Write it as the front number times 10 to that power: {0}.": "Isulat ito bilang bilang sa unahan beses 10 sa kapangyarihang iyon: {0}.",
-  "In E notation this is {0}.": "Sa E notation ito ay {0}."
+  "In E notation this is {0}.": "Sa E notation ito ay {0}.",
+  "Subtract the birth date {0} from the reference date {1}, counting whole years first, then months, then days: {2} years, {3} months, {4} days.": "Ibawas ang petsa ng kapanganakan {0} sa petsa ng sanggunian {1}, bilangin muna ang buong taon, saka buwan, saka araw: {2} taon, {3} buwan, {4} araw.",
+  "Counting every calendar day from {0} to {1} gives {2} days.": "Sa pagbilang ng bawat araw sa kalendaryo mula {0} hanggang {1}, may {2} araw.",
+  "Dividing {0} days by 7 gives {1} weeks (rounded to two decimals).": "Ang paghahati ng {0} araw sa 7 ay {1} linggo (naka-round sa dalawang decimal).",
+  "The next birthday after the reference date is {0}.": "Ang susunod na kaarawan pagkatapos ng petsa ng sanggunian ay {0}.",
+  "Start on {0} and count {1} business days, skipping Saturdays and Sundays.": "Magsimula sa {0} at bilangin ang {1} araw ng negosyo, nilalaktawan ang Sabado at Linggo.",
+  "The count ends on {0}, which is {1} calendar days away.": "Nagtatapos ang bilang sa {0}, na {1} araw sa kalendaryo ang layo.",
+  "{0} calendar days minus {1} business days leaves {2} weekend days that were skipped.": "Ang {0} araw sa kalendaryo bawas ang {1} araw ng negosyo ay nag-iiwan ng {2} araw ng weekend na nilaktawan.",
+  "The end date falls on {0}.": "Ang petsa ng pagtatapos ay pumapatak sa {0}.",
+  "Start from the date {0}.": "Magsimula sa petsang {0}.",
+  "Move it by {0} calendar days (a negative number moves backward): {1}.": "Ilipat ito ng {0} araw sa kalendaryo (ang negatibong bilang ay paurong): {1}.",
+  "Check: {0} plus {1} days is {2}.": "Pagsusuri: ang {0} dagdag {1} araw ay {2}.",
+  "That date falls on {0}.": "Ang petsang iyon ay pumapatak sa {0}.",
+  "Add the lengths of the months before month {0}: {1} days. Then add the day {2}: day {3} of the year.": "Idagdag ang haba ng mga buwan bago ang buwan {0}: {1} araw. Pagkatapos idagdag ang araw {2}: araw {3} ng taon.",
+  "The year {0} has {1} days, so {2} days remain after this date: {1} − {3} = {2}.": "Ang taong {0} ay may {1} araw, kaya {2} araw ang natitira pagkatapos ng petsang ito: {1} − {3} = {2}.",
+  "The date {0} falls on {1}.": "Ang petsang {0} ay pumapatak sa {1}.",
+  "Its ISO week number is {0}.": "Ang numero nito ng ISO week ay {0}.",
+  "Start from the reference date {0} and shift it by {1} calendar days (a negative number moves backward): {2}.": "Magsimula sa petsa ng sanggunian {0} at ilipat ito ng {1} araw sa kalendaryo (ang negatibong bilang ay paurong): {2}.",
+  "The resulting date falls on {0}.": "Ang resultang petsa ay pumapatak sa {0}.",
+  "The size of the shift is {0} days.": "Ang laki ng paglipat ay {0} araw.",
+  "Splitting {0} days into sevens gives {1} weeks and {2} days.": "Ang paghahati ng {0} araw sa grupo ng pito ay {1} linggo at {2} araw.",
+  "Convert both times to minutes after midnight: {0}:{1} is {2} and {3}:{4} is {5}.": "I-convert ang parehong oras sa minuto pagkatapos ng hatinggabi: ang {0}:{1} ay {2} at ang {3}:{4} ay {5}.",
+  "The end is earlier than the start, so it is read as the next day: add 1,440 minutes, giving {0}.": "Mas maaga ang pagtatapos kaysa sa simula, kaya binabasa ito bilang kinabukasan: idagdag ang 1,440 minuto, na nagbibigay ng {0}.",
+  "The end is not earlier than the start, so both times are on the same day.": "Hindi mas maaga ang pagtatapos kaysa sa simula, kaya parehong araw ang dalawang oras.",
+  "Gross span: {0} − {1} = {2} minutes, which is {3} hours.": "Gross na pagitan: {0} − {1} = {2} minuto, na {3} oras.",
+  "Subtract the {0}-minute unpaid break: {1} − {0} = {2} minutes.": "Ibawas ang {0}-minutong walang bayad na break: {1} − {0} = {2} minuto.",
+  "{0} minutes is {1} hr {2} min, or {3} in decimal hours.": "Ang {0} minuto ay {1} oras {2} min, o {3} sa decimal na oras.",
+  "Count whole calendar months from the earlier date {0}: {1} months later is {2}.": "Bilangin ang buong buwan sa kalendaryo mula sa mas maagang petsa {0}: ang {1} buwan pagkatapos ay {2}.",
+  "From {0} to {1} there are {2} days left over.": "Mula {0} hanggang {1}, may natitirang {2} araw.",
+  "Counting every calendar day from {0} to {1} gives {2} days in total.": "Sa pagbilang ng bawat araw sa kalendaryo mula {0} hanggang {1}, may kabuuang {2} araw.",
+  "The decimal view divides the days by a fixed average month of 30.436875 days: {0} ÷ 30.436875 = {1}.": "Hinahati ng decimal na tanaw ang mga araw sa nakatakdang karaniwang buwan na 30.436875 araw: {0} ÷ 30.436875 = {1}.",
+  "Count the calendar days between {0} and {1}: {2} days.": "Bilangin ang mga araw sa kalendaryo sa pagitan ng {0} at {1}: {2} araw.",
+  "Divide by 7: {0} ÷ 7 = {1} weeks.": "Hatiin sa 7: {0} ÷ 7 = {1} linggo.",
+  "Full weeks and leftover days: {0} × 7 + {1} = {2}, so {0} full weeks and {1} days.": "Buong linggo at natirang araw: {0} × 7 + {1} = {2}, kaya {0} buong linggo at {1} araw.",
+  "The later of the two dates is {0}.": "Ang mas huli sa dalawang petsa ay {0}.",
+  "Convert the start time to minutes after midnight: {0}:{1} is {2} minutes.": "I-convert ang panimulang oras sa minuto pagkatapos ng hatinggabi: ang {0}:{1} ay {2} minuto.",
+  "Convert the addition to minutes: {0} × 60 + {1} = {2} minutes.": "I-convert ang dagdag sa minuto: {0} × 60 + {1} = {2} minuto.",
+  "Add them: {0} + {1} = {2} minutes.": "Pagsamahin: {0} + {1} = {2} minuto.",
+  "{0} minutes is {1}, still the same day.": "Ang {0} minuto ay {1}, parehong araw pa rin.",
+  "The sum is outside one day (0 to 1,439), so it wraps by {0} day(s) to {1} minutes after midnight, which reads {2}.": "Lampas sa isang araw (0 hanggang 1,439) ang kabuuan, kaya nababalot ito ng {0} araw hanggang {1} minuto pagkatapos ng hatinggabi, na nababasa bilang {2}.",
+  "Count back 266 days from the due date {0} to estimate conception: {1}.": "Bilangin paurong ang 266 araw mula sa inaasahang petsa ng panganganak na {0} para tantiyahin ang paglilihi: {1}.",
+  "Count back 280 days from the due date to estimate the last menstrual period: {0}.": "Bilangin paurong ang 280 araw mula sa inaasahang petsa ng panganganak para tantiyahin ang huling regla: {0}.",
+  "From {0} to the reference date {1} is {2} days, which is {3} weeks and {4} days.": "Mula {0} hanggang sa petsa ng sanggunian {1} ay {2} araw, na {3} linggo at {4} araw.",
+  "From the reference date to the due date is {0} days.": "Mula sa petsa ng sanggunian hanggang sa inaasahang petsa ng panganganak ay {0} araw."
  }
 };
   function curLang() { return (window.DCHI18N && window.DCHI18N.getLanguage && window.DCHI18N.getLanguage()) || document.documentElement.lang || 'en'; }
@@ -640,6 +769,167 @@
       t('Keep {0} significant figures for the front number: {1}.', fmt(s), plain('coefficientOut')),
       t('Write it as the front number times 10 to that power: {0}.', plain('mainResult')),
       t('In E notation this is {0}.', plain('eNotationOut'))
+    ];
+  };
+
+  /* ---- Batch 18: date and time pages ---- */
+  function fe(x) { return Number(x).toLocaleString(locale(), {maximumFractionDigits: 8}); }
+  function ints(s) { var sp = seps(), x = String(s).replace(/[\u2212]/g, '-'); x = x.replace(new RegExp('(\\d)' + (sp.g === '.' ? '\\.' : sp.g.replace(/[\s\u00a0\u202f]/g, '[\\s\\u00a0\\u202f]')) + '(?=\\d{3})', 'g'), '$1'); return (x.match(/-?\d+/g) || []).map(Number); }
+  function pe(s) { return pn(s); }
+  function mk(y, m, d) {
+    must(y === Math.floor(y) && m === Math.floor(m) && d === Math.floor(d) && y >= 1 && y <= 9999 && m >= 1 && m <= 12 && d >= 1 && d <= 31);
+    var dt = new Date(Date.UTC(2000, 0, 1)); dt.setUTCFullYear(y, m - 1, d);
+    must(dt.getUTCFullYear() === y && dt.getUTCMonth() === m - 1 && dt.getUTCDate() === d);
+    return dt;
+  }
+  function p2(n) { return (n < 10 ? '0' : '') + n; }
+  function iso(dt) { var y = dt.getUTCFullYear(); return (y < 1000 ? ('000' + y).slice(-4) : String(y)) + '-' + p2(dt.getUTCMonth() + 1) + '-' + p2(dt.getUTCDate()); }
+  function dd(a, b) { return Math.round((b.getTime() - a.getTime()) / 86400000); }
+  function addd(dt, n) { return new Date(dt.getTime() + n * 86400000); }
+  function dim(y, m) { var x = new Date(Date.UTC(2000, 0, 1)); x.setUTCFullYear(y, m, 0); return x.getUTCDate(); }
+  function addm(dt, k) {
+    var t0 = dt.getUTCFullYear() * 12 + dt.getUTCMonth() + k, y = Math.floor(t0 / 12), m = t0 % 12;
+    var d = Math.min(dt.getUTCDate(), dim(y, m + 1)); var x = new Date(Date.UTC(2000, 0, 1)); x.setUTCFullYear(y, m, d); return x;
+  }
+  function isoDate(s) { var m = String(s).trim().match(/^(\d{4})-(\d{2})-(\d{2})$/); must(m); return mk(+m[1], +m[2], +m[3]); }
+  function vi(id) { return num(id); }
+  P['age-specific-date-calculator'] = function () {
+    var b = mk(vi('birthYear'), vi('birthMonth'), vi('birthDay')), r = mk(vi('refYear'), vi('refMonth'), vi('refDay'));
+    must(r >= b);
+    var k = (r.getUTCFullYear() - b.getUTCFullYear()) * 12 + r.getUTCMonth() - b.getUTCMonth();
+    while (k > 0 && addm(b, k) > r) k--;
+    while (addm(b, k + 1) <= r) k++;
+    var d = dd(addm(b, k), r), y = Math.floor(k / 12), m = k % 12;
+    var mr1 = ints(plain('mainResult')); must(mr1.length === 3 && mr1[0] === y && mr1[1] === m && mr1[2] === d);
+    var days = dd(b, r); must(days === pe(plain('daysOut')));
+    var wk = days / 7; must(Math.abs(wk - pe(plain('weeksOut'))) < 0.006);
+    var nb = addm(b, 12 * (r.getUTCFullYear() - b.getUTCFullYear())); if (nb < r) nb = addm(b, 12 * (r.getUTCFullYear() - b.getUTCFullYear() + 1));
+    must(iso(nb) === plain('nextOut'));
+    return [
+      t('Subtract the birth date {0} from the reference date {1}, counting whole years first, then months, then days: {2} years, {3} months, {4} days.', iso(b), iso(r), fe(y), fe(m), fe(d)),
+      t('Counting every calendar day from {0} to {1} gives {2} days.', iso(b), iso(r), fe(days)),
+      t('Dividing {0} days by 7 gives {1} weeks (rounded to two decimals).', fe(days), (Math.round(wk * 100) / 100).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})),
+      t('The next birthday after the reference date is {0}.', iso(nb))
+    ];
+  };
+  P['business-days-calculator'] = function () {
+    var s = mk(vi('year'), vi('month'), vi('day')), n = vi('businessDays'); must(n === Math.floor(n) && Math.abs(n) <= 100000);
+    var cur = s, left = Math.abs(n), st = n < 0 ? -1 : 1;
+    while (left > 0) { cur = addd(cur, st); var w = cur.getUTCDay(); if (w !== 0 && w !== 6) left--; }
+    var cal = Math.abs(dd(s, cur)); must(iso(cur) === plain('mainResult')); must(cal === pe(plain('calendarOut')));
+    var we = cal - Math.abs(n); must(we === pe(plain('weekendOut')));
+    return [
+      t('Start on {0} and count {1} business days, skipping Saturdays and Sundays.', iso(s), fe(n)),
+      t('The count ends on {0}, which is {1} calendar days away.', iso(cur), fe(cal)),
+      t('{0} calendar days minus {1} business days leaves {2} weekend days that were skipped.', fe(cal), fe(Math.abs(n)), fe(we)),
+      t('The end date falls on {0}.', plain('weekdayOut'))
+    ];
+  };
+  P['date-calculator'] = function () {
+    var s = mk(vi('year'), vi('month'), vi('day')), n = vi('offset'); must(n === Math.floor(n) && Math.abs(n) <= 3000000);
+    var e = addd(s, n); must(iso(e) === plain('mainResult') && iso(s) === plain('startOut'));
+    var oi = ints(plain('offsetOut')); must(oi.length === 1 && oi[0] === n);
+    return [
+      t('Start from the date {0}.', iso(s)),
+      t('Move it by {0} calendar days (a negative number moves backward): {1}.', fe(n), iso(e)),
+      t('Check: {0} plus {1} days is {2}.', iso(s), fe(n), iso(e)),
+      t('That date falls on {0}.', plain('weekdayOut'))
+    ];
+  };
+  P['day-of-week-calculator'] = function () {
+    var y = vi('year'), m = vi('month'), d = vi('day'), dt = mk(y, m, d);
+    var jan1 = mk(y, 1, 1), doy = dd(jan1, dt) + 1, len = dd(jan1, mk(y + 1 > 9999 ? y : y + 1, 1, 1)); if (y + 1 > 9999) len = 365;
+    var rem = len - doy; must(doy === pe(plain('dayYearOut')) && rem === pe(plain('remainingOut')));
+    var wd = (dt.getUTCDay() + 6) % 7, th = addd(dt, 3 - wd), wk = Math.floor((dd(mk(th.getUTCFullYear(), 1, 1), th)) / 7) + 1;
+    must(wk === pe(plain('weekOut')));
+    var before = doy - d;
+    return [
+      t('Add the lengths of the months before month {0}: {1} days. Then add the day {2}: day {3} of the year.', fe(m), fe(before), fe(d), fe(doy)),
+      t('The year {0} has {1} days, so {2} days remain after this date: {1} − {3} = {2}.', String(y), fe(len), fe(rem), fe(doy)),
+      t('The date {0} falls on {1}.', iso(dt), plain('mainResult')),
+      t('Its ISO week number is {0}.', fe(wk))
+    ];
+  };
+  P['days-from-today-calculator'] = function () {
+    var s = mk(vi('year'), vi('month'), vi('day')), n = vi('daysToAdd'); must(n === Math.floor(n) && Math.abs(n) <= 3000000);
+    var e = addd(s, n); must(iso(e) === plain('mainResult'));
+    var a = Math.abs(n), w = Math.floor(a / 7), r = a % 7;
+    must(pe(plain('differenceOut')) === a); var wi = ints(plain('weeksOut')); must(wi.length === 2 && wi[0] === w && wi[1] === r);
+    return [
+      t('Start from the reference date {0} and shift it by {1} calendar days (a negative number moves backward): {2}.', iso(s), fe(n), iso(e)),
+      t('The resulting date falls on {0}.', plain('weekdayOut')),
+      t('The size of the shift is {0} days.', fe(a)),
+      t('Splitting {0} days into sevens gives {1} weeks and {2} days.', fe(a), fe(w), fe(r))
+    ];
+  };
+  P['hours-calculator'] = function () {
+    var sh = vi('startHour'), sm = vi('startMinute'), eh = vi('endHour'), em = vi('endMinute'), br = vi('breakMinutes');
+    must(sh >= 0 && sh <= 23 && eh >= 0 && eh <= 23 && sm >= 0 && sm <= 59 && em >= 0 && em <= 59 && br >= 0);
+    var s = sh * 60 + sm, e = eh * 60 + em, over = e < s; if (over) e += 1440;
+    var g = e - s, net = g - br; must(net >= 0);
+    var mr1 = ints(plain('mainResult')); must(mr1.length === 2 && mr1[0] * 60 + mr1[1] === net);
+    must(Math.abs(g / 60 - pe(plain('grossOut'))) < 0.006 && net === pe(plain('minutesOut')) && Math.abs(net / 60 - pe(plain('decimalOut'))) < 0.006);
+    var out = [
+      t('Convert both times to minutes after midnight: {0}:{1} is {2} and {3}:{4} is {5}.', p2(sh), p2(sm), fe(s), p2(eh), p2(em), fe(over ? e - 1440 : e))
+    ];
+    out.push(over ? t('The end is earlier than the start, so it is read as the next day: add 1,440 minutes, giving {0}.', fe(e)) : t('The end is not earlier than the start, so both times are on the same day.'));
+    out.push(t('Gross span: {0} − {1} = {2} minutes, which is {3} hours.', fe(e), fe(s), fe(g), fe(g / 60)));
+    out.push(t('Subtract the {0}-minute unpaid break: {1} − {0} = {2} minutes.', fe(br), fe(g), fe(net)));
+    out.push(t('{0} minutes is {1} hr {2} min, or {3} in decimal hours.', fe(net), fe(Math.floor(net / 60)), fe(net % 60), fe(net / 60)));
+    return out;
+  };
+  P['months-between-dates-calculator'] = function () {
+    var a = mk(vi('y1'), vi('m1'), vi('d1')), b = mk(vi('y2'), vi('m2'), vi('d2'));
+    if (a > b) { var tmp = a; a = b; b = tmp; }
+    var k = (b.getUTCFullYear() - a.getUTCFullYear()) * 12 + b.getUTCMonth() - a.getUTCMonth();
+    while (k > 0 && addm(a, k) > b) k--;
+    while (addm(a, k + 1) <= b) k++;
+    var an = addm(a, k), r = dd(an, b), days = dd(a, b);
+    must(ints(plain('mainResult'))[0] === k && pe(plain('remainingOut')) === r && pe(plain('daysOut')) === days);
+    var dec = days / 30.436875; must(Math.abs(dec - pe(plain('decimalOut'))) < 1e-6);
+    return [
+      t('Count whole calendar months from the earlier date {0}: {1} months later is {2}.', iso(a), fe(k), iso(an)),
+      t('From {0} to {1} there are {2} days left over.', iso(an), iso(b), fe(r)),
+      t('Counting every calendar day from {0} to {1} gives {2} days in total.', iso(a), iso(b), fe(days)),
+      t('The decimal view divides the days by a fixed average month of 30.436875 days: {0} ÷ 30.436875 = {1}.', fe(days), plain('decimalOut'))
+    ];
+  };
+  P['weeks-between-dates-calculator'] = function () {
+    var a = mk(vi('y1'), vi('m1'), vi('d1')), b = mk(vi('y2'), vi('m2'), vi('d2'));
+    var days = Math.abs(dd(a, b)), raw = days / 7, w = Math.floor(days / 7), r = days % 7;
+    must(Math.abs(raw - pe(plain('mainResult'))) < 1e-6 && pe(plain('daysOut')) === days && pe(plain('fullWeeksOut')) === w && pe(plain('remainingOut')) === r);
+    var out = [
+      t('Count the calendar days between {0} and {1}: {2} days.', iso(a), iso(b), fe(days)),
+      t('Divide by 7: {0} ÷ 7 = {1} weeks.', fe(days), plain('mainResult')),
+      t('Full weeks and leftover days: {0} × 7 + {1} = {2}, so {0} full weeks and {1} days.', fe(w), fe(r), fe(days))
+    ];
+    if (days > 0) out.push(t('The later of the two dates is {0}.', iso(a > b ? a : b)));
+    return out;
+  };
+  P['time-calculator'] = function () {
+    var sh = vi('startHour'), sm = vi('startMinute'), ah = vi('addHours'), am = vi('addMinutes');
+    must(sh >= 0 && sh <= 23 && sm >= 0 && sm <= 59 && ah === Math.floor(ah) && am === Math.floor(am));
+    var s = sh * 60 + sm, tot = ah * 60 + am, sum = s + tot, shift = Math.floor(sum / 1440), res = ((sum % 1440) + 1440) % 1440;
+    var hm = plain('mainResult').match(/(\d{1,2}):(\d{2})/); must(hm && (+hm[1]) * 60 + (+hm[2]) === res);
+    must(pe(plain('totalOut')) === tot && pe(plain('minuteOut')) === res);
+    var out = [
+      t('Convert the start time to minutes after midnight: {0}:{1} is {2} minutes.', p2(sh), p2(sm), fe(s)),
+      t('Convert the addition to minutes: {0} × 60 + {1} = {2} minutes.', fe(ah), fe(am), fe(tot)),
+      t('Add them: {0} + {1} = {2} minutes.', fe(s), fe(tot), fe(sum))
+    ];
+    out.push(shift === 0 ? t('{0} minutes is {1}, still the same day.', fe(sum), p2(Math.floor(res / 60)) + ':' + p2(res % 60)) : t('The sum is outside one day (0 to 1,439), so it wraps by {0} day(s) to {1} minutes after midnight, which reads {2}.', fe(shift), fe(res), p2(Math.floor(res / 60)) + ':' + p2(res % 60)));
+    return out;
+  };
+  P['pregnancy-conception-calculator'] = function () {
+    var due = mk(vi('dueYear'), vi('dueMonth'), vi('dueDay')), ref = mk(vi('refYear'), vi('refMonth'), vi('refDay'));
+    var con = addd(due, -266), lmp = addd(due, -280), rem = dd(ref, due), g = dd(lmp, ref); must(g >= 0);
+    must(iso(con) === plain('mainResult') && iso(lmp) === plain('lmpOut') && rem === pe(plain('remainingOut')));
+    var gi = ints(plain('gestationOut')); must(gi.length === 2 && gi[0] === Math.floor(g / 7) && gi[1] === g % 7);
+    return [
+      t('Count back 266 days from the due date {0} to estimate conception: {1}.', iso(due), iso(con)),
+      t('Count back 280 days from the due date to estimate the last menstrual period: {0}.', iso(lmp)),
+      t('From {0} to the reference date {1} is {2} days, which is {3} weeks and {4} days.', iso(lmp), iso(ref), fe(g), fe(Math.floor(g / 7)), fe(g % 7)),
+      t('From the reference date to the due date is {0} days.', fe(rem))
     ];
   };
 
