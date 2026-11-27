@@ -16,6 +16,8 @@
   var PRE = [
     [/^(.+): enter a number using a dot for decimals and no grouping commas\.$/, ['{0}: introduce un número usando un punto para los decimales y sin comas de agrupación.', '{0}：请输入数字，小数用点号，不要使用千位分隔逗号。', '{0}: maglagay ng numero na may tuldok para sa decimal at walang kuwit na panggrupo.']],
     [/^(.+): this nonzero input is too small for supported numerical precision\.$/, ['{0}: este valor distinto de cero es demasiado pequeño para la precisión numérica admitida.', '{0}：这个非零输入太小，超出了所支持的数值精度。', '{0}: masyadong maliit ang hindi-zero na input na ito para sa suportadong katumpakan ng bilang.']],
+    [/^(.+): enter at least one number\.$/, ['{0}: introduce al menos un número.', '{0}：请至少输入一个数字。', '{0}: maglagay ng kahit isang numero.']],
+    [/^(.+): enter a signed whole number with at most 18 digits\.$/, ['{0}: introduce un número entero con signo de hasta 18 dígitos.', '{0}：请输入最多 18 位数字的带符号整数。', '{0}: maglagay ng signed na buong numero na hanggang 18 digit.']],
     [/^(.+) must be greater than zero\.$/, ['{0} debe ser mayor que cero.', '{0}必须大于零。', 'Dapat mas malaki sa zero ang {0}.']],
     [/^(.+) square units$/, ['{0} unidades cuadradas', '{0} 平方单位', '{0} parisukat na yunit'], true]
   ];
