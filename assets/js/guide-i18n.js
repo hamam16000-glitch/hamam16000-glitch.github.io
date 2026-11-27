@@ -134,7 +134,7 @@
     if (loading[l]) { loading[l].push(cb); return; }
     loading[l] = [cb];
     var s = document.createElement('script');
-    s.src = 'assets/js/guide-i18n-' + l + '.js?v=20261204';
+    s.src = 'assets/js/guide-i18n-' + l + '.js?v=20261205';
     s.onload = s.onerror = function () { var q = loading[l]; loading[l] = null; q.forEach(function (f) { f(); }); };
     document.head.appendChild(s);
   }
