@@ -37,6 +37,13 @@
       if (l === 'zh-CN') return L + '：请输入有效的' + (w ? '整数' : '数字') + (f ? '，范围从 ' + f : '') + (t ? ' 到 ' + t : '') + '。';
       return L + ': maglagay ng wastong ' + (w ? 'buong ' : '') + 'bilang' + (f ? ' mula ' + f : '') + (t ? ' hanggang ' + t : '') + '.';
     }
+    m = s.match(/^(-?\d[\d,]*) (year|day)s?$/);
+    if (m) {
+      var n = m[1], one = n === '1', y = m[2] === 'year';
+      if (l === 'es') return n + (y ? (one ? ' año' : ' años') : (one ? ' día' : ' días'));
+      if (l === 'zh-CN') return n + (y ? ' 年' : ' 天');
+      return n + (y ? ' taon' : ' araw');
+    }
     for (var k = 0; k < PRE.length; k++) {
       m = s.match(PRE[k][0]);
       if (m) return fill(PRE[k][1][i], PRE[k][2] ? m[1] : lab(m[1], l));

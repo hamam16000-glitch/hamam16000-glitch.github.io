@@ -65,7 +65,17 @@
   "Both events: p × q = {0} × {1} = {2}, which is {3}%.": "Ambos sucesos: p × q = {0} × {1} = {2}, es decir, {3} %.",
   "At least one: p + q − pq = {0} + {1} − {2} = {3}, which is {4}%.": "Al menos uno: p + q − pq = {0} + {1} − {2} = {3}, es decir, {4} %.",
   "Neither: (1 − p)(1 − q) = {0} × {1} = {2}, which is {3}%.": "Ninguno: (1 − p)(1 − q) = {0} × {1} = {2}, es decir, {3} %.",
-  "Exactly one: p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}, which is {5}%.": "Exactamente uno: p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}, es decir, {5} %."
+  "Exactly one: p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}, which is {5}%.": "Exactamente uno: p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}, es decir, {5} %.",
+  "Count the completed calendar months from {0} to {1}: {2} months.": "Cuenta los meses naturales completos de {0} a {1}: {2} meses.",
+  "That monthly anniversary falls on a day the month does not have, so the last day of the month is used: {0}.": "Ese aniversario mensual cae en un día que el mes no tiene, así que se usa el último día del mes: {0}.",
+  "The last completed monthly anniversary is {0}.": "El último aniversario mensual completado es {0}.",
+  "{0} months is {1} years and {2} months.": "{0} meses son {1} años y {2} meses.",
+  "From {0} to {1} is {2} days.": "De {0} a {1} hay {2} días.",
+  "Total calendar days from {0} to {1}: {2}.": "Total de días naturales de {0} a {1}: {2}.",
+  "Count the days from {0} to {1}: {2}.": "Cuenta los días de {0} a {1}: {2}.",
+  "Both dates are included, so add one: {0} + 1 = {1} days.": "Se incluyen ambas fechas, así que se suma uno: {0} + 1 = {1} días.",
+  "The start date is not counted, so the total is {0} days.": "La fecha de inicio no se cuenta, así que el total es {0} días.",
+  "{0} days is {1} whole weeks and {2} remaining days ({0} ÷ 7).": "{0} días son {1} semanas completas y {2} días restantes ({0} ÷ 7)."
  },
  "zh-CN": {
   "Show the steps": "查看计算步骤",
@@ -127,7 +137,17 @@
   "Both events: p × q = {0} × {1} = {2}, which is {3}%.": "两个事件同时发生：p × q = {0} × {1} = {2}，即 {3}%。",
   "At least one: p + q − pq = {0} + {1} − {2} = {3}, which is {4}%.": "至少一个发生：p + q − pq = {0} + {1} − {2} = {3}，即 {4}%。",
   "Neither: (1 − p)(1 − q) = {0} × {1} = {2}, which is {3}%.": "两个都不发生：(1 − p)(1 − q) = {0} × {1} = {2}，即 {3}%。",
-  "Exactly one: p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}, which is {5}%.": "恰好一个发生：p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}，即 {5}%。"
+  "Exactly one: p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}, which is {5}%.": "恰好一个发生：p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}，即 {5}%。",
+  "Count the completed calendar months from {0} to {1}: {2} months.": "计算从 {0} 到 {1} 的完整日历月数：{2} 个月。",
+  "That monthly anniversary falls on a day the month does not have, so the last day of the month is used: {0}.": "该月度周年日对应的日期在这个月里不存在，因此使用该月最后一天：{0}。",
+  "The last completed monthly anniversary is {0}.": "最近一个已完成的月度周年日是 {0}。",
+  "{0} months is {1} years and {2} months.": "{0} 个月等于 {1} 年 {2} 个月。",
+  "From {0} to {1} is {2} days.": "从 {0} 到 {1} 共 {2} 天。",
+  "Total calendar days from {0} to {1}: {2}.": "从 {0} 到 {1} 的日历总天数：{2}。",
+  "Count the days from {0} to {1}: {2}.": "计算从 {0} 到 {1} 的天数：{2}。",
+  "Both dates are included, so add one: {0} + 1 = {1} days.": "两个日期都计入，所以加一：{0} + 1 = {1} 天。",
+  "The start date is not counted, so the total is {0} days.": "不计入开始日期，所以总数是 {0} 天。",
+  "{0} days is {1} whole weeks and {2} remaining days ({0} ÷ 7).": "{0} 天等于 {1} 个整周加 {2} 天（{0} ÷ 7）。"
  },
  "fil": {
   "Show the steps": "Ipakita ang mga hakbang",
@@ -189,7 +209,17 @@
   "Both events: p × q = {0} × {1} = {2}, which is {3}%.": "Pareho ng pangyayari: p × q = {0} × {1} = {2}, ibig sabihin {3}%.",
   "At least one: p + q − pq = {0} + {1} − {2} = {3}, which is {4}%.": "Kahit isa: p + q − pq = {0} + {1} − {2} = {3}, ibig sabihin {4}%.",
   "Neither: (1 − p)(1 − q) = {0} × {1} = {2}, which is {3}%.": "Wala: (1 − p)(1 − q) = {0} × {1} = {2}, ibig sabihin {3}%.",
-  "Exactly one: p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}, which is {5}%.": "Eksaktong isa: p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}, ibig sabihin {5}%."
+  "Exactly one: p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}, which is {5}%.": "Eksaktong isa: p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}, ibig sabihin {5}%.",
+  "Count the completed calendar months from {0} to {1}: {2} months.": "Bilangin ang kumpletong buwan sa kalendaryo mula {0} hanggang {1}: {2} buwan.",
+  "That monthly anniversary falls on a day the month does not have, so the last day of the month is used: {0}.": "Ang buwanang anibersaryong iyon ay nasa araw na wala sa buwan, kaya ginagamit ang huling araw ng buwan: {0}.",
+  "The last completed monthly anniversary is {0}.": "Ang huling nakumpletong buwanang anibersaryo ay {0}.",
+  "{0} months is {1} years and {2} months.": "Ang {0} buwan ay {1} taon at {2} buwan.",
+  "From {0} to {1} is {2} days.": "Mula {0} hanggang {1} ay {2} araw.",
+  "Total calendar days from {0} to {1}: {2}.": "Kabuuang araw sa kalendaryo mula {0} hanggang {1}: {2}.",
+  "Count the days from {0} to {1}: {2}.": "Bilangin ang mga araw mula {0} hanggang {1}: {2}.",
+  "Both dates are included, so add one: {0} + 1 = {1} days.": "Kasama ang magkabilang petsa, kaya magdagdag ng isa: {0} + 1 = {1} araw.",
+  "The start date is not counted, so the total is {0} days.": "Hindi binibilang ang petsa ng simula, kaya ang kabuuan ay {0} araw.",
+  "{0} days is {1} whole weeks and {2} remaining days ({0} ÷ 7).": "Ang {0} araw ay {1} buong linggo at {2} natitirang araw ({0} ÷ 7)."
  }
 };
   function curLang() { return (window.DCHI18N && window.DCHI18N.getLanguage && window.DCHI18N.getLanguage()) || document.documentElement.lang || 'en'; }
@@ -368,6 +398,45 @@
       t('At least one: p + q − pq = {0} + {1} − {2} = {3}, which is {4}%.', fe(p), fe(q), fe(both), fe(either), pc(either)),
       t('Neither: (1 − p)(1 − q) = {0} × {1} = {2}, which is {3}%.', fe(1 - p), fe(1 - q), fe(nei), pc(nei)),
       t('Exactly one: p(1 − q) + q(1 − p) = {0} × {1} + {2} × {3} = {4}, which is {5}%.', fe(p), fe(1 - q), fe(q), fe(1 - p), fe(one), pc(one))];
+  };
+  function dutc(s) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(s).trim()); must(m);
+    var y = +m[1], mo = +m[2], d = +m[3], dt = new Date(0); dt.setUTCFullYear(y, mo - 1, d);
+    must(y >= 1 && dt.getUTCFullYear() === y && dt.getUTCMonth() === mo - 1 && dt.getUTCDate() === d);
+    return dt;
+  }
+  function dayn(a, b) { return Math.round((a.getTime() - b.getTime()) / 864e5); }
+  function iso(dt) { var y = String(dt.getUTCFullYear()); while (y.length < 4) y = '0' + y; var m = dt.getUTCMonth() + 1, d = dt.getUTCDate(); return y + '-' + (m < 10 ? '0' : '') + m + '-' + (d < 10 ? '0' : '') + d; }
+  function annivOf(b, n) {
+    var y = b.getUTCFullYear(), mo = b.getUTCMonth() + n, ty = y + Math.floor(mo / 12), tm = ((mo % 12) + 12) % 12;
+    var last = new Date(0); last.setUTCFullYear(ty, tm + 1, 0);
+    var day = Math.min(b.getUTCDate(), last.getUTCDate()), r = new Date(0); r.setUTCFullYear(ty, tm, day);
+    return {d: r, clamped: b.getUTCDate() > last.getUTCDate()};
+  }
+  P['age'] = function () {
+    var b = dutc(form.elements.birth.value), a = dutc(form.elements.asof.value); must(a.getTime() >= b.getTime());
+    var M = (a.getUTCFullYear() - b.getUTCFullYear()) * 12 + (a.getUTCMonth() - b.getUTCMonth());
+    var an = annivOf(b, M); if (an.d.getTime() > a.getTime()) { M--; an = annivOf(b, M); }
+    must(M >= 0);
+    var yrs = Math.floor(M / 12), ex = M % 12, rem = dayn(a, an.d), tot = dayn(a, b), s = strongs();
+    must(close(lead(rtxt()), yrs)); must(close(lead(s[0]), ex)); must(close(lead(s[1]), rem)); must(close(lead(s[2]), tot));
+    var bi = iso(b), ai = iso(a), out = [
+      t('Count the completed calendar months from {0} to {1}: {2} months.', bi, ai, M),
+      an.clamped ? t('That monthly anniversary falls on a day the month does not have, so the last day of the month is used: {0}.', iso(an.d)) : t('The last completed monthly anniversary is {0}.', iso(an.d)),
+      t('{0} months is {1} years and {2} months.', M, yrs, ex),
+      t('From {0} to {1} is {2} days.', iso(an.d), ai, rem),
+      t('Total calendar days from {0} to {1}: {2}.', bi, ai, tot)];
+    return out;
+  };
+  P['date-difference'] = function () {
+    var s0 = dutc(form.elements.start.value), e0 = dutc(form.elements.end.value); must(e0.getTime() >= s0.getTime());
+    var inc = form.elements.inclusive.value; must(inc === 'yes' || inc === 'no');
+    var el = dayn(e0, s0), tot = inc === 'yes' ? el + 1 : el, wk = Math.floor(tot / 7), rem = tot % 7, s = strongs();
+    must(close(lead(rtxt()), tot)); must(close(lead(s[0]), wk)); must(close(lead(s[1]), rem));
+    return [
+      t('Count the days from {0} to {1}: {2}.', iso(s0), iso(e0), el),
+      inc === 'yes' ? t('Both dates are included, so add one: {0} + 1 = {1} days.', el, tot) : t('The start date is not counted, so the total is {0} days.', tot),
+      t('{0} days is {1} whole weeks and {2} remaining days ({0} ÷ 7).', tot, wk, rem)];
   };
   var fn = P[slug]; if (!fn) return;
   var busy = false, mo = null;
