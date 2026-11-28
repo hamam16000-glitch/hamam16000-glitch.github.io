@@ -143,7 +143,21 @@
   "Count back 266 days from the due date {0} to estimate conception: {1}.": "Cuenta hacia atrás 266 días desde la fecha prevista de parto {0} para estimar la concepción: {1}.",
   "Count back 280 days from the due date to estimate the last menstrual period: {0}.": "Cuenta hacia atrás 280 días desde la fecha prevista de parto para estimar la última menstruación: {0}.",
   "From {0} to the reference date {1} is {2} days, which is {3} weeks and {4} days.": "De {0} a la fecha de referencia {1} hay {2} días, que son {3} semanas y {4} días.",
-  "From the reference date to the due date is {0} days.": "De la fecha de referencia a la fecha prevista de parto hay {0} días."
+  "From the reference date to the due date is {0} days.": "De la fecha de referencia a la fecha prevista de parto hay {0} días.",
+  "Today is {0} on this device and the target date is {1}.": "Hoy es {0} en este dispositivo y la fecha objetivo es {1}.",
+  "Counting whole calendar days from today to the target date gives {0} days.": "Contando los días de calendario completos desde hoy hasta la fecha objetivo resultan {0} días.",
+  "The target is in the future, so the count goes down by one each day until then.": "El objetivo está en el futuro, así que el recuento baja una unidad cada día hasta entonces.",
+  "The target date has already passed, so the count shows the days since then.": "La fecha objetivo ya ha pasado, así que el recuento muestra los días transcurridos desde entonces.",
+  "The target is today, so the count is 0.": "El objetivo es hoy, así que el recuento es 0.",
+  "Dividing {0} days by 7 gives {1} weeks (rounded to one decimal).": "Dividir {0} días entre 7 da {1} semanas (redondeado a un decimal).",
+  "Span: {0} − {1} = {2} minutes.": "Intervalo: {0} − {1} = {2} minutos.",
+  "Take the first day of the last period: {0}.": "Toma el primer día de la última menstruación: {0}.",
+  "Add 280 days (40 weeks) to get the estimated due date: {0}.": "Suma 280 días (40 semanas) para obtener la fecha prevista de parto: {0}.",
+  "Add 14 days to estimate conception: {0}.": "Suma 14 días para estimar la concepción: {0}.",
+  "The weeks line shows the 40-week pregnancy length that the model assumes.": "La línea de semanas muestra la duración de embarazo de 40 semanas que supone el modelo.",
+  "Add the cycle length to the first day of the last period: {0} + {1} days = {2}. That is the estimated next period.": "Suma la duración del ciclo al primer día de la última menstruación: {0} + {1} días = {2}. Esa es la próxima menstruación estimada.",
+  "Count back 14 days from the next period: the estimated ovulation date is {0}.": "Cuenta hacia atrás 14 días desde la próxima menstruación: la fecha estimada de ovulación es {0}.",
+  "The fertile window runs from 5 days before to 1 day after that date: {0} to {1}.": "La ventana fértil va desde 5 días antes hasta 1 día después de esa fecha: del {0} al {1}."
  },
  "zh-CN": {
   "Show the steps": "查看计算步骤",
@@ -282,7 +296,21 @@
   "Count back 266 days from the due date {0} to estimate conception: {1}.": "从预产期 {0} 倒推 266 天来估算受孕日期：{1}。",
   "Count back 280 days from the due date to estimate the last menstrual period: {0}.": "从预产期倒推 280 天来估算末次月经：{0}。",
   "From {0} to the reference date {1} is {2} days, which is {3} weeks and {4} days.": "从 {0} 到参考日期 {1} 共 {2} 天，即 {3} 周 {4} 天。",
-  "From the reference date to the due date is {0} days.": "从参考日期到预产期共 {0} 天。"
+  "From the reference date to the due date is {0} days.": "从参考日期到预产期共 {0} 天。",
+  "Today is {0} on this device and the target date is {1}.": "此设备上的今天是 {0}，目标日期是 {1}。",
+  "Counting whole calendar days from today to the target date gives {0} days.": "统计从今天到目标日期之间完整的日历天数，得到 {0} 天。",
+  "The target is in the future, so the count goes down by one each day until then.": "目标在未来，所以在那之前天数每天减少一天。",
+  "The target date has already passed, so the count shows the days since then.": "目标日期已经过去，所以天数显示的是此后经过的天数。",
+  "The target is today, so the count is 0.": "目标就是今天，所以天数为 0。",
+  "Dividing {0} days by 7 gives {1} weeks (rounded to one decimal).": "{0} 天除以 7 得 {1} 周（保留一位小数）。",
+  "Span: {0} − {1} = {2} minutes.": "时长：{0} − {1} = {2} 分钟。",
+  "Take the first day of the last period: {0}.": "取末次月经的第一天：{0}。",
+  "Add 280 days (40 weeks) to get the estimated due date: {0}.": "加上 280 天（40 周），得到预产期：{0}。",
+  "Add 14 days to estimate conception: {0}.": "加上 14 天来估算受孕日期：{0}。",
+  "The weeks line shows the 40-week pregnancy length that the model assumes.": "周数一行显示模型所假定的 40 周孕期长度。",
+  "Add the cycle length to the first day of the last period: {0} + {1} days = {2}. That is the estimated next period.": "把周期长度加到末次月经第一天上：{0} + {1} 天 = {2}。这就是预计的下次月经。",
+  "Count back 14 days from the next period: the estimated ovulation date is {0}.": "从下次月经倒推 14 天：预计排卵日是 {0}。",
+  "The fertile window runs from 5 days before to 1 day after that date: {0} to {1}.": "受孕窗口从该日期前 5 天到后 1 天：{0} 至 {1}。"
  },
  "fil": {
   "Show the steps": "Ipakita ang mga hakbang",
@@ -421,7 +449,21 @@
   "Count back 266 days from the due date {0} to estimate conception: {1}.": "Bilangin paurong ang 266 araw mula sa inaasahang petsa ng panganganak na {0} para tantiyahin ang paglilihi: {1}.",
   "Count back 280 days from the due date to estimate the last menstrual period: {0}.": "Bilangin paurong ang 280 araw mula sa inaasahang petsa ng panganganak para tantiyahin ang huling regla: {0}.",
   "From {0} to the reference date {1} is {2} days, which is {3} weeks and {4} days.": "Mula {0} hanggang sa petsa ng sanggunian {1} ay {2} araw, na {3} linggo at {4} araw.",
-  "From the reference date to the due date is {0} days.": "Mula sa petsa ng sanggunian hanggang sa inaasahang petsa ng panganganak ay {0} araw."
+  "From the reference date to the due date is {0} days.": "Mula sa petsa ng sanggunian hanggang sa inaasahang petsa ng panganganak ay {0} araw.",
+  "Today is {0} on this device and the target date is {1}.": "Ngayon ay {0} sa device na ito at ang petsang target ay {1}.",
+  "Counting whole calendar days from today to the target date gives {0} days.": "Sa pagbilang ng buong araw sa kalendaryo mula ngayon hanggang sa petsang target, may {0} araw.",
+  "The target is in the future, so the count goes down by one each day until then.": "Nasa hinaharap ang target, kaya bumababa ng isa ang bilang bawat araw hanggang noon.",
+  "The target date has already passed, so the count shows the days since then.": "Lumipas na ang petsang target, kaya ipinapakita ng bilang ang mga araw mula noon.",
+  "The target is today, so the count is 0.": "Ngayon ang target, kaya 0 ang bilang.",
+  "Dividing {0} days by 7 gives {1} weeks (rounded to one decimal).": "Ang paghahati ng {0} araw sa 7 ay {1} linggo (naka-round sa isang decimal).",
+  "Span: {0} − {1} = {2} minutes.": "Pagitan: {0} − {1} = {2} minuto.",
+  "Take the first day of the last period: {0}.": "Kunin ang unang araw ng huling regla: {0}.",
+  "Add 280 days (40 weeks) to get the estimated due date: {0}.": "Idagdag ang 280 araw (40 linggo) para makuha ang tinatayang petsa ng panganganak: {0}.",
+  "Add 14 days to estimate conception: {0}.": "Idagdag ang 14 araw para tantiyahin ang paglilihi: {0}.",
+  "The weeks line shows the 40-week pregnancy length that the model assumes.": "Ipinapakita ng linya ng linggo ang 40-linggong haba ng pagbubuntis na ipinapalagay ng modelo.",
+  "Add the cycle length to the first day of the last period: {0} + {1} days = {2}. That is the estimated next period.": "Idagdag ang haba ng siklo sa unang araw ng huling regla: {0} + {1} araw = {2}. Iyon ang tinatayang susunod na regla.",
+  "Count back 14 days from the next period: the estimated ovulation date is {0}.": "Bilangin paurong ang 14 araw mula sa susunod na regla: ang tinatayang petsa ng obulasyon ay {0}.",
+  "The fertile window runs from 5 days before to 1 day after that date: {0} to {1}.": "Ang fertile window ay mula 5 araw bago hanggang 1 araw pagkatapos ng petsang iyon: {0} hanggang {1}."
  }
 };
   function curLang() { return (window.DCHI18N && window.DCHI18N.getLanguage && window.DCHI18N.getLanguage()) || document.documentElement.lang || 'en'; }
@@ -454,6 +496,15 @@
   function close(a, b, tol) { return isFinite(a) && isFinite(b) && Math.abs(a - b) <= (tol || 1e-9) * Math.max(1, Math.abs(a), Math.abs(b)); }
   function must(c) { if (!c) throw new Error('disagree'); }
   function plain(id) { return txt(id); }
+
+  var ERRD = {"es": {"Select a valid target date": "Selecciona una fecha objetivo válida", "Enter valid start and end times": "Introduce horas de inicio y fin válidas", "Enter a valid first day of the last period.": "Introduce un primer día válido de la última menstruación.", "Enter a valid period date and a whole cycle length from 15 to 60 days": "Introduce una fecha de menstruación válida y una duración de ciclo entera de 15 a 60 días", "Invalid input": "Entrada no válida", "Enter valid dates": "Introduce fechas válidas", "Enter a valid date and whole business-day count": "Introduce una fecha válida y un número entero de días hábiles", "Result date must be between years 0100 and 9999": "La fecha resultante debe estar entre los años 0100 y 9999", "Enter a valid calendar date": "Introduce una fecha de calendario válida", "Result is outside the supported numeric range": "El resultado queda fuera del rango numérico admitido", "Enter a valid reference date and whole-day offset": "Introduce una fecha de referencia válida y un desplazamiento entero en días", "Enter valid values": "Introduce valores válidos", "Enter two valid dates": "Introduce dos fechas válidas", "Use a valid 24-hour starting time": "Usa una hora inicial válida en formato de 24 horas"}, "zh-CN": {"Select a valid target date": "请选择有效的目标日期", "Enter valid start and end times": "请输入有效的开始和结束时间", "Enter a valid first day of the last period.": "请输入有效的末次月经第一天。", "Enter a valid period date and a whole cycle length from 15 to 60 days": "请输入有效的月经日期，以及 15 到 60 天之间的整数周期长度", "Invalid input": "输入无效", "Enter valid dates": "请输入有效的日期", "Enter a valid date and whole business-day count": "请输入有效的日期和整数工作日数", "Result date must be between years 0100 and 9999": "结果日期必须在 0100 年到 9999 年之间", "Enter a valid calendar date": "请输入有效的日历日期", "Result is outside the supported numeric range": "结果超出了支持的数值范围", "Enter a valid reference date and whole-day offset": "请输入有效的参考日期和整数天数偏移", "Enter valid values": "请输入有效的数值", "Enter two valid dates": "请输入两个有效的日期", "Use a valid 24-hour starting time": "请使用有效的 24 小时制起始时间"}, "fil": {"Select a valid target date": "Pumili ng wastong petsang target", "Enter valid start and end times": "Maglagay ng wastong oras ng simula at pagtatapos", "Enter a valid first day of the last period.": "Maglagay ng wastong unang araw ng huling regla.", "Enter a valid period date and a whole cycle length from 15 to 60 days": "Maglagay ng wastong petsa ng regla at buong haba ng siklo mula 15 hanggang 60 araw", "Invalid input": "Di-wastong input", "Enter valid dates": "Maglagay ng wastong mga petsa", "Enter a valid date and whole business-day count": "Maglagay ng wastong petsa at buong bilang ng araw ng negosyo", "Result date must be between years 0100 and 9999": "Dapat nasa pagitan ng taong 0100 at 9999 ang resultang petsa", "Enter a valid calendar date": "Maglagay ng wastong petsa sa kalendaryo", "Result is outside the supported numeric range": "Lampas sa sinusuportahang saklaw ng numero ang resulta", "Enter a valid reference date and whole-day offset": "Maglagay ng wastong petsa ng sanggunian at buong offset sa araw", "Enter valid values": "Maglagay ng wastong mga halaga", "Enter two valid dates": "Maglagay ng dalawang wastong petsa", "Use a valid 24-hour starting time": "Gumamit ng wastong panimulang oras sa 24-oras na format"}};
+  var errObs = null;
+  function trErr() {
+    var d = ERRD[curLang()]; if (!d) return;
+    var x = mr.textContent.trim();
+    if (d[x] !== undefined && mr.textContent !== d[x]) { errObs.disconnect(); mr.textContent = d[x]; errObs.observe(mr, {childList: true, characterData: true, subtree: true}); }
+  }
+  if (window.MutationObserver) { errObs = new MutationObserver(trErr); errObs.observe(mr, {childList: true, characterData: true, subtree: true}); trErr(); }
 
   var P = {};
   P['factorial-calculator'] = function () {
@@ -930,6 +981,58 @@
       t('Count back 280 days from the due date to estimate the last menstrual period: {0}.', iso(lmp)),
       t('From {0} to the reference date {1} is {2} days, which is {3} weeks and {4} days.', iso(lmp), iso(ref), fe(g), fe(Math.floor(g / 7)), fe(g % 7)),
       t('From the reference date to the due date is {0} days.', fe(rem))
+    ];
+  };
+
+  /* ---- Batch 19: date picker pages ---- */
+  function enp(s) { var m = String(s).replace(/[\u2212]/g, '-').replace(/,(?=\d{3})/g, '').match(/-?\d+(\.\d+)?/); return m ? parseFloat(m[0]) : NaN; }
+  function eqn(id, target, tol) { var s = plain(id), c = [enp(s), pn(s), parseFloat(String(s).replace(',', '.'))]; return c.some(function (v) { return isFinite(v) && Math.abs(v - target) <= (tol || 1e-9); }); }
+  function hasDate(id, dt) { var a = ints(plain(id)); return a.indexOf(dt.getUTCDate()) >= 0 && a.indexOf(dt.getUTCFullYear()) >= 0; }
+  function dval(id) { var v = (document.getElementById(id).value || '').trim(); return isoDate(v); }
+  P['days-until'] = function () {
+    var tg = dval('target'), now = new Date(), td = mk(now.getFullYear(), now.getMonth() + 1, now.getDate());
+    var n = dd(td, tg), a = Math.abs(n);
+    var mi = ints(plain('mainResult')); must(mi.length >= 1 && Math.abs(mi[0]) === a);
+    must(eqn('weeks', Math.round(a / 7 * 10) / 10, 0.051));
+    return [
+      t('Today is {0} on this device and the target date is {1}.', iso(td), iso(tg)),
+      t('Counting whole calendar days from today to the target date gives {0} days.', fe(a)),
+      n > 0 ? t('The target is in the future, so the count goes down by one each day until then.') : n < 0 ? t('The target date has already passed, so the count shows the days since then.') : t('The target is today, so the count is 0.'),
+      t('Dividing {0} days by 7 gives {1} weeks (rounded to one decimal).', fe(a), (Math.round(a / 7 * 10) / 10).toLocaleString('en-US', {minimumFractionDigits: 1, maximumFractionDigits: 1}))
+    ];
+  };
+  P['time-duration'] = function () {
+    var sv = document.getElementById('start').value, ev = document.getElementById('end').value;
+    var sm = sv.match(/^(\d{1,2}):(\d{2})$/), em = ev.match(/^(\d{1,2}):(\d{2})$/); must(sm && em);
+    var s = (+sm[1]) * 60 + (+sm[2]), e = (+em[1]) * 60 + (+em[2]); must(s < 1440 && e < 1440 && +sm[2] < 60 && +em[2] < 60);
+    var over = e < s; if (over) e += 1440; var g = e - s;
+    var mi = ints(plain('mainResult')); must(mi.length === 2 && mi[0] * 60 + mi[1] === g);
+    must(pe(plain('minutes')) === g && Math.abs(g / 60 - enp(plain('decimal'))) < 0.006);
+    var out = [t('Convert both times to minutes after midnight: {0}:{1} is {2} and {3}:{4} is {5}.', p2(+sm[1]), sm[2], fe(s), p2(+em[1]), em[2], fe(over ? e - 1440 : e))];
+    out.push(over ? t('The end is earlier than the start, so it is read as the next day: add 1,440 minutes, giving {0}.', fe(e)) : t('The end is not earlier than the start, so both times are on the same day.'));
+    out.push(t('Span: {0} − {1} = {2} minutes.', fe(e), fe(s), fe(g)));
+    out.push(t('{0} minutes is {1} hr {2} min, or {3} in decimal hours.', fe(g), fe(Math.floor(g / 60)), fe(g % 60), (Math.round(g / 60 * 100) / 100).toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})));
+    return out;
+  };
+  P['pregnancy-due-date'] = function () {
+    var l = dval('lmp'), due = addd(l, 280), con = addd(l, 14);
+    must(hasDate('mainResult', due) && hasDate('conception', con) && ints(plain('weeks'))[0] === 40);
+    return [
+      t('Take the first day of the last period: {0}.', iso(l)),
+      t('Add 280 days (40 weeks) to get the estimated due date: {0}.', iso(due)),
+      t('Add 14 days to estimate conception: {0}.', iso(con)),
+      t('The weeks line shows the 40-week pregnancy length that the model assumes.')
+    ];
+  };
+  P['ovulation'] = function () {
+    var p = dval('period'), c = vi('cycle'); must(c === Math.floor(c) && c >= 15 && c <= 60);
+    var nx = addd(p, c), ov = addd(nx, -14), f1 = addd(ov, -5), f2 = addd(ov, 1);
+    var fa = ints(plain('fertile'));
+    must(hasDate('mainResult', ov) && hasDate('nextPeriod', nx) && fa.indexOf(f1.getUTCDate()) >= 0 && fa.indexOf(f2.getUTCDate()) >= 0 && fa.indexOf(f1.getUTCFullYear()) >= 0);
+    return [
+      t('Add the cycle length to the first day of the last period: {0} + {1} days = {2}. That is the estimated next period.', iso(p), fe(c), iso(nx)),
+      t('Count back 14 days from the next period: the estimated ovulation date is {0}.', iso(ov)),
+      t('The fertile window runs from 5 days before to 1 day after that date: {0} to {1}.', iso(f1), iso(f2))
     ];
   };
 
